@@ -1,0 +1,486 @@
+[
+  {
+    "BuildingName": "Small Power Generator",
+    "Type": "Building",
+    "Description": "Basic fuel-burning combustion rig designed to charge local battery banks",
+    "BaseBuffs": "Tech",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Small Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": "Metal 15, Wires 10, Plastic 5, Fuel 10",
+    "ElectricityRequirements": -2,
+    "MetalResource": 15,
+    "WiresResource": 10,
+    "PlasticResource": 5,
+    "FuelResource": 10,
+    "Tag": "BB.Building.SmallPowerGenerator",
+    "BaseBuffsTags": [
+      "BB.Buff.Tech"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.SmallBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 15,
+      "Inventory.Resource.Wires": 10,
+      "Inventory.Resource.Plastic": 5,
+      "Inventory.Resource.Fuel": 10
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Medium Power Generator",
+    "Type": "Building",
+    "Description": "Features expanded alternator arrays and heavier casings for steady power output",
+    "BaseBuffs": "Tech",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Medium Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": "Metal 40, Wires 25, Plastic 12, Fuel 15",
+    "ElectricityRequirements": -7,
+    "MetalResource": 40,
+    "WiresResource": 25,
+    "PlasticResource": 12,
+    "FuelResource": 15,
+    "Tag": "BB.Building.MediumPowerGenerator",
+    "BaseBuffsTags": [
+      "BB.Buff.Tech"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.MediumBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 40,
+      "Inventory.Resource.Wires": 25,
+      "Inventory.Resource.Plastic": 12,
+      "Inventory.Resource.Fuel": 15
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Large Power Generator",
+    "Type": "Building",
+    "Description": "Heavy machinery grid backbone requiring massive metal framing and industrial-grade wiring",
+    "BaseBuffs": "Tech",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Large Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": "Metal 90, Wires 60, Plastic 25, Fuel 50",
+    "ElectricityRequirements": -15,
+    "MetalResource": 90,
+    "WiresResource": 60,
+    "PlasticResource": 25,
+    "FuelResource": 50,
+    "Tag": "BB.Building.LargePowerGenerator",
+    "BaseBuffsTags": [
+      "BB.Buff.Tech"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.LargeBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 90,
+      "Inventory.Resource.Wires": 60,
+      "Inventory.Resource.Plastic": 25,
+      "Inventory.Resource.Fuel": 50
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Medical Station",
+    "Type": "Station",
+    "Description": "Standard clinic layout constructed with light steel frames and plastic-shielded beds",
+    "BaseBuffs": "Well-Being",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Work Station",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Expert Medical Station",
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": null,
+    "ElectricityRequirements": 1,
+    "MetalResource": 0,
+    "WiresResource": 0,
+    "PlasticResource": 0,
+    "FuelResource": 0,
+    "Tag": "BB.Station.MedicalStation",
+    "BaseBuffsTags": [
+      "BB.Buff.WellBeing"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.WorkStation",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {},
+    "UpgradesToTags": [
+      "BB.Upgrade.ExpertMedicalStation"
+    ],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Guard Station",
+    "Type": "Station",
+    "Description": "Simple lookout constructed from scrap metal sheets, utilizing basic tripwires",
+    "BaseBuffs": "Safety",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Work Station",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Expert Guard Station",
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": null,
+    "ElectricityRequirements": 1,
+    "MetalResource": 0,
+    "WiresResource": 0,
+    "PlasticResource": 0,
+    "FuelResource": 0,
+    "Tag": "BB.Station.GuardStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Safety"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.WorkStation",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {},
+    "UpgradesToTags": [
+      "BB.Upgrade.ExpertGuardStation"
+    ],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Food Station",
+    "Type": "Station",
+    "Description": "A simple kitchen setup with plastic containers to store and prepare moss and raw rations",
+    "BaseBuffs": "Survival",
+    "PassiveBuffs": "Higher Comfort From Food",
+    "AreaRequirements": "Work Station",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Expert Food Station",
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": null,
+    "ElectricityRequirements": 1,
+    "MetalResource": 0,
+    "WiresResource": 0,
+    "PlasticResource": 0,
+    "FuelResource": 0,
+    "Tag": "BB.Station.FoodStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Survival"
+    ],
+    "PassiveBuffsTags": [
+      "BB.Passive.HigherComfortFromFood"
+    ],
+    "AreaRequirementsTag": "BB.Area.WorkStation",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {},
+    "UpgradesToTags": [
+      "BB.Upgrade.ExpertFoodStation"
+    ],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Mechanical Station",
+    "Type": "Station",
+    "Description": "Hand-tool workstation requiring raw scrap metal and fuel-intensive structural welding",
+    "BaseBuffs": "Tech",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Work Station",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Expert Mechanical Station",
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": null,
+    "ElectricityRequirements": 1,
+    "MetalResource": 0,
+    "WiresResource": 0,
+    "PlasticResource": 0,
+    "FuelResource": 0,
+    "Tag": "BB.Station.MechanicalStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Tech"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.WorkStation",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {},
+    "UpgradesToTags": [
+      "BB.Upgrade.ExpertMechanicalStation"
+    ],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Research Station",
+    "Type": "Station",
+    "Description": "A quiet workshop holding basic glassware, petri dishes, and pre-Collapse literature",
+    "BaseBuffs": "Science",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Work Station",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Expert Research Station",
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": null,
+    "ElectricityRequirements": 1,
+    "MetalResource": 0,
+    "WiresResource": 0,
+    "PlasticResource": 0,
+    "FuelResource": 0,
+    "Tag": "BB.Station.ResearchStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Science"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.WorkStation",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {},
+    "UpgradesToTags": [
+      "BB.Upgrade.ExpertResearchStation"
+    ],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Communication Station",
+    "Type": "Station",
+    "Description": "Simple transmitter hub wired directly to basic antenna receptors",
+    "BaseBuffs": "Unity",
+    "PassiveBuffs": "Communication Bonuses",
+    "AreaRequirements": "Work Station",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Communication Station Radio Upgrade, Communication Station Trading Upgrade, Communication Station Scouting Upgrade",
+    "ResearchRequirement": null,
+    "ResourcesNeededToBuild": null,
+    "ElectricityRequirements": 1,
+    "MetalResource": 0,
+    "WiresResource": 0,
+    "PlasticResource": 0,
+    "FuelResource": 0,
+    "Tag": "BB.Station.CommunicationStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Unity"
+    ],
+    "PassiveBuffsTags": [
+      "BB.Passive.CommunicationBonuses"
+    ],
+    "AreaRequirementsTag": "BB.Area.WorkStation",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {},
+    "UpgradesToTags": [
+      "BB.Upgrade.CommunicationStationRadioUpgrade",
+      "BB.Upgrade.CommunicationStationTradingUpgrade",
+      "BB.Upgrade.CommunicationStationScoutingUpgrade"
+    ],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Bar",
+    "Type": "Leisure Building",
+    "Description": "A rough counter, mismatched stools and a still; where the base talks.",
+    "BaseBuffs": "Unity",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Medium Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ElectricityRequirements": 1,
+    "Capacity": 4,
+    "Domain": null,
+    "DomainTag": null,
+    "MetalResource": 30,
+    "WiresResource": 10,
+    "PlasticResource": 15,
+    "FuelResource": 10,
+    "ResourcesNeededToBuild": "Metal 30, Wires 10, Plastic 15, Fuel 10",
+    "Tag": "BB.Building.Bar",
+    "BaseBuffsTags": [
+      "BB.Buff.Unity"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.MediumBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 30,
+      "Inventory.Resource.Wires": 10,
+      "Inventory.Resource.Plastic": 15,
+      "Inventory.Resource.Fuel": 10
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Library",
+    "Type": "Leisure Building",
+    "Description": "Shelves of salvaged books, journals and a reading lamp.",
+    "BaseBuffs": "Science",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Medium Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ElectricityRequirements": 1,
+    "Capacity": 3,
+    "Domain": null,
+    "DomainTag": null,
+    "MetalResource": 20,
+    "WiresResource": 15,
+    "PlasticResource": 25,
+    "FuelResource": 5,
+    "ResourcesNeededToBuild": "Metal 20, Wires 15, Plastic 25, Fuel 5",
+    "Tag": "BB.Building.Library",
+    "BaseBuffsTags": [
+      "BB.Buff.Science"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.MediumBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 20,
+      "Inventory.Resource.Wires": 15,
+      "Inventory.Resource.Plastic": 25,
+      "Inventory.Resource.Fuel": 5
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Hobby Workshop",
+    "Type": "Leisure Building",
+    "Description": "A fenced pile and a bench; leisure tinkering, not production.",
+    "BaseBuffs": "Tech",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Small Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ElectricityRequirements": 0,
+    "Capacity": 3,
+    "Domain": null,
+    "DomainTag": null,
+    "MetalResource": 20,
+    "WiresResource": 5,
+    "PlasticResource": 5,
+    "FuelResource": 0,
+    "ResourcesNeededToBuild": "Metal 20, Wires 5, Plastic 5",
+    "Tag": "BB.Building.HobbyWorkshop",
+    "BaseBuffsTags": [
+      "BB.Buff.Tech"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.SmallBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 20,
+      "Inventory.Resource.Wires": 5,
+      "Inventory.Resource.Plastic": 5
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Garden",
+    "Type": "Leisure Building",
+    "Description": "Whatever soil and sun the base can spare; a leisure space, not production.",
+    "BaseBuffs": "Survival",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Medium Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ElectricityRequirements": 0,
+    "Capacity": 4,
+    "Domain": null,
+    "DomainTag": null,
+    "MetalResource": 10,
+    "WiresResource": 0,
+    "PlasticResource": 25,
+    "FuelResource": 5,
+    "ResourcesNeededToBuild": "Metal 10, Plastic 25, Fuel 5",
+    "Tag": "BB.Building.Garden",
+    "BaseBuffsTags": [
+      "BB.Buff.Survival"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.MediumBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 10,
+      "Inventory.Resource.Plastic": 25,
+      "Inventory.Resource.Fuel": 5
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Sauna",
+    "Type": "Leisure Building",
+    "Description": "A fuel-heated sauna and sports corner.",
+    "BaseBuffs": "Well-Being",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Medium Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ElectricityRequirements": 1,
+    "Capacity": 4,
+    "Domain": null,
+    "DomainTag": null,
+    "MetalResource": 25,
+    "WiresResource": 10,
+    "PlasticResource": 20,
+    "FuelResource": 25,
+    "ResourcesNeededToBuild": "Metal 25, Wires 10, Plastic 20, Fuel 25",
+    "Tag": "BB.Building.Sauna",
+    "BaseBuffsTags": [
+      "BB.Buff.WellBeing"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.MediumBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 25,
+      "Inventory.Resource.Wires": 10,
+      "Inventory.Resource.Plastic": 20,
+      "Inventory.Resource.Fuel": 25
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  },
+  {
+    "BuildingName": "Shooting Club",
+    "Type": "Leisure Building",
+    "Description": "A taped-off lane and a rack of dummies; not a watch-post.",
+    "BaseBuffs": "Safety",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Small Building Slot",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": null,
+    "ElectricityRequirements": 0,
+    "Capacity": 3,
+    "Domain": null,
+    "DomainTag": null,
+    "MetalResource": 25,
+    "WiresResource": 5,
+    "PlasticResource": 10,
+    "FuelResource": 5,
+    "ResourcesNeededToBuild": "Metal 25, Wires 5, Plastic 10, Fuel 5",
+    "Tag": "BB.Building.ShootingClub",
+    "BaseBuffsTags": [
+      "BB.Buff.Safety"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.SmallBuildingSlot",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 25,
+      "Inventory.Resource.Wires": 5,
+      "Inventory.Resource.Plastic": 10,
+      "Inventory.Resource.Fuel": 5
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": []
+  }
+]

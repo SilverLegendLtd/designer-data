@@ -1,0 +1,9 @@
+{
+  "table": "StartingResources",
+  "conventions": {},
+  "columns": {
+    "Tag": "tag:Resource",
+    "Resource": "string",
+    "Amount": "int"
+  }
+}

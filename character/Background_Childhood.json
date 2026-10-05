@@ -1,0 +1,90 @@
+[
+  {
+    "Tag": "LifePath.Childhood.FarmHand",
+    "DevComment": "Worked on a farm during childhood.",
+    "Name": "Farm Hand",
+    "UnlockedBackgrounds": [
+      "Background.ConstructionWorker",
+      "Background.Wildborn"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Strength": 20.0,
+      "PhysicalAttribute.Endurance": 15.0,
+      "PhysicalAttribute.Vitality": 10.0,
+      "MentalAttribute.Discipline": 10.0,
+      "PhysicalSkill.Firearms": 15.0,
+      "PhysicalSkill.Food": 20.0,
+      "PhysicalSkill.Mechanical": 10.0,
+      "MentalSkill.PracticalSkills": 10.0
+    },
+    "Description": "Worked on a farm during childhood."
+  },
+  {
+    "Tag": "LifePath.Childhood.Bookworm",
+    "DevComment": "Spent most of the time reading books.",
+    "Name": "Bookworm",
+    "UnlockedBackgrounds": [
+      "Background.VaultRaised",
+      "Background.TravelingArtist"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Reasoning": 20.0,
+      "MentalAttribute.Focus": 15.0,
+      "MentalAttribute.Logic": 15.0,
+      "PhysicalSkill.Research": 30.0,
+      "PhysicalSkill.Communication": 15.0,
+      "MentalSkill.AnalyticalInsight": 20.0,
+      "MentalSkill.ResearchAptitude": 15.0
+    },
+    "Description": "Spent most of the time reading books."
+  },
+  {
+    "Tag": "LifePath.Childhood.StreetUrchin",
+    "DevComment": "Grew up on the streets of a city.",
+    "Name": "Street Urchin",
+    "UnlockedBackgrounds": [
+      "Background.UrbanDweller",
+      "Background.SyndicateOperative"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Agility": 20.0,
+      "PhysicalAttribute.Reaction": 15.0,
+      "MentalAttribute.Adaptability": 15.0,
+      "PhysicalSkill.Food": 20.0,
+      "PhysicalSkill.Communication": 25.0,
+      "MentalSkill.InstinctiveDecisionMaking": 15.0,
+      "MentalSkill.Resilience": 10.0,
+      "MentalSkill.TaskEndurance": 20.0
+    },
+    "Description": "Grew up on the streets of a city."
+  },
+  {
+    "Tag": "LifePath.Childhood.NatureScout",
+    "DevComment": "Explored the wilderness during childhood.",
+    "Name": "Nature Scout",
+    "UnlockedBackgrounds": [
+      "Background.Wildborn",
+      "Background.TravelingArtist"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Endurance": 15.0,
+      "PhysicalAttribute.Senses": 20.0,
+      "MentalAttribute.Perception": 15.0,
+      "PhysicalSkill.Medical": 20.0,
+      "PhysicalSkill.Food": 25.0,
+      "MentalSkill.StressManagement": 20.0,
+      "MentalSkill.AttentionToDetail": 10.0
+    },
+    "Description": "Explored the wilderness during childhood."
+  },
+  {
+    "Tag": "LifePath.Childhood.LonerDrifter",
+    "DevComment": "Preferred to be alone or on the move.",
+    "Name": "Loner/Drifter",
+    "UnlockedBackgrounds": [
+      "Background.Drifter",
+      "Background.Wildborn"
+    ],
+    "Description": "Preferred to be alone or on the move."
+  }
+]

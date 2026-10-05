@@ -1,0 +1,19 @@
+{
+  "table": "BaseLayout",
+  "conventions": {
+    "X/Y/Width/Height": "2D world pixels from the base's top-left (D65)"
+  },
+  "columns": {
+    "Id": "string",
+    "Kind": "string",
+    "KindTag": "tag:LayoutKind",
+    "Size": "string?",
+    "SizeTag": "tag:LayoutSize?",
+    "X": "int",
+    "Y": "int",
+    "Width": "int",
+    "Height": "int",
+    "EntranceX": "int?",
+    "EntranceY": "int?"
+  }
+}

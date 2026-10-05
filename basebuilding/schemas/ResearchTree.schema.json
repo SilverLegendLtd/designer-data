@@ -1,0 +1,23 @@
+{
+  "table": "ResearchTree",
+  "conventions": {
+    "SkillTags": "the Physical Skills this node belongs to",
+    "SpecialCostTags": "skill Tag -> points; \"Firearms, Medical 15\" = 15 in each listed pool"
+  },
+  "columns": {
+    "Tag": "tag:Research",
+    "Name": "string",
+    "SkillTags": "tag_list:Stat",
+    "Tier": "int",
+    "BasicCost": "int",
+    "SpecialCost": "string?",
+    "SpecialCostTags": "tag_map:Stat",
+    "RequirementA": "string?",
+    "RequirementATag": "tag?",
+    "RequirementB": "string?",
+    "RequirementBTag": "tag?",
+    "Description": "string?",
+    "BaseBuffs": "string?",
+    "BaseBuffsTags": "tag_list:Buff"
+  }
+}

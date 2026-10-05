@@ -1,0 +1,1317 @@
+[
+  {
+    "Name": "Small Power Generator",
+    "Tag": "BB.Building.SmallPowerGenerator",
+    "Kind": "Building",
+    "DevComment": "Small Power Generator"
+  },
+  {
+    "Name": "Medium Power Generator",
+    "Tag": "BB.Building.MediumPowerGenerator",
+    "Kind": "Building",
+    "DevComment": "Medium Power Generator"
+  },
+  {
+    "Name": "Large Power Generator",
+    "Tag": "BB.Building.LargePowerGenerator",
+    "Kind": "Building",
+    "DevComment": "Large Power Generator"
+  },
+  {
+    "Name": "Garden",
+    "Tag": "BB.Building.Garden",
+    "Kind": "Building",
+    "DevComment": "Garden"
+  },
+  {
+    "Name": "Bar",
+    "Tag": "BB.Building.Bar",
+    "Kind": "Building",
+    "DevComment": "Bar"
+  },
+  {
+    "Name": "Library",
+    "Tag": "BB.Building.Library",
+    "Kind": "Building",
+    "DevComment": "Library"
+  },
+  {
+    "Name": "Hobby Workshop",
+    "Tag": "BB.Building.HobbyWorkshop",
+    "Kind": "Building",
+    "DevComment": "Hobby Workshop"
+  },
+  {
+    "Name": "Sauna",
+    "Tag": "BB.Building.Sauna",
+    "Kind": "Building",
+    "DevComment": "Sauna"
+  },
+  {
+    "Name": "Shooting Club",
+    "Tag": "BB.Building.ShootingClub",
+    "Kind": "Building",
+    "DevComment": "Shooting Club"
+  },
+  {
+    "Name": "Medical Station",
+    "Tag": "BB.Station.MedicalStation",
+    "Kind": "Station",
+    "DevComment": "Medical Station"
+  },
+  {
+    "Name": "Guard Station",
+    "Tag": "BB.Station.GuardStation",
+    "Kind": "Station",
+    "DevComment": "Guard Station"
+  },
+  {
+    "Name": "Food Station",
+    "Tag": "BB.Station.FoodStation",
+    "Kind": "Station",
+    "DevComment": "Food Station"
+  },
+  {
+    "Name": "Mechanical Station",
+    "Tag": "BB.Station.MechanicalStation",
+    "Kind": "Station",
+    "DevComment": "Mechanical Station"
+  },
+  {
+    "Name": "Research Station",
+    "Tag": "BB.Station.ResearchStation",
+    "Kind": "Station",
+    "DevComment": "Research Station"
+  },
+  {
+    "Name": "Communication Station",
+    "Tag": "BB.Station.CommunicationStation",
+    "Kind": "Station",
+    "DevComment": "Communication Station"
+  },
+  {
+    "Name": "Expert Medical Station",
+    "Tag": "BB.Upgrade.ExpertMedicalStation",
+    "Kind": "Upgrade",
+    "DevComment": "Expert Medical Station"
+  },
+  {
+    "Name": "Medical Station Infected Treatment Upgrade",
+    "Tag": "BB.Upgrade.MedicalStationInfectedTreatmentUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Medical Station Infected Treatment Upgrade"
+  },
+  {
+    "Name": "Medical Station Wound Treatment Upgrade",
+    "Tag": "BB.Upgrade.MedicalStationWoundTreatmentUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Medical Station Wound Treatment Upgrade"
+  },
+  {
+    "Name": "Expert Guard Station",
+    "Tag": "BB.Upgrade.ExpertGuardStation",
+    "Kind": "Upgrade",
+    "DevComment": "Expert Guard Station"
+  },
+  {
+    "Name": "Guard Station Ammunition Upgrade",
+    "Tag": "BB.Upgrade.GuardStationAmmunitionUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Guard Station Ammunition Upgrade"
+  },
+  {
+    "Name": "Guard Station Guarding Upgrade",
+    "Tag": "BB.Upgrade.GuardStationGuardingUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Guard Station Guarding Upgrade"
+  },
+  {
+    "Name": "Expert Food Station",
+    "Tag": "BB.Upgrade.ExpertFoodStation",
+    "Kind": "Upgrade",
+    "DevComment": "Expert Food Station"
+  },
+  {
+    "Name": "Food Station Combat Food Upgrade",
+    "Tag": "BB.Upgrade.FoodStationCombatFoodUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Food Station Combat Food Upgrade"
+  },
+  {
+    "Name": "Food Station Expedition Food Upgrade",
+    "Tag": "BB.Upgrade.FoodStationExpeditionFoodUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Food Station Expedition Food Upgrade"
+  },
+  {
+    "Name": "Expert Mechanical Station",
+    "Tag": "BB.Upgrade.ExpertMechanicalStation",
+    "Kind": "Upgrade",
+    "DevComment": "Expert Mechanical Station"
+  },
+  {
+    "Name": "Mechanical Station Tech Crafting Upgrade",
+    "Tag": "BB.Upgrade.MechanicalStationTechCraftingUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Mechanical Station Tech Crafting Upgrade"
+  },
+  {
+    "Name": "Mechanical Station Nature Crafting Upgrade",
+    "Tag": "BB.Upgrade.MechanicalStationNatureCraftingUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Mechanical Station Nature Crafting Upgrade"
+  },
+  {
+    "Name": "Expert Research Station",
+    "Tag": "BB.Upgrade.ExpertResearchStation",
+    "Kind": "Upgrade",
+    "DevComment": "Expert Research Station"
+  },
+  {
+    "Name": "Research Station Infected Upgrade",
+    "Tag": "BB.Upgrade.ResearchStationInfectedUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Research Station Infected Upgrade"
+  },
+  {
+    "Name": "Research Station Alien Upgrade",
+    "Tag": "BB.Upgrade.ResearchStationAlienUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Research Station Alien Upgrade"
+  },
+  {
+    "Name": "Communication Station Radio Upgrade",
+    "Tag": "BB.Upgrade.CommunicationStationRadioUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Communication Station Radio Upgrade"
+  },
+  {
+    "Name": "Communication Station Trading Upgrade",
+    "Tag": "BB.Upgrade.CommunicationStationTradingUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Communication Station Trading Upgrade"
+  },
+  {
+    "Name": "Communication Station Scouting Upgrade",
+    "Tag": "BB.Upgrade.CommunicationStationScoutingUpgrade",
+    "Kind": "Upgrade",
+    "DevComment": "Communication Station Scouting Upgrade"
+  },
+  {
+    "Name": "Medical Station / Receive Treatment",
+    "Tag": "BB.Job.MedicalStation.ReceiveTreatment",
+    "Kind": "Job",
+    "DevComment": "Medical Station / Receive Treatment"
+  },
+  {
+    "Name": "Medical Station / Treat Negative Physical Trait",
+    "Tag": "BB.Job.MedicalStation.TreatNegativePhysicalTrait",
+    "Kind": "Job",
+    "DevComment": "Medical Station / Treat Negative Physical Trait"
+  },
+  {
+    "Name": "Medical Station / Treat Wounds",
+    "Tag": "BB.Job.MedicalStation.TreatWounds",
+    "Kind": "Job",
+    "DevComment": "Medical Station / Treat Wounds"
+  },
+  {
+    "Name": "Expert Medical Station / Receive Treatment",
+    "Tag": "BB.Job.ExpertMedicalStation.ReceiveTreatment",
+    "Kind": "Job",
+    "DevComment": "Expert Medical Station / Receive Treatment"
+  },
+  {
+    "Name": "Expert Medical Station / Treat Negative Physical Trait",
+    "Tag": "BB.Job.ExpertMedicalStation.TreatNegativePhysicalTrait",
+    "Kind": "Job",
+    "DevComment": "Expert Medical Station / Treat Negative Physical Trait"
+  },
+  {
+    "Name": "Expert Medical Station / Treat Wounds",
+    "Tag": "BB.Job.ExpertMedicalStation.TreatWounds",
+    "Kind": "Job",
+    "DevComment": "Expert Medical Station / Treat Wounds"
+  },
+  {
+    "Name": "Expert Medical Station / Treat Negative Mental Trait",
+    "Tag": "BB.Job.ExpertMedicalStation.TreatNegativeMentalTrait",
+    "Kind": "Job",
+    "DevComment": "Expert Medical Station / Treat Negative Mental Trait"
+  },
+  {
+    "Name": "Medical Station Infected Treatment Upgrade / Receive Treatment",
+    "Tag": "BB.Job.MedicalStationInfectedTreatmentUpgrade.ReceiveTreatment",
+    "Kind": "Job",
+    "DevComment": "Medical Station Infected Treatment Upgrade / Receive Treatment"
+  },
+  {
+    "Name": "Medical Station Infected Treatment Upgrade / Treat Nanobot Infection",
+    "Tag": "BB.Job.MedicalStationInfectedTreatmentUpgrade.TreatNanobotInfection",
+    "Kind": "Job",
+    "DevComment": "Medical Station Infected Treatment Upgrade / Treat Nanobot Infection"
+  },
+  {
+    "Name": "Medical Station Wound Treatment Upgrade / Treat Wounds",
+    "Tag": "BB.Job.MedicalStationWoundTreatmentUpgrade.TreatWounds",
+    "Kind": "Job",
+    "DevComment": "Medical Station Wound Treatment Upgrade / Treat Wounds"
+  },
+  {
+    "Name": "Guard Station / Guard",
+    "Tag": "BB.Job.GuardStation.Guard",
+    "Kind": "Job",
+    "DevComment": "Guard Station / Guard"
+  },
+  {
+    "Name": "Expert Guard Station / Guard",
+    "Tag": "BB.Job.ExpertGuardStation.Guard",
+    "Kind": "Job",
+    "DevComment": "Expert Guard Station / Guard"
+  },
+  {
+    "Name": "Expert Guard Station / Study Weapon",
+    "Tag": "BB.Job.ExpertGuardStation.StudyWeapon",
+    "Kind": "Job",
+    "DevComment": "Expert Guard Station / Study Weapon"
+  },
+  {
+    "Name": "Expert Guard Station / Craft Ammunition",
+    "Tag": "BB.Job.ExpertGuardStation.CraftAmmunition",
+    "Kind": "Job",
+    "DevComment": "Expert Guard Station / Craft Ammunition"
+  },
+  {
+    "Name": "Guard Station Ammunition Upgrade / Craft Ammunition",
+    "Tag": "BB.Job.GuardStationAmmunitionUpgrade.CraftAmmunition",
+    "Kind": "Job",
+    "DevComment": "Guard Station Ammunition Upgrade / Craft Ammunition"
+  },
+  {
+    "Name": "Guard Station Guarding Upgrade / Guard",
+    "Tag": "BB.Job.GuardStationGuardingUpgrade.Guard",
+    "Kind": "Job",
+    "DevComment": "Guard Station Guarding Upgrade / Guard"
+  },
+  {
+    "Name": "Food Station / Cook Food",
+    "Tag": "BB.Job.FoodStation.CookFood",
+    "Kind": "Job",
+    "DevComment": "Food Station / Cook Food"
+  },
+  {
+    "Name": "Food Station / Prepare Expedition Food",
+    "Tag": "BB.Job.FoodStation.PrepareExpeditionFood",
+    "Kind": "Job",
+    "DevComment": "Food Station / Prepare Expedition Food"
+  },
+  {
+    "Name": "Food Station / Study Plant",
+    "Tag": "BB.Job.FoodStation.StudyPlant",
+    "Kind": "Job",
+    "DevComment": "Food Station / Study Plant"
+  },
+  {
+    "Name": "Mechanical Station / Craft Mechanical Item",
+    "Tag": "BB.Job.MechanicalStation.CraftMechanicalItem",
+    "Kind": "Job",
+    "DevComment": "Mechanical Station / Craft Mechanical Item"
+  },
+  {
+    "Name": "Mechanical Station / Recycle Item",
+    "Tag": "BB.Job.MechanicalStation.RecycleItem",
+    "Kind": "Job",
+    "DevComment": "Mechanical Station / Recycle Item"
+  },
+  {
+    "Name": "Research Station / Create Research points",
+    "Tag": "BB.Job.ResearchStation.CreateResearchPoints",
+    "Kind": "Job",
+    "DevComment": "Research Station / Create Research points"
+  },
+  {
+    "Name": "Research Station / (research spend)",
+    "Tag": "BB.Job.ResearchStation.ResearchSpend",
+    "Kind": "Job",
+    "DevComment": "Research Station / (research spend)"
+  },
+  {
+    "Name": "Expert Research Station / Create Research points",
+    "Tag": "BB.Job.ExpertResearchStation.CreateResearchPoints",
+    "Kind": "Job",
+    "DevComment": "Expert Research Station / Create Research points"
+  },
+  {
+    "Name": "Research Station Infected Upgrade / (research spend)",
+    "Tag": "BB.Job.ResearchStationInfectedUpgrade.ResearchSpend",
+    "Kind": "Job",
+    "DevComment": "Research Station Infected Upgrade / (research spend)"
+  },
+  {
+    "Name": "Research Station Alien Upgrade / (research spend)",
+    "Tag": "BB.Job.ResearchStationAlienUpgrade.ResearchSpend",
+    "Kind": "Job",
+    "DevComment": "Research Station Alien Upgrade / (research spend)"
+  },
+  {
+    "Name": "Communication Station / Trade",
+    "Tag": "BB.Job.CommunicationStation.Trade",
+    "Kind": "Job",
+    "DevComment": "Communication Station / Trade"
+  },
+  {
+    "Name": "Communication Station / Trade Mission",
+    "Tag": "BB.Job.CommunicationStation.TradeMission",
+    "Kind": "Job",
+    "DevComment": "Communication Station / Trade Mission"
+  },
+  {
+    "Name": "Communication Station Radio Upgrade / Call Survivors",
+    "Tag": "BB.Job.CommunicationStationRadioUpgrade.CallSurvivors",
+    "Kind": "Job",
+    "DevComment": "Communication Station Radio Upgrade / Call Survivors"
+  },
+  {
+    "Name": "Communication Station Radio Upgrade / Call Traders",
+    "Tag": "BB.Job.CommunicationStationRadioUpgrade.CallTraders",
+    "Kind": "Job",
+    "DevComment": "Communication Station Radio Upgrade / Call Traders"
+  },
+  {
+    "Name": "Communication Station Trading Upgrade / Call Traders",
+    "Tag": "BB.Job.CommunicationStationTradingUpgrade.CallTraders",
+    "Kind": "Job",
+    "DevComment": "Communication Station Trading Upgrade / Call Traders"
+  },
+  {
+    "Name": "Communication Station Trading Upgrade / Trade",
+    "Tag": "BB.Job.CommunicationStationTradingUpgrade.Trade",
+    "Kind": "Job",
+    "DevComment": "Communication Station Trading Upgrade / Trade"
+  },
+  {
+    "Name": "Communication Station Trading Upgrade / Trade Mission",
+    "Tag": "BB.Job.CommunicationStationTradingUpgrade.TradeMission",
+    "Kind": "Job",
+    "DevComment": "Communication Station Trading Upgrade / Trade Mission"
+  },
+  {
+    "Name": "Communication Station Scouting Upgrade / Scout",
+    "Tag": "BB.Job.CommunicationStationScoutingUpgrade.Scout",
+    "Kind": "Job",
+    "DevComment": "Communication Station Scouting Upgrade / Scout"
+  },
+  {
+    "Name": "Expert Guard Station / High Damage Ammunition",
+    "Tag": "BB.Job.ExpertGuardStation.HighDamageAmmunition",
+    "Kind": "Job",
+    "DevComment": "Expert Guard Station / High Damage Ammunition"
+  },
+  {
+    "Name": "Communication Station / Base Coordination",
+    "Tag": "BB.Job.CommunicationStation.BaseCoordination",
+    "Kind": "Job",
+    "DevComment": "Communication Station / Base Coordination"
+  },
+  {
+    "Name": "Communication Station Radio Upgrade / Base Coordination",
+    "Tag": "BB.Job.CommunicationStationRadioUpgrade.BaseCoordination",
+    "Kind": "Job",
+    "DevComment": "Communication Station Radio Upgrade / Base Coordination"
+  },
+  {
+    "Name": "Expert Food Station / Grow Food",
+    "Tag": "BB.Job.ExpertFoodStation.GrowFood",
+    "Kind": "Job",
+    "DevComment": "Expert Food Station / Grow Food"
+  },
+  {
+    "Name": "Expert Mechanical Station / Maintain Machinery",
+    "Tag": "BB.Job.ExpertMechanicalStation.MaintainMachinery",
+    "Kind": "Job",
+    "DevComment": "Expert Mechanical Station / Maintain Machinery"
+  },
+  {
+    "Name": "Expert Medical Station / Upkeep Health Protocols",
+    "Tag": "BB.Job.ExpertMedicalStation.UpkeepHealthProtocols",
+    "Kind": "Job",
+    "DevComment": "Expert Medical Station / Upkeep Health Protocols"
+  },
+  {
+    "Name": "Food Station / Grow Food",
+    "Tag": "BB.Job.FoodStation.GrowFood",
+    "Kind": "Job",
+    "DevComment": "Food Station / Grow Food"
+  },
+  {
+    "Name": "Mechanical Station / Maintain Machinery",
+    "Tag": "BB.Job.MechanicalStation.MaintainMachinery",
+    "Kind": "Job",
+    "DevComment": "Mechanical Station / Maintain Machinery"
+  },
+  {
+    "Name": "Medical Station / Upkeep Health Protocols",
+    "Tag": "BB.Job.MedicalStation.UpkeepHealthProtocols",
+    "Kind": "Job",
+    "DevComment": "Medical Station / Upkeep Health Protocols"
+  },
+  {
+    "Name": "Expert Guard Station",
+    "Tag": "BB.Research.ExpertGuardStation",
+    "Kind": "Research",
+    "DevComment": "Expert Guard Station"
+  },
+  {
+    "Name": "Ammunition",
+    "Tag": "BB.Research.Ammunition",
+    "Kind": "Research",
+    "DevComment": "Ammunition"
+  },
+  {
+    "Name": "Guarding",
+    "Tag": "BB.Research.Guarding",
+    "Kind": "Research",
+    "DevComment": "Guarding"
+  },
+  {
+    "Name": "Advanced Ammunition",
+    "Tag": "BB.Research.AdvancedAmmunition",
+    "Kind": "Research",
+    "DevComment": "Advanced Ammunition"
+  },
+  {
+    "Name": "Advanced Guarding",
+    "Tag": "BB.Research.AdvancedGuarding",
+    "Kind": "Research",
+    "DevComment": "Advanced Guarding"
+  },
+  {
+    "Name": "Heavy Weapons",
+    "Tag": "BB.Research.HeavyWeapons",
+    "Kind": "Research",
+    "DevComment": "Heavy Weapons"
+  },
+  {
+    "Name": "Defensive Turrets",
+    "Tag": "BB.Research.DefensiveTurrets",
+    "Kind": "Research",
+    "DevComment": "Defensive Turrets"
+  },
+  {
+    "Name": "Enhanced Base Safety",
+    "Tag": "BB.Research.EnhancedBaseSafety",
+    "Kind": "Research",
+    "DevComment": "Enhanced Base Safety"
+  },
+  {
+    "Name": "Highly Advanced Firearms",
+    "Tag": "BB.Research.HighlyAdvancedFirearms",
+    "Kind": "Research",
+    "DevComment": "Highly Advanced Firearms"
+  },
+  {
+    "Name": "Critical Damage",
+    "Tag": "BB.Research.CriticalDamage",
+    "Kind": "Research",
+    "DevComment": "Critical Damage"
+  },
+  {
+    "Name": "Expedition Hunting",
+    "Tag": "BB.Research.ExpeditionHunting",
+    "Kind": "Research",
+    "DevComment": "Expedition Hunting"
+  },
+  {
+    "Name": "Expert Medical Station",
+    "Tag": "BB.Research.ExpertMedicalStation",
+    "Kind": "Research",
+    "DevComment": "Expert Medical Station"
+  },
+  {
+    "Name": "Wound Treatment",
+    "Tag": "BB.Research.WoundTreatment",
+    "Kind": "Research",
+    "DevComment": "Wound Treatment"
+  },
+  {
+    "Name": "Infected Treatment",
+    "Tag": "BB.Research.InfectedTreatment",
+    "Kind": "Research",
+    "DevComment": "Infected Treatment"
+  },
+  {
+    "Name": "Advanced Wound Treatment",
+    "Tag": "BB.Research.AdvancedWoundTreatment",
+    "Kind": "Research",
+    "DevComment": "Advanced Wound Treatment"
+  },
+  {
+    "Name": "Advanced Infected Treatment",
+    "Tag": "BB.Research.AdvancedInfectedTreatment",
+    "Kind": "Research",
+    "DevComment": "Advanced Infected Treatment"
+  },
+  {
+    "Name": "Autopsies",
+    "Tag": "BB.Research.Autopsies",
+    "Kind": "Research",
+    "DevComment": "Autopsies"
+  },
+  {
+    "Name": "Enhanced Survivor Well-Being",
+    "Tag": "BB.Research.EnhancedSurvivorWellBeing",
+    "Kind": "Research",
+    "DevComment": "Enhanced Survivor Well-Being"
+  },
+  {
+    "Name": "Mental Resilience Training",
+    "Tag": "BB.Research.MentalResilienceTraining",
+    "Kind": "Research",
+    "DevComment": "Mental Resilience Training"
+  },
+  {
+    "Name": "Health Kits",
+    "Tag": "BB.Research.HealthKits",
+    "Kind": "Research",
+    "DevComment": "Health Kits"
+  },
+  {
+    "Name": "Sabotage Enemy Food Supply",
+    "Tag": "BB.Research.SabotageEnemyFoodSupply",
+    "Kind": "Research",
+    "DevComment": "Sabotage Enemy Food Supply"
+  },
+  {
+    "Name": "Higher Comfort from Food",
+    "Tag": "BB.Research.HigherComfortFromFood",
+    "Kind": "Research",
+    "DevComment": "Higher Comfort from Food"
+  },
+  {
+    "Name": "Better Expedition Loot",
+    "Tag": "BB.Research.BetterExpeditionLoot",
+    "Kind": "Research",
+    "DevComment": "Better Expedition Loot"
+  },
+  {
+    "Name": "Advanced Combat Food",
+    "Tag": "BB.Research.AdvancedCombatFood",
+    "Kind": "Research",
+    "DevComment": "Advanced Combat Food"
+  },
+  {
+    "Name": "Advanced Expedition Food",
+    "Tag": "BB.Research.AdvancedExpeditionFood",
+    "Kind": "Research",
+    "DevComment": "Advanced Expedition Food"
+  },
+  {
+    "Name": "Combat Food",
+    "Tag": "BB.Research.CombatFood",
+    "Kind": "Research",
+    "DevComment": "Combat Food"
+  },
+  {
+    "Name": "Expedition Food",
+    "Tag": "BB.Research.ExpeditionFood",
+    "Kind": "Research",
+    "DevComment": "Expedition Food"
+  },
+  {
+    "Name": "Expert Food Station",
+    "Tag": "BB.Research.ExpertFoodStation",
+    "Kind": "Research",
+    "DevComment": "Expert Food Station"
+  },
+  {
+    "Name": "Expert Research Station",
+    "Tag": "BB.Research.ExpertResearchStation",
+    "Kind": "Research",
+    "DevComment": "Expert Research Station"
+  },
+  {
+    "Name": "Infected Research",
+    "Tag": "BB.Research.InfectedResearch",
+    "Kind": "Research",
+    "DevComment": "Infected Research"
+  },
+  {
+    "Name": "Alien Research",
+    "Tag": "BB.Research.AlienResearch",
+    "Kind": "Research",
+    "DevComment": "Alien Research"
+  },
+  {
+    "Name": "Advanced Infected Research",
+    "Tag": "BB.Research.AdvancedInfectedResearch",
+    "Kind": "Research",
+    "DevComment": "Advanced Infected Research"
+  },
+  {
+    "Name": "Advanced Alien Research",
+    "Tag": "BB.Research.AdvancedAlienResearch",
+    "Kind": "Research",
+    "DevComment": "Advanced Alien Research"
+  },
+  {
+    "Name": "Human-Suitable Nanobots",
+    "Tag": "BB.Research.HumanSuitableNanobots",
+    "Kind": "Research",
+    "DevComment": "Human-Suitable Nanobots"
+  },
+  {
+    "Name": "More Choices from Alien Artefacts",
+    "Tag": "BB.Research.MoreChoicesFromAlienArtefacts",
+    "Kind": "Research",
+    "DevComment": "More Choices from Alien Artefacts"
+  },
+  {
+    "Name": "Better Research Outcomes",
+    "Tag": "BB.Research.BetterResearchOutcomes",
+    "Kind": "Research",
+    "DevComment": "Better Research Outcomes"
+  },
+  {
+    "Name": "Research Robots",
+    "Tag": "BB.Research.ResearchRobots",
+    "Kind": "Research",
+    "DevComment": "Research Robots"
+  },
+  {
+    "Name": "Alien Communications",
+    "Tag": "BB.Research.AlienCommunications",
+    "Kind": "Research",
+    "DevComment": "Alien Communications"
+  },
+  {
+    "Name": "Nanobot Pharmaceuticals",
+    "Tag": "BB.Research.NanobotPharmaceuticals",
+    "Kind": "Research",
+    "DevComment": "Nanobot Pharmaceuticals"
+  },
+  {
+    "Name": "Psyche Reprogramming",
+    "Tag": "BB.Research.PsycheReprogramming",
+    "Kind": "Research",
+    "DevComment": "Psyche Reprogramming"
+  },
+  {
+    "Name": "Distilling",
+    "Tag": "BB.Research.Distilling",
+    "Kind": "Research",
+    "DevComment": "Distilling"
+  },
+  {
+    "Name": "Renewable Energy Sources",
+    "Tag": "BB.Research.RenewableEnergySources",
+    "Kind": "Research",
+    "DevComment": "Renewable Energy Sources"
+  },
+  {
+    "Name": "Better Crafting Outcomes",
+    "Tag": "BB.Research.BetterCraftingOutcomes",
+    "Kind": "Research",
+    "DevComment": "Better Crafting Outcomes"
+  },
+  {
+    "Name": "High Quality Gear",
+    "Tag": "BB.Research.HighQualityGear",
+    "Kind": "Research",
+    "DevComment": "High Quality Gear"
+  },
+  {
+    "Name": "Advanced Nature Crafting",
+    "Tag": "BB.Research.AdvancedNatureCrafting",
+    "Kind": "Research",
+    "DevComment": "Advanced Nature Crafting"
+  },
+  {
+    "Name": "Advanced Tech Crafting",
+    "Tag": "BB.Research.AdvancedTechCrafting",
+    "Kind": "Research",
+    "DevComment": "Advanced Tech Crafting"
+  },
+  {
+    "Name": "Nature Crafting",
+    "Tag": "BB.Research.NatureCrafting",
+    "Kind": "Research",
+    "DevComment": "Nature Crafting"
+  },
+  {
+    "Name": "Tech Crafting",
+    "Tag": "BB.Research.TechCrafting",
+    "Kind": "Research",
+    "DevComment": "Tech Crafting"
+  },
+  {
+    "Name": "Expert Mechanical Station",
+    "Tag": "BB.Research.ExpertMechanicalStation",
+    "Kind": "Research",
+    "DevComment": "Expert Mechanical Station"
+  },
+  {
+    "Name": "Radio Station",
+    "Tag": "BB.Research.RadioStation",
+    "Kind": "Research",
+    "DevComment": "Radio Station"
+  },
+  {
+    "Name": "Trading",
+    "Tag": "BB.Research.Trading",
+    "Kind": "Research",
+    "DevComment": "Trading"
+  },
+  {
+    "Name": "Scouting",
+    "Tag": "BB.Research.Scouting",
+    "Kind": "Research",
+    "DevComment": "Scouting"
+  },
+  {
+    "Name": "Advanced Trading",
+    "Tag": "BB.Research.AdvancedTrading",
+    "Kind": "Research",
+    "DevComment": "Advanced Trading"
+  },
+  {
+    "Name": "Advanced Scouting",
+    "Tag": "BB.Research.AdvancedScouting",
+    "Kind": "Research",
+    "DevComment": "Advanced Scouting"
+  },
+  {
+    "Name": "Better Trader Goods",
+    "Tag": "BB.Research.BetterTraderGoods",
+    "Kind": "Research",
+    "DevComment": "Better Trader Goods"
+  },
+  {
+    "Name": "Community Cohesion",
+    "Tag": "BB.Research.CommunityCohesion",
+    "Kind": "Research",
+    "DevComment": "Community Cohesion"
+  },
+  {
+    "Name": "Higher Discovery of Points of Interest",
+    "Tag": "BB.Research.HigherDiscoveryOfPointsOfInterest",
+    "Kind": "Research",
+    "DevComment": "Higher Discovery of Points of Interest"
+  },
+  {
+    "Name": "Highly Advanced Communication",
+    "Tag": "BB.Research.HighlyAdvancedCommunication",
+    "Kind": "Research",
+    "DevComment": "Highly Advanced Communication"
+  },
+  {
+    "Name": "Optics",
+    "Tag": "BB.Research.Optics",
+    "Kind": "Research",
+    "DevComment": "Optics"
+  },
+  {
+    "Name": "Metal",
+    "Tag": "Inventory.Resource.Metal",
+    "Kind": "Resource",
+    "DevComment": "Metal"
+  },
+  {
+    "Name": "Wires",
+    "Tag": "Inventory.Resource.Wires",
+    "Kind": "Resource",
+    "DevComment": "Wires"
+  },
+  {
+    "Name": "Plastic",
+    "Tag": "Inventory.Resource.Plastic",
+    "Kind": "Resource",
+    "DevComment": "Plastic"
+  },
+  {
+    "Name": "Fuel",
+    "Tag": "Inventory.Resource.Fuel",
+    "Kind": "Resource",
+    "DevComment": "Fuel"
+  },
+  {
+    "Name": "Food",
+    "Tag": "Inventory.Resource.Food",
+    "Kind": "Resource",
+    "DevComment": "Food"
+  },
+  {
+    "Name": "High Damage Ammunition",
+    "Tag": "Inventory.Item.HighDamageAmmunition",
+    "Kind": "Item",
+    "DevComment": "High damage Ammunition",
+    "Aliases": [
+      "High damage Ammunition"
+    ]
+  },
+  {
+    "Name": "Well-Being",
+    "Tag": "BB.Buff.WellBeing",
+    "Kind": "Buff",
+    "DevComment": "Well-Being",
+    "Aliases": [
+      "Wellbeing",
+      "Well Being"
+    ]
+  },
+  {
+    "Name": "Safety",
+    "Tag": "BB.Buff.Safety",
+    "Kind": "Buff",
+    "DevComment": "Safety"
+  },
+  {
+    "Name": "Survival",
+    "Tag": "BB.Buff.Survival",
+    "Kind": "Buff",
+    "DevComment": "Survival"
+  },
+  {
+    "Name": "Tech",
+    "Tag": "BB.Buff.Tech",
+    "Kind": "Buff",
+    "DevComment": "Tech"
+  },
+  {
+    "Name": "Science",
+    "Tag": "BB.Buff.Science",
+    "Kind": "Buff",
+    "DevComment": "Science"
+  },
+  {
+    "Name": "Unity",
+    "Tag": "BB.Buff.Unity",
+    "Kind": "Buff",
+    "DevComment": "Unity"
+  },
+  {
+    "Name": "Higher Comfort From Food",
+    "Tag": "BB.Passive.HigherComfortFromFood",
+    "Kind": "Passive",
+    "DevComment": "Higher Comfort From Food"
+  },
+  {
+    "Name": "Communication Bonuses",
+    "Tag": "BB.Passive.CommunicationBonuses",
+    "Kind": "Passive",
+    "DevComment": "Communication Bonuses"
+  },
+  {
+    "Name": "Mental Resilience Passive Bonus",
+    "Tag": "BB.Passive.MentalResiliencePassiveBonus",
+    "Kind": "Passive",
+    "DevComment": "Mental Resilience Passive Bonus"
+  },
+  {
+    "Name": "arousal",
+    "Tag": "BB.Mood.Arousal",
+    "Kind": "Mood",
+    "DevComment": "arousal"
+  },
+  {
+    "Name": "valence",
+    "Tag": "BB.Mood.Valence",
+    "Kind": "Mood",
+    "DevComment": "valence"
+  },
+  {
+    "Name": "Small Building Slot",
+    "Tag": "BB.Area.SmallBuildingSlot",
+    "Kind": "Area",
+    "DevComment": "Small Building Slot"
+  },
+  {
+    "Name": "Medium Building Slot",
+    "Tag": "BB.Area.MediumBuildingSlot",
+    "Kind": "Area",
+    "DevComment": "Medium Building Slot"
+  },
+  {
+    "Name": "Large Building Slot",
+    "Tag": "BB.Area.LargeBuildingSlot",
+    "Kind": "Area",
+    "DevComment": "Large Building Slot"
+  },
+  {
+    "Name": "Work Station",
+    "Tag": "BB.Area.WorkStation",
+    "Kind": "Area",
+    "DevComment": "Work Station"
+  },
+  {
+    "Name": "Patient",
+    "Tag": "BB.Requirement.Patient",
+    "Kind": "Requirement",
+    "DevComment": "Patient"
+  },
+  {
+    "Name": "Researchable Weapon",
+    "Tag": "BB.Requirement.ResearchableWeapon",
+    "Kind": "Requirement",
+    "DevComment": "Researchable Weapon"
+  },
+  {
+    "Name": "Resources",
+    "Tag": "BB.Requirement.Resources",
+    "Kind": "Requirement",
+    "DevComment": "Resources"
+  },
+  {
+    "Name": "Plant for Studying",
+    "Tag": "BB.Requirement.PlantForStudying",
+    "Kind": "Requirement",
+    "DevComment": "Plant for Studying"
+  },
+  {
+    "Name": "Item",
+    "Tag": "BB.Requirement.Item",
+    "Kind": "Requirement",
+    "DevComment": "Item"
+  },
+  {
+    "Name": "A trader present in the community",
+    "Tag": "BB.Requirement.TraderPresent",
+    "Kind": "Requirement",
+    "DevComment": "A trader present in the community"
+  },
+  {
+    "Name": "start",
+    "Tag": "BB.Phase.Start",
+    "Kind": "Phase",
+    "DevComment": "start"
+  },
+  {
+    "Name": "finish",
+    "Tag": "BB.Phase.Finish",
+    "Kind": "Phase",
+    "DevComment": "finish"
+  },
+  {
+    "Name": "Basic",
+    "Tag": "BB.WorkType.Basic",
+    "Kind": "WorkType",
+    "DevComment": "Basic"
+  },
+  {
+    "Name": "Crafting",
+    "Tag": "BB.WorkType.Crafting",
+    "Kind": "WorkType",
+    "DevComment": "Crafting"
+  },
+  {
+    "Name": "Research",
+    "Tag": "BB.WorkType.Research",
+    "Kind": "WorkType",
+    "DevComment": "Research"
+  },
+  {
+    "Name": "ResearchItem",
+    "Tag": "BB.WorkType.ResearchItem",
+    "Kind": "WorkType",
+    "DevComment": "ResearchItem",
+    "Aliases": [
+      "Research Item"
+    ]
+  },
+  {
+    "Name": "Slot",
+    "Tag": "BB.Layout.Kind.Slot",
+    "Kind": "LayoutKind",
+    "DevComment": "Slot"
+  },
+  {
+    "Name": "Yard",
+    "Tag": "BB.Layout.Kind.Yard",
+    "Kind": "LayoutKind",
+    "DevComment": "Yard"
+  },
+  {
+    "Name": "Gate",
+    "Tag": "BB.Layout.Kind.Gate",
+    "Kind": "LayoutKind",
+    "DevComment": "Gate"
+  },
+  {
+    "Name": "Small",
+    "Tag": "BB.Building.Size.Small",
+    "Kind": "LayoutSize",
+    "DevComment": "Small"
+  },
+  {
+    "Name": "Medium",
+    "Tag": "BB.Building.Size.Medium",
+    "Kind": "LayoutSize",
+    "DevComment": "Medium"
+  },
+  {
+    "Name": "Large",
+    "Tag": "BB.Building.Size.Big",
+    "Kind": "LayoutSize",
+    "DevComment": "Large",
+    "Aliases": [
+      "Big"
+    ]
+  },
+  {
+    "Name": "Basic",
+    "Tag": "BB.ResearchPool.Basic",
+    "Kind": "ResearchPool",
+    "DevComment": "The generic Research Points pool (BasicCost); the skill-tagged pools are keyed by their PhysicalSkill Tag"
+  },
+  {
+    "Name": "Leisure",
+    "Tag": "BB.Layout.Kind.Leisure",
+    "Kind": "LayoutKind",
+    "DevComment": "A placeholder leisure point in the Yard (D82)"
+  },
+  {
+    "Name": "Dormitory",
+    "Tag": "BB.Layout.Kind.Dormitory",
+    "Kind": "LayoutKind",
+    "DevComment": "The sleeping building standing in the Yard (D85)"
+  },
+  {
+    "Name": "Sleep",
+    "Tag": "BB.Layout.Kind.Sleep",
+    "Kind": "LayoutKind",
+    "DevComment": "A bunk inside the Dormitory where a character sleeps at night (D85)"
+  },
+  {
+    "Name": "Wander",
+    "Tag": "BB.Layout.Kind.Wander",
+    "Kind": "LayoutKind",
+    "DevComment": "A waypoint an idle character wanders between (D82)"
+  },
+  {
+    "Name": "Idle",
+    "Tag": "BB.Activity.Idle",
+    "Kind": "Activity",
+    "DevComment": "What a character is doing, the top level of the behaviour state machine (D82)"
+  },
+  {
+    "Name": "Work",
+    "Tag": "BB.Activity.Work",
+    "Kind": "Activity",
+    "DevComment": "What a character is doing, the top level of the behaviour state machine (D82)"
+  },
+  {
+    "Name": "Leisure",
+    "Tag": "BB.Activity.Leisure",
+    "Kind": "Activity",
+    "DevComment": "What a character is doing, the top level of the behaviour state machine (D82)"
+  },
+  {
+    "Name": "Sleep",
+    "Tag": "BB.Activity.Sleep",
+    "Kind": "Activity",
+    "DevComment": "What a character is doing at night: asleep at a sleep point, and open to dreaming (D85)"
+  },
+  {
+    "Name": "Find",
+    "Tag": "BB.ActivityPhase.Find",
+    "Kind": "ActivityPhase",
+    "DevComment": "Behaviour sub-state: choosing where to go / what to do (D82)"
+  },
+  {
+    "Name": "Move",
+    "Tag": "BB.ActivityPhase.Move",
+    "Kind": "ActivityPhase",
+    "DevComment": "Behaviour sub-state: walking there (D82)"
+  },
+  {
+    "Name": "Do",
+    "Tag": "BB.ActivityPhase.Do",
+    "Kind": "ActivityPhase",
+    "DevComment": "Behaviour sub-state: doing it (idle: waiting; work: the Work loop; leisure: until worktime opens) (D82)"
+  },
+  {
+    "Name": "Bar / Drink",
+    "Tag": "BB.Leisure.Bar.Drink",
+    "Kind": "Leisure",
+    "DevComment": "Bar / Drink"
+  },
+  {
+    "Name": "Bar / Speech",
+    "Tag": "BB.Leisure.Bar.Speech",
+    "Kind": "Leisure",
+    "DevComment": "Bar / Speech"
+  },
+  {
+    "Name": "Bar / Topical Discussion",
+    "Tag": "BB.Leisure.Bar.TopicalDiscussion",
+    "Kind": "Leisure",
+    "DevComment": "Bar / Topical Discussion"
+  },
+  {
+    "Name": "Bar / Real Conversation",
+    "Tag": "BB.Leisure.Bar.RealConversation",
+    "Kind": "Leisure",
+    "DevComment": "Bar / Real Conversation"
+  },
+  {
+    "Name": "Library / Join Others in Reading",
+    "Tag": "BB.Leisure.Library.JoinOthersInReading",
+    "Kind": "Leisure",
+    "DevComment": "Library / Join Others in Reading"
+  },
+  {
+    "Name": "Library / Present Findings",
+    "Tag": "BB.Leisure.Library.PresentFindings",
+    "Kind": "Leisure",
+    "DevComment": "Library / Present Findings"
+  },
+  {
+    "Name": "Library / Study",
+    "Tag": "BB.Leisure.Library.Study",
+    "Kind": "Leisure",
+    "DevComment": "Library / Study"
+  },
+  {
+    "Name": "Library / Search Archives",
+    "Tag": "BB.Leisure.Library.SearchArchives",
+    "Kind": "Leisure",
+    "DevComment": "Library / Search Archives"
+  },
+  {
+    "Name": "Hobby Workshop / Communal Salvage Run",
+    "Tag": "BB.Leisure.HobbyWorkshop.CommunalSalvageRun",
+    "Kind": "Leisure",
+    "DevComment": "Hobby Workshop / Communal Salvage Run"
+  },
+  {
+    "Name": "Hobby Workshop / Freeform Tinkering",
+    "Tag": "BB.Leisure.HobbyWorkshop.FreeformTinkering",
+    "Kind": "Leisure",
+    "DevComment": "Hobby Workshop / Freeform Tinkering"
+  },
+  {
+    "Name": "Hobby Workshop / Identify Rare Find",
+    "Tag": "BB.Leisure.HobbyWorkshop.IdentifyRareFind",
+    "Kind": "Leisure",
+    "DevComment": "Hobby Workshop / Identify Rare Find"
+  },
+  {
+    "Name": "Hobby Workshop / Make Keepsake",
+    "Tag": "BB.Leisure.HobbyWorkshop.MakeKeepsake",
+    "Kind": "Leisure",
+    "DevComment": "Hobby Workshop / Make Keepsake"
+  },
+  {
+    "Name": "Garden / Organize Event",
+    "Tag": "BB.Leisure.Garden.OrganizeEvent",
+    "Kind": "Leisure",
+    "DevComment": "Garden / Organize Event"
+  },
+  {
+    "Name": "Garden / Tend Garden",
+    "Tag": "BB.Leisure.Garden.TendGarden",
+    "Kind": "Leisure",
+    "DevComment": "Garden / Tend Garden"
+  },
+  {
+    "Name": "Garden / Physical Training",
+    "Tag": "BB.Leisure.Garden.PhysicalTraining",
+    "Kind": "Leisure",
+    "DevComment": "Garden / Physical Training"
+  },
+  {
+    "Name": "Garden / Dabble with Remembered Plants",
+    "Tag": "BB.Leisure.Garden.DabbleWithRememberedPlants",
+    "Kind": "Leisure",
+    "DevComment": "Garden / Dabble with Remembered Plants"
+  },
+  {
+    "Name": "Sauna / Socialize",
+    "Tag": "BB.Leisure.Sauna.Socialize",
+    "Kind": "Leisure",
+    "DevComment": "Sauna / Socialize"
+  },
+  {
+    "Name": "Sauna / Intense Exercise",
+    "Tag": "BB.Leisure.Sauna.IntenseExercise",
+    "Kind": "Leisure",
+    "DevComment": "Sauna / Intense Exercise"
+  },
+  {
+    "Name": "Sauna / Meditation",
+    "Tag": "BB.Leisure.Sauna.Meditation",
+    "Kind": "Leisure",
+    "DevComment": "Sauna / Meditation"
+  },
+  {
+    "Name": "Sauna / Quiet Reflection",
+    "Tag": "BB.Leisure.Sauna.QuietReflection",
+    "Kind": "Leisure",
+    "DevComment": "Sauna / Quiet Reflection"
+  },
+  {
+    "Name": "Shooting Club / Learn Guarding & Self-Defense",
+    "Tag": "BB.Leisure.ShootingClub.LearnGuardingSelfDefense",
+    "Kind": "Leisure",
+    "DevComment": "Shooting Club / Learn Guarding & Self-Defense"
+  },
+  {
+    "Name": "Shooting Club / Target Practice",
+    "Tag": "BB.Leisure.ShootingClub.TargetPractice",
+    "Kind": "Leisure",
+    "DevComment": "Shooting Club / Target Practice"
+  },
+  {
+    "Name": "Shooting Club / Tactical Drills",
+    "Tag": "BB.Leisure.ShootingClub.TacticalDrills",
+    "Kind": "Leisure",
+    "DevComment": "Shooting Club / Tactical Drills"
+  },
+  {
+    "Name": "Shooting Club / Fireside War-Story Swap",
+    "Tag": "BB.Leisure.ShootingClub.FiresideWarStorySwap",
+    "Kind": "Leisure",
+    "DevComment": "Shooting Club / Fireside War-Story Swap"
+  },
+  {
+    "Name": "Base / Wandering",
+    "Tag": "BB.Leisure.Base.Wandering",
+    "Kind": "Leisure",
+    "DevComment": "Base / Wandering"
+  },
+  {
+    "Name": "Base / Tidying Up",
+    "Tag": "BB.Leisure.Base.TidyingUp",
+    "Kind": "Leisure",
+    "DevComment": "Base / Tidying Up"
+  },
+  {
+    "Name": "Base / Check on Neighbors",
+    "Tag": "BB.Leisure.Base.CheckOnNeighbors",
+    "Kind": "Leisure",
+    "DevComment": "Base / Check on Neighbors"
+  },
+  {
+    "Name": "Base / Play Games",
+    "Tag": "BB.Leisure.Base.PlayGames",
+    "Kind": "Leisure",
+    "DevComment": "Base / Play Games"
+  },
+  {
+    "Name": "Base / Solve Puzzles",
+    "Tag": "BB.Leisure.Base.SolvePuzzles",
+    "Kind": "Leisure",
+    "DevComment": "Base / Solve Puzzles"
+  },
+  {
+    "Name": "Base / Write Journal",
+    "Tag": "BB.Leisure.Base.WriteJournal",
+    "Kind": "Leisure",
+    "DevComment": "Base / Write Journal"
+  },
+  {
+    "Name": "Base / Rest",
+    "Tag": "BB.Leisure.Base.Rest",
+    "Kind": "Leisure",
+    "DevComment": "Base / Rest"
+  }
+]

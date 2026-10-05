@@ -1,0 +1,102 @@
+[
+  {
+    "Tag": "LifePath.Adult.CaravanGuard",
+    "DevComment": "Protected caravans moving between settlements.",
+    "Name": "Caravan Guard",
+    "UnlockedBackgrounds": [
+      "Background.SyndicateOperative",
+      "Background.ProfessionalMilitary"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Strength": 15.0,
+      "PhysicalAttribute.Senses": 20.0,
+      "PhysicalAttribute.Reaction": 25.0,
+      "PhysicalSkill.Firearms": 45.0,
+      "PhysicalSkill.Mechanical": 20.0,
+      "PhysicalSkill.Communication": 15.0,
+      "MentalSkill.InstinctiveDecisionMaking": 20.0,
+      "MentalSkill.OperationalOversight": 15.0
+    },
+    "Description": "Protected caravans moving between settlements."
+  },
+  {
+    "Tag": "LifePath.Adult.SettlementDoc",
+    "DevComment": "Provided medical care in a settlement.",
+    "Name": "Settlement Doc",
+    "UnlockedBackgrounds": [
+      "Background.EmergencyResponder",
+      "Background.VaultRaised"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Vitality": 25.0,
+      "PhysicalAttribute.Reasoning": 20.0,
+      "MentalAttribute.Empathy": 15.0,
+      "PhysicalSkill.Medical": 45.0,
+      "PhysicalSkill.Research": 20.0,
+      "PhysicalSkill.Communication": 15.0,
+      "MentalSkill.StressManagement": 20.0
+    },
+    "Description": "Provided medical care in a settlement."
+  },
+  {
+    "Tag": "LifePath.Adult.ScavengeMaster",
+    "DevComment": "Became an expert at scavenging in the ruins.",
+    "Name": "Scavenge Master",
+    "UnlockedBackgrounds": [
+      "Background.UrbanDweller",
+      "Background.AlienExperimentSurvivor"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Agility": 25.0,
+      "PhysicalAttribute.Reaction": 15.0,
+      "MentalAttribute.Perception": 20.0,
+      "PhysicalSkill.Firearms": 10.0,
+      "PhysicalSkill.Food": 20.0,
+      "PhysicalSkill.Mechanical": 35.0,
+      "PhysicalSkill.Research": 15.0,
+      "MentalSkill.PracticalSkills": 30.0,
+      "MentalSkill.AttentionToDetail": 20.0
+    },
+    "Description": "Became an expert at scavenging in the ruins."
+  },
+  {
+    "Tag": "LifePath.Adult.HomesteadChief",
+    "DevComment": "Led a small homestead and ensured its survival.",
+    "Name": "Homestead Chief",
+    "UnlockedBackgrounds": [
+      "Background.ConstructionWorker",
+      "Background.IdealisticDreamer"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Strength": 20.0,
+      "PhysicalAttribute.Endurance": 30.0,
+      "MentalAttribute.Discipline": 15.0,
+      "PhysicalSkill.Medical": 10.0,
+      "PhysicalSkill.Food": 35.0,
+      "PhysicalSkill.Mechanical": 25.0,
+      "PhysicalSkill.Communication": 10.0,
+      "MentalSkill.OperationalOversight": 20.0
+    },
+    "Description": "Led a small homestead and ensured its survival."
+  },
+  {
+    "Tag": "LifePath.Adult.LeadResearcher",
+    "DevComment": "Led research projects into the world's state.",
+    "Name": "Lead Researcher",
+    "UnlockedBackgrounds": [
+      "Background.VaultRaised",
+      "Background.AlienWorshipper"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Reasoning": 30.0,
+      "MentalAttribute.Focus": 15.0,
+      "MentalAttribute.Logic": 20.0,
+      "PhysicalSkill.Research": 55.0,
+      "PhysicalSkill.Communication": 25.0,
+      "MentalSkill.AnalyticalInsight": 25.0,
+      "MentalSkill.ResearchAptitude": 30.0,
+      "MentalSkill.AttentionToDetail": 20.0
+    },
+    "Description": "Led research projects into the world's state."
+  }
+]

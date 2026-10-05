@@ -1,0 +1,27 @@
+[
+  {
+    "Resource": "Metal",
+    "Amount": 60,
+    "Tag": "Inventory.Resource.Metal"
+  },
+  {
+    "Resource": "Wires",
+    "Amount": 40,
+    "Tag": "Inventory.Resource.Wires"
+  },
+  {
+    "Resource": "Plastic",
+    "Amount": 40,
+    "Tag": "Inventory.Resource.Plastic"
+  },
+  {
+    "Resource": "Fuel",
+    "Amount": 30,
+    "Tag": "Inventory.Resource.Fuel"
+  },
+  {
+    "Resource": "Food",
+    "Amount": 12,
+    "Tag": "Inventory.Resource.Food"
+  }
+]

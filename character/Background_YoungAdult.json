@@ -1,0 +1,99 @@
+[
+  {
+    "Tag": "LifePath.YoungAdult.TechApprentice",
+    "DevComment": "Learned technical skills under a mentor.",
+    "Name": "Tech Apprentice",
+    "UnlockedBackgrounds": [
+      "Background.Aristocrat",
+      "Background.ConstructionWorker"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Reasoning": 25.0,
+      "MentalAttribute.Focus": 10.0,
+      "MentalAttribute.Logic": 20.0,
+      "PhysicalSkill.Mechanical": 40.0,
+      "PhysicalSkill.Research": 30.0,
+      "MentalSkill.AnalyticalInsight": 20.0,
+      "MentalSkill.AttentionToDetail": 15.0
+    },
+    "Description": "Learned technical skills under a mentor."
+  },
+  {
+    "Tag": "LifePath.YoungAdult.MilitaryDrill",
+    "DevComment": "Underwent basic military training.",
+    "Name": "Military Drill",
+    "UnlockedBackgrounds": [
+      "Background.ProfessionalMilitary",
+      "Background.FormerPoliceOfficer"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Strength": 15.0,
+      "PhysicalAttribute.Endurance": 25.0,
+      "MentalAttribute.Discipline": 20.0,
+      "PhysicalSkill.Medical": 10.0,
+      "PhysicalSkill.Firearms": 50.0,
+      "PhysicalSkill.Communication": 10.0,
+      "MentalSkill.StrategicThinking": 25.0,
+      "MentalSkill.OperationalOversight": 10.0
+    },
+    "Description": "Underwent basic military training."
+  },
+  {
+    "Tag": "LifePath.YoungAdult.MedicalIntern",
+    "DevComment": "Worked as an intern in a medical facility.",
+    "Name": "Medical Intern",
+    "UnlockedBackgrounds": [
+      "Background.EmergencyResponder",
+      "Background.VaultRaised"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Vitality": 20.0,
+      "PhysicalAttribute.Reasoning": 25.0,
+      "MentalAttribute.Empathy": 15.0,
+      "PhysicalSkill.Medical": 40.0,
+      "PhysicalSkill.Research": 20.0,
+      "PhysicalSkill.Communication": 10.0,
+      "MentalSkill.StressManagement": 15.0
+    },
+    "Description": "Worked as an intern in a medical facility."
+  },
+  {
+    "Tag": "LifePath.YoungAdult.TradeLaborer",
+    "DevComment": "Worked in manual labor or trades.",
+    "Name": "Trade Laborer",
+    "UnlockedBackgrounds": [
+      "Background.ConstructionWorker",
+      "Background.UrbanDweller"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Strength": 25.0,
+      "PhysicalAttribute.Endurance": 20.0,
+      "MentalAttribute.Discipline": 10.0,
+      "PhysicalSkill.Food": 15.0,
+      "PhysicalSkill.Mechanical": 35.0,
+      "PhysicalSkill.Communication": 20.0,
+      "MentalSkill.PracticalSkills": 15.0
+    },
+    "Description": "Worked in manual labor or trades."
+  },
+  {
+    "Tag": "LifePath.YoungAdult.WildernessGuide",
+    "DevComment": "Guided people through the wilderness.",
+    "Name": "Wilderness Guide",
+    "UnlockedBackgrounds": [
+      "Background.Wildborn",
+      "Background.TravelingArtist"
+    ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Endurance": 15.0,
+      "PhysicalAttribute.Senses": 25.0,
+      "MentalAttribute.Adaptability": 15.0,
+      "PhysicalSkill.Medical": 25.0,
+      "PhysicalSkill.Firearms": 15.0,
+      "PhysicalSkill.Food": 30.0,
+      "MentalSkill.StressManagement": 15.0,
+      "MentalSkill.DiplomacyTrade": 15.0
+    },
+    "Description": "Guided people through the wilderness."
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "Tag": "Background.VaultRaised",
+    "DevComment": "Grew up in a government bunker or secret research facility, taught about the world from old books and archives. Released into the new world with theoretical knowledge but little practical experience.",
+    "Name": "Vault-Raised",
+    "AttributeModifiers": {
+      "PhysicalAttribute.Endurance": -15.0,
+      "PhysicalAttribute.Reasoning": 20.0,
+      "MentalAttribute.SocialEnergy": -15.0,
+      "MentalAttribute.Adaptability": -15.0,
+      "PhysicalSkill.Food": -15.0,
+      "PhysicalSkill.Research": 20.0,
+      "PhysicalSkill.Communication": 20.0,
+      "MentalSkill.AnalyticalInsight": 20.0,
+      "MentalSkill.ResearchAptitude": 20.0
+    },
+    "Description": "Grew up in a government bunker or secret research facility, taught about the world from old books and archives. Released into the new world with theoretical knowledge but little practical experience."
+  },
+  {
+    "Tag": "Background.UrbanDweller",
+    "DevComment": "Lived in the ruins of a city, scavenging for food, hiding from both aliens and hostile human factions.",
+    "Name": "Urban Dweller",
+    "AttributeModifiers": {
+      "MentalAttribute.Focus": -15.0,
+      "MentalAttribute.Empathy": -15.0,
+      "MentalAttribute.Adaptability": 20.0,
+      "PhysicalSkill.Firearms": 20.0,
+      "PhysicalSkill.Communication": 20.0,
+      "MentalSkill.InstinctiveDecisionMaking": 20.0,
+      "MentalSkill.AttentionToDetail": 20.0
+    },
+    "Description": "Lived in the ruins of a city, scavenging for food, hiding from both aliens and hostile human factions."
+  },
+  {
+    "Tag": "Background.Wildborn",
+    "DevComment": "Born into a survivor camp in the wilderness, has no memories of the world before the apocalypse.",
+    "Name": "Wildborn",
+    "AttributeModifiers": {
+      "PhysicalAttribute.Senses": 20.0,
+      "MentalAttribute.Adaptability": 20.0,
+      "PhysicalSkill.Food": 30.0,
+      "PhysicalSkill.Mechanical": -15.0,
+      "PhysicalSkill.Research": -15.0,
+      "MentalSkill.Resilience": 20.0,
+      "MentalSkill.StressManagement": 20.0,
+      "MentalSkill.ResearchAptitude": -15.0
+    },
+    "Description": "Born into a survivor camp in the wilderness, has no memories of the world before the apocalypse."
+  },
+  {
+    "Tag": "Background.ProfessionalMilitary",
+    "DevComment": "Former soldier who fought in the initial human resistance before it was crushed. Survived, but at great personal cost.",
+    "Name": "Professional Military",
+    "AttributeModifiers": {
+      "MentalAttribute.Creativity": -15.0,
+      "MentalAttribute.Empathy": -15.0,
+      "MentalAttribute.Discipline": 20.0,
+      "PhysicalSkill.Firearms": 20.0,
+      "MentalSkill.LeadershipEffectiveness": 20.0,
+      "MentalSkill.StrategicThinking": 20.0,
+      "MentalSkill.OperationalOversight": 20.0,
+      "MentalSkill.AttentionToDetail": -15.0
+    },
+    "Description": "Former soldier who fought in the initial human resistance before it was crushed. Survived, but at great personal cost."
+  },
+  {
+    "Tag": "Background.AlienWorshipper",
+    "DevComment": "Joined or was born into a doomsday cult that worships the alien invaders or believes they are divine beings.",
+    "Name": "Alien Worshipper",
+    "AttributeModifiers": {
+      "MentalAttribute.Logic": -15.0,
+      "MentalAttribute.Adaptability": -15.0,
+      "MentalSkill.EmotionalIntelligence": 20.0,
+      "MentalSkill.Charisma": 20.0,
+      "MentalSkill.Resilience": 20.0,
+      "MentalSkill.StressManagement": 20.0
+    },
+    "Description": "Joined or was born into a doomsday cult that worships the alien invaders or believes they are divine beings."
+  },
+  {
+    "Tag": "Background.SyndicateOperative",
+    "DevComment": "Before the fall worked in organized crime—smuggling, robbery, or enforcement. Carried those skills into the apocalypse.",
+    "Name": "Syndicate Operative",
+    "AttributeModifiers": {
+      "MentalAttribute.Empathy": -15.0,
+      "MentalAttribute.Discipline": -15.0,
+      "PhysicalSkill.Firearms": 20.0,
+      "MentalSkill.InstinctiveDecisionMaking": 20.0,
+      "MentalSkill.DiplomacyTrade": 20.0,
+      "MentalSkill.AttentionToDetail": 20.0
+    },
+    "Description": "Before the fall worked in organized crime—smuggling, robbery, or enforcement. Carried those skills into the apocalypse."
+  },
+  {
+    "Tag": "Background.AlienExperimentSurvivor",
+    "DevComment": "Captured by the aliens and subjected to experiments before escaping. You’re not entirely human anymore.",
+    "Name": "Alien Experiment Survivor",
+    "AttributeModifiers": {
+      "PhysicalAttribute.Endurance": 20.0,
+      "PhysicalAttribute.Vitality": 10.0,
+      "MentalAttribute.Focus": -15.0,
+      "PhysicalSkill.Medical": 10.0,
+      "MentalSkill.Charisma": -15.0,
+      "MentalSkill.Resilience": 20.0
+    },
+    "Description": "Captured by the aliens and subjected to experiments before escaping. You’re not entirely human anymore."
+  },
+  {
+    "Tag": "Background.Aristocrat",
+    "DevComment": "Came from a wealthy or influential family that tried to ride out the apocalypse in secure compounds. Now thrown into a world where wealth means nothing.",
+    "Name": "Aristocrat",
+    "AttributeModifiers": {
+      "PhysicalAttribute.Strength": -15.0,
+      "PhysicalAttribute.Agility": -15.0,
+      "PhysicalSkill.Firearms": 10.0,
+      "PhysicalSkill.Communication": 10.0,
+      "MentalSkill.LeadershipEffectiveness": 20.0,
+      "MentalSkill.Charisma": 20.0,
+      "MentalSkill.DiplomacyTrade": 20.0
+    },
+    "Description": "Came from a wealthy or influential family that tried to ride out the apocalypse in secure compounds. Now thrown into a world where wealth means nothing."
+  },
+  {
+    "Tag": "Background.EmergencyResponder",
+    "DevComment": "A trained medic who worked in early resistance efforts or helped survivors after the fall.",
+    "Name": "Emergency Responder",
+    "AttributeModifiers": {
+      "PhysicalAttribute.Reasoning": 20.0,
+      "MentalAttribute.Empathy": 20.0,
+      "PhysicalSkill.Medical": 20.0,
+      "PhysicalSkill.Firearms": -15.0,
+      "MentalSkill.AnalyticalInsight": 20.0,
+      "MentalSkill.InstinctiveDecisionMaking": -15.0,
+      "MentalSkill.StressManagement": 20.0
+    },
+    "Description": "A trained medic who worked in early resistance efforts or helped survivors after the fall."
+  },
+  {
+    "Tag": "Background.ConstructionWorker",
+    "DevComment": "Built the infrastructure that supported the civilization as we knew it. Can do it again.",
+    "Name": "Construction Worker",
+    "AttributeModifiers": {
+      "PhysicalAttribute.Endurance": 20.0,
+      "PhysicalSkill.Medical": 10.0,
+      "PhysicalSkill.Mechanical": 30.0,
+      "PhysicalSkill.Research": -15.0,
+      "MentalSkill.TaskEndurance": 20.0,
+      "MentalSkill.ResearchAptitude": -15.0
+    },
+    "Description": "Built the infrastructure that supported the civilization as we knew it. Can do it again."
+  },
+  {
+    "Tag": "Background.Drifter",
+    "DevComment": "This character's past is largely unknown—even to themselves. Amnesia, deliberate secrecy, or something else?",
+    "Name": "Drifter",
+    "AttributeModifiers": {
+      "MentalAttribute.SocialEnergy": -10.0,
+      "MentalAttribute.Adaptability": 20.0,
+      "PhysicalSkill.Food": 10.0,
+      "MentalSkill.LeadershipEffectiveness": -15.0,
+      "MentalSkill.InstinctiveDecisionMaking": 20.0,
+      "MentalSkill.Resilience": 20.0,
+      "MentalSkill.OperationalOversight": -15.0
+    },
+    "Description": "This character's past is largely unknown—even to themselves. Amnesia, deliberate secrecy, or something else?"
+  },
+  {
+    "Tag": "Background.TravelingArtist",
+    "DevComment": "Before the apocalypse, they were a musician, painter, or writer—always wandering, seeking beauty in life. Even now, in a world of ruin, they refuse to let art die.",
+    "Name": "Traveling Artist",
+    "AttributeModifiers": {
+      "PhysicalAttribute.Agility": 10.0,
+      "MentalAttribute.Creativity": 20.0,
+      "PhysicalSkill.Communication": 10.0,
+      "MentalSkill.PracticalSkills": -15.0,
+      "MentalSkill.LeadershipEffectiveness": -15.0,
+      "MentalSkill.Charisma": 20.0
+    },
+    "Description": "Before the apocalypse, they were a musician, painter, or writer—always wandering, seeking beauty in life. Even now, in a world of ruin, they refuse to let art die."
+  },
+  {
+    "Tag": "Background.IdealisticDreamer",
+    "DevComment": "Always lost in thought, fascinated by philosophy, mythology, or stories of a better world. When everything collapsed, they clung to the belief that there’s still hope, even if it’s fading.",
+    "Name": "Idealistic Dreamer",
+    "AttributeModifiers": {
+      "PhysicalAttribute.Strength": -15.0,
+      "MentalAttribute.Empathy": 10.0,
+      "PhysicalSkill.Research": 10.0,
+      "MentalSkill.EmotionalIntelligence": 20.0,
+      "MentalSkill.InstinctiveDecisionMaking": -15.0,
+      "MentalSkill.Charisma": 20.0,
+      "MentalSkill.ResearchAptitude": 20.0
+    },
+    "Description": "Always lost in thought, fascinated by philosophy, mythology, or stories of a better world. When everything collapsed, they clung to the belief that there’s still hope, even if it’s fading."
+  },
+  {
+    "Tag": "Background.FormerPoliceOfficer",
+    "DevComment": "A former police officer, security chief, or corporate enforcer who saw the old world fall apart and refused to let chaos take over. They believe in order, rules, and discipline.",
+    "Name": "Former Police Officer",
+    "AttributeModifiers": {
+      "MentalAttribute.Creativity": -15.0,
+      "MentalAttribute.Empathy": -15.0,
+      "MentalAttribute.Discipline": 20.0,
+      "PhysicalSkill.Firearms": 20.0,
+      "MentalSkill.EmotionalIntelligence": -15.0,
+      "MentalSkill.LeadershipEffectiveness": 20.0,
+      "MentalSkill.StrategicThinking": 20.0,
+      "MentalSkill.DiplomacyTrade": 20.0
+    },
+    "Description": "A former police officer, security chief, or corporate enforcer who saw the old world fall apart and refused to let chaos take over. They believe in order, rules, and discipline."
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "table": "Work",
+  "conventions": {
+    "Difficulty": "\"item\" = the studied item's own levels set it (design doc 4.5); the placeholder stands until Items.json carries them (owner, C14)",
+    "Workload": "same \"item\" convention as Difficulty",
+    "Tag": "BB.Job.<Station>.<Work>: the start and finish rows of one job share it (PhaseTag tells them apart)",
+    "PrimarySkill": "stat Tag from Attribute.json"
+  },
+  "columns": {
+    "Tag": "tag:Job",
+    "StationTag": "tag:Station?",
+    "BuildingName": "string",
+    "Type": "string",
+    "WorkTypeTag": "tag:WorkType",
+    "Work": "string?",
+    "Phase": "string?",
+    "PhaseTag": "tag:Phase?",
+    "PrimarySkill": "tag:Stat?",
+    "SecondarySkill": "tag:Stat?",
+    "Attribute": "tag:Stat?",
+    "Difficulty": "number_or_item?",
+    "MoodType": "string?",
+    "MoodTypeTag": "tag:Mood?",
+    "Workload": "number_or_item?",
+    "Requirements": "string?",
+    "RequirementsTag": "tag:Requirement?",
+    "Description": "string?",
+    "BaseBuffs": "string?",
+    "BaseBuffsTags": "tag_list:Buff",
+    "ResourcesNeededToBuild": "string?",
+    "ResourcesNeededToBuildTags": "tag_map:Resource",
+    "Outcome": "string?",
+    "OutcomeTag": "tag:Item?",
+    "OutcomeQuantity": "int?",
+    "MetalResource": "int?",
+    "WiresResource": "int?",
+    "PlasticResource": "int?",
+    "FuelResource": "int?"
+  }
+}

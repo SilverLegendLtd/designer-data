@@ -1,0 +1,338 @@
+[
+  {
+    "Name": "Strength",
+    "Tag": "PhysicalAttribute.Strength",
+    "Category": "PhysicalAttribute",
+    "Key": "Strength",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Agility",
+    "Tag": "PhysicalAttribute.Agility",
+    "Category": "PhysicalAttribute",
+    "Key": "Agility",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Endurance",
+    "Tag": "PhysicalAttribute.Endurance",
+    "Category": "PhysicalAttribute",
+    "Key": "Endurance",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Senses",
+    "Tag": "PhysicalAttribute.Senses",
+    "Category": "PhysicalAttribute",
+    "Key": "Senses",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Vitality",
+    "Tag": "PhysicalAttribute.Vitality",
+    "Category": "PhysicalAttribute",
+    "Key": "Vitality",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Reaction",
+    "Tag": "PhysicalAttribute.Reaction",
+    "Category": "PhysicalAttribute",
+    "Key": "Reaction",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Reasoning",
+    "Tag": "PhysicalAttribute.Reasoning",
+    "Category": "PhysicalAttribute",
+    "Key": "Reasoning",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Social Energy",
+    "Tag": "MentalAttribute.SocialEnergy",
+    "Category": "MentalAttribute",
+    "Key": "SocialEnergy",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Focus",
+    "Tag": "MentalAttribute.Focus",
+    "Category": "MentalAttribute",
+    "Key": "Focus",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Perception",
+    "Tag": "MentalAttribute.Perception",
+    "Category": "MentalAttribute",
+    "Key": "Perception",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Creativity",
+    "Tag": "MentalAttribute.Creativity",
+    "Category": "MentalAttribute",
+    "Key": "Creativity",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Logic",
+    "Tag": "MentalAttribute.Logic",
+    "Category": "MentalAttribute",
+    "Key": "Logic",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Empathy",
+    "Tag": "MentalAttribute.Empathy",
+    "Category": "MentalAttribute",
+    "Key": "Empathy",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Discipline",
+    "Tag": "MentalAttribute.Discipline",
+    "Category": "MentalAttribute",
+    "Key": "Discipline",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Adaptability",
+    "Tag": "MentalAttribute.Adaptability",
+    "Category": "MentalAttribute",
+    "Key": "Adaptability",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "EI",
+    "Tag": "Personality.EI",
+    "Category": "Personality",
+    "Key": "EI",
+    "MinValue": -100,
+    "MaxValue": 100
+  },
+  {
+    "Name": "SN",
+    "Tag": "Personality.SN",
+    "Category": "Personality",
+    "Key": "SN",
+    "MinValue": -100,
+    "MaxValue": 100
+  },
+  {
+    "Name": "TF",
+    "Tag": "Personality.TF",
+    "Category": "Personality",
+    "Key": "TF",
+    "MinValue": -100,
+    "MaxValue": 100
+  },
+  {
+    "Name": "JP",
+    "Tag": "Personality.JP",
+    "Category": "Personality",
+    "Key": "JP",
+    "MinValue": -100,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Valence",
+    "Tag": "Mood.Valence",
+    "Category": "Mood",
+    "Key": "Valence",
+    "MinValue": -100,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Arousal",
+    "Tag": "Mood.Arousal",
+    "Category": "Mood",
+    "Key": "Arousal",
+    "MinValue": -100,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Medical",
+    "Tag": "PhysicalSkill.Medical",
+    "Category": "PhysicalSkill",
+    "Key": "Medical",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Firearms",
+    "Tag": "PhysicalSkill.Firearms",
+    "Category": "PhysicalSkill",
+    "Key": "Firearms",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Food",
+    "Tag": "PhysicalSkill.Food",
+    "Category": "PhysicalSkill",
+    "Key": "Food",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Mechanical",
+    "Tag": "PhysicalSkill.Mechanical",
+    "Category": "PhysicalSkill",
+    "Key": "Mechanical",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Research",
+    "Tag": "PhysicalSkill.Research",
+    "Category": "PhysicalSkill",
+    "Key": "Research",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Communication",
+    "Tag": "PhysicalSkill.Communication",
+    "Category": "PhysicalSkill",
+    "Key": "Communication",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Analytical Insight",
+    "Tag": "MentalSkill.AnalyticalInsight",
+    "Category": "MentalSkill",
+    "Key": "AnalyticalInsight",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Emotional Intelligence",
+    "Tag": "MentalSkill.EmotionalIntelligence",
+    "Category": "MentalSkill",
+    "Key": "EmotionalIntelligence",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Practical Skills",
+    "Tag": "MentalSkill.PracticalSkills",
+    "Category": "MentalSkill",
+    "Key": "PracticalSkills",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Leadership Effectiveness",
+    "Tag": "MentalSkill.LeadershipEffectiveness",
+    "Category": "MentalSkill",
+    "Key": "LeadershipEffectiveness",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Strategic Thinking",
+    "Tag": "MentalSkill.StrategicThinking",
+    "Category": "MentalSkill",
+    "Key": "StrategicThinking",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Instinctive DecisionMaking",
+    "Tag": "MentalSkill.InstinctiveDecisionMaking",
+    "Category": "MentalSkill",
+    "Key": "InstinctiveDecisionMaking",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Charisma",
+    "Tag": "MentalSkill.Charisma",
+    "Category": "MentalSkill",
+    "Key": "Charisma",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Resilience",
+    "Tag": "MentalSkill.Resilience",
+    "Category": "MentalSkill",
+    "Key": "Resilience",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Task Endurance",
+    "Tag": "MentalSkill.TaskEndurance",
+    "Category": "MentalSkill",
+    "Key": "TaskEndurance",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Stress Management",
+    "Tag": "MentalSkill.StressManagement",
+    "Category": "MentalSkill",
+    "Key": "StressManagement",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Diplomacy and Trade",
+    "Tag": "MentalSkill.DiplomacyAndTrade",
+    "Category": "MentalSkill",
+    "Key": "DiplomacyAndTrade",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Research Aptitude",
+    "Tag": "MentalSkill.ResearchAptitude",
+    "Category": "MentalSkill",
+    "Key": "ResearchAptitude",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Operational Oversight",
+    "Tag": "MentalSkill.OperationalOversight",
+    "Category": "MentalSkill",
+    "Key": "OperationalOversight",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Attention to Detail",
+    "Tag": "MentalSkill.AttentionToDetail",
+    "Category": "MentalSkill",
+    "Key": "AttentionToDetail",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Intuitive Foresight",
+    "Tag": "MentalSkill.IntuitiveForesight",
+    "Category": "MentalSkill",
+    "Key": "IntuitiveForesight",
+    "MinValue": 0,
+    "MaxValue": 100
+  }
+]

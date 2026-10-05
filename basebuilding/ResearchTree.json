@@ -1,0 +1,1208 @@
+[
+  {
+    "Name": "Expert Guard Station",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 1,
+    "BasicCost": 10,
+    "SpecialCost": "Firearms 5",
+    "RequirementA": "Guard Station",
+    "RequirementB": null,
+    "Description": "Features reinforced metal gates and entrance shacks housing advanced scanners. Unlocks weapon research and ammunition crafting",
+    "BaseBuffs": "Science",
+    "Tag": "BB.Research.ExpertGuardStation",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 5
+    },
+    "BaseBuffsTags": [
+      "BB.Buff.Science"
+    ],
+    "RequirementATag": "BB.Station.GuardStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Ammunition",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Firearms 10",
+    "RequirementA": "Expert Guard Station",
+    "RequirementB": null,
+    "Description": "This upgrade allows high lethality ammunition crafting",
+    "BaseBuffs": "Science",
+    "Tag": "BB.Research.Ammunition",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 10
+    },
+    "BaseBuffsTags": [
+      "BB.Buff.Science"
+    ],
+    "RequirementATag": "BB.Research.ExpertGuardStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Guarding",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Firearms 10",
+    "RequirementA": "Expert Guard Station",
+    "RequirementB": null,
+    "Description": "Improve the monitoring and surveillance capabilities of the guard station",
+    "BaseBuffs": "Science",
+    "Tag": "BB.Research.Guarding",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 10
+    },
+    "BaseBuffsTags": [
+      "BB.Buff.Science"
+    ],
+    "RequirementATag": "BB.Research.ExpertGuardStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Ammunition",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Firearms 15",
+    "RequirementA": "Ammunition",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedAmmunition",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.Ammunition",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Guarding",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Firearms 15",
+    "RequirementA": "Guarding",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedGuarding",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.Guarding",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Heavy Weapons",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Firearms 20",
+    "RequirementA": "Advanced Ammunition",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.HeavyWeapons",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedAmmunition",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Defensive Turrets",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Firearms 20",
+    "RequirementA": "Advanced Guarding",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.DefensiveTurrets",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedGuarding",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Enhanced Base Safety",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Firearms 20",
+    "RequirementA": "Advanced Guarding, Advanced Ammunition",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.EnhancedBaseSafety",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedGuarding",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Highly Advanced Firearms",
+    "SkillTags": [
+      "PhysicalSkill.Firearms"
+    ],
+    "Tier": 5,
+    "BasicCost": 50,
+    "SpecialCost": "Firearms 25",
+    "RequirementA": "Heavy Weapons, Enhanced Base Safety, Defensive Turrets",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.HighlyAdvancedFirearms",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 25
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.HeavyWeapons",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Critical Damage",
+    "SkillTags": [
+      "PhysicalSkill.Firearms",
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Firearms, Medical 15",
+    "RequirementA": "Wound Treatment",
+    "RequirementB": "Ammunition",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.CriticalDamage",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 15,
+      "PhysicalSkill.Medical": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.WoundTreatment",
+    "RequirementBTag": "BB.Research.Ammunition"
+  },
+  {
+    "Name": "Expedition Hunting",
+    "SkillTags": [
+      "PhysicalSkill.Firearms",
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Firearms, Food 15",
+    "RequirementA": "Guarding",
+    "RequirementB": "Combat Food",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.ExpeditionHunting",
+    "SpecialCostTags": {
+      "PhysicalSkill.Firearms": 15,
+      "PhysicalSkill.Food": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.Guarding",
+    "RequirementBTag": "BB.Research.CombatFood"
+  },
+  {
+    "Name": "Expert Medical Station",
+    "SkillTags": [
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 1,
+    "BasicCost": 10,
+    "SpecialCost": "Medical 5",
+    "RequirementA": "Medical Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.ExpertMedicalStation",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 5
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Station.MedicalStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Wound Treatment",
+    "SkillTags": [
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Medical 10",
+    "RequirementA": "Expert Medical Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.WoundTreatment",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpertMedicalStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Infected Treatment",
+    "SkillTags": [
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Medical 10",
+    "RequirementA": "Expert Medical Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.InfectedTreatment",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpertMedicalStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Wound Treatment",
+    "SkillTags": [
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Medical 15",
+    "RequirementA": "Wound Treatment",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedWoundTreatment",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.WoundTreatment",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Infected Treatment",
+    "SkillTags": [
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Medical 15",
+    "RequirementA": "Infected Treatment",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedInfectedTreatment",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.InfectedTreatment",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Autopsies",
+    "SkillTags": [
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Medical 20",
+    "RequirementA": "Advanced Wound Treatment",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.Autopsies",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedWoundTreatment",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Enhanced Survivor Well-Being",
+    "SkillTags": [
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Medical 20",
+    "RequirementA": "Advanced Infected Treatment, Advanced Wound Treatment",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.EnhancedSurvivorWellBeing",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedInfectedTreatment",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Mental Resilience Training",
+    "SkillTags": [
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Medical 20",
+    "RequirementA": "Advanced Infected Treatment",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.MentalResilienceTraining",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedInfectedTreatment",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Health Kits",
+    "SkillTags": [
+      "PhysicalSkill.Medical",
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 5,
+    "BasicCost": 50,
+    "SpecialCost": "Medical, Food 25",
+    "RequirementA": "Autopsies, Enhanced Survivor Well-Being, Mental Resilience Training",
+    "RequirementB": "Sabotage Enemy Food Supply, Higher Comfort from Food, Better Expedition Loot",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.HealthKits",
+    "SpecialCostTags": {
+      "PhysicalSkill.Medical": 25,
+      "PhysicalSkill.Food": 25
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.Autopsies",
+    "RequirementBTag": "BB.Research.SabotageEnemyFoodSupply"
+  },
+  {
+    "Name": "Sabotage Enemy Food Supply",
+    "SkillTags": [
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Food 20",
+    "RequirementA": "Advanced Combat Food",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.SabotageEnemyFoodSupply",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedCombatFood",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Higher Comfort from Food",
+    "SkillTags": [
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Food 20",
+    "RequirementA": "Advanced Combat Food, Advanced Expedition Food",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.HigherComfortFromFood",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedCombatFood",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Better Expedition Loot",
+    "SkillTags": [
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Food 20",
+    "RequirementA": "Advanced Expedition Food",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.BetterExpeditionLoot",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedExpeditionFood",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Combat Food",
+    "SkillTags": [
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Food 15",
+    "RequirementA": "Combat Food",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedCombatFood",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.CombatFood",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Expedition Food",
+    "SkillTags": [
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Food 15",
+    "RequirementA": "Expedition Food",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedExpeditionFood",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpeditionFood",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Combat Food",
+    "SkillTags": [
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Food 10",
+    "RequirementA": "Expert Food Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.CombatFood",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpertFoodStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Expedition Food",
+    "SkillTags": [
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Food 10",
+    "RequirementA": "Expert Food Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.ExpeditionFood",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpertFoodStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Expert Food Station",
+    "SkillTags": [
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 1,
+    "BasicCost": 10,
+    "SpecialCost": "Food 5",
+    "RequirementA": "Food Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.ExpertFoodStation",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 5
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Station.FoodStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Expert Research Station",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 1,
+    "BasicCost": 10,
+    "SpecialCost": "Research 5",
+    "RequirementA": "Research Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.ExpertResearchStation",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 5
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Station.ResearchStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Infected Research",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Research 10",
+    "RequirementA": "Expert Research Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.InfectedResearch",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpertResearchStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Alien Research",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Research 10",
+    "RequirementA": "Expert Research Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AlienResearch",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpertResearchStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Infected Research",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Research 15",
+    "RequirementA": "Infected Research",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedInfectedResearch",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.InfectedResearch",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Alien Research",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Research 15",
+    "RequirementA": "Alien Research",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedAlienResearch",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AlienResearch",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Human-Suitable Nanobots",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Research 20",
+    "RequirementA": "Advanced Infected Research",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.HumanSuitableNanobots",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedInfectedResearch",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "More Choices from Alien Artefacts",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Research 20",
+    "RequirementA": "Advanced Alien Research",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.MoreChoicesFromAlienArtefacts",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedAlienResearch",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Better Research Outcomes",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Research 20",
+    "RequirementA": "Advanced Infected Research, Advanced Alien Research",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.BetterResearchOutcomes",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedInfectedResearch",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Research Robots",
+    "SkillTags": [
+      "PhysicalSkill.Research"
+    ],
+    "Tier": 5,
+    "BasicCost": 50,
+    "SpecialCost": "Research 25",
+    "RequirementA": "Human-Suitable Nanobots, Better Research Outcomes, More Choices from Alien Artefacts",
+    "RequirementB": "Renewable Energy Sources, Better Crafting Outcomes, High Quality Gear",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.ResearchRobots",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 25
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.HumanSuitableNanobots",
+    "RequirementBTag": "BB.Research.RenewableEnergySources"
+  },
+  {
+    "Name": "Alien Communications",
+    "SkillTags": [
+      "PhysicalSkill.Research",
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Research, Communication 15",
+    "RequirementA": "Trading",
+    "RequirementB": "Alien Research",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AlienCommunications",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 15,
+      "PhysicalSkill.Communication": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.Trading",
+    "RequirementBTag": "BB.Research.AlienResearch"
+  },
+  {
+    "Name": "Nanobot Pharmaceuticals",
+    "SkillTags": [
+      "PhysicalSkill.Research",
+      "PhysicalSkill.Medical"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Research, Medical 15",
+    "RequirementA": "Infected Treatment",
+    "RequirementB": "Infected Research",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.NanobotPharmaceuticals",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 15,
+      "PhysicalSkill.Medical": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.InfectedTreatment",
+    "RequirementBTag": "BB.Research.InfectedResearch"
+  },
+  {
+    "Name": "Psyche Reprogramming",
+    "SkillTags": [
+      "PhysicalSkill.Research",
+      "PhysicalSkill.Medical",
+      "PhysicalSkill.Mechanical",
+      "PhysicalSkill.Food"
+    ],
+    "Tier": 5,
+    "BasicCost": 50,
+    "SpecialCost": "Research, Medical, Mechanical, Food 25",
+    "RequirementA": "Nanobot Pharmaceuticals",
+    "RequirementB": "Distilling",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.PsycheReprogramming",
+    "SpecialCostTags": {
+      "PhysicalSkill.Research": 25,
+      "PhysicalSkill.Medical": 25,
+      "PhysicalSkill.Mechanical": 25,
+      "PhysicalSkill.Food": 25
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.NanobotPharmaceuticals",
+    "RequirementBTag": "BB.Research.Distilling"
+  },
+  {
+    "Name": "Distilling",
+    "SkillTags": [
+      "PhysicalSkill.Food",
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Food, Mechanical 15",
+    "RequirementA": "Expedition Food",
+    "RequirementB": "Nature Crafting",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.Distilling",
+    "SpecialCostTags": {
+      "PhysicalSkill.Food": 15,
+      "PhysicalSkill.Mechanical": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpeditionFood",
+    "RequirementBTag": "BB.Research.NatureCrafting"
+  },
+  {
+    "Name": "Renewable Energy Sources",
+    "SkillTags": [
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Mechanical 20",
+    "RequirementA": "Advanced Nature Crafting",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.RenewableEnergySources",
+    "SpecialCostTags": {
+      "PhysicalSkill.Mechanical": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedNatureCrafting",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Better Crafting Outcomes",
+    "SkillTags": [
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Mechanical 20",
+    "RequirementA": "Advanced Nature Crafting, Advanced Tech Crafting",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.BetterCraftingOutcomes",
+    "SpecialCostTags": {
+      "PhysicalSkill.Mechanical": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedNatureCrafting",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "High Quality Gear",
+    "SkillTags": [
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Mechanical 20",
+    "RequirementA": "Advanced Tech Crafting",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.HighQualityGear",
+    "SpecialCostTags": {
+      "PhysicalSkill.Mechanical": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedTechCrafting",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Nature Crafting",
+    "SkillTags": [
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Mechanical 15",
+    "RequirementA": "Nature Crafting",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedNatureCrafting",
+    "SpecialCostTags": {
+      "PhysicalSkill.Mechanical": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.NatureCrafting",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Tech Crafting",
+    "SkillTags": [
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Mechanical 15",
+    "RequirementA": "Tech Crafting",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedTechCrafting",
+    "SpecialCostTags": {
+      "PhysicalSkill.Mechanical": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.TechCrafting",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Nature Crafting",
+    "SkillTags": [
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Mechanical 10",
+    "RequirementA": "Expert Mechanical Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.NatureCrafting",
+    "SpecialCostTags": {
+      "PhysicalSkill.Mechanical": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpertMechanicalStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Tech Crafting",
+    "SkillTags": [
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Mechanical 10",
+    "RequirementA": "Expert Mechanical Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.TechCrafting",
+    "SpecialCostTags": {
+      "PhysicalSkill.Mechanical": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.ExpertMechanicalStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Expert Mechanical Station",
+    "SkillTags": [
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 1,
+    "BasicCost": 10,
+    "SpecialCost": "Mechanical 5",
+    "RequirementA": "Mechanical Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.ExpertMechanicalStation",
+    "SpecialCostTags": {
+      "PhysicalSkill.Mechanical": 5
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Station.MechanicalStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Radio Station",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 1,
+    "BasicCost": 10,
+    "SpecialCost": "Communication 5",
+    "RequirementA": "Communication Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.RadioStation",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 5
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Station.CommunicationStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Trading",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Communication 10",
+    "RequirementA": "Radio Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.Trading",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.RadioStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Scouting",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCost": "Communication 10",
+    "RequirementA": "Radio Station",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.Scouting",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 10
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.RadioStation",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Trading",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Communication 15",
+    "RequirementA": "Trading",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedTrading",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.Trading",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Advanced Scouting",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Communication 15",
+    "RequirementA": "Scouting",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.AdvancedScouting",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.Scouting",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Better Trader Goods",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Communication 20",
+    "RequirementA": "Advanced Trading",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.BetterTraderGoods",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedTrading",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Community Cohesion",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Communication 20",
+    "RequirementA": "Advanced Trading, Advanced Scouting",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.CommunityCohesion",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedTrading",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Higher Discovery of Points of Interest",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 4,
+    "BasicCost": 40,
+    "SpecialCost": "Communication 20",
+    "RequirementA": "Advanced Scouting",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.HigherDiscoveryOfPointsOfInterest",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 20
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.AdvancedScouting",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Highly Advanced Communication",
+    "SkillTags": [
+      "PhysicalSkill.Communication"
+    ],
+    "Tier": 5,
+    "BasicCost": 50,
+    "SpecialCost": "Communication 25",
+    "RequirementA": "Better Trader Goods, Community Cohesion, Higher Discovery of Points of Interest",
+    "RequirementB": null,
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.HighlyAdvancedCommunication",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 25
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.BetterTraderGoods",
+    "RequirementBTag": null
+  },
+  {
+    "Name": "Optics",
+    "SkillTags": [
+      "PhysicalSkill.Communication",
+      "PhysicalSkill.Mechanical"
+    ],
+    "Tier": 3,
+    "BasicCost": 30,
+    "SpecialCost": "Communication, Mechanical 15",
+    "RequirementA": "Scouting",
+    "RequirementB": "Tech Crafting",
+    "Description": null,
+    "BaseBuffs": null,
+    "Tag": "BB.Research.Optics",
+    "SpecialCostTags": {
+      "PhysicalSkill.Communication": 15,
+      "PhysicalSkill.Mechanical": 15
+    },
+    "BaseBuffsTags": [],
+    "RequirementATag": "BB.Research.Scouting",
+    "RequirementBTag": "BB.Research.TechCrafting"
+  }
+]

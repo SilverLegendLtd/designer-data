@@ -1,0 +1,35 @@
+{
+  "table": "Buildings",
+  "conventions": {
+    "ElectricityRequirements": "negative = supplies electricity (owner, C5)",
+    "Tag": "BB.Building.* or BB.Station.*"
+  },
+  "columns": {
+    "Tag": "tag:Building",
+    "BuildingName": "string",
+    "Type": "string",
+    "Description": "string?",
+    "BaseBuffs": "string?",
+    "BaseBuffsTags": "tag_list:Buff",
+    "PassiveBuffs": "string?",
+    "PassiveBuffsTags": "tag_list:Passive",
+    "AreaRequirements": "string?",
+    "AreaRequirementsTag": "tag:Area?",
+    "ItemsNeededToBuild": "string?",
+    "ItemsNeededToBuildTags": "tag_map:Item",
+    "UpgradesTo": "string?",
+    "UpgradesToTags": "tag_list:Building",
+    "ResearchRequirement": "string?",
+    "ResearchRequirementTags": "tag_list:Research",
+    "ResourcesNeededToBuild": "string?",
+    "ResourcesNeededToBuildTags": "tag_map:Resource",
+    "ElectricityRequirements": "int",
+    "MetalResource": "int",
+    "WiresResource": "int",
+    "PlasticResource": "int",
+    "FuelResource": "int",
+    "Capacity": "int?",
+    "Domain": "string?",
+    "DomainTag": "tag:Stat?"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "table": "LeisureActivities",
+  "conventions": {
+    "Tag": "BB.Leisure.<Building>.<Activity>; BuildingTag is null for the universal Wandering (BuildingName \"Base\")"
+  },
+  "columns": {
+    "Tag": "tag:Leisure",
+    "BuildingName": "string",
+    "Activity": "string",
+    "Temperament": "string?",
+    "CoreNeed": "string?",
+    "Description": "string?",
+    "Participation": "string?",
+    "BuildingTag": "tag:Building?",
+    "Movement": "string",
+    "StepTicks": "int",
+    "Reach": "int"
+  }
+}

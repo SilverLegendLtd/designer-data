@@ -1,0 +1,631 @@
+[
+  {
+    "BuildingName": "Expert Medical Station",
+    "Type": "Upgrade",
+    "Description": "Supports advanced surgical tools and medical scanners that run on complex wiring",
+    "BaseBuffs": "Well-Being",
+    "PassiveBuffs": "Mental Resilience Passive Bonus",
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Medical Station Infected Treatment Upgrade, Medical Station Wound Treatment Upgrade",
+    "ResearchRequirement": "Expert Medical Station",
+    "ResourcesNeededToBuild": "Metal 55, Wires 40, Plastic 45, Fuel 20",
+    "ElectricityRequirements": 1,
+    "MetalResource": 0,
+    "WiresResource": 0,
+    "PlasticResource": 0,
+    "FuelResource": 0,
+    "Tag": "BB.Upgrade.ExpertMedicalStation",
+    "BaseBuffsTags": [
+      "BB.Buff.WellBeing"
+    ],
+    "PassiveBuffsTags": [
+      "BB.Passive.MentalResiliencePassiveBonus"
+    ],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 55,
+      "Inventory.Resource.Wires": 40,
+      "Inventory.Resource.Plastic": 45,
+      "Inventory.Resource.Fuel": 20
+    },
+    "UpgradesToTags": [
+      "BB.Upgrade.MedicalStationInfectedTreatmentUpgrade",
+      "BB.Upgrade.MedicalStationWoundTreatmentUpgrade"
+    ],
+    "ResearchRequirementTags": [
+      "BB.Research.ExpertMedicalStation"
+    ]
+  },
+  {
+    "BuildingName": "Medical Station Infected Treatment Upgrade",
+    "Type": "Upgrade",
+    "Description": "Quarantine wing using heavy-duty plastic containment sheets and electrical bioscanners",
+    "BaseBuffs": "Well-Being",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Infected Treatment",
+    "ResourcesNeededToBuild": "Metal 30, Wires 25, Plastic 35, Fuel 15",
+    "ElectricityRequirements": 1,
+    "MetalResource": 30,
+    "WiresResource": 25,
+    "PlasticResource": 35,
+    "FuelResource": 15,
+    "Tag": "BB.Upgrade.MedicalStationInfectedTreatmentUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.WellBeing"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 30,
+      "Inventory.Resource.Wires": 25,
+      "Inventory.Resource.Plastic": 35,
+      "Inventory.Resource.Fuel": 15
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.InfectedTreatment"
+    ]
+  },
+  {
+    "BuildingName": "Medical Station Wound Treatment Upgrade",
+    "Type": "Upgrade",
+    "Description": "Specialized burn beds and chemical washing stations to treat physical trauma and melting gear",
+    "BaseBuffs": "Well-Being",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Wound Treatment",
+    "ResourcesNeededToBuild": "Metal 35, Wires 20, Plastic 25, Fuel 15",
+    "ElectricityRequirements": 1,
+    "MetalResource": 35,
+    "WiresResource": 20,
+    "PlasticResource": 25,
+    "FuelResource": 15,
+    "Tag": "BB.Upgrade.MedicalStationWoundTreatmentUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.WellBeing"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 35,
+      "Inventory.Resource.Wires": 20,
+      "Inventory.Resource.Plastic": 25,
+      "Inventory.Resource.Fuel": 15
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.WoundTreatment"
+    ]
+  },
+  {
+    "BuildingName": "Expert Guard Station",
+    "Type": "Upgrade",
+    "Description": "Features reinforced metal gates and entrance shacks housing advanced scanners. Unlocks weapon research and ammunition crafting",
+    "BaseBuffs": "Safety",
+    "PassiveBuffs": null,
+    "AreaRequirements": "Work Station",
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Guard Station Ammunition Upgrade, Guard Station Guarding Upgrade",
+    "ResearchRequirement": "Expert Guard Station",
+    "ResourcesNeededToBuild": "Metal 75, Wires 20, Plastic 15, Fuel 20",
+    "ElectricityRequirements": 1,
+    "MetalResource": 75,
+    "WiresResource": 20,
+    "PlasticResource": 15,
+    "FuelResource": 20,
+    "Tag": "BB.Upgrade.ExpertGuardStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Safety"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": "BB.Area.WorkStation",
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 75,
+      "Inventory.Resource.Wires": 20,
+      "Inventory.Resource.Plastic": 15,
+      "Inventory.Resource.Fuel": 20
+    },
+    "UpgradesToTags": [
+      "BB.Upgrade.GuardStationAmmunitionUpgrade",
+      "BB.Upgrade.GuardStationGuardingUpgrade"
+    ],
+    "ResearchRequirementTags": [
+      "BB.Research.ExpertGuardStation"
+    ]
+  },
+  {
+    "BuildingName": "Guard Station Ammunition Upgrade",
+    "Type": "Upgrade",
+    "Description": "Secure armory with reloading machines requiring metal alloys and fuel-intensive forging",
+    "BaseBuffs": "Safety",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Ammunition",
+    "ResourcesNeededToBuild": "Metal 40, Wires 10, Plastic 10, Fuel 15",
+    "ElectricityRequirements": 1,
+    "MetalResource": 40,
+    "WiresResource": 10,
+    "PlasticResource": 10,
+    "FuelResource": 15,
+    "Tag": "BB.Upgrade.GuardStationAmmunitionUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Safety"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 40,
+      "Inventory.Resource.Wires": 10,
+      "Inventory.Resource.Plastic": 10,
+      "Inventory.Resource.Fuel": 15
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.Ammunition"
+    ]
+  },
+  {
+    "BuildingName": "Guard Station Guarding Upgrade",
+    "Type": "Upgrade",
+    "Description": "High-elevation metal watchtowers to expand defensive visibility and long-range firing lines",
+    "BaseBuffs": "Safety",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Guarding",
+    "ResourcesNeededToBuild": "Metal 50, Wires 15, Plastic 12, Fuel 10",
+    "ElectricityRequirements": 1,
+    "MetalResource": 50,
+    "WiresResource": 15,
+    "PlasticResource": 12,
+    "FuelResource": 10,
+    "Tag": "BB.Upgrade.GuardStationGuardingUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Safety"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 50,
+      "Inventory.Resource.Wires": 15,
+      "Inventory.Resource.Plastic": 12,
+      "Inventory.Resource.Fuel": 10
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.Guarding"
+    ]
+  },
+  {
+    "BuildingName": "Expert Food Station",
+    "Type": "Upgrade",
+    "Description": "Manages expansive rooftop cornfields requiring high plastic walls to protect the soil",
+    "BaseBuffs": "Survival",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Food Station Combat Food Upgrade, Food Station Expedition Food Upgrade",
+    "ResearchRequirement": "Expert Food Station",
+    "ResourcesNeededToBuild": "Metal 45, Wires 15, Plastic 70, Fuel 20",
+    "ElectricityRequirements": 1,
+    "MetalResource": 45,
+    "WiresResource": 15,
+    "PlasticResource": 70,
+    "FuelResource": 20,
+    "Tag": "BB.Upgrade.ExpertFoodStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Survival"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 45,
+      "Inventory.Resource.Wires": 15,
+      "Inventory.Resource.Plastic": 70,
+      "Inventory.Resource.Fuel": 20
+    },
+    "UpgradesToTags": [
+      "BB.Upgrade.FoodStationCombatFoodUpgrade",
+      "BB.Upgrade.FoodStationExpeditionFoodUpgrade"
+    ],
+    "ResearchRequirementTags": [
+      "BB.Research.ExpertFoodStation"
+    ]
+  },
+  {
+    "BuildingName": "Food Station Combat Food Upgrade",
+    "Type": "Upgrade",
+    "Description": "Nutrient cooking facility producing compact field rations sealed in synthetic packaging.",
+    "BaseBuffs": "Survival",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Combat Food",
+    "ResourcesNeededToBuild": "Metal 20, Wires 10, Plastic 30, Fuel 15",
+    "ElectricityRequirements": 1,
+    "MetalResource": 20,
+    "WiresResource": 10,
+    "PlasticResource": 30,
+    "FuelResource": 15,
+    "Tag": "BB.Upgrade.FoodStationCombatFoodUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Survival"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 20,
+      "Inventory.Resource.Wires": 10,
+      "Inventory.Resource.Plastic": 30,
+      "Inventory.Resource.Fuel": 15
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.CombatFood"
+    ]
+  },
+  {
+    "BuildingName": "Food Station Expedition Food Upgrade",
+    "Type": "Upgrade",
+    "Description": "Preservation workshop utilizing high heat (fuel) to can and dry provisions for long journeys",
+    "BaseBuffs": "Survival",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Expedition Food",
+    "ResourcesNeededToBuild": "Metal 25, Wires 12, Plastic 35, Fuel 25",
+    "ElectricityRequirements": 1,
+    "MetalResource": 25,
+    "WiresResource": 12,
+    "PlasticResource": 35,
+    "FuelResource": 25,
+    "Tag": "BB.Upgrade.FoodStationExpeditionFoodUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Survival"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 25,
+      "Inventory.Resource.Wires": 12,
+      "Inventory.Resource.Plastic": 35,
+      "Inventory.Resource.Fuel": 25
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.ExpeditionFood"
+    ]
+  },
+  {
+    "BuildingName": "Expert Mechanical Station",
+    "Type": "Upgrade",
+    "Description": "An industrial forge optimized for recycling salvaged alloys using heavy machinery",
+    "BaseBuffs": "Tech",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Mechanical Station Tech Crafting Upgrade, Mechanical Station Nature Crafting Upgrade",
+    "ResearchRequirement": "Expert Mechanical Station",
+    "ResourcesNeededToBuild": "Metal 80, Wires 25, Plastic 20, Fuel 40",
+    "ElectricityRequirements": 1,
+    "MetalResource": 80,
+    "WiresResource": 25,
+    "PlasticResource": 20,
+    "FuelResource": 40,
+    "Tag": "BB.Upgrade.ExpertMechanicalStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Tech"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 80,
+      "Inventory.Resource.Wires": 25,
+      "Inventory.Resource.Plastic": 20,
+      "Inventory.Resource.Fuel": 40
+    },
+    "UpgradesToTags": [
+      "BB.Upgrade.MechanicalStationTechCraftingUpgrade",
+      "BB.Upgrade.MechanicalStationNatureCraftingUpgrade"
+    ],
+    "ResearchRequirementTags": [
+      "BB.Research.ExpertMechanicalStation"
+    ]
+  },
+  {
+    "BuildingName": "Mechanical Station Tech Crafting Upgrade",
+    "Type": "Upgrade",
+    "Description": "Specialized assembly bench utilizing high-grade wires to craft wearable field electronics",
+    "BaseBuffs": "Tech",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Tech Crafting",
+    "ResourcesNeededToBuild": "Metal 40, Wires 30, Plastic 30, Fuel 20",
+    "ElectricityRequirements": 1,
+    "MetalResource": 40,
+    "WiresResource": 30,
+    "PlasticResource": 30,
+    "FuelResource": 20,
+    "Tag": "BB.Upgrade.MechanicalStationTechCraftingUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Tech"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 40,
+      "Inventory.Resource.Wires": 30,
+      "Inventory.Resource.Plastic": 30,
+      "Inventory.Resource.Fuel": 20
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.TechCrafting"
+    ]
+  },
+  {
+    "BuildingName": "Mechanical Station Nature Crafting Upgrade",
+    "Type": "Upgrade",
+    "Description": "Adapts organic materials, minimizing metal use to construct quiet tactical gear",
+    "BaseBuffs": "Tech",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Nature Crafting",
+    "ResourcesNeededToBuild": "Metal 25, Wires 10, Plastic 15, Fuel 10",
+    "ElectricityRequirements": 1,
+    "MetalResource": 0,
+    "WiresResource": 0,
+    "PlasticResource": 0,
+    "FuelResource": 0,
+    "Tag": "BB.Upgrade.MechanicalStationNatureCraftingUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Tech"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 25,
+      "Inventory.Resource.Wires": 10,
+      "Inventory.Resource.Plastic": 15,
+      "Inventory.Resource.Fuel": 10
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.NatureCrafting"
+    ]
+  },
+  {
+    "BuildingName": "Expert Research Station",
+    "Type": "Upgrade",
+    "Description": "Outfitted with advanced electronic analysis rigs, laptops, and diagnostics",
+    "BaseBuffs": "Science",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": "Research Station Infected Upgrade, Research Station Alien Upgrade",
+    "ResearchRequirement": "Expert Research Station",
+    "ResourcesNeededToBuild": "Metal 50, Wires 65, Plastic 45, Fuel 30",
+    "ElectricityRequirements": 1,
+    "MetalResource": 50,
+    "WiresResource": 65,
+    "PlasticResource": 45,
+    "FuelResource": 30,
+    "Tag": "BB.Upgrade.ExpertResearchStation",
+    "BaseBuffsTags": [
+      "BB.Buff.Science"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 50,
+      "Inventory.Resource.Wires": 65,
+      "Inventory.Resource.Plastic": 45,
+      "Inventory.Resource.Fuel": 30
+    },
+    "UpgradesToTags": [
+      "BB.Upgrade.ResearchStationInfectedUpgrade",
+      "BB.Upgrade.ResearchStationAlienUpgrade"
+    ],
+    "ResearchRequirementTags": [
+      "BB.Research.ExpertResearchStation"
+    ]
+  },
+  {
+    "BuildingName": "Research Station Infected Upgrade",
+    "Type": "Upgrade",
+    "Description": "Dedicated lab focused on constructing EMP emitters to shut down nanobot circuitry",
+    "BaseBuffs": "Science",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Infected Research",
+    "ResourcesNeededToBuild": "Metal 35, Wires 40, Plastic 34, Fuel 25",
+    "ElectricityRequirements": 1,
+    "MetalResource": 35,
+    "WiresResource": 40,
+    "PlasticResource": 34,
+    "FuelResource": 25,
+    "Tag": "BB.Upgrade.ResearchStationInfectedUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Science"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 35,
+      "Inventory.Resource.Wires": 40,
+      "Inventory.Resource.Plastic": 34,
+      "Inventory.Resource.Fuel": 25
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.InfectedResearch"
+    ]
+  },
+  {
+    "BuildingName": "Research Station Alien Upgrade",
+    "Type": "Upgrade",
+    "Description": "Specialized bench designed to safely dismantle and analyze alien technology",
+    "BaseBuffs": "Science",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Alien Research",
+    "ResourcesNeededToBuild": "Metal 40, Wires 55, Plastic 40, Fuel 20",
+    "ElectricityRequirements": 1,
+    "MetalResource": 40,
+    "WiresResource": 55,
+    "PlasticResource": 40,
+    "FuelResource": 20,
+    "Tag": "BB.Upgrade.ResearchStationAlienUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Science"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 40,
+      "Inventory.Resource.Wires": 55,
+      "Inventory.Resource.Plastic": 40,
+      "Inventory.Resource.Fuel": 20
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.AlienResearch"
+    ]
+  },
+  {
+    "BuildingName": "Communication Station Radio Upgrade",
+    "Type": "Upgrade",
+    "Description": "High-frequency array consuming significant copper wiring to communicate across biomes",
+    "BaseBuffs": "Unity",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Radio Station",
+    "ResourcesNeededToBuild": "Metal 35, Wires 50, Plastic 20, Fuel 15",
+    "ElectricityRequirements": 1,
+    "MetalResource": 35,
+    "WiresResource": 50,
+    "PlasticResource": 20,
+    "FuelResource": 15,
+    "Tag": "BB.Upgrade.CommunicationStationRadioUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Unity"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 35,
+      "Inventory.Resource.Wires": 50,
+      "Inventory.Resource.Plastic": 20,
+      "Inventory.Resource.Fuel": 15
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.RadioStation"
+    ]
+  },
+  {
+    "BuildingName": "Communication Station Trading Upgrade",
+    "Type": "Upgrade",
+    "Description": "Logistical terminal built with secure metal lockers and scales to barter goods",
+    "BaseBuffs": "Unity",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Trading",
+    "ResourcesNeededToBuild": "Metal 45, Wires 20, Plastic 30, Fuel 20",
+    "ElectricityRequirements": 1,
+    "MetalResource": 45,
+    "WiresResource": 20,
+    "PlasticResource": 30,
+    "FuelResource": 20,
+    "Tag": "BB.Upgrade.CommunicationStationTradingUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Unity"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 45,
+      "Inventory.Resource.Wires": 20,
+      "Inventory.Resource.Plastic": 30,
+      "Inventory.Resource.Fuel": 20
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.Trading"
+    ]
+  },
+  {
+    "BuildingName": "Communication Station Scouting Upgrade",
+    "Type": "Upgrade",
+    "Description": "Watchtower outfitted with wire-linked sensors and optics to track distant threat outlines",
+    "BaseBuffs": "Unity",
+    "PassiveBuffs": null,
+    "AreaRequirements": null,
+    "ItemsNeededToBuild": null,
+    "UpgradesTo": null,
+    "ResearchRequirement": "Scouting",
+    "ResourcesNeededToBuild": "Metal 30, Wires 30, Plastic 25, Fuel 15",
+    "ElectricityRequirements": 1,
+    "MetalResource": 30,
+    "WiresResource": 30,
+    "PlasticResource": 25,
+    "FuelResource": 15,
+    "Tag": "BB.Upgrade.CommunicationStationScoutingUpgrade",
+    "BaseBuffsTags": [
+      "BB.Buff.Unity"
+    ],
+    "PassiveBuffsTags": [],
+    "AreaRequirementsTag": null,
+    "ItemsNeededToBuildTags": {},
+    "ResourcesNeededToBuildTags": {
+      "Inventory.Resource.Metal": 30,
+      "Inventory.Resource.Wires": 30,
+      "Inventory.Resource.Plastic": 25,
+      "Inventory.Resource.Fuel": 15
+    },
+    "UpgradesToTags": [],
+    "ResearchRequirementTags": [
+      "BB.Research.Scouting"
+    ]
+  }
+]

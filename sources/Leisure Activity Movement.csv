@@ -1,0 +1,32 @@
+BuildingName,Activity,Pattern,StepTicks,Reach,Notes
+Bar,Drink,stay,8,,Stands at the Bar.
+Bar,Speech,loiter,4,1,Steps out from the Bar to the nearest wander point and back.
+Bar,Topical Discussion,shuffle,5,,Paces between the Bar and the nearest leisure point.
+Bar,Real Conversation,loiter,6,2,Strolls out slowly with a partner.
+Library,Join Others in Reading,stay,10,,Sits and reads.
+Library,Present Findings,shuffle,4,,Paces between the Library and the nearest leisure point.
+Library,Study,stay,12,,Sits and studies.
+Library,Search Archives,loiter,7,1,Looks things up and wanders out and back.
+Hobby Workshop,Communal Salvage Run,circuit,3,,Walks a lap of the base collecting scrap.
+Hobby Workshop,Freeform Tinkering,loiter,5,1,Fetches a part and comes back.
+Hobby Workshop,Identify Rare Find,shuffle,6,,Paces between the Workshop and the nearest leisure point.
+Hobby Workshop,Make Keepsake,stay,9,,Sits at the bench.
+Garden,Organize Event,visit,4,,Visits the built slots to gather people.
+Garden,Tend Garden,loiter,4,1,Tends the beds: out and back.
+Garden,Physical Training,circuit,2,,Jogs a lap of the base.
+Garden,Dabble with Remembered Plants,loiter,6,2,Wanders out and back slowly.
+Sauna,Socialize,shuffle,6,,Paces between the Sauna and the nearest leisure point.
+Sauna,Intense Exercise,circuit,2,,Runs a lap of the base.
+Sauna,Meditation,stay,12,,Sits still.
+Sauna,Quiet Reflection,stay,10,,Sits still.
+Shooting Club,Learn Guarding & Self-Defense,shuffle,4,,Drills between the Club and the nearest leisure point.
+Shooting Club,Target Practice,loiter,3,1,Steps out to check the target and back.
+Shooting Club,Tactical Drills,circuit,3,,Runs drills around the base.
+Shooting Club,Fireside War-Story Swap,stay,8,,Sits around the fire.
+Base,Wandering,roam,4,,Walks from wander point to wander point.
+Base,Tidying Up,circuit,3,,Does a round of the base picking things up.
+Base,Check on Neighbors,visit,4,,Visits each built slot in turn.
+Base,Play Games,shuffle,3,,Paces between the leisure points.
+Base,Solve Puzzles,corner,10,,Goes to a quiet corner of the base and stays.
+Base,Write Journal,corner,12,,Goes to a quiet corner of the base and stays.
+Base,Rest,stay,12,,Sits down where they are.
