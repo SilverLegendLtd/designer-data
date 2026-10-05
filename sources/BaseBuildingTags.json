@@ -1313,5 +1313,35 @@
     "Tag": "BB.Leisure.Base.Rest",
     "Kind": "Leisure",
     "DevComment": "Base / Rest"
+  },
+  {
+    "Name": "Base Building",
+    "Tag": "BB.SettingsTab.BaseBuilding",
+    "Kind": "SettingsTab",
+    "DevComment": "Settings page tab: the base-building settings (D94)"
+  },
+  {
+    "Name": "Dialogue",
+    "Tag": "BB.SettingsTab.Dialogue",
+    "Kind": "SettingsTab",
+    "DevComment": "Settings page tab: dialogue settings, empty until the dialogue engine joins (D94)"
+  },
+  {
+    "Name": "Condition window (days)",
+    "Tag": "BB.Setting.ConditionWindowDays",
+    "Kind": "Setting",
+    "DevComment": "How many past days of Work count toward a base stat's condition (0038 S1, D94); default 3"
+  },
+  {
+    "Name": "Weighted condition",
+    "Tag": "BB.Setting.ConditionWeighted",
+    "Kind": "Setting",
+    "DevComment": "Whether recent days count more in the condition (3:2:1 over 3 days) (0038 S1, D94); default on"
+  },
+  {
+    "Name": "Crew upkeep",
+    "Tag": "BB.Setting.CrewUpkeep",
+    "Kind": "Setting",
+    "DevComment": "Points each character takes from every base stat's bank at dawn (0038 S2, D94); default 1"
   }
 ]

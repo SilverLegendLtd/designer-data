@@ -318,3 +318,18 @@ GameplayTagList=(Tag="BB.Leisure.Base.SolvePuzzles",DevComment="Base / Solve Puz
 GameplayTagList=(Tag="BB.Leisure.Base.WriteJournal",DevComment="Base / Write Journal")
 GameplayTagList=(Tag="BB.Leisure.Base.Rest",DevComment="Base / Rest")
 ```
+
+## Setting
+
+```ini
+GameplayTagList=(Tag="BB.Setting.ConditionWindowDays",DevComment="Condition window (days)")
+GameplayTagList=(Tag="BB.Setting.ConditionWeighted",DevComment="Weighted condition")
+GameplayTagList=(Tag="BB.Setting.CrewUpkeep",DevComment="Crew upkeep")
+```
+
+## SettingsTab
+
+```ini
+GameplayTagList=(Tag="BB.SettingsTab.BaseBuilding",DevComment="Base Building")
+GameplayTagList=(Tag="BB.SettingsTab.Dialogue",DevComment="Dialogue")
+```

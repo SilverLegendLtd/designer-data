@@ -1820,5 +1820,40 @@
     "Name": "Base / Rest",
     "Aliases": [],
     "DevComment": "Base / Rest"
+  },
+  {
+    "Kind": "SettingsTab",
+    "Tag": "BB.SettingsTab.BaseBuilding",
+    "Name": "Base Building",
+    "Aliases": [],
+    "DevComment": "Settings page tab: the base-building settings (D94)"
+  },
+  {
+    "Kind": "SettingsTab",
+    "Tag": "BB.SettingsTab.Dialogue",
+    "Name": "Dialogue",
+    "Aliases": [],
+    "DevComment": "Settings page tab: dialogue settings, empty until the dialogue engine joins (D94)"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.ConditionWindowDays",
+    "Name": "Condition window (days)",
+    "Aliases": [],
+    "DevComment": "How many past days of Work count toward a base stat's condition (0038 S1, D94); default 3"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.ConditionWeighted",
+    "Name": "Weighted condition",
+    "Aliases": [],
+    "DevComment": "Whether recent days count more in the condition (3:2:1 over 3 days) (0038 S1, D94); default on"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.CrewUpkeep",
+    "Name": "Crew upkeep",
+    "Aliases": [],
+    "DevComment": "Points each character takes from every base stat's bank at dawn (0038 S2, D94); default 1"
   }
 ]
