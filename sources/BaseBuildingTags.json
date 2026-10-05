@@ -1342,6 +1342,54 @@
     "Name": "Crew upkeep",
     "Tag": "BB.Setting.CrewUpkeep",
     "Kind": "Setting",
-    "DevComment": "Points each character takes from every base stat's bank at dawn (0038 S2, D94); default 1"
+    "DevComment": "Points each character takes from the Survival and Well-Being banks at dawn, until eating and check-ups exist (D94, D95); default 1"
+  },
+  {
+    "Name": "Machine wear (per building)",
+    "Tag": "BB.Setting.DrainPerBuilding",
+    "Kind": "Setting",
+    "DevComment": "Points each built building costs a day: Tech (machine wear) at dawn and Safety (perimeter watch) at nightfall (0038, D95); default 1"
+  },
+  {
+    "Name": "Research nodes per Science point",
+    "Tag": "BB.Setting.ResearchNodesPerPoint",
+    "Kind": "Setting",
+    "DevComment": "Knowledge upkeep: 1 Science a day per this many unlocked research nodes; 0 turns it off (0038, D95); default 5"
+  },
+  {
+    "Name": "Unity decay (per character)",
+    "Tag": "BB.Setting.UnityDecayPerCharacter",
+    "Kind": "Setting",
+    "DevComment": "Placeholder for arguments until discussions exist: Unity each character costs a day (0038, D95); default 2"
+  },
+  {
+    "Name": "Crew upkeep",
+    "Tag": "BB.Drain.CrewUpkeep",
+    "Kind": "Drain",
+    "DevComment": "Interim: each character takes Survival and Well-Being at dawn until eating and check-ups exist (D94, D95)"
+  },
+  {
+    "Name": "Machine wear",
+    "Tag": "BB.Drain.MachineWear",
+    "Kind": "Drain",
+    "DevComment": "Tech's automatic drain: per built building, at dawn (0038, D95)"
+  },
+  {
+    "Name": "Perimeter watch",
+    "Tag": "BB.Drain.PerimeterWatch",
+    "Kind": "Drain",
+    "DevComment": "Safety's automatic drain: per built building, at nightfall (0038, D95)"
+  },
+  {
+    "Name": "Knowledge upkeep",
+    "Tag": "BB.Drain.KnowledgeUpkeep",
+    "Kind": "Drain",
+    "DevComment": "Science's automatic drain: per unlocked research node, at dawn (0038, D95)"
+  },
+  {
+    "Name": "Unity decay",
+    "Tag": "BB.Drain.UnityDecay",
+    "Kind": "Drain",
+    "DevComment": "Unity's placeholder drain until discussions exist: per character, at dawn (0038, D95)"
   }
 ]

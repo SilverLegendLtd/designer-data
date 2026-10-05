@@ -325,6 +325,9 @@ GameplayTagList=(Tag="BB.Leisure.Base.Rest",DevComment="Base / Rest")
 GameplayTagList=(Tag="BB.Setting.ConditionWindowDays",DevComment="Condition window (days)")
 GameplayTagList=(Tag="BB.Setting.ConditionWeighted",DevComment="Weighted condition")
 GameplayTagList=(Tag="BB.Setting.CrewUpkeep",DevComment="Crew upkeep")
+GameplayTagList=(Tag="BB.Setting.DrainPerBuilding",DevComment="Machine wear (per building)")
+GameplayTagList=(Tag="BB.Setting.ResearchNodesPerPoint",DevComment="Research nodes per Science point")
+GameplayTagList=(Tag="BB.Setting.UnityDecayPerCharacter",DevComment="Unity decay (per character)")
 ```
 
 ## SettingsTab
@@ -332,4 +335,14 @@ GameplayTagList=(Tag="BB.Setting.CrewUpkeep",DevComment="Crew upkeep")
 ```ini
 GameplayTagList=(Tag="BB.SettingsTab.BaseBuilding",DevComment="Base Building")
 GameplayTagList=(Tag="BB.SettingsTab.Dialogue",DevComment="Dialogue")
+```
+
+## Drain
+
+```ini
+GameplayTagList=(Tag="BB.Drain.CrewUpkeep",DevComment="Crew upkeep")
+GameplayTagList=(Tag="BB.Drain.MachineWear",DevComment="Machine wear")
+GameplayTagList=(Tag="BB.Drain.PerimeterWatch",DevComment="Perimeter watch")
+GameplayTagList=(Tag="BB.Drain.KnowledgeUpkeep",DevComment="Knowledge upkeep")
+GameplayTagList=(Tag="BB.Drain.UnityDecay",DevComment="Unity decay")
 ```

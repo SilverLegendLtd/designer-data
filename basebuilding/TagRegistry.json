@@ -1854,6 +1854,62 @@
     "Tag": "BB.Setting.CrewUpkeep",
     "Name": "Crew upkeep",
     "Aliases": [],
-    "DevComment": "Points each character takes from every base stat's bank at dawn (0038 S2, D94); default 1"
+    "DevComment": "Points each character takes from the Survival and Well-Being banks at dawn, until eating and check-ups exist (D94, D95); default 1"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.DrainPerBuilding",
+    "Name": "Machine wear (per building)",
+    "Aliases": [],
+    "DevComment": "Points each built building costs a day: Tech (machine wear) at dawn and Safety (perimeter watch) at nightfall (0038, D95); default 1"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.ResearchNodesPerPoint",
+    "Name": "Research nodes per Science point",
+    "Aliases": [],
+    "DevComment": "Knowledge upkeep: 1 Science a day per this many unlocked research nodes; 0 turns it off (0038, D95); default 5"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.UnityDecayPerCharacter",
+    "Name": "Unity decay (per character)",
+    "Aliases": [],
+    "DevComment": "Placeholder for arguments until discussions exist: Unity each character costs a day (0038, D95); default 2"
+  },
+  {
+    "Kind": "Drain",
+    "Tag": "BB.Drain.CrewUpkeep",
+    "Name": "Crew upkeep",
+    "Aliases": [],
+    "DevComment": "Interim: each character takes Survival and Well-Being at dawn until eating and check-ups exist (D94, D95)"
+  },
+  {
+    "Kind": "Drain",
+    "Tag": "BB.Drain.MachineWear",
+    "Name": "Machine wear",
+    "Aliases": [],
+    "DevComment": "Tech's automatic drain: per built building, at dawn (0038, D95)"
+  },
+  {
+    "Kind": "Drain",
+    "Tag": "BB.Drain.PerimeterWatch",
+    "Name": "Perimeter watch",
+    "Aliases": [],
+    "DevComment": "Safety's automatic drain: per built building, at nightfall (0038, D95)"
+  },
+  {
+    "Kind": "Drain",
+    "Tag": "BB.Drain.KnowledgeUpkeep",
+    "Name": "Knowledge upkeep",
+    "Aliases": [],
+    "DevComment": "Science's automatic drain: per unlocked research node, at dawn (0038, D95)"
+  },
+  {
+    "Kind": "Drain",
+    "Tag": "BB.Drain.UnityDecay",
+    "Name": "Unity decay",
+    "Aliases": [],
+    "DevComment": "Unity's placeholder drain until discussions exist: per character, at dawn (0038, D95)"
   }
 ]
