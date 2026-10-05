@@ -1,6 +1,6 @@
 [
   {
-    "Tag": "LifePath.Adult.CaravanGuard",
+    " ": "LifePath.Adult.CaravanGuard",
     "DevComment": "Protected caravans moving between settlements.",
     "Name": "Caravan Guard",
     "UnlockedBackgrounds": [
@@ -20,7 +20,7 @@
     "Description": "Protected caravans moving between settlements."
   },
   {
-    "Tag": "LifePath.Adult.SettlementDoc",
+    " ": "LifePath.Adult.SettlementDoc",
     "DevComment": "Provided medical care in a settlement.",
     "Name": "Settlement Doc",
     "UnlockedBackgrounds": [
@@ -39,7 +39,7 @@
     "Description": "Provided medical care in a settlement."
   },
   {
-    "Tag": "LifePath.Adult.ScavengeMaster",
+    " ": "LifePath.Adult.ScavengeMaster",
     "DevComment": "Became an expert at scavenging in the ruins.",
     "Name": "Scavenge Master",
     "UnlockedBackgrounds": [
@@ -60,7 +60,7 @@
     "Description": "Became an expert at scavenging in the ruins."
   },
   {
-    "Tag": "LifePath.Adult.HomesteadChief",
+    " ": "LifePath.Adult.HomesteadChief",
     "DevComment": "Led a small homestead and ensured its survival.",
     "Name": "Homestead Chief",
     "UnlockedBackgrounds": [
@@ -80,7 +80,7 @@
     "Description": "Led a small homestead and ensured its survival."
   },
   {
-    "Tag": "LifePath.Adult.LeadResearcher",
+    " ": "LifePath.Adult.LeadResearcher",
     "DevComment": "Led research projects into the world's state.",
     "Name": "Lead Researcher",
     "UnlockedBackgrounds": [
