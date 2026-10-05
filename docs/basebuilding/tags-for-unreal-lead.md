@@ -95,6 +95,7 @@ GameplayTagList=(Tag="BB.Job.ExpertMechanicalStation.MaintainMachinery",DevComme
 GameplayTagList=(Tag="BB.Job.ExpertMedicalStation.UpkeepHealthProtocols",DevComment="Expert Medical Station / Upkeep Health Protocols")
 GameplayTagList=(Tag="BB.Job.FoodStation.GrowFood",DevComment="Food Station / Grow Food")
 GameplayTagList=(Tag="BB.Job.MechanicalStation.MaintainMachinery",DevComment="Mechanical Station / Maintain Machinery")
+GameplayTagList=(Tag="BB.Job.MechanicalStation.ExpandBase",DevComment="Mechanical Station / Expand Base")
 GameplayTagList=(Tag="BB.Job.MedicalStation.UpkeepHealthProtocols",DevComment="Medical Station / Upkeep Health Protocols")
 ```
 
