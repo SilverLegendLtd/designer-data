@@ -2044,5 +2044,40 @@
     "Name": "Alien Fruit",
     "Aliases": [],
     "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Hungry",
+    "Name": "Hungry",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Starving",
+    "Name": "Starving",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.AteRawFood",
+    "Name": "Ate Raw Food",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Sick",
+    "Name": "Sick",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Unmotivated",
+    "Name": "Unmotivated",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
   }
 ]

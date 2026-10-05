@@ -1505,5 +1505,35 @@
     "Tag": "Inventory.Item.AlienFruit",
     "Kind": "Item",
     "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Hungry",
+    "Tag": "GameplayEffect.BaseBuilding.Hungry",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Name": "Starving",
+    "Tag": "GameplayEffect.BaseBuilding.Starving",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Name": "Ate Raw Food",
+    "Tag": "GameplayEffect.BaseBuilding.AteRawFood",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Name": "Sick",
+    "Tag": "GameplayEffect.BaseBuilding.Sick",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Name": "Unmotivated",
+    "Tag": "GameplayEffect.BaseBuilding.Unmotivated",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
   }
 ]

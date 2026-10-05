@@ -375,3 +375,13 @@ GameplayTagList=(Tag="BB.Band.Weak",DevComment="Weak")
 ```ini
 GameplayTagList=(Tag="Inventory.Category.Food",DevComment="Food")
 ```
+
+## Effect
+
+```ini
+GameplayTagList=(Tag="GameplayEffect.BaseBuilding.Hungry",DevComment="Hungry")
+GameplayTagList=(Tag="GameplayEffect.BaseBuilding.Starving",DevComment="Starving")
+GameplayTagList=(Tag="GameplayEffect.BaseBuilding.AteRawFood",DevComment="Ate Raw Food")
+GameplayTagList=(Tag="GameplayEffect.BaseBuilding.Sick",DevComment="Sick")
+GameplayTagList=(Tag="GameplayEffect.BaseBuilding.Unmotivated",DevComment="Unmotivated")
+```

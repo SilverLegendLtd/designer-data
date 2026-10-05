@@ -1,0 +1,33 @@
+{
+  "table": "BaseBuildingEffects",
+  "conventions": {
+    "Tag": "GameplayEffect.BaseBuilding.<Name> (CopperLegend's effect format, category BaseBuilding)",
+    "DurationHours": "game hours, linear decay (D44); null = until removed (e.g. Starving ends with a meal)",
+    "WorkTierModifier": "changes a work check's outcome tier (-1 = one tier worse)"
+  },
+  "columns": {
+    "Tag": "tag:Effect",
+    "Name": "string",
+    "EffectType": "string",
+    "CheckSkill": "string?",
+    "CheckSkillTag": "tag:Stat?",
+    "SecondaryCheckSkill": "string?",
+    "SecondaryCheckSkillTag": "tag:Stat?",
+    "CheckAttribute": "string?",
+    "CheckAttributeTag": "tag:Stat?",
+    "DurationCheckSkill": "string?",
+    "DurationCheckSkillTag": "tag:Stat?",
+    "DurationCheckSecondarySkill": "string?",
+    "DurationCheckSecondarySkillTag": "tag:Stat?",
+    "DurationCheckAttribute": "string?",
+    "DurationCheckAttributeTag": "tag:Stat?",
+    "Effects": "stat_deltas",
+    "Arousal": "number?",
+    "Valence": "number?",
+    "WorkTierModifier": "int?",
+    "CannotWork": "bool",
+    "DurationHours": "int?",
+    "AppliedBy": "string?",
+    "Notes": "string?"
+  }
+}
