@@ -1535,5 +1535,11 @@
     "Tag": "GameplayEffect.BaseBuilding.Unmotivated",
     "Kind": "Effect",
     "DevComment": "Base Building gameplay effect (Gameplay Effects for Dialogue System / Base Building Effects; CopperGame 0041)"
+  },
+  {
+    "Name": "Morning phase",
+    "Tag": "BB.Setting.MorningPhase",
+    "Kind": "Setting",
+    "DevComment": "Whether the game stops at dawn on the Morning screen (0037 E9, D98); default on"
   }
 ]

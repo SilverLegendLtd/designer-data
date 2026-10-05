@@ -342,6 +342,7 @@ GameplayTagList=(Tag="BB.Setting.StartingSurvivalBank",DevComment="Starting Surv
 GameplayTagList=(Tag="BB.Setting.BandLowBelow",DevComment="Low below")
 GameplayTagList=(Tag="BB.Setting.BandHighFrom",DevComment="High from")
 GameplayTagList=(Tag="BB.Setting.BandNormalFrom",DevComment="Normal from")
+GameplayTagList=(Tag="BB.Setting.MorningPhase",DevComment="Morning phase")
 ```
 
 ## SettingsTab
