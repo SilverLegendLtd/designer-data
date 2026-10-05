@@ -297,7 +297,7 @@
     },
     {
         "Name": "Diplomacy and Trade",
-        "Tag": "MentalSkill.DiplomacyAndTrade",
+        "Tag": "MentalSkill.DiplomacyTrade",
         "SetByCallerTag": "SetByCaller.MentalSkill.DiplomacyTrade",
         "DevComment": "Diplomacy and Trade",
         "MinValue": 0,

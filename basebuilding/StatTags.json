@@ -297,9 +297,9 @@
   },
   {
     "Name": "Diplomacy and Trade",
-    "Tag": "MentalSkill.DiplomacyAndTrade",
+    "Tag": "MentalSkill.DiplomacyTrade",
     "Category": "MentalSkill",
-    "Key": "DiplomacyAndTrade",
+    "Key": "DiplomacyTrade",
     "MinValue": 0,
     "MaxValue": 100
   },

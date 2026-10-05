@@ -260,7 +260,7 @@
   },
   {
     "Kind": "Stat",
-    "Tag": "MentalSkill.DiplomacyAndTrade",
+    "Tag": "MentalSkill.DiplomacyTrade",
     "Name": "Diplomacy and Trade",
     "Aliases": [],
     "DevComment": "Diplomacy and Trade"
