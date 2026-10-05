@@ -1345,12 +1345,6 @@
     "DevComment": "Points each character takes from the Survival and Well-Being banks at dawn, until eating and check-ups exist (D94, D95); default 1"
   },
   {
-    "Name": "Machine wear (per building)",
-    "Tag": "BB.Setting.DrainPerBuilding",
-    "Kind": "Setting",
-    "DevComment": "Points each built building costs a day: Tech (machine wear) at dawn and Safety (perimeter watch) at nightfall (0038, D95); default 1"
-  },
-  {
     "Name": "Research nodes per Science point",
     "Tag": "BB.Setting.ResearchNodesPerPoint",
     "Kind": "Setting",
@@ -1360,7 +1354,7 @@
     "Name": "Unity decay (per character)",
     "Tag": "BB.Setting.UnityDecayPerCharacter",
     "Kind": "Setting",
-    "DevComment": "Placeholder for arguments until discussions exist: Unity each character costs a day (0038, D95); default 2"
+    "DevComment": "Placeholder for arguments until discussions exist: Unity each character costs a day (0038, D95, D96); default 1"
   },
   {
     "Name": "Crew upkeep",
@@ -1391,5 +1385,119 @@
     "Tag": "BB.Drain.UnityDecay",
     "Kind": "Drain",
     "DevComment": "Unity's placeholder drain until discussions exist: per character, at dawn (0038, D95)"
+  },
+  {
+    "Name": "Buildings per Tech / Safety point",
+    "Tag": "BB.Setting.BuildingsPerPoint",
+    "Kind": "Setting",
+    "DevComment": "Machine wear (Tech, dawn) and perimeter watch (Safety, nightfall): 1 point a day per this many built buildings; 0 turns both off (D95, D96); default 2"
+  },
+  {
+    "Name": "Starting Survival bank",
+    "Tag": "BB.Setting.StartingSurvivalBank",
+    "Kind": "Setting",
+    "DevComment": "The Survival bank at the start of a run: about one day of meals (D96); default 8"
+  },
+  {
+    "Name": "Low below",
+    "Tag": "BB.Setting.BandLowBelow",
+    "Kind": "Setting",
+    "DevComment": "A base stat's condition below this is Low (owner: 0-2 is Low) (D96); default 3"
+  },
+  {
+    "Name": "High from",
+    "Tag": "BB.Setting.BandHighFrom",
+    "Kind": "Setting",
+    "DevComment": "A base stat's condition at or above this is High (owner: 20+) (D96); default 20"
+  },
+  {
+    "Name": "Low",
+    "Tag": "BB.Band.Low",
+    "Kind": "Band",
+    "DevComment": "A base stat's band: below the Low setting (owner: 0-2) (0037 E8, D96)"
+  },
+  {
+    "Name": "Normal",
+    "Tag": "BB.Band.Normal",
+    "Kind": "Band",
+    "DevComment": "A base stat's band: from the Normal setting up to High (owner: 10-19) (0037 E8, D96)"
+  },
+  {
+    "Name": "High",
+    "Tag": "BB.Band.High",
+    "Kind": "Band",
+    "DevComment": "A base stat's band: condition at or above the High setting (0037 E8, D96)"
+  },
+  {
+    "Name": "Weak",
+    "Tag": "BB.Band.Weak",
+    "Kind": "Band",
+    "DevComment": "A base stat's band between Low and Normal (owner: 3-9; name a placeholder) (0037 E8, D96)"
+  },
+  {
+    "Name": "Normal from",
+    "Tag": "BB.Setting.BandNormalFrom",
+    "Kind": "Setting",
+    "DevComment": "A base stat's condition at or above this (and below High) is Normal; between Low and this it is Weak (D96); default 10"
+  },
+  {
+    "Name": "Food",
+    "Tag": "Inventory.Category.Food",
+    "Kind": "ItemCategory",
+    "DevComment": "Item category: food, what Cook Food consumes (Items Design; CopperGame 0040)"
+  },
+  {
+    "Name": "Potatoes",
+    "Tag": "Inventory.Item.Potatoes",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Mushrooms",
+    "Tag": "Inventory.Item.Mushrooms",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Beans",
+    "Tag": "Inventory.Item.Beans",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Canned Food",
+    "Tag": "Inventory.Item.CannedFood",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Dried Meat",
+    "Tag": "Inventory.Item.DriedMeat",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Flour Sack",
+    "Tag": "Inventory.Item.FlourSack",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Ration Pack",
+    "Tag": "Inventory.Item.RationPack",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Fresh Meat",
+    "Tag": "Inventory.Item.FreshMeat",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
+  },
+  {
+    "Name": "Alien Fruit",
+    "Tag": "Inventory.Item.AlienFruit",
+    "Kind": "Item",
+    "DevComment": "Food item from the owner's food list (Items, Food - List)"
   }
 ]

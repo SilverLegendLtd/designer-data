@@ -1,0 +1,18 @@
+{
+  "table": "Items",
+  "conventions": {
+    "Tag": "Inventory.Item.<Name>",
+    "CategoryTag": "Inventory.Category.*; Food items are what cooking consumes (CopperGame 0040)",
+    "Nutrition": "how many meals the item is worth when cooked, before the cook's outcome tier"
+  },
+  "columns": {
+    "Tag": "tag:Item",
+    "Name": "string",
+    "Category": "string",
+    "CategoryTag": "tag:ItemCategory",
+    "Nutrition": "int",
+    "Sources": "string_list",
+    "NeedsResearch": "bool",
+    "Notes": "string?"
+  }
+}

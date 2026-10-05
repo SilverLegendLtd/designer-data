@@ -176,6 +176,15 @@ GameplayTagList=(Tag="Inventory.Resource.Food",DevComment="Food")
 
 ```ini
 GameplayTagList=(Tag="Inventory.Item.HighDamageAmmunition",DevComment="High Damage Ammunition")
+GameplayTagList=(Tag="Inventory.Item.Potatoes",DevComment="Potatoes")
+GameplayTagList=(Tag="Inventory.Item.Mushrooms",DevComment="Mushrooms")
+GameplayTagList=(Tag="Inventory.Item.Beans",DevComment="Beans")
+GameplayTagList=(Tag="Inventory.Item.CannedFood",DevComment="Canned Food")
+GameplayTagList=(Tag="Inventory.Item.DriedMeat",DevComment="Dried Meat")
+GameplayTagList=(Tag="Inventory.Item.FlourSack",DevComment="Flour Sack")
+GameplayTagList=(Tag="Inventory.Item.RationPack",DevComment="Ration Pack")
+GameplayTagList=(Tag="Inventory.Item.FreshMeat",DevComment="Fresh Meat")
+GameplayTagList=(Tag="Inventory.Item.AlienFruit",DevComment="Alien Fruit")
 ```
 
 ## Buff
@@ -325,9 +334,13 @@ GameplayTagList=(Tag="BB.Leisure.Base.Rest",DevComment="Base / Rest")
 GameplayTagList=(Tag="BB.Setting.ConditionWindowDays",DevComment="Condition window (days)")
 GameplayTagList=(Tag="BB.Setting.ConditionWeighted",DevComment="Weighted condition")
 GameplayTagList=(Tag="BB.Setting.CrewUpkeep",DevComment="Crew upkeep")
-GameplayTagList=(Tag="BB.Setting.DrainPerBuilding",DevComment="Machine wear (per building)")
 GameplayTagList=(Tag="BB.Setting.ResearchNodesPerPoint",DevComment="Research nodes per Science point")
 GameplayTagList=(Tag="BB.Setting.UnityDecayPerCharacter",DevComment="Unity decay (per character)")
+GameplayTagList=(Tag="BB.Setting.BuildingsPerPoint",DevComment="Buildings per Tech / Safety point")
+GameplayTagList=(Tag="BB.Setting.StartingSurvivalBank",DevComment="Starting Survival bank")
+GameplayTagList=(Tag="BB.Setting.BandLowBelow",DevComment="Low below")
+GameplayTagList=(Tag="BB.Setting.BandHighFrom",DevComment="High from")
+GameplayTagList=(Tag="BB.Setting.BandNormalFrom",DevComment="Normal from")
 ```
 
 ## SettingsTab
@@ -345,4 +358,19 @@ GameplayTagList=(Tag="BB.Drain.MachineWear",DevComment="Machine wear")
 GameplayTagList=(Tag="BB.Drain.PerimeterWatch",DevComment="Perimeter watch")
 GameplayTagList=(Tag="BB.Drain.KnowledgeUpkeep",DevComment="Knowledge upkeep")
 GameplayTagList=(Tag="BB.Drain.UnityDecay",DevComment="Unity decay")
+```
+
+## Band
+
+```ini
+GameplayTagList=(Tag="BB.Band.Low",DevComment="Low")
+GameplayTagList=(Tag="BB.Band.Normal",DevComment="Normal")
+GameplayTagList=(Tag="BB.Band.High",DevComment="High")
+GameplayTagList=(Tag="BB.Band.Weak",DevComment="Weak")
+```
+
+## ItemCategory
+
+```ini
+GameplayTagList=(Tag="Inventory.Category.Food",DevComment="Food")
 ```
