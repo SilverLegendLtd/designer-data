@@ -7,8 +7,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": null
   },
   {
     "Id": "L1",
@@ -18,8 +20,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Big"
+    "SizeTag": "BB.Building.Size.Big",
+    "UnlockTrackTag": null
   },
   {
     "Id": "M1",
@@ -29,8 +33,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Medium"
+    "SizeTag": "BB.Building.Size.Medium",
+    "UnlockTrackTag": null
   },
   {
     "Id": "S2",
@@ -40,8 +46,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": null
   },
   {
     "Id": "S3",
@@ -51,8 +59,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": null
   },
   {
     "Id": "S4",
@@ -62,8 +72,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": null
   },
   {
     "Id": "M2",
@@ -73,8 +85,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Medium"
+    "SizeTag": "BB.Building.Size.Medium",
+    "UnlockTrackTag": null
   },
   {
     "Id": "S5",
@@ -84,8 +98,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": null
   },
   {
     "Id": "S6",
@@ -95,8 +111,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": null
   },
   {
     "Id": "Yard",
@@ -106,8 +124,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Yard",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Gate",
@@ -117,8 +137,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Gate",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Leisure1",
@@ -128,8 +150,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Leisure",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Leisure2",
@@ -139,8 +163,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Leisure",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Leisure3",
@@ -150,8 +176,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Leisure",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Wander1",
@@ -161,8 +189,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Wander",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Wander2",
@@ -172,8 +202,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Wander",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Wander3",
@@ -183,8 +215,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Wander",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Wander4",
@@ -194,8 +228,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Wander",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Wander5",
@@ -205,8 +241,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Wander",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Dormitory",
@@ -216,8 +254,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Dormitory",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Sleep1",
@@ -227,8 +267,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Sleep2",
@@ -238,8 +280,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Sleep3",
@@ -249,8 +293,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Sleep4",
@@ -260,8 +306,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Sleep5",
@@ -271,8 +319,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Sleep6",
@@ -282,8 +332,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Mess",
@@ -293,8 +345,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Mess",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Seat1",
@@ -304,8 +358,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Seat",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Seat2",
@@ -315,8 +371,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Seat",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Seat3",
@@ -326,8 +384,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Seat",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Seat4",
@@ -337,8 +397,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Seat",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Seat5",
@@ -348,8 +410,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Seat",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "Seat6",
@@ -359,8 +423,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": null,
+    "UnlockStep": null,
     "KindTag": "BB.Layout.Kind.Seat",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": null
   },
   {
     "Id": "DormitoryWing1",
@@ -370,8 +436,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Bunks 1",
+    "UnlockStep": 1,
     "KindTag": "BB.Layout.Kind.Dormitory",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Bunks"
   },
   {
     "Id": "Sleep7",
@@ -381,8 +449,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Bunks 1",
+    "UnlockStep": 1,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Bunks"
   },
   {
     "Id": "Sleep8",
@@ -392,8 +462,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Bunks 1",
+    "UnlockStep": 1,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Bunks"
   },
   {
     "Id": "Sleep9",
@@ -403,8 +475,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Bunks 2",
+    "UnlockStep": 2,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Bunks"
   },
   {
     "Id": "Sleep10",
@@ -414,8 +488,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Bunks 2",
+    "UnlockStep": 2,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Bunks"
   },
   {
     "Id": "Sleep11",
@@ -425,8 +501,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Bunks 3",
+    "UnlockStep": 3,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Bunks"
   },
   {
     "Id": "Sleep12",
@@ -436,8 +514,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Bunks 3",
+    "UnlockStep": 3,
     "KindTag": "BB.Layout.Kind.Sleep",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Bunks"
   },
   {
     "Id": "YardEast",
@@ -447,8 +527,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Slot 1",
+    "UnlockStep": 1,
     "KindTag": "BB.Layout.Kind.Yard",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Slot"
   },
   {
     "Id": "S7",
@@ -458,8 +540,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Slot 1",
+    "UnlockStep": 1,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": "BB.Expansion.Slot"
   },
   {
     "Id": "S8",
@@ -469,8 +553,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Slot 2",
+    "UnlockStep": 2,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": "BB.Expansion.Slot"
   },
   {
     "Id": "Wander6",
@@ -480,8 +566,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Slot 1",
+    "UnlockStep": 1,
     "KindTag": "BB.Layout.Kind.Wander",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Slot"
   },
   {
     "Id": "YardEast2",
@@ -491,8 +579,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Slot 3",
+    "UnlockStep": 3,
     "KindTag": "BB.Layout.Kind.Yard",
-    "SizeTag": null
+    "SizeTag": null,
+    "UnlockTrackTag": "BB.Expansion.Slot"
   },
   {
     "Id": "S9",
@@ -502,8 +592,10 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Slot 3",
+    "UnlockStep": 3,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": "BB.Expansion.Slot"
   },
   {
     "Id": "S10",
@@ -513,7 +605,9 @@
     "Order": null,
     "Capacity": null,
     "Unlock": "Slot 4",
+    "UnlockStep": 4,
     "KindTag": "BB.Layout.Kind.Slot",
-    "SizeTag": "BB.Building.Size.Small"
+    "SizeTag": "BB.Building.Size.Small",
+    "UnlockTrackTag": "BB.Expansion.Slot"
   }
 ]

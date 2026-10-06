@@ -1063,6 +1063,18 @@
     ]
   },
   {
+    "Name": "Bunks",
+    "Tag": "BB.Expansion.Bunks",
+    "Kind": "ExpansionTrack",
+    "DevComment": "Expand Base track: +2 bunks in the Dormitory per choice (0038 G4, 0042; CopperGame D104)"
+  },
+  {
+    "Name": "Slot",
+    "Tag": "BB.Expansion.Slot",
+    "Kind": "ExpansionTrack",
+    "DevComment": "Expand Base track: +1 Small building slot per choice (0038 G4, 0042; CopperGame D104)"
+  },
+  {
     "Name": "Basic",
     "Tag": "BB.ResearchPool.Basic",
     "Kind": "ResearchPool",
@@ -1784,6 +1796,12 @@
     "Tag": "BB.Setting.NightEventChance",
     "Kind": "Setting",
     "DevComment": "The chance that one night event is drawn at nightfall when any can happen (CopperGame 0037) E2; default 100"
+  },
+  {
+    "Name": "Expand Base tasks per expansion",
+    "Tag": "BB.Setting.ExpansionTasks",
+    "Kind": "Setting",
+    "DevComment": "How many finished Expand Base tasks make one expansion (0042, owner 2026-10-06; CopperGame D104); default 3"
   },
   {
     "Name": "Harshest event severity",

@@ -273,6 +273,13 @@ GameplayTagList=(Tag="BB.Building.Size.Medium",DevComment="Medium")
 GameplayTagList=(Tag="BB.Building.Size.Big",DevComment="Large")
 ```
 
+## ExpansionTrack
+
+```ini
+GameplayTagList=(Tag="BB.Expansion.Bunks",DevComment="Bunks")
+GameplayTagList=(Tag="BB.Expansion.Slot",DevComment="Slot")
+```
+
 ## ResearchPool
 
 ```ini
@@ -348,6 +355,7 @@ GameplayTagList=(Tag="BB.Setting.BandHighFrom",DevComment="High from")
 GameplayTagList=(Tag="BB.Setting.BandNormalFrom",DevComment="Normal from")
 GameplayTagList=(Tag="BB.Setting.MorningPhase",DevComment="Morning phase")
 GameplayTagList=(Tag="BB.Setting.NightEventChance",DevComment="Night event chance (%)")
+GameplayTagList=(Tag="BB.Setting.ExpansionTasks",DevComment="Expand Base tasks per expansion")
 GameplayTagList=(Tag="BB.Setting.HarshestEventSeverity",DevComment="Harshest event severity")
 ```
 
