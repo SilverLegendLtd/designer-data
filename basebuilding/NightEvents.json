@@ -3,6 +3,7 @@
     "Tag": "BB.Event.FeverInTheNight",
     "EventName": "FeverInTheNight",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Well-Being Low",
@@ -11,7 +12,10 @@
       }
     ],
     "Subject": "RandomWorker",
+    "SubjectTag": "BB.EventSubject.RandomWorker",
+    "SubjectSkillTag": null,
     "Severity": "Setback",
+    "SeverityTag": "BB.Severity.Setback",
     "DeadlineSource": null,
     "Weight": 10,
     "CooldownDays": 3,
@@ -45,6 +49,7 @@
     "Tag": "BB.Event.CleanBillOfHealth",
     "EventName": "CleanBillOfHealth",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Well-Being High",
@@ -53,7 +58,10 @@
       }
     ],
     "Subject": "None",
+    "SubjectTag": null,
+    "SubjectSkillTag": null,
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 3,
@@ -80,6 +88,7 @@
     "Tag": "BB.Event.HarshWords",
     "EventName": "HarshWords",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Unity Low",
@@ -88,7 +97,10 @@
       }
     ],
     "Subject": "TwoCharacters",
+    "SubjectTag": "BB.EventSubject.TwoCharacters",
+    "SubjectSkillTag": null,
     "Severity": "Setback",
+    "SeverityTag": "BB.Severity.Setback",
     "DeadlineSource": null,
     "Weight": 10,
     "CooldownDays": 3,
@@ -122,6 +134,7 @@
     "Tag": "BB.Event.StoriesByTheFire",
     "EventName": "StoriesByTheFire",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Unity High",
@@ -130,7 +143,10 @@
       }
     ],
     "Subject": "RandomCharacter",
+    "SubjectTag": "BB.EventSubject.RandomCharacter",
+    "SubjectSkillTag": null,
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 3,
@@ -157,6 +173,7 @@
     "Tag": "BB.Event.MovementAtTheFence",
     "EventName": "MovementAtTheFence",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Safety Low",
@@ -165,7 +182,10 @@
       }
     ],
     "Subject": "None",
+    "SubjectTag": null,
+    "SubjectSkillTag": null,
     "Severity": "Setback",
+    "SeverityTag": "BB.Severity.Setback",
     "DeadlineSource": null,
     "Weight": 10,
     "CooldownDays": 3,
@@ -199,6 +219,7 @@
     "Tag": "BB.Event.QuietWatch",
     "EventName": "QuietWatch",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Safety High",
@@ -207,7 +228,10 @@
       }
     ],
     "Subject": "GuardOnDuty",
+    "SubjectTag": "BB.EventSubject.GuardOnDuty",
+    "SubjectSkillTag": null,
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 3,
@@ -234,6 +258,7 @@
     "Tag": "BB.Event.EmptyStomachs",
     "EventName": "EmptyStomachs",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Survival Low",
@@ -242,7 +267,10 @@
       }
     ],
     "Subject": "RandomCharacter",
+    "SubjectTag": "BB.EventSubject.RandomCharacter",
+    "SubjectSkillTag": null,
     "Severity": "Setback",
+    "SeverityTag": "BB.Severity.Setback",
     "DeadlineSource": null,
     "Weight": 10,
     "CooldownDays": 3,
@@ -276,6 +304,7 @@
     "Tag": "BB.Event.MidnightFeast",
     "EventName": "MidnightFeast",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Survival High",
@@ -284,7 +313,10 @@
       }
     ],
     "Subject": "None",
+    "SubjectTag": null,
+    "SubjectSkillTag": null,
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 3,
@@ -311,6 +343,7 @@
     "Tag": "BB.Event.GeneratorStutter",
     "EventName": "GeneratorStutter",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Tech Low",
@@ -319,7 +352,10 @@
       }
     ],
     "Subject": "None",
+    "SubjectTag": null,
+    "SubjectSkillTag": null,
     "Severity": "Setback",
+    "SeverityTag": "BB.Severity.Setback",
     "DeadlineSource": null,
     "Weight": 10,
     "CooldownDays": 3,
@@ -353,6 +389,7 @@
     "Tag": "BB.Event.TinkerersNight",
     "EventName": "TinkerersNight",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Tech High",
@@ -361,7 +398,10 @@
       }
     ],
     "Subject": "BestSkill:Mechanical",
+    "SubjectTag": "BB.EventSubject.BestSkill",
+    "SubjectSkillTag": "PhysicalSkill.Mechanical",
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 3,
@@ -394,6 +434,7 @@
     "Tag": "BB.Event.LostNotes",
     "EventName": "LostNotes",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Science Low",
@@ -402,7 +443,10 @@
       }
     ],
     "Subject": "RandomResearcher",
+    "SubjectTag": "BB.EventSubject.RandomResearcher",
+    "SubjectSkillTag": null,
     "Severity": "Setback",
+    "SeverityTag": "BB.Severity.Setback",
     "DeadlineSource": null,
     "Weight": 10,
     "CooldownDays": 3,
@@ -433,6 +477,7 @@
     "Tag": "BB.Event.SleeplessInsight",
     "EventName": "SleeplessInsight",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Science High",
@@ -441,7 +486,10 @@
       }
     ],
     "Subject": "BestSkill:Research",
+    "SubjectTag": "BB.EventSubject.BestSkill",
+    "SubjectSkillTag": "PhysicalSkill.Research",
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 3,
@@ -468,13 +516,17 @@
     "Tag": "BB.Event.BadDream",
     "EventName": "BadDream",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Distress High (D62, later)"
       }
     ],
     "Subject": "MostDistressed",
+    "SubjectTag": "BB.EventSubject.MostDistressed",
+    "SubjectSkillTag": null,
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 3,
@@ -505,13 +557,17 @@
     "Tag": "BB.Event.LosingHeart",
     "EventName": "LosingHeart",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "SameJobDays >= 5"
       }
     ],
     "Subject": "ThatCharacter",
+    "SubjectTag": "BB.EventSubject.ThatCharacter",
+    "SubjectSkillTag": null,
     "Severity": "Setback",
+    "SeverityTag": "BB.Severity.Setback",
     "DeadlineSource": null,
     "Weight": 10,
     "CooldownDays": 5,
@@ -547,6 +603,7 @@
     "Tag": "BB.Event.KnockAtTheGate",
     "EventName": "KnockAtTheGate",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Unity Normal+"
@@ -556,7 +613,10 @@
       }
     ],
     "Subject": "Stranger",
+    "SubjectTag": "BB.EventSubject.Stranger",
+    "SubjectSkillTag": null,
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 5,
@@ -585,6 +645,7 @@
     "Tag": "BB.Event.VoiceOnTheRadio",
     "EventName": "VoiceOnTheRadio",
     "Beat": "Day",
+    "BeatTag": "BB.EventBeat.Day",
     "Conditions": [
       {
         "Raw": "Unity High",
@@ -596,7 +657,10 @@
       }
     ],
     "Subject": "None",
+    "SubjectTag": null,
+    "SubjectSkillTag": null,
     "Severity": "Flavour",
+    "SeverityTag": "BB.Severity.Flavour",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 5,
@@ -616,6 +680,7 @@
     "Tag": "BB.Event.NightThief",
     "EventName": "NightThief",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Safety Low",
@@ -627,7 +692,10 @@
       }
     ],
     "Subject": "None",
+    "SubjectTag": null,
+    "SubjectSkillTag": null,
     "Severity": "Harsh",
+    "SeverityTag": "BB.Severity.Harsh",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 5,
@@ -662,13 +730,17 @@
     "Tag": "BB.Event.SomethingBigOutside",
     "EventName": "SomethingBigOutside",
     "Beat": "Night",
+    "BeatTag": "BB.EventBeat.Night",
     "Conditions": [
       {
         "Raw": "Safety Low 3 days (FI-04)"
       }
     ],
     "Subject": "None",
+    "SubjectTag": null,
+    "SubjectSkillTag": null,
     "Severity": "Harsh",
+    "SeverityTag": "BB.Severity.Harsh",
     "DeadlineSource": null,
     "Weight": 5,
     "CooldownDays": 7,

@@ -2261,5 +2261,119 @@
     "Name": "SomethingBigOutside",
     "Aliases": [],
     "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "EventBeat",
+    "Tag": "BB.EventBeat.Night",
+    "Name": "Night",
+    "Aliases": [],
+    "DevComment": "Event beat: rolled at nightfall, answered on the Morning screen (CopperGame 0037) E2, E9"
+  },
+  {
+    "Kind": "EventBeat",
+    "Tag": "BB.EventBeat.Day",
+    "Name": "Day",
+    "Aliases": [],
+    "DevComment": "Event beat: during the workday; not run yet (CopperGame 0037) E2"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.RandomWorker",
+    "Name": "Random worker",
+    "Aliases": [],
+    "DevComment": "Event subject: a random character who has a task (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.RandomCharacter",
+    "Name": "Random character",
+    "Aliases": [
+      "Random"
+    ],
+    "DevComment": "Event subject: any random character (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.TwoCharacters",
+    "Name": "Two characters",
+    "Aliases": [],
+    "DevComment": "Event subject: two random characters ({A} and {B}); not run yet (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.GuardOnDuty",
+    "Name": "Guard on duty",
+    "Aliases": [],
+    "DevComment": "Event subject: the night's guard; a random character until a watch role exists (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.BestSkill",
+    "Name": "Best skill",
+    "Aliases": [],
+    "DevComment": "Event subject: the character with the highest skill named after the colon (BestSkill:Mechanical) (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.RandomResearcher",
+    "Name": "Random researcher",
+    "Aliases": [],
+    "DevComment": "Event subject: a random character who did research; not run yet (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.MostDistressed",
+    "Name": "Most distressed",
+    "Aliases": [],
+    "DevComment": "Event subject: the most distressed character; waits for D62 (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.ThatCharacter",
+    "Name": "That character",
+    "Aliases": [],
+    "DevComment": "Event subject: the character the condition found; not run yet (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "EventSubject",
+    "Tag": "BB.EventSubject.Stranger",
+    "Name": "Stranger",
+    "Aliases": [],
+    "DevComment": "Event subject: someone from outside the crew; waits for recruitment (FI-23) (CopperGame 0037) E3"
+  },
+  {
+    "Kind": "Severity",
+    "Tag": "BB.Severity.Flavour",
+    "Name": "Flavour",
+    "Aliases": [],
+    "DevComment": "Event severity: no real loss (CopperGame 0037) C4"
+  },
+  {
+    "Kind": "Severity",
+    "Tag": "BB.Severity.Setback",
+    "Name": "Setback",
+    "Aliases": [],
+    "DevComment": "Event severity: a choice between two costs (CopperGame 0037) C4"
+  },
+  {
+    "Kind": "Severity",
+    "Tag": "BB.Severity.Harsh",
+    "Name": "Harsh",
+    "Aliases": [],
+    "DevComment": "Event severity: a real loss; the settings can turn it off (CopperGame 0037) C4"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.NightEventChance",
+    "Name": "Night event chance (%)",
+    "Aliases": [],
+    "DevComment": "The chance that one night event is drawn at nightfall when any can happen (CopperGame 0037) E2; default 100"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.HarshestEventSeverity",
+    "Name": "Harshest event severity",
+    "Aliases": [],
+    "DevComment": "Events above this severity never fire (Flavour / Setback / Harsh) (CopperGame 0037) C4; default Harsh"
   }
 ]

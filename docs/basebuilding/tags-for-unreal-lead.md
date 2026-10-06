@@ -347,6 +347,8 @@ GameplayTagList=(Tag="BB.Setting.BandLowBelow",DevComment="Low below")
 GameplayTagList=(Tag="BB.Setting.BandHighFrom",DevComment="High from")
 GameplayTagList=(Tag="BB.Setting.BandNormalFrom",DevComment="Normal from")
 GameplayTagList=(Tag="BB.Setting.MorningPhase",DevComment="Morning phase")
+GameplayTagList=(Tag="BB.Setting.NightEventChance",DevComment="Night event chance (%)")
+GameplayTagList=(Tag="BB.Setting.HarshestEventSeverity",DevComment="Harshest event severity")
 ```
 
 ## SettingsTab
@@ -420,4 +422,33 @@ GameplayTagList=(Tag="BB.Event.KnockAtTheGate",DevComment="KnockAtTheGate")
 GameplayTagList=(Tag="BB.Event.VoiceOnTheRadio",DevComment="VoiceOnTheRadio")
 GameplayTagList=(Tag="BB.Event.NightThief",DevComment="NightThief")
 GameplayTagList=(Tag="BB.Event.SomethingBigOutside",DevComment="SomethingBigOutside")
+```
+
+## EventBeat
+
+```ini
+GameplayTagList=(Tag="BB.EventBeat.Night",DevComment="Night")
+GameplayTagList=(Tag="BB.EventBeat.Day",DevComment="Day")
+```
+
+## EventSubject
+
+```ini
+GameplayTagList=(Tag="BB.EventSubject.RandomWorker",DevComment="Random worker")
+GameplayTagList=(Tag="BB.EventSubject.RandomCharacter",DevComment="Random character")
+GameplayTagList=(Tag="BB.EventSubject.TwoCharacters",DevComment="Two characters")
+GameplayTagList=(Tag="BB.EventSubject.GuardOnDuty",DevComment="Guard on duty")
+GameplayTagList=(Tag="BB.EventSubject.BestSkill",DevComment="Best skill")
+GameplayTagList=(Tag="BB.EventSubject.RandomResearcher",DevComment="Random researcher")
+GameplayTagList=(Tag="BB.EventSubject.MostDistressed",DevComment="Most distressed")
+GameplayTagList=(Tag="BB.EventSubject.ThatCharacter",DevComment="That character")
+GameplayTagList=(Tag="BB.EventSubject.Stranger",DevComment="Stranger")
+```
+
+## Severity
+
+```ini
+GameplayTagList=(Tag="BB.Severity.Flavour",DevComment="Flavour")
+GameplayTagList=(Tag="BB.Severity.Setback",DevComment="Setback")
+GameplayTagList=(Tag="BB.Severity.Harsh",DevComment="Harsh")
 ```
