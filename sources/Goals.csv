@@ -1,0 +1,12 @@
+GoalName,Kind,Requirement,OfferWhen,DreamText,DoneText,Reward,Notes
+Master of Arms,MiniWin,Branch Firearms,,"{Name} dreams of an armoury where every rack is full and every lock is theirs.","Every Firearms research is done. The base can defend itself.",,"Claude's suggestion (CopperGame 0045), owner-approved for testing 2026-10-06; dreamed by the character whose best skill is Firearms"
+Healer's Archive,MiniWin,Branch Medical,,"{Name} dreams of shelves of remedies, each one labelled in their own hand.","Every Medical research is done. Nobody here dies of what can be cured.",,Claude's suggestion (CopperGame 0045)
+Green Thumb,MiniWin,Branch Food,,"{Name} dreams of rows of green under the grey sky, too many to count.","Every Food research is done. The base feeds itself.",,Claude's suggestion (CopperGame 0045)
+The Thinking Room,MiniWin,Branch Research,,"{Name} dreams of a quiet room where every question has an answer pinned to the wall.","Every Research branch node is done. The base understands its world.",,Claude's suggestion (CopperGame 0045)
+Machine Whisperer,MiniWin,Branch Mechanical,,"{Name} dreams of engines that start at the first try, every one of them.","Every Mechanical research is done. Nothing here breaks for long.",,Claude's suggestion (CopperGame 0045)
+Open Channels,MiniWin,Branch Communication,,"{Name} dreams of voices on the radio, answering from every direction.","Every Communication research is done. The base is no longer alone.",,Claude's suggestion (CopperGame 0045)
+A Full House,Milestone,AllStations,Nights >= 1,,"Every kind of Work Station stands in the base.",,Claude's suggestion (CopperGame 0045)
+The Long Haul,Milestone,Nights >= 20,Nights >= 5,,"Twenty nights survived.",,Claude's suggestion (CopperGame 0045)
+Nobody Goes Hungry,Milestone,NoMissedMeals Days 7,Nights >= 3,,"A whole week without a missed meal.",,Claude's suggestion (CopperGame 0045)
+Balanced Base,Milestone,AllStats >= Normal,Nights >= 3,,"Every base stat is Normal or better.",,Claude's suggestion (CopperGame 0045)
+Room to Grow,Milestone,Expansions >= 3,Expansions >= 1,,"The base has grown three times.",,Claude's suggestion (CopperGame 0045)

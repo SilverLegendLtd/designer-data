@@ -2396,5 +2396,103 @@
     "Name": "Harshest event severity",
     "Aliases": [],
     "DevComment": "Events above this severity never fire (Flavour / Setback / Harsh) (CopperGame 0037) C4; default Harsh"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.MasterOfArms",
+    "Name": "Master of Arms",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.HealerSArchive",
+    "Name": "Healer's Archive",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.GreenThumb",
+    "Name": "Green Thumb",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.TheThinkingRoom",
+    "Name": "The Thinking Room",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.MachineWhisperer",
+    "Name": "Machine Whisperer",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.OpenChannels",
+    "Name": "Open Channels",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.AFullHouse",
+    "Name": "A Full House",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.TheLongHaul",
+    "Name": "The Long Haul",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.NobodyGoesHungry",
+    "Name": "Nobody Goes Hungry",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.BalancedBase",
+    "Name": "Balanced Base",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "Goal",
+    "Tag": "BB.Goal.RoomToGrow",
+    "Name": "Room to Grow",
+    "Aliases": [],
+    "DevComment": "Mini-win / milestone goal (CopperGame 0045; sources/Goals.csv until a designers' sheet exists)"
+  },
+  {
+    "Kind": "GoalKind",
+    "Tag": "BB.GoalKind.MiniWin",
+    "Name": "MiniWin",
+    "Aliases": [],
+    "DevComment": "A goal whose completion wins the demo; the player may end the demo or keep playing (CopperGame 0045, owner 2026-10-06)"
+  },
+  {
+    "Kind": "GoalKind",
+    "Tag": "BB.GoalKind.Milestone",
+    "Name": "Milestone",
+    "Aliases": [],
+    "DevComment": "An optional goal that only shows as done (CopperGame 0045)"
+  },
+  {
+    "Kind": "Setting",
+    "Tag": "BB.Setting.GoalDreamNight",
+    "Name": "Goal dream night",
+    "Aliases": [],
+    "DevComment": "The night each character dreams their mini-win goal, the branch of their best skill (CopperGame 0045, owner 2026-10-06: after a few nights); default 3"
   }
 ]

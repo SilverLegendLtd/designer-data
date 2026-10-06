@@ -1,0 +1,186 @@
+[
+  {
+    "Tag": "BB.Goal.MasterOfArms",
+    "GoalName": "Master of Arms",
+    "Kind": "MiniWin",
+    "KindTag": "BB.GoalKind.MiniWin",
+    "Requirement": {
+      "Raw": "Branch Firearms",
+      "Type": "Branch",
+      "SkillTag": "PhysicalSkill.Firearms"
+    },
+    "OfferWhen": null,
+    "DreamText": "{Name} dreams of an armoury where every rack is full and every lock is theirs.",
+    "DoneText": "Every Firearms research is done. The base can defend itself.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.HealerSArchive",
+    "GoalName": "Healer's Archive",
+    "Kind": "MiniWin",
+    "KindTag": "BB.GoalKind.MiniWin",
+    "Requirement": {
+      "Raw": "Branch Medical",
+      "Type": "Branch",
+      "SkillTag": "PhysicalSkill.Medical"
+    },
+    "OfferWhen": null,
+    "DreamText": "{Name} dreams of shelves of remedies, each one labelled in their own hand.",
+    "DoneText": "Every Medical research is done. Nobody here dies of what can be cured.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.GreenThumb",
+    "GoalName": "Green Thumb",
+    "Kind": "MiniWin",
+    "KindTag": "BB.GoalKind.MiniWin",
+    "Requirement": {
+      "Raw": "Branch Food",
+      "Type": "Branch",
+      "SkillTag": "PhysicalSkill.Food"
+    },
+    "OfferWhen": null,
+    "DreamText": "{Name} dreams of rows of green under the grey sky, too many to count.",
+    "DoneText": "Every Food research is done. The base feeds itself.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.TheThinkingRoom",
+    "GoalName": "The Thinking Room",
+    "Kind": "MiniWin",
+    "KindTag": "BB.GoalKind.MiniWin",
+    "Requirement": {
+      "Raw": "Branch Research",
+      "Type": "Branch",
+      "SkillTag": "PhysicalSkill.Research"
+    },
+    "OfferWhen": null,
+    "DreamText": "{Name} dreams of a quiet room where every question has an answer pinned to the wall.",
+    "DoneText": "Every Research branch node is done. The base understands its world.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.MachineWhisperer",
+    "GoalName": "Machine Whisperer",
+    "Kind": "MiniWin",
+    "KindTag": "BB.GoalKind.MiniWin",
+    "Requirement": {
+      "Raw": "Branch Mechanical",
+      "Type": "Branch",
+      "SkillTag": "PhysicalSkill.Mechanical"
+    },
+    "OfferWhen": null,
+    "DreamText": "{Name} dreams of engines that start at the first try, every one of them.",
+    "DoneText": "Every Mechanical research is done. Nothing here breaks for long.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.OpenChannels",
+    "GoalName": "Open Channels",
+    "Kind": "MiniWin",
+    "KindTag": "BB.GoalKind.MiniWin",
+    "Requirement": {
+      "Raw": "Branch Communication",
+      "Type": "Branch",
+      "SkillTag": "PhysicalSkill.Communication"
+    },
+    "OfferWhen": null,
+    "DreamText": "{Name} dreams of voices on the radio, answering from every direction.",
+    "DoneText": "Every Communication research is done. The base is no longer alone.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.AFullHouse",
+    "GoalName": "A Full House",
+    "Kind": "Milestone",
+    "KindTag": "BB.GoalKind.Milestone",
+    "Requirement": {
+      "Raw": "AllStations",
+      "Type": "AllStations"
+    },
+    "OfferWhen": {
+      "Raw": "Nights >= 1",
+      "Type": "Nights",
+      "Amount": 1
+    },
+    "DreamText": null,
+    "DoneText": "Every kind of Work Station stands in the base.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.TheLongHaul",
+    "GoalName": "The Long Haul",
+    "Kind": "Milestone",
+    "KindTag": "BB.GoalKind.Milestone",
+    "Requirement": {
+      "Raw": "Nights >= 20",
+      "Type": "Nights",
+      "Amount": 20
+    },
+    "OfferWhen": {
+      "Raw": "Nights >= 5",
+      "Type": "Nights",
+      "Amount": 5
+    },
+    "DreamText": null,
+    "DoneText": "Twenty nights survived.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.NobodyGoesHungry",
+    "GoalName": "Nobody Goes Hungry",
+    "Kind": "Milestone",
+    "KindTag": "BB.GoalKind.Milestone",
+    "Requirement": {
+      "Raw": "NoMissedMeals Days 7",
+      "Type": "NoMissedMealsDays",
+      "Amount": 7
+    },
+    "OfferWhen": {
+      "Raw": "Nights >= 3",
+      "Type": "Nights",
+      "Amount": 3
+    },
+    "DreamText": null,
+    "DoneText": "A whole week without a missed meal.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.BalancedBase",
+    "GoalName": "Balanced Base",
+    "Kind": "Milestone",
+    "KindTag": "BB.GoalKind.Milestone",
+    "Requirement": {
+      "Raw": "AllStats >= Normal",
+      "Type": "AllStatsBand",
+      "BandTag": "BB.Band.Normal"
+    },
+    "OfferWhen": {
+      "Raw": "Nights >= 3",
+      "Type": "Nights",
+      "Amount": 3
+    },
+    "DreamText": null,
+    "DoneText": "Every base stat is Normal or better.",
+    "Reward": null
+  },
+  {
+    "Tag": "BB.Goal.RoomToGrow",
+    "GoalName": "Room to Grow",
+    "Kind": "Milestone",
+    "KindTag": "BB.GoalKind.Milestone",
+    "Requirement": {
+      "Raw": "Expansions >= 3",
+      "Type": "Expansions",
+      "Amount": 3
+    },
+    "OfferWhen": {
+      "Raw": "Expansions >= 1",
+      "Type": "Expansions",
+      "Amount": 1
+    },
+    "DreamText": null,
+    "DoneText": "The base has grown three times.",
+    "Reward": null
+  }
+]

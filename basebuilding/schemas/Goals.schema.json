@@ -1,0 +1,20 @@
+{
+  "table": "Goals",
+  "conventions": {
+    "Tag": "BB.Goal.<GoalName>",
+    "KindTag": "BB.GoalKind.MiniWin wins the demo; BB.GoalKind.Milestone only shows as done (CopperGame 0045)",
+    "Requirement": "{Raw, Type: Branch|AllStations|Nights|NoMissedMealsDays|AllStatsBand|Expansions, SkillTag?, Amount?, BandTag?}",
+    "OfferWhen": "same shape, or null: a MiniWin is offered in a dream"
+  },
+  "columns": {
+    "Tag": "tag:Goal",
+    "GoalName": "string",
+    "Kind": "string",
+    "KindTag": "tag:GoalKind",
+    "Requirement": "dict",
+    "OfferWhen": "dict?",
+    "DreamText": "string?",
+    "DoneText": "string?",
+    "Reward": "string?"
+  }
+}

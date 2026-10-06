@@ -357,6 +357,7 @@ GameplayTagList=(Tag="BB.Setting.MorningPhase",DevComment="Morning phase")
 GameplayTagList=(Tag="BB.Setting.NightEventChance",DevComment="Night event chance (%)")
 GameplayTagList=(Tag="BB.Setting.ExpansionTasks",DevComment="Expand Base tasks per expansion")
 GameplayTagList=(Tag="BB.Setting.HarshestEventSeverity",DevComment="Harshest event severity")
+GameplayTagList=(Tag="BB.Setting.GoalDreamNight",DevComment="Goal dream night")
 ```
 
 ## SettingsTab
@@ -459,4 +460,27 @@ GameplayTagList=(Tag="BB.EventSubject.Stranger",DevComment="Stranger")
 GameplayTagList=(Tag="BB.Severity.Flavour",DevComment="Flavour")
 GameplayTagList=(Tag="BB.Severity.Setback",DevComment="Setback")
 GameplayTagList=(Tag="BB.Severity.Harsh",DevComment="Harsh")
+```
+
+## Goal
+
+```ini
+GameplayTagList=(Tag="BB.Goal.MasterOfArms",DevComment="Master of Arms")
+GameplayTagList=(Tag="BB.Goal.HealerSArchive",DevComment="Healer's Archive")
+GameplayTagList=(Tag="BB.Goal.GreenThumb",DevComment="Green Thumb")
+GameplayTagList=(Tag="BB.Goal.TheThinkingRoom",DevComment="The Thinking Room")
+GameplayTagList=(Tag="BB.Goal.MachineWhisperer",DevComment="Machine Whisperer")
+GameplayTagList=(Tag="BB.Goal.OpenChannels",DevComment="Open Channels")
+GameplayTagList=(Tag="BB.Goal.AFullHouse",DevComment="A Full House")
+GameplayTagList=(Tag="BB.Goal.TheLongHaul",DevComment="The Long Haul")
+GameplayTagList=(Tag="BB.Goal.NobodyGoesHungry",DevComment="Nobody Goes Hungry")
+GameplayTagList=(Tag="BB.Goal.BalancedBase",DevComment="Balanced Base")
+GameplayTagList=(Tag="BB.Goal.RoomToGrow",DevComment="Room to Grow")
+```
+
+## GoalKind
+
+```ini
+GameplayTagList=(Tag="BB.GoalKind.MiniWin",DevComment="MiniWin")
+GameplayTagList=(Tag="BB.GoalKind.Milestone",DevComment="Milestone")
 ```
