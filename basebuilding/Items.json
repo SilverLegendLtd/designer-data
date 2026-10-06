@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "Tag": "Inventory.Item.Potatoes",
+    "Name": "Potatoes",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 1,
+    "Sources": [
+      "Farmed"
+    ],
+    "NeedsResearch": false,
+    "Notes": "The Items Design example for Food; what Grow Food yields at the Food Station"
+  },
+  {
+    "Tag": "Inventory.Item.Mushrooms",
+    "Name": "Mushrooms",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 1,
+    "Sources": [
+      "Farmed"
+    ],
+    "NeedsResearch": false,
+    "Notes": "Grows in the dark; a farmed crop with no sunlight needed"
+  },
+  {
+    "Tag": "Inventory.Item.Beans",
+    "Name": "Beans",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 2,
+    "Sources": [
+      "Farmed"
+    ],
+    "NeedsResearch": false,
+    "Notes": "A second farmed crop, so the Expert Food Station can grow something better or more"
+  },
+  {
+    "Tag": "Inventory.Item.CannedFood",
+    "Name": "Canned Food",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 2,
+    "Sources": [
+      "Starting",
+      "Looted"
+    ],
+    "NeedsResearch": false,
+    "Notes": "The starting stock (replaces the old 12 Food) and the most common loot"
+  },
+  {
+    "Tag": "Inventory.Item.DriedMeat",
+    "Name": "Dried Meat",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 2,
+    "Sources": [
+      "Looted"
+    ],
+    "NeedsResearch": false,
+    "Notes": "Expedition loot; keeps well"
+  },
+  {
+    "Tag": "Inventory.Item.FlourSack",
+    "Name": "Flour Sack",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 3,
+    "Sources": [
+      "Looted"
+    ],
+    "NeedsResearch": false,
+    "Notes": "Rare loot; cooks into several meals"
+  },
+  {
+    "Tag": "Inventory.Item.RationPack",
+    "Name": "Ration Pack",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 3,
+    "Sources": [
+      "Starting",
+      "Looted"
+    ],
+    "NeedsResearch": false,
+    "Notes": "Military rations; a few in the starting stock"
+  },
+  {
+    "Tag": "Inventory.Item.FreshMeat",
+    "Name": "Fresh Meat",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 4,
+    "Sources": [
+      "Looted"
+    ],
+    "NeedsResearch": false,
+    "Notes": "Meat from a freshly killed animal"
+  },
+  {
+    "Tag": "Inventory.Item.AlienFruit",
+    "Name": "Alien Fruit",
+    "Category": "Food",
+    "CategoryTag": "Inventory.Category.Food",
+    "Nutrition": 2,
+    "Sources": [
+      "Looted"
+    ],
+    "NeedsResearch": true,
+    "Notes": "Food from Unknown Origin"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "Tag": "BB.Event.FeverInTheNight",
+    "EventName": "FeverInTheNight",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Well-Being Low",
+        "StatTag": "BB.Buff.WellBeing",
+        "BandTag": "BB.Band.Low"
+      }
+    ],
+    "Subject": "RandomWorker",
+    "Severity": "Setback",
+    "DeadlineSource": null,
+    "Weight": 10,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Fever in the Night",
+    "Text": "{Name} wakes up burning with fever.",
+    "Choices": [
+      {
+        "Label": "Treat now",
+        "Cost": {
+          "BB.Buff.WellBeing": 3
+        },
+        "Outcomes": []
+      },
+      {
+        "Label": "Let them rest",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Effect Sick on Subject",
+            "Kind": "Effect",
+            "Tag": "GameplayEffect.BaseBuilding.Sick",
+            "Target": "Subject"
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.CleanBillOfHealth",
+    "EventName": "CleanBillOfHealth",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Well-Being High",
+        "StatTag": "BB.Buff.WellBeing",
+        "BandTag": "BB.Band.High"
+      }
+    ],
+    "Subject": "None",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Clean Bill of Health",
+    "Text": "The check-ups paid off: everyone slept well.",
+    "Choices": [
+      {
+        "Label": "Note it",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Well-Being +2",
+            "Kind": "Stat",
+            "Tag": "BB.Buff.WellBeing",
+            "Amount": 2
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.HarshWords",
+    "EventName": "HarshWords",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Unity Low",
+        "StatTag": "BB.Buff.Unity",
+        "BandTag": "BB.Band.Low"
+      }
+    ],
+    "Subject": "TwoCharacters",
+    "Severity": "Setback",
+    "DeadlineSource": null,
+    "Weight": 10,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Harsh Words",
+    "Text": "{A} and {B} argue past midnight.",
+    "Choices": [
+      {
+        "Label": "Mediate",
+        "Cost": {
+          "BB.Buff.Unity": 3
+        },
+        "Outcomes": []
+      },
+      {
+        "Label": "Let it burn out",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Effect Unmotivated on Subjects",
+            "Kind": "Effect",
+            "Tag": "GameplayEffect.BaseBuilding.Unmotivated",
+            "Target": "Subjects"
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Later"
+  },
+  {
+    "Tag": "BB.Event.StoriesByTheFire",
+    "EventName": "StoriesByTheFire",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Unity High",
+        "StatTag": "BB.Buff.Unity",
+        "BandTag": "BB.Band.High"
+      }
+    ],
+    "Subject": "RandomCharacter",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Stories by the Fire",
+    "Text": "{Name} tells a story; the others stay up to listen.",
+    "Choices": [
+      {
+        "Label": "Join in",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Unity +2",
+            "Kind": "Stat",
+            "Tag": "BB.Buff.Unity",
+            "Amount": 2
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.MovementAtTheFence",
+    "EventName": "MovementAtTheFence",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Safety Low",
+        "StatTag": "BB.Buff.Safety",
+        "BandTag": "BB.Band.Low"
+      }
+    ],
+    "Subject": "None",
+    "Severity": "Setback",
+    "DeadlineSource": null,
+    "Weight": 10,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Movement at the Fence",
+    "Text": "Something tests the fence in the dark.",
+    "Choices": [
+      {
+        "Label": "Double the watch",
+        "Cost": {
+          "BB.Buff.Safety": 3
+        },
+        "Outcomes": []
+      },
+      {
+        "Label": "Ignore it",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Metal -5",
+            "Kind": "Resource",
+            "Tag": "Inventory.Resource.Metal",
+            "Amount": -5
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.QuietWatch",
+    "EventName": "QuietWatch",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Safety High",
+        "StatTag": "BB.Buff.Safety",
+        "BandTag": "BB.Band.High"
+      }
+    ],
+    "Subject": "GuardOnDuty",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Quiet Watch",
+    "Text": "{Name}'s watch passes without a sound.",
+    "Choices": [
+      {
+        "Label": "Good",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Safety +2",
+            "Kind": "Stat",
+            "Tag": "BB.Buff.Safety",
+            "Amount": 2
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.EmptyStomachs",
+    "EventName": "EmptyStomachs",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Survival Low",
+        "StatTag": "BB.Buff.Survival",
+        "BandTag": "BB.Band.Low"
+      }
+    ],
+    "Subject": "RandomCharacter",
+    "Severity": "Setback",
+    "DeadlineSource": null,
+    "Weight": 10,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Empty Stomachs",
+    "Text": "{Name} can't sleep for hunger.",
+    "Choices": [
+      {
+        "Label": "Share rations",
+        "Cost": {
+          "BB.Buff.Survival": 3
+        },
+        "Outcomes": []
+      },
+      {
+        "Label": "Go without",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Effect Unmotivated on Subject",
+            "Kind": "Effect",
+            "Tag": "GameplayEffect.BaseBuilding.Unmotivated",
+            "Target": "Subject"
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.MidnightFeast",
+    "EventName": "MidnightFeast",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Survival High",
+        "StatTag": "BB.Buff.Survival",
+        "BandTag": "BB.Band.High"
+      }
+    ],
+    "Subject": "None",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Midnight Feast",
+    "Text": "A good stock lets the crew eat well tonight.",
+    "Choices": [
+      {
+        "Label": "Enjoy it",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Unity +2",
+            "Kind": "Stat",
+            "Tag": "BB.Buff.Unity",
+            "Amount": 2
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.GeneratorStutter",
+    "EventName": "GeneratorStutter",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Tech Low",
+        "StatTag": "BB.Buff.Tech",
+        "BandTag": "BB.Band.Low"
+      }
+    ],
+    "Subject": "None",
+    "Severity": "Setback",
+    "DeadlineSource": null,
+    "Weight": 10,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Generator Stutter",
+    "Text": "The lights flicker; the generator coughs.",
+    "Choices": [
+      {
+        "Label": "Repair now",
+        "Cost": {
+          "BB.Buff.Tech": 3
+        },
+        "Outcomes": []
+      },
+      {
+        "Label": "Leave it",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Fuel -3",
+            "Kind": "Resource",
+            "Tag": "Inventory.Resource.Fuel",
+            "Amount": -3
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.TinkerersNight",
+    "EventName": "TinkerersNight",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Tech High",
+        "StatTag": "BB.Buff.Tech",
+        "BandTag": "BB.Band.High"
+      }
+    ],
+    "Subject": "BestSkill:Mechanical",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Tinkerer's Night",
+    "Text": "{Name} fixes something nobody asked them to.",
+    "Choices": [
+      {
+        "Label": "Thank them",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Tech +2",
+            "Kind": "Stat",
+            "Tag": "BB.Buff.Tech",
+            "Amount": 2
+          },
+          {
+            "Raw": "Wires +2",
+            "Kind": "Resource",
+            "Tag": "Inventory.Resource.Wires",
+            "Amount": 2
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.LostNotes",
+    "EventName": "LostNotes",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Science Low",
+        "StatTag": "BB.Buff.Science",
+        "BandTag": "BB.Band.Low"
+      }
+    ],
+    "Subject": "RandomResearcher",
+    "Severity": "Setback",
+    "DeadlineSource": null,
+    "Weight": 10,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Lost Notes",
+    "Text": "{Name}'s notes got soaked by a leak.",
+    "Choices": [
+      {
+        "Label": "Rewrite them",
+        "Cost": {
+          "BB.Buff.Science": 3
+        },
+        "Outcomes": []
+      },
+      {
+        "Label": "Accept the loss",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Research slows (later)"
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Partly"
+  },
+  {
+    "Tag": "BB.Event.SleeplessInsight",
+    "EventName": "SleeplessInsight",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Science High",
+        "StatTag": "BB.Buff.Science",
+        "BandTag": "BB.Band.High"
+      }
+    ],
+    "Subject": "BestSkill:Research",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Sleepless Insight",
+    "Text": "{Name} wakes up with an idea.",
+    "Choices": [
+      {
+        "Label": "Write it down",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Science +2",
+            "Kind": "Stat",
+            "Tag": "BB.Buff.Science",
+            "Amount": 2
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.BadDream",
+    "EventName": "BadDream",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Distress High (D62, later)"
+      }
+    ],
+    "Subject": "MostDistressed",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 3,
+    "Once": false,
+    "Title": "Bad Dream",
+    "Text": "{Name} cries out in their sleep.",
+    "Choices": [
+      {
+        "Label": "Comfort them",
+        "Cost": {
+          "BB.Buff.Unity": 2
+        },
+        "Outcomes": [
+          {
+            "Raw": "Mood + (later)"
+          }
+        ]
+      },
+      {
+        "Label": "Let them be",
+        "Cost": {},
+        "Outcomes": []
+      }
+    ],
+    "FirstSlice": "Later"
+  },
+  {
+    "Tag": "BB.Event.LosingHeart",
+    "EventName": "LosingHeart",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "SameJobDays >= 5"
+      }
+    ],
+    "Subject": "ThatCharacter",
+    "Severity": "Setback",
+    "DeadlineSource": null,
+    "Weight": 10,
+    "CooldownDays": 5,
+    "Once": false,
+    "Title": "Losing Heart",
+    "Text": "{Name} wonders what the work is for.",
+    "Choices": [
+      {
+        "Label": "Give them a day off",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "They rest tomorrow"
+          }
+        ]
+      },
+      {
+        "Label": "Push on",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Effect Unmotivated on Subject (2 days)",
+            "Kind": "Effect",
+            "Tag": "GameplayEffect.BaseBuilding.Unmotivated",
+            "Target": "Subject"
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Yes"
+  },
+  {
+    "Tag": "BB.Event.KnockAtTheGate",
+    "EventName": "KnockAtTheGate",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Unity Normal+"
+      },
+      {
+        "Raw": "free bunk"
+      }
+    ],
+    "Subject": "Stranger",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 5,
+    "Once": false,
+    "Title": "Knock at the Gate",
+    "Text": "A tired traveller asks for shelter.",
+    "Choices": [
+      {
+        "Label": "Let them in",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "New crew member (FI-23)"
+          }
+        ]
+      },
+      {
+        "Label": "Turn them away",
+        "Cost": {},
+        "Outcomes": []
+      }
+    ],
+    "FirstSlice": "Later"
+  },
+  {
+    "Tag": "BB.Event.VoiceOnTheRadio",
+    "EventName": "VoiceOnTheRadio",
+    "Beat": "Day",
+    "Conditions": [
+      {
+        "Raw": "Unity High",
+        "StatTag": "BB.Buff.Unity",
+        "BandTag": "BB.Band.High"
+      },
+      {
+        "Raw": "Radio built"
+      }
+    ],
+    "Subject": "None",
+    "Severity": "Flavour",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 5,
+    "Once": false,
+    "Title": "Voice on the Radio",
+    "Text": "A trader answers your call.",
+    "Choices": [
+      {
+        "Label": "The trader card (0037 E7)",
+        "Cost": {},
+        "Outcomes": []
+      }
+    ],
+    "FirstSlice": "Later"
+  },
+  {
+    "Tag": "BB.Event.NightThief",
+    "EventName": "NightThief",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Safety Low",
+        "StatTag": "BB.Buff.Safety",
+        "BandTag": "BB.Band.Low"
+      },
+      {
+        "Raw": "storage full"
+      }
+    ],
+    "Subject": "None",
+    "Severity": "Harsh",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 5,
+    "Once": false,
+    "Title": "Night Thief",
+    "Text": "Supplies are missing in the morning.",
+    "Choices": [
+      {
+        "Label": "Lose resources",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Resources -5"
+          }
+        ]
+      },
+      {
+        "Label": "Set a trap",
+        "Cost": {
+          "BB.Buff.Safety": 3
+        },
+        "Outcomes": [
+          {
+            "Raw": "Caught next time (chain, later)"
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Partly"
+  },
+  {
+    "Tag": "BB.Event.SomethingBigOutside",
+    "EventName": "SomethingBigOutside",
+    "Beat": "Night",
+    "Conditions": [
+      {
+        "Raw": "Safety Low 3 days (FI-04)"
+      }
+    ],
+    "Subject": "None",
+    "Severity": "Harsh",
+    "DeadlineSource": null,
+    "Weight": 5,
+    "CooldownDays": 7,
+    "Once": false,
+    "Title": "Something Big Outside",
+    "Text": "Heavy steps circle the base all night.",
+    "Choices": [
+      {
+        "Label": "Hold the line",
+        "Cost": {
+          "BB.Buff.Safety": 5
+        },
+        "Outcomes": [
+          {
+            "Raw": "Effect Injured on RandomWorker"
+          }
+        ]
+      },
+      {
+        "Label": "Hide",
+        "Cost": {},
+        "Outcomes": [
+          {
+            "Raw": "Buildings damaged (later)"
+          }
+        ]
+      }
+    ],
+    "FirstSlice": "Later"
+  }
+]

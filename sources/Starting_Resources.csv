@@ -3,4 +3,5 @@ Metal,60,"~1.5x a Medium Power Generator; not enough for a Large Generator or an
 Wires,40,
 Plastic,40,
 Fuel,30,
-Food,12,"3 days of rations for a 4-character crew at 1 Food per character per day (D64)"
+Canned Food,8,"Starting food (owner, 2026-10-06; CopperGame 0040 F19): with the Ration Packs about 2-3 days of meals for 4 crew"
+Ration Pack,2,

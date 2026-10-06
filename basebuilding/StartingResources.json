@@ -20,8 +20,13 @@
     "Tag": "Inventory.Resource.Fuel"
   },
   {
-    "Resource": "Food",
-    "Amount": 12,
-    "Tag": "Inventory.Resource.Food"
+    "Resource": "Canned Food",
+    "Amount": 8,
+    "Tag": "Inventory.Item.CannedFood"
+  },
+  {
+    "Resource": "Ration Pack",
+    "Amount": 2,
+    "Tag": "Inventory.Item.RationPack"
   }
 ]

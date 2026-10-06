@@ -90,10 +90,10 @@ GameplayTagList=(Tag="BB.Job.CommunicationStationScoutingUpgrade.Scout",DevComme
 GameplayTagList=(Tag="BB.Job.ExpertGuardStation.HighDamageAmmunition",DevComment="Expert Guard Station / High Damage Ammunition")
 GameplayTagList=(Tag="BB.Job.CommunicationStation.BaseCoordination",DevComment="Communication Station / Base Coordination")
 GameplayTagList=(Tag="BB.Job.CommunicationStationRadioUpgrade.BaseCoordination",DevComment="Communication Station Radio Upgrade / Base Coordination")
-GameplayTagList=(Tag="BB.Job.ExpertFoodStation.GrowFood",DevComment="Expert Food Station / Grow Food")
+GameplayTagList=(Tag="BB.Job.ExpertFoodStation.GrowBeans",DevComment="Expert Food Station / Grow Beans")
 GameplayTagList=(Tag="BB.Job.ExpertMechanicalStation.MaintainMachinery",DevComment="Expert Mechanical Station / Maintain Machinery")
 GameplayTagList=(Tag="BB.Job.ExpertMedicalStation.UpkeepHealthProtocols",DevComment="Expert Medical Station / Upkeep Health Protocols")
-GameplayTagList=(Tag="BB.Job.FoodStation.GrowFood",DevComment="Food Station / Grow Food")
+GameplayTagList=(Tag="BB.Job.FoodStation.GrowPotatoes",DevComment="Food Station / Grow Potatoes")
 GameplayTagList=(Tag="BB.Job.MechanicalStation.MaintainMachinery",DevComment="Mechanical Station / Maintain Machinery")
 GameplayTagList=(Tag="BB.Job.MechanicalStation.ExpandBase",DevComment="Mechanical Station / Expand Base")
 GameplayTagList=(Tag="BB.Job.MedicalStation.UpkeepHealthProtocols",DevComment="Medical Station / Upkeep Health Protocols")
@@ -232,6 +232,7 @@ GameplayTagList=(Tag="BB.Requirement.Resources",DevComment="Resources")
 GameplayTagList=(Tag="BB.Requirement.PlantForStudying",DevComment="Plant for Studying")
 GameplayTagList=(Tag="BB.Requirement.Item",DevComment="Item")
 GameplayTagList=(Tag="BB.Requirement.TraderPresent",DevComment="A trader present in the community")
+GameplayTagList=(Tag="BB.Requirement.Food",DevComment="Food")
 ```
 
 ## Phase
@@ -260,6 +261,8 @@ GameplayTagList=(Tag="BB.Layout.Kind.Leisure",DevComment="Leisure")
 GameplayTagList=(Tag="BB.Layout.Kind.Dormitory",DevComment="Dormitory")
 GameplayTagList=(Tag="BB.Layout.Kind.Sleep",DevComment="Sleep")
 GameplayTagList=(Tag="BB.Layout.Kind.Wander",DevComment="Wander")
+GameplayTagList=(Tag="BB.Layout.Kind.Mess",DevComment="Mess")
+GameplayTagList=(Tag="BB.Layout.Kind.Seat",DevComment="Seat")
 ```
 
 ## LayoutSize
@@ -283,6 +286,7 @@ GameplayTagList=(Tag="BB.Activity.Idle",DevComment="Idle")
 GameplayTagList=(Tag="BB.Activity.Work",DevComment="Work")
 GameplayTagList=(Tag="BB.Activity.Leisure",DevComment="Leisure")
 GameplayTagList=(Tag="BB.Activity.Sleep",DevComment="Sleep")
+GameplayTagList=(Tag="BB.Activity.Eat",DevComment="Eat")
 ```
 
 ## ActivityPhase
@@ -385,4 +389,35 @@ GameplayTagList=(Tag="GameplayEffect.BaseBuilding.Starving",DevComment="Starving
 GameplayTagList=(Tag="GameplayEffect.BaseBuilding.AteRawFood",DevComment="Ate Raw Food")
 GameplayTagList=(Tag="GameplayEffect.BaseBuilding.Sick",DevComment="Sick")
 GameplayTagList=(Tag="GameplayEffect.BaseBuilding.Unmotivated",DevComment="Unmotivated")
+GameplayTagList=(Tag="GameplayEffect.BaseBuilding.Checked",DevComment="Checked")
+```
+
+## Meal
+
+```ini
+GameplayTagList=(Tag="BB.Meal.Lunch",DevComment="Lunch")
+GameplayTagList=(Tag="BB.Meal.Dinner",DevComment="Dinner")
+```
+
+## Event
+
+```ini
+GameplayTagList=(Tag="BB.Event.FeverInTheNight",DevComment="FeverInTheNight")
+GameplayTagList=(Tag="BB.Event.CleanBillOfHealth",DevComment="CleanBillOfHealth")
+GameplayTagList=(Tag="BB.Event.HarshWords",DevComment="HarshWords")
+GameplayTagList=(Tag="BB.Event.StoriesByTheFire",DevComment="StoriesByTheFire")
+GameplayTagList=(Tag="BB.Event.MovementAtTheFence",DevComment="MovementAtTheFence")
+GameplayTagList=(Tag="BB.Event.QuietWatch",DevComment="QuietWatch")
+GameplayTagList=(Tag="BB.Event.EmptyStomachs",DevComment="EmptyStomachs")
+GameplayTagList=(Tag="BB.Event.MidnightFeast",DevComment="MidnightFeast")
+GameplayTagList=(Tag="BB.Event.GeneratorStutter",DevComment="GeneratorStutter")
+GameplayTagList=(Tag="BB.Event.TinkerersNight",DevComment="TinkerersNight")
+GameplayTagList=(Tag="BB.Event.LostNotes",DevComment="LostNotes")
+GameplayTagList=(Tag="BB.Event.SleeplessInsight",DevComment="SleeplessInsight")
+GameplayTagList=(Tag="BB.Event.BadDream",DevComment="BadDream")
+GameplayTagList=(Tag="BB.Event.LosingHeart",DevComment="LosingHeart")
+GameplayTagList=(Tag="BB.Event.KnockAtTheGate",DevComment="KnockAtTheGate")
+GameplayTagList=(Tag="BB.Event.VoiceOnTheRadio",DevComment="VoiceOnTheRadio")
+GameplayTagList=(Tag="BB.Event.NightThief",DevComment="NightThief")
+GameplayTagList=(Tag="BB.Event.SomethingBigOutside",DevComment="SomethingBigOutside")
 ```

@@ -1,8 +1,10 @@
 {
   "table": "StartingResources",
-  "conventions": {},
+  "conventions": {
+    "Tag": "a Resource (Inventory.Resource.*) or an Item (Inventory.Item.*, e.g. starting food)"
+  },
   "columns": {
-    "Tag": "tag:Resource",
+    "Tag": "tag:",
     "Resource": "string",
     "Amount": "int"
   }

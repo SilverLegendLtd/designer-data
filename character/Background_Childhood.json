@@ -85,6 +85,18 @@
       "Background.Drifter",
       "Background.Wildborn"
     ],
+    "AttributeModifiers": {
+      "PhysicalAttribute.Endurance": 10.0,
+      "PhysicalAttribute.Senses": 10.0,
+      "MentalAttribute.Discipline": 15.0,
+      "MentalAttribute.Adaptability": 10.0,
+      "PhysicalSkill.Medical": 10.0,
+      "PhysicalSkill.Firearms": 10.0,
+      "PhysicalSkill.Food": 10.0,
+      "MentalSkill.Resilience": 10.0,
+      "MentalSkill.TaskEndurance": 10.0,
+      "MentalSkill.DiplomacyTrade": 10.0
+    },
     "Description": "Preferred to be alone or on the move."
   }
 ]

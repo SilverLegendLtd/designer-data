@@ -420,10 +420,10 @@
     "DevComment": "Communication Station Radio Upgrade / Base Coordination"
   },
   {
-    "Name": "Expert Food Station / Grow Food",
-    "Tag": "BB.Job.ExpertFoodStation.GrowFood",
+    "Name": "Expert Food Station / Grow Beans",
+    "Tag": "BB.Job.ExpertFoodStation.GrowBeans",
     "Kind": "Job",
-    "DevComment": "Expert Food Station / Grow Food"
+    "DevComment": "Expert Food Station / Grow Beans (the owner renamed Grow Food, 2026-10-06; yields food items, 0040 F18)"
   },
   {
     "Name": "Expert Mechanical Station / Maintain Machinery",
@@ -438,10 +438,10 @@
     "DevComment": "Expert Medical Station / Upkeep Health Protocols"
   },
   {
-    "Name": "Food Station / Grow Food",
-    "Tag": "BB.Job.FoodStation.GrowFood",
+    "Name": "Food Station / Grow Potatoes",
+    "Tag": "BB.Job.FoodStation.GrowPotatoes",
     "Kind": "Job",
-    "DevComment": "Food Station / Grow Food"
+    "DevComment": "Food Station / Grow Potatoes (the owner renamed Grow Food, 2026-10-06; yields food items, 0040 F18)"
   },
   {
     "Name": "Mechanical Station / Maintain Machinery",
@@ -1541,5 +1541,155 @@
     "Tag": "BB.Setting.MorningPhase",
     "Kind": "Setting",
     "DevComment": "Whether the game stops at dawn on the Morning screen (0037 E9, D98); default on"
+  },
+  {
+    "Name": "Food",
+    "Tag": "BB.Requirement.Food",
+    "Kind": "Requirement",
+    "DevComment": "A Work row that needs a food item: Cook Food takes one Food-category item from the stock (CopperGame 0040 F5)"
+  },
+  {
+    "Name": "Mess",
+    "Tag": "BB.Layout.Kind.Mess",
+    "Kind": "LayoutKind",
+    "DevComment": "Where the crew eats (CopperGame 0040 F3)"
+  },
+  {
+    "Name": "Seat",
+    "Tag": "BB.Layout.Kind.Seat",
+    "Kind": "LayoutKind",
+    "DevComment": "A seat at the Mess: one character per seat (0040)"
+  },
+  {
+    "Name": "Eat",
+    "Tag": "BB.Activity.Eat",
+    "Kind": "Activity",
+    "DevComment": "What a character is doing at a meal time: walking to a Mess seat and eating (0040)"
+  },
+  {
+    "Name": "Lunch",
+    "Tag": "BB.Meal.Lunch",
+    "Kind": "Meal",
+    "DevComment": "The meal in the middle of worktime (0040 F2)"
+  },
+  {
+    "Name": "Dinner",
+    "Tag": "BB.Meal.Dinner",
+    "Kind": "Meal",
+    "DevComment": "The meal at the end of the evening, before sleep (0040 F2)"
+  },
+  {
+    "Name": "Checked",
+    "Tag": "GameplayEffect.BaseBuilding.Checked",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect: the weekly check-up's protection from Sick (0038 G1a)"
+  },
+  {
+    "Name": "FeverInTheNight",
+    "Tag": "BB.Event.FeverInTheNight",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "CleanBillOfHealth",
+    "Tag": "BB.Event.CleanBillOfHealth",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "HarshWords",
+    "Tag": "BB.Event.HarshWords",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "StoriesByTheFire",
+    "Tag": "BB.Event.StoriesByTheFire",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "MovementAtTheFence",
+    "Tag": "BB.Event.MovementAtTheFence",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "QuietWatch",
+    "Tag": "BB.Event.QuietWatch",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "EmptyStomachs",
+    "Tag": "BB.Event.EmptyStomachs",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "MidnightFeast",
+    "Tag": "BB.Event.MidnightFeast",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "GeneratorStutter",
+    "Tag": "BB.Event.GeneratorStutter",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "TinkerersNight",
+    "Tag": "BB.Event.TinkerersNight",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "LostNotes",
+    "Tag": "BB.Event.LostNotes",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "SleeplessInsight",
+    "Tag": "BB.Event.SleeplessInsight",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "BadDream",
+    "Tag": "BB.Event.BadDream",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "LosingHeart",
+    "Tag": "BB.Event.LosingHeart",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "KnockAtTheGate",
+    "Tag": "BB.Event.KnockAtTheGate",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "VoiceOnTheRadio",
+    "Tag": "BB.Event.VoiceOnTheRadio",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "NightThief",
+    "Tag": "BB.Event.NightThief",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Name": "SomethingBigOutside",
+    "Tag": "BB.Event.SomethingBigOutside",
+    "Kind": "Event",
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
   }
 ]

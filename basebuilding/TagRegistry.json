@@ -785,10 +785,10 @@
   },
   {
     "Kind": "Job",
-    "Tag": "BB.Job.ExpertFoodStation.GrowFood",
-    "Name": "Expert Food Station / Grow Food",
+    "Tag": "BB.Job.ExpertFoodStation.GrowBeans",
+    "Name": "Expert Food Station / Grow Beans",
     "Aliases": [],
-    "DevComment": "Expert Food Station / Grow Food"
+    "DevComment": "Expert Food Station / Grow Beans (the owner renamed Grow Food, 2026-10-06; yields food items, 0040 F18)"
   },
   {
     "Kind": "Job",
@@ -806,10 +806,10 @@
   },
   {
     "Kind": "Job",
-    "Tag": "BB.Job.FoodStation.GrowFood",
-    "Name": "Food Station / Grow Food",
+    "Tag": "BB.Job.FoodStation.GrowPotatoes",
+    "Name": "Food Station / Grow Potatoes",
     "Aliases": [],
-    "DevComment": "Food Station / Grow Food"
+    "DevComment": "Food Station / Grow Potatoes (the owner renamed Grow Food, 2026-10-06; yields food items, 0040 F18)"
   },
   {
     "Kind": "Job",
@@ -2086,5 +2086,180 @@
     "Name": "Morning phase",
     "Aliases": [],
     "DevComment": "Whether the game stops at dawn on the Morning screen (0037 E9, D98); default on"
+  },
+  {
+    "Kind": "Requirement",
+    "Tag": "BB.Requirement.Food",
+    "Name": "Food",
+    "Aliases": [],
+    "DevComment": "A Work row that needs a food item: Cook Food takes one Food-category item from the stock (CopperGame 0040 F5)"
+  },
+  {
+    "Kind": "LayoutKind",
+    "Tag": "BB.Layout.Kind.Mess",
+    "Name": "Mess",
+    "Aliases": [],
+    "DevComment": "Where the crew eats (CopperGame 0040 F3)"
+  },
+  {
+    "Kind": "LayoutKind",
+    "Tag": "BB.Layout.Kind.Seat",
+    "Name": "Seat",
+    "Aliases": [],
+    "DevComment": "A seat at the Mess: one character per seat (0040)"
+  },
+  {
+    "Kind": "Activity",
+    "Tag": "BB.Activity.Eat",
+    "Name": "Eat",
+    "Aliases": [],
+    "DevComment": "What a character is doing at a meal time: walking to a Mess seat and eating (0040)"
+  },
+  {
+    "Kind": "Meal",
+    "Tag": "BB.Meal.Lunch",
+    "Name": "Lunch",
+    "Aliases": [],
+    "DevComment": "The meal in the middle of worktime (0040 F2)"
+  },
+  {
+    "Kind": "Meal",
+    "Tag": "BB.Meal.Dinner",
+    "Name": "Dinner",
+    "Aliases": [],
+    "DevComment": "The meal at the end of the evening, before sleep (0040 F2)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Checked",
+    "Name": "Checked",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect: the weekly check-up's protection from Sick (0038 G1a)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.FeverInTheNight",
+    "Name": "FeverInTheNight",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.CleanBillOfHealth",
+    "Name": "CleanBillOfHealth",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.HarshWords",
+    "Name": "HarshWords",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.StoriesByTheFire",
+    "Name": "StoriesByTheFire",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.MovementAtTheFence",
+    "Name": "MovementAtTheFence",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.QuietWatch",
+    "Name": "QuietWatch",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.EmptyStomachs",
+    "Name": "EmptyStomachs",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.MidnightFeast",
+    "Name": "MidnightFeast",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.GeneratorStutter",
+    "Name": "GeneratorStutter",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.TinkerersNight",
+    "Name": "TinkerersNight",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.LostNotes",
+    "Name": "LostNotes",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.SleeplessInsight",
+    "Name": "SleeplessInsight",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.BadDream",
+    "Name": "BadDream",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.LosingHeart",
+    "Name": "LosingHeart",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.KnockAtTheGate",
+    "Name": "KnockAtTheGate",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.VoiceOnTheRadio",
+    "Name": "VoiceOnTheRadio",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.NightThief",
+    "Name": "NightThief",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
+  },
+  {
+    "Kind": "Event",
+    "Tag": "BB.Event.SomethingBigOutside",
+    "Name": "SomethingBigOutside",
+    "Aliases": [],
+    "DevComment": "Night event from the owner's Events List / Night Events sheet (CopperGame 0039)"
   }
 ]
