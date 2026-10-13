@@ -68,6 +68,9 @@ GameplayTagList=(Tag="BB.Job.ExpertGuardStation.Guard",DevComment="Expert Guard 
 GameplayTagList=(Tag="BB.Job.ExpertGuardStation.StudyWeapon",DevComment="Expert Guard Station / Study Weapon")
 GameplayTagList=(Tag="BB.Job.ExpertGuardStation.CraftAmmunition",DevComment="Expert Guard Station / Craft Ammunition")
 GameplayTagList=(Tag="BB.Job.GuardStationAmmunitionUpgrade.CraftAmmunition",DevComment="Guard Station Ammunition Upgrade / Craft Ammunition")
+GameplayTagList=(Tag="BB.Job.ExpertGuardStation.CraftHighDamageAmmunition",DevComment="Expert Guard Station / Craft High Damage Ammunition")
+GameplayTagList=(Tag="BB.Job.GuardStationAmmunitionUpgrade.CraftExplosiveAmmunition",DevComment="Guard Station Ammunition Upgrade / Craft Explosive Ammunition")
+GameplayTagList=(Tag="BB.Job.GuardStationAmmunitionUpgrade.ExplosiveAmmunition",DevComment="Guard Station Ammunition Upgrade / Explosive Ammunition")
 GameplayTagList=(Tag="BB.Job.GuardStationGuardingUpgrade.Guard",DevComment="Guard Station Guarding Upgrade / Guard")
 GameplayTagList=(Tag="BB.Job.FoodStation.CookFood",DevComment="Food Station / Cook Food")
 GameplayTagList=(Tag="BB.Job.FoodStation.PrepareExpeditionFood",DevComment="Food Station / Prepare Expedition Food")
@@ -176,6 +179,7 @@ GameplayTagList=(Tag="Inventory.Resource.Food",DevComment="Food")
 ## Item
 
 ```ini
+GameplayTagList=(Tag="Inventory.Item.ExplosiveAmmunition",DevComment="Explosive Ammunition")
 GameplayTagList=(Tag="Inventory.Item.HighDamageAmmunition",DevComment="High Damage Ammunition")
 GameplayTagList=(Tag="Inventory.Item.Potatoes",DevComment="Potatoes")
 GameplayTagList=(Tag="Inventory.Item.Mushrooms",DevComment="Mushrooms")
@@ -233,6 +237,7 @@ GameplayTagList=(Tag="BB.Requirement.PlantForStudying",DevComment="Plant for Stu
 GameplayTagList=(Tag="BB.Requirement.Item",DevComment="Item")
 GameplayTagList=(Tag="BB.Requirement.TraderPresent",DevComment="A trader present in the community")
 GameplayTagList=(Tag="BB.Requirement.Food",DevComment="Food")
+GameplayTagList=(Tag="BB.Requirement.Recipe",DevComment="Recipe")
 ```
 
 ## Phase
@@ -390,6 +395,7 @@ GameplayTagList=(Tag="BB.Band.Weak",DevComment="Weak")
 
 ```ini
 GameplayTagList=(Tag="Inventory.Category.Food",DevComment="Food")
+GameplayTagList=(Tag="Inventory.Category.Ammunition",DevComment="Ammunition")
 ```
 
 ## Effect

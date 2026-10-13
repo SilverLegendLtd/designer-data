@@ -288,6 +288,24 @@
     "DevComment": "Guard Station Ammunition Upgrade / Craft Ammunition"
   },
   {
+    "Name": "Expert Guard Station / Craft High Damage Ammunition",
+    "Tag": "BB.Job.ExpertGuardStation.CraftHighDamageAmmunition",
+    "Kind": "Job",
+    "DevComment": "Expert Guard Station / Craft High Damage Ammunition"
+  },
+  {
+    "Name": "Guard Station Ammunition Upgrade / Craft Explosive Ammunition",
+    "Tag": "BB.Job.GuardStationAmmunitionUpgrade.CraftExplosiveAmmunition",
+    "Kind": "Job",
+    "DevComment": "Guard Station Ammunition Upgrade / Craft Explosive Ammunition"
+  },
+  {
+    "Name": "Guard Station Ammunition Upgrade / Explosive Ammunition",
+    "Tag": "BB.Job.GuardStationAmmunitionUpgrade.ExplosiveAmmunition",
+    "Kind": "Job",
+    "DevComment": "Guard Station Ammunition Upgrade / Explosive Ammunition"
+  },
+  {
     "Name": "Guard Station Guarding Upgrade / Guard",
     "Tag": "BB.Job.GuardStationGuardingUpgrade.Guard",
     "Kind": "Job",
@@ -844,6 +862,12 @@
     "Tag": "Inventory.Resource.Food",
     "Kind": "Resource",
     "DevComment": "Food"
+  },
+  {
+    "Name": "Explosive Ammunition",
+    "Tag": "Inventory.Item.ExplosiveAmmunition",
+    "Kind": "Item",
+    "DevComment": "Explosive Ammunition (Items Combat)"
   },
   {
     "Name": "High Damage Ammunition",
@@ -1892,5 +1916,17 @@
     "Tag": "BB.Setting.GoalDreamNight",
     "Kind": "Setting",
     "DevComment": "The night each character dreams their mini-win goal, the branch of their best skill (CopperGame 0045, owner 2026-10-06: after a few nights); default 3"
+  },
+  {
+    "Name": "Recipe",
+    "Tag": "BB.Requirement.Recipe",
+    "Kind": "Requirement",
+    "DevComment": "A Work row whose cost, workload and output come from a recipe: hard hidden until a recipe is known (CopperGame D118, idea 0050)"
+  },
+  {
+    "Name": "Ammunition",
+    "Tag": "Inventory.Category.Ammunition",
+    "Kind": "ItemCategory",
+    "DevComment": "Item category: ammunition, from the Items Combat tab (CopperGame D118)"
   }
 ]

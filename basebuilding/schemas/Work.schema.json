@@ -4,6 +4,7 @@
     "Difficulty": "\"item\" = the studied item's own levels set it (design doc 4.5); the placeholder stands until Items.json carries them (owner, C14)",
     "Workload": "same \"item\" convention as Difficulty",
     "Tag": "BB.Job.<Station>.<Work>: the start and finish rows of one job share it (PhaseTag tells them apart)",
+    "Job": "Crafting List recipes (D118): the generic Job that lists the recipe at its Station (JobTag); Output is '<quantity> <item>' (OutputTag, OutputQuantity); UnlockedBy is blank (known from the start) or Upgrade / Research / Item Tags (UnlockedByTags)",
     "PrimarySkill": "stat Tag from Attribute.json"
   },
   "columns": {
@@ -32,6 +33,13 @@
     "Outcome": "string?",
     "OutcomeTag": "tag:Item?",
     "OutcomeQuantity": "int?",
+    "Job": "string?",
+    "JobTag": "tag:Job?",
+    "Output": "string?",
+    "OutputTag": "tag:Item?",
+    "OutputQuantity": "int?",
+    "UnlockedBy": "string?",
+    "UnlockedByTags": "tag_list:",
     "MetalResource": "int?",
     "WiresResource": "int?",
     "PlasticResource": "int?",

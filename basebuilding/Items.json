@@ -108,5 +108,31 @@
     ],
     "NeedsResearch": true,
     "Notes": "Food from Unknown Origin"
+  },
+  {
+    "Tag": "Inventory.Item.HighDamageAmmunition",
+    "Name": "High Damage Ammunition",
+    "Category": "Ammunition",
+    "CategoryTag": "Inventory.Category.Ammunition",
+    "Nutrition": null,
+    "Sources": [
+      "Crafted",
+      "Loot"
+    ],
+    "NeedsResearch": false,
+    "Notes": "Crafted at Guard Station with Ammunition Upgrade"
+  },
+  {
+    "Tag": "Inventory.Item.ExplosiveAmmunition",
+    "Name": "Explosive Ammunition",
+    "Category": "Ammunition",
+    "CategoryTag": "Inventory.Category.Ammunition",
+    "Nutrition": null,
+    "Sources": [
+      "Crafted",
+      "Loot"
+    ],
+    "NeedsResearch": false,
+    "Notes": "Crafted at Guard Station with Ammunition Upgrade"
   }
 ]

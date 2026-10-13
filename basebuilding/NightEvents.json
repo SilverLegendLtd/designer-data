@@ -28,7 +28,19 @@
         "Cost": {
           "BB.Buff.WellBeing": 3
         },
-        "Outcomes": []
+        "Outcomes": [
+          {
+            "Raw": "Effect Sick on Subject",
+            "Kind": "Effect",
+            "Tag": "GameplayEffect.BaseBuilding.Sick",
+            "Target": "Subject"
+          },
+          {
+            "Raw": "Treatment on Subject",
+            "Kind": "Treatment",
+            "Target": "Subject"
+          }
+        ]
       },
       {
         "Label": "Let them rest",

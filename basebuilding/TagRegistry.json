@@ -631,6 +631,27 @@
   },
   {
     "Kind": "Job",
+    "Tag": "BB.Job.ExpertGuardStation.CraftHighDamageAmmunition",
+    "Name": "Expert Guard Station / Craft High Damage Ammunition",
+    "Aliases": [],
+    "DevComment": "Expert Guard Station / Craft High Damage Ammunition"
+  },
+  {
+    "Kind": "Job",
+    "Tag": "BB.Job.GuardStationAmmunitionUpgrade.CraftExplosiveAmmunition",
+    "Name": "Guard Station Ammunition Upgrade / Craft Explosive Ammunition",
+    "Aliases": [],
+    "DevComment": "Guard Station Ammunition Upgrade / Craft Explosive Ammunition"
+  },
+  {
+    "Kind": "Job",
+    "Tag": "BB.Job.GuardStationAmmunitionUpgrade.ExplosiveAmmunition",
+    "Name": "Guard Station Ammunition Upgrade / Explosive Ammunition",
+    "Aliases": [],
+    "DevComment": "Guard Station Ammunition Upgrade / Explosive Ammunition"
+  },
+  {
+    "Kind": "Job",
     "Tag": "BB.Job.GuardStationGuardingUpgrade.Guard",
     "Name": "Guard Station Guarding Upgrade / Guard",
     "Aliases": [],
@@ -1279,6 +1300,13 @@
     "Name": "Food",
     "Aliases": [],
     "DevComment": "Food"
+  },
+  {
+    "Kind": "Item",
+    "Tag": "Inventory.Item.ExplosiveAmmunition",
+    "Name": "Explosive Ammunition",
+    "Aliases": [],
+    "DevComment": "Explosive Ammunition (Items Combat)"
   },
   {
     "Kind": "Item",
@@ -2494,5 +2522,19 @@
     "Name": "Goal dream night",
     "Aliases": [],
     "DevComment": "The night each character dreams their mini-win goal, the branch of their best skill (CopperGame 0045, owner 2026-10-06: after a few nights); default 3"
+  },
+  {
+    "Kind": "Requirement",
+    "Tag": "BB.Requirement.Recipe",
+    "Name": "Recipe",
+    "Aliases": [],
+    "DevComment": "A Work row whose cost, workload and output come from a recipe: hard hidden until a recipe is known (CopperGame D118, idea 0050)"
+  },
+  {
+    "Kind": "ItemCategory",
+    "Tag": "Inventory.Category.Ammunition",
+    "Name": "Ammunition",
+    "Aliases": [],
+    "DevComment": "Item category: ammunition, from the Items Combat tab (CopperGame D118)"
   }
 ]
