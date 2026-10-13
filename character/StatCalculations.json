@@ -1,0 +1,439 @@
+[
+  {
+    "Tag": "MentalAttribute.SocialEnergy",
+    "Name": "Social Energy",
+    "Kind": "MentalAttribute",
+    "Letters": "E",
+    "Weights": {
+      "EI": 1,
+      "SN": 0,
+      "TF": 0,
+      "JP": 0
+    },
+    "Divisor": 2,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(EI + 100) / 2",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalAttribute.Focus",
+    "Name": "Focus",
+    "Kind": "MentalAttribute",
+    "Letters": "I",
+    "Weights": {
+      "EI": -1,
+      "SN": 0,
+      "TF": 0,
+      "JP": 0
+    },
+    "Divisor": 2,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-EI + 100) / 2",
+    "Notes": "Also gets the at-birth bonus in 0052-physical-bonuses.csv (clamped at 100 after)"
+  },
+  {
+    "Tag": "MentalAttribute.Perception",
+    "Name": "Perception",
+    "Kind": "MentalAttribute",
+    "Letters": "S",
+    "Weights": {
+      "EI": 0,
+      "SN": 1,
+      "TF": 0,
+      "JP": 0
+    },
+    "Divisor": 2,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(SN + 100) / 2",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalAttribute.Creativity",
+    "Name": "Creativity",
+    "Kind": "MentalAttribute",
+    "Letters": "N",
+    "Weights": {
+      "EI": 0,
+      "SN": -1,
+      "TF": 0,
+      "JP": 0
+    },
+    "Divisor": 2,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-SN + 100) / 2",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalAttribute.Logic",
+    "Name": "Logic",
+    "Kind": "MentalAttribute",
+    "Letters": "T",
+    "Weights": {
+      "EI": 0,
+      "SN": 0,
+      "TF": 1,
+      "JP": 0
+    },
+    "Divisor": 2,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(TF + 100) / 2",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalAttribute.Empathy",
+    "Name": "Empathy",
+    "Kind": "MentalAttribute",
+    "Letters": "F",
+    "Weights": {
+      "EI": 0,
+      "SN": 0,
+      "TF": -1,
+      "JP": 0
+    },
+    "Divisor": 2,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-TF + 100) / 2",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalAttribute.Discipline",
+    "Name": "Discipline",
+    "Kind": "MentalAttribute",
+    "Letters": "J",
+    "Weights": {
+      "EI": 0,
+      "SN": 0,
+      "TF": 0,
+      "JP": 1
+    },
+    "Divisor": 2,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(JP + 100) / 2",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalAttribute.Adaptability",
+    "Name": "Adaptability",
+    "Kind": "MentalAttribute",
+    "Letters": "P",
+    "Weights": {
+      "EI": 0,
+      "SN": 0,
+      "TF": 0,
+      "JP": -1
+    },
+    "Divisor": 2,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-JP + 100) / 2",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.StrategicThinking",
+    "Name": "Strategic Thinking",
+    "Kind": "MentalSkill",
+    "Letters": "N+T+J",
+    "Weights": {
+      "EI": 0,
+      "SN": -1,
+      "TF": 1,
+      "JP": 1
+    },
+    "Divisor": 6,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-SN + TF + JP) / 6 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.TaskEndurance",
+    "Name": "Task Endurance",
+    "Kind": "MentalSkill",
+    "Letters": "S+T+J",
+    "Weights": {
+      "EI": 0,
+      "SN": 1,
+      "TF": 1,
+      "JP": 1
+    },
+    "Divisor": 6,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(SN + TF + JP) / 6 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.InstinctiveDecisionMaking",
+    "Name": "Instinctive Decision-Making",
+    "Kind": "MentalSkill",
+    "Letters": "S+F+P",
+    "Weights": {
+      "EI": 0,
+      "SN": 1,
+      "TF": -1,
+      "JP": -1
+    },
+    "Divisor": 6,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(SN - TF - JP) / 6 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.StressManagement",
+    "Name": "Stress Management",
+    "Kind": "MentalSkill",
+    "Letters": "I+T+J",
+    "Weights": {
+      "EI": -1,
+      "SN": 0,
+      "TF": 1,
+      "JP": 1
+    },
+    "Divisor": 6,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-EI + TF + JP) / 6 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.DiplomacyTrade",
+    "Name": "Diplomacy and Trade",
+    "Kind": "MentalSkill",
+    "Letters": "E+N+F",
+    "Weights": {
+      "EI": 1,
+      "SN": -1,
+      "TF": -1,
+      "JP": 0
+    },
+    "Divisor": 6,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(EI - SN - TF) / 6 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.AnalyticalInsight",
+    "Name": "Analytical Insight",
+    "Kind": "MentalSkill",
+    "Letters": "N+T",
+    "Weights": {
+      "EI": 0,
+      "SN": -1,
+      "TF": 1,
+      "JP": 0
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-SN + TF) / 4 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.EmotionalIntelligence",
+    "Name": "Emotional Intelligence",
+    "Kind": "MentalSkill",
+    "Letters": "F+P",
+    "Weights": {
+      "EI": 0,
+      "SN": 0,
+      "TF": -1,
+      "JP": -1
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-TF - JP) / 4 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.PracticalSkills",
+    "Name": "Practical Skills",
+    "Kind": "MentalSkill",
+    "Letters": "S+P",
+    "Weights": {
+      "EI": 0,
+      "SN": 1,
+      "TF": 0,
+      "JP": -1
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(SN - JP) / 4 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.LeadershipEffectiveness",
+    "Name": "Leadership Effectiveness",
+    "Kind": "MentalSkill",
+    "Letters": "E+J",
+    "Weights": {
+      "EI": 1,
+      "SN": 0,
+      "TF": 0,
+      "JP": 1
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(EI + JP) / 4 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.Charisma",
+    "Name": "Charisma",
+    "Kind": "MentalSkill",
+    "Letters": "E+F",
+    "Weights": {
+      "EI": 1,
+      "SN": 0,
+      "TF": -1,
+      "JP": 0
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(EI - TF) / 4 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.Resilience",
+    "Name": "Resilience",
+    "Kind": "MentalSkill",
+    "Letters": "T+J",
+    "Weights": {
+      "EI": 0,
+      "SN": 0,
+      "TF": 1,
+      "JP": 1
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(TF + JP) / 4 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.ResearchAptitude",
+    "Name": "Research Aptitude",
+    "Kind": "MentalSkill",
+    "Letters": "I+S+T",
+    "Weights": {
+      "EI": -1,
+      "SN": 1,
+      "TF": 1,
+      "JP": 0
+    },
+    "Divisor": 6,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-EI + SN + TF) / 6 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.OperationalOversight",
+    "Name": "Operational Oversight",
+    "Kind": "MentalSkill",
+    "Letters": "S+J",
+    "Weights": {
+      "EI": 0,
+      "SN": 1,
+      "TF": 0,
+      "JP": 1
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(SN + JP) / 4 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.AttentionToDetail",
+    "Name": "Attention to Detail",
+    "Kind": "MentalSkill",
+    "Letters": "I+S",
+    "Weights": {
+      "EI": -1,
+      "SN": 1,
+      "TF": 0,
+      "JP": 0
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-EI + SN) / 4 + 50",
+    "Notes": null
+  },
+  {
+    "Tag": "MentalSkill.IntuitiveForesight",
+    "Name": "Intuitive Foresight",
+    "Kind": "MentalSkill",
+    "Letters": "I+N",
+    "Weights": {
+      "EI": -1,
+      "SN": -1,
+      "TF": 0,
+      "JP": 0
+    },
+    "Divisor": 4,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Live",
+    "Formula": "(-EI - SN) / 4 + 50",
+    "Notes": null
+  }
+]

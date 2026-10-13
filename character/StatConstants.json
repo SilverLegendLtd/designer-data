@@ -1,0 +1,52 @@
+[
+  {
+    "Key": "BonusTier.Large",
+    "Value": 15,
+    "Notes": "MBTI physical bonus tier"
+  },
+  {
+    "Key": "BonusTier.Medium",
+    "Value": 10,
+    "Notes": "MBTI physical bonus tier"
+  },
+  {
+    "Key": "BonusTier.Small",
+    "Value": 5,
+    "Notes": "MBTI physical bonus tier"
+  },
+  {
+    "Key": "PhysicalAttribute.BaseValue",
+    "Value": 10,
+    "Notes": "Every character starts each of the 7 physical attributes here (before Background and Life Path)"
+  },
+  {
+    "Key": "PhysicalSkill.BaseValue",
+    "Value": 0,
+    "Notes": "Seeded the first time a Background or Life Path touches the skill"
+  },
+  {
+    "Key": "Stat.Min",
+    "Value": 0,
+    "Notes": "Every stat"
+  },
+  {
+    "Key": "Stat.Max",
+    "Value": 100,
+    "Notes": "Every stat. Clamp once at the end of generation (no clamping between steps)"
+  },
+  {
+    "Key": "Mbti.AxisMin",
+    "Value": -100,
+    "Notes": "E-I, S-N, T-F, J-P"
+  },
+  {
+    "Key": "Mbti.AxisMax",
+    "Value": 100,
+    "Notes": "Positive = first letter: E, S, T, J"
+  },
+  {
+    "Key": "Mbti.Rounding",
+    "Value": "Round half away from zero",
+    "Notes": "Mental formulas are rounded to a whole number after the divide"
+  }
+]
