@@ -10,6 +10,7 @@
       "TF": 0,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 2,
     "Offset": 50,
     "Min": 0,
@@ -29,6 +30,7 @@
       "TF": 0,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 2,
     "Offset": 50,
     "Min": 0,
@@ -48,6 +50,7 @@
       "TF": 0,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 2,
     "Offset": 50,
     "Min": 0,
@@ -67,6 +70,7 @@
       "TF": 0,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 2,
     "Offset": 50,
     "Min": 0,
@@ -86,6 +90,7 @@
       "TF": 1,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 2,
     "Offset": 50,
     "Min": 0,
@@ -105,6 +110,7 @@
       "TF": -1,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 2,
     "Offset": 50,
     "Min": 0,
@@ -124,6 +130,7 @@
       "TF": 0,
       "JP": 1
     },
+    "StatWeights": {},
     "Divisor": 2,
     "Offset": 50,
     "Min": 0,
@@ -143,6 +150,7 @@
       "TF": 0,
       "JP": -1
     },
+    "StatWeights": {},
     "Divisor": 2,
     "Offset": 50,
     "Min": 0,
@@ -162,6 +170,7 @@
       "TF": 1,
       "JP": 1
     },
+    "StatWeights": {},
     "Divisor": 6,
     "Offset": 50,
     "Min": 0,
@@ -181,6 +190,7 @@
       "TF": 1,
       "JP": 1
     },
+    "StatWeights": {},
     "Divisor": 6,
     "Offset": 50,
     "Min": 0,
@@ -200,6 +210,7 @@
       "TF": -1,
       "JP": -1
     },
+    "StatWeights": {},
     "Divisor": 6,
     "Offset": 50,
     "Min": 0,
@@ -219,6 +230,7 @@
       "TF": 1,
       "JP": 1
     },
+    "StatWeights": {},
     "Divisor": 6,
     "Offset": 50,
     "Min": 0,
@@ -238,6 +250,7 @@
       "TF": -1,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 6,
     "Offset": 50,
     "Min": 0,
@@ -257,6 +270,7 @@
       "TF": 1,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,
@@ -276,6 +290,7 @@
       "TF": -1,
       "JP": -1
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,
@@ -295,6 +310,7 @@
       "TF": 0,
       "JP": -1
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,
@@ -314,6 +330,7 @@
       "TF": 0,
       "JP": 1
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,
@@ -333,6 +350,7 @@
       "TF": -1,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,
@@ -352,6 +370,7 @@
       "TF": 1,
       "JP": 1
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,
@@ -371,6 +390,7 @@
       "TF": 1,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 6,
     "Offset": 50,
     "Min": 0,
@@ -390,6 +410,7 @@
       "TF": 0,
       "JP": 1
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,
@@ -409,6 +430,7 @@
       "TF": 0,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,
@@ -428,6 +450,7 @@
       "TF": 0,
       "JP": 0
     },
+    "StatWeights": {},
     "Divisor": 4,
     "Offset": 50,
     "Min": 0,

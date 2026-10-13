@@ -334,5 +334,21 @@
     "Key": "IntuitiveForesight",
     "MinValue": 0,
     "MaxValue": 100
+  },
+  {
+    "Name": "Health",
+    "Tag": "Health",
+    "Category": "",
+    "Key": "Health",
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "Name": "Stamina",
+    "Tag": "Stamina",
+    "Category": "",
+    "Key": "Stamina",
+    "MinValue": 0,
+    "MaxValue": 100
   }
 ]

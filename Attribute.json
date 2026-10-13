@@ -334,5 +334,21 @@
         "DevComment": "Intuitive Foresight",
         "MinValue": 0,
         "MaxValue": 100
+    },
+    {
+        "Name": "Health",
+        "Tag": "Health",
+        "SetByCallerTag": "SetByCaller.Health",
+        "DevComment": "Health",
+        "MinValue": 0,
+        "MaxValue": 100
+    },
+    {
+        "Name": "Stamina",
+        "Tag": "Stamina",
+        "SetByCallerTag": "SetByCaller.Stamina",
+        "DevComment": "Stamina",
+        "MinValue": 0,
+        "MaxValue": 100
     }
 ]

@@ -294,6 +294,20 @@
     "DevComment": "Intuitive Foresight"
   },
   {
+    "Kind": "Stat",
+    "Tag": "Health",
+    "Name": "Health",
+    "Aliases": [],
+    "DevComment": "Health"
+  },
+  {
+    "Kind": "Stat",
+    "Tag": "Stamina",
+    "Name": "Stamina",
+    "Aliases": [],
+    "DevComment": "Stamina"
+  },
+  {
     "Kind": "Building",
     "Tag": "BB.Building.SmallPowerGenerator",
     "Name": "Small Power Generator",
