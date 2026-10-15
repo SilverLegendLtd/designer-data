@@ -1,6 +1,6 @@
 # Proposed Gameplay Tags for the Unreal lead
 
-Generated from `design/data/sources/BaseBuildingTags.json` (game-design). The leaf names are our proposal: please review. Stat Tags come from `Attribute.json` and are not listed. New namespaces to confirm: `BB.Upgrade.*`, `BB.Buff.*`, `BB.Passive.*`, `BB.Mood.*`, `BB.Area.*`, `BB.Requirement.*`, `BB.Phase.*`, `BB.WorkType.*`, `BB.Layout.Kind.*`, `Inventory.Resource.*`, `Inventory.Item.*`. `BB.Building.Size.*` already exists (our `Large` is your `Big`).
+Generated from `design/data/Bronze/sources/BaseBuildingTags.json` (game-design). The leaf names are our proposal: please review. Stat Tags come from `Attribute.json` and are not listed. New namespaces to confirm: `BB.Upgrade.*`, `BB.Buff.*`, `BB.Passive.*`, `BB.Mood.*`, `BB.Area.*`, `BB.Requirement.*`, `BB.Phase.*`, `BB.WorkType.*`, `BB.Layout.Kind.*`, `Inventory.Resource.*`, `Inventory.Item.*`. `BB.Building.Size.*` already exists (our `Large` is your `Big`).
 
 ## Building
 

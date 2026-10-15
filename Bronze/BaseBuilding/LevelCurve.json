@@ -1,0 +1,62 @@
+[
+  {
+    "Level": 1,
+    "XpFromPrevious": 0,
+    "Title": "Novice",
+    "GivesPerk": false
+  },
+  {
+    "Level": 2,
+    "XpFromPrevious": 20,
+    "Title": "Apprentice",
+    "GivesPerk": true
+  },
+  {
+    "Level": 3,
+    "XpFromPrevious": 23,
+    "Title": "Seasoned",
+    "GivesPerk": false
+  },
+  {
+    "Level": 4,
+    "XpFromPrevious": 26,
+    "Title": "Accomplished",
+    "GivesPerk": true
+  },
+  {
+    "Level": 5,
+    "XpFromPrevious": 30,
+    "Title": "Expert",
+    "GivesPerk": false
+  },
+  {
+    "Level": 6,
+    "XpFromPrevious": 35,
+    "Title": "Veteran",
+    "GivesPerk": true
+  },
+  {
+    "Level": 7,
+    "XpFromPrevious": 40,
+    "Title": "Master",
+    "GivesPerk": false
+  },
+  {
+    "Level": 8,
+    "XpFromPrevious": 46,
+    "Title": "Elite",
+    "GivesPerk": true
+  },
+  {
+    "Level": 9,
+    "XpFromPrevious": 53,
+    "Title": "Paragon",
+    "GivesPerk": false
+  },
+  {
+    "Level": 10,
+    "XpFromPrevious": 61,
+    "Title": "Legendary",
+    "GivesPerk": true
+  }
+]

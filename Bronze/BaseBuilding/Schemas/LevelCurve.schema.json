@@ -1,0 +1,12 @@
+{
+  "table": "LevelCurve",
+  "conventions": {
+    "XpFromPrevious": "Character XP the step from the previous level costs; level 1 costs 0; the last row is the level cap"
+  },
+  "columns": {
+    "Level": "int",
+    "XpFromPrevious": "int",
+    "Title": "string?",
+    "GivesPerk": "bool"
+  }
+}
