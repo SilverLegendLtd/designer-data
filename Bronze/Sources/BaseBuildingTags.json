@@ -1928,5 +1928,113 @@
     "Tag": "Inventory.Category.Ammunition",
     "Kind": "ItemCategory",
     "DevComment": "Item category: ammunition, from the Items Combat tab (CopperGame D118)"
+  },
+  {
+    "Name": "Medic",
+    "Tag": "BB.Title.Medic",
+    "Kind": "Title",
+    "DevComment": "Job title, Medical option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Surgeon",
+    "Tag": "BB.Title.Surgeon",
+    "Kind": "Title",
+    "DevComment": "Job title, Medical option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Quarantine Specialist",
+    "Tag": "BB.Title.QuarantineSpecialist",
+    "Kind": "Title",
+    "DevComment": "Job title, Medical option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Guard",
+    "Tag": "BB.Title.Guard",
+    "Kind": "Title",
+    "DevComment": "Job title, Firearms option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Marksman",
+    "Tag": "BB.Title.Marksman",
+    "Kind": "Title",
+    "DevComment": "Job title, Firearms option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Gunsmith",
+    "Tag": "BB.Title.Gunsmith",
+    "Kind": "Title",
+    "DevComment": "Job title, Firearms option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Cultivator",
+    "Tag": "BB.Title.Cultivator",
+    "Kind": "Title",
+    "DevComment": "Job title, Food option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Provisioner",
+    "Tag": "BB.Title.Provisioner",
+    "Kind": "Title",
+    "DevComment": "Job title, Food option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Distiller",
+    "Tag": "BB.Title.Distiller",
+    "Kind": "Title",
+    "DevComment": "Job title, Food option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Technician",
+    "Tag": "BB.Title.Technician",
+    "Kind": "Title",
+    "DevComment": "Job title, Mechanical option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Fabricator",
+    "Tag": "BB.Title.Fabricator",
+    "Kind": "Title",
+    "DevComment": "Job title, Mechanical option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Machinist",
+    "Tag": "BB.Title.Machinist",
+    "Kind": "Title",
+    "DevComment": "Job title, Mechanical option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Scientist",
+    "Tag": "BB.Title.Scientist",
+    "Kind": "Title",
+    "DevComment": "Job title, Research option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Nanopathologist",
+    "Tag": "BB.Title.Nanopathologist",
+    "Kind": "Title",
+    "DevComment": "Job title, Research option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Xeno-Analyst",
+    "Tag": "BB.Title.XenoAnalyst",
+    "Kind": "Title",
+    "DevComment": "Job title, Research option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Radio Operator",
+    "Tag": "BB.Title.RadioOperator",
+    "Kind": "Title",
+    "DevComment": "Job title, Communication option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Trader",
+    "Tag": "BB.Title.Trader",
+    "Kind": "Title",
+    "DevComment": "Job title, Communication option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Scout",
+    "Tag": "BB.Title.Scout",
+    "Kind": "Title",
+    "DevComment": "Job title, Communication option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
   }
 ]

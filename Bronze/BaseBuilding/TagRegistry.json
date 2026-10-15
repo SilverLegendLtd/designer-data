@@ -2550,5 +2550,131 @@
     "Name": "Ammunition",
     "Aliases": [],
     "DevComment": "Item category: ammunition, from the Items Combat tab (CopperGame D118)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Medic",
+    "Name": "Medic",
+    "Aliases": [],
+    "DevComment": "Job title, Medical option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Surgeon",
+    "Name": "Surgeon",
+    "Aliases": [],
+    "DevComment": "Job title, Medical option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.QuarantineSpecialist",
+    "Name": "Quarantine Specialist",
+    "Aliases": [],
+    "DevComment": "Job title, Medical option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Guard",
+    "Name": "Guard",
+    "Aliases": [],
+    "DevComment": "Job title, Firearms option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Marksman",
+    "Name": "Marksman",
+    "Aliases": [],
+    "DevComment": "Job title, Firearms option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Gunsmith",
+    "Name": "Gunsmith",
+    "Aliases": [],
+    "DevComment": "Job title, Firearms option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Cultivator",
+    "Name": "Cultivator",
+    "Aliases": [],
+    "DevComment": "Job title, Food option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Provisioner",
+    "Name": "Provisioner",
+    "Aliases": [],
+    "DevComment": "Job title, Food option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Distiller",
+    "Name": "Distiller",
+    "Aliases": [],
+    "DevComment": "Job title, Food option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Technician",
+    "Name": "Technician",
+    "Aliases": [],
+    "DevComment": "Job title, Mechanical option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Fabricator",
+    "Name": "Fabricator",
+    "Aliases": [],
+    "DevComment": "Job title, Mechanical option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Machinist",
+    "Name": "Machinist",
+    "Aliases": [],
+    "DevComment": "Job title, Mechanical option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Scientist",
+    "Name": "Scientist",
+    "Aliases": [],
+    "DevComment": "Job title, Research option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Nanopathologist",
+    "Name": "Nanopathologist",
+    "Aliases": [],
+    "DevComment": "Job title, Research option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.XenoAnalyst",
+    "Name": "Xeno-Analyst",
+    "Aliases": [],
+    "DevComment": "Job title, Research option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.RadioOperator",
+    "Name": "Radio Operator",
+    "Aliases": [],
+    "DevComment": "Job title, Communication option 1 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Trader",
+    "Name": "Trader",
+    "Aliases": [],
+    "DevComment": "Job title, Communication option 2 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Title",
+    "Tag": "BB.Title.Scout",
+    "Name": "Scout",
+    "Aliases": [],
+    "DevComment": "Job title, Communication option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
   }
 ]

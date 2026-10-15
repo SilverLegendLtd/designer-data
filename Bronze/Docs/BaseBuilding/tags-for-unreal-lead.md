@@ -490,3 +490,26 @@ GameplayTagList=(Tag="BB.Goal.RoomToGrow",DevComment="Room to Grow")
 GameplayTagList=(Tag="BB.GoalKind.MiniWin",DevComment="MiniWin")
 GameplayTagList=(Tag="BB.GoalKind.Milestone",DevComment="Milestone")
 ```
+
+## Title
+
+```ini
+GameplayTagList=(Tag="BB.Title.Medic",DevComment="Medic")
+GameplayTagList=(Tag="BB.Title.Surgeon",DevComment="Surgeon")
+GameplayTagList=(Tag="BB.Title.QuarantineSpecialist",DevComment="Quarantine Specialist")
+GameplayTagList=(Tag="BB.Title.Guard",DevComment="Guard")
+GameplayTagList=(Tag="BB.Title.Marksman",DevComment="Marksman")
+GameplayTagList=(Tag="BB.Title.Gunsmith",DevComment="Gunsmith")
+GameplayTagList=(Tag="BB.Title.Cultivator",DevComment="Cultivator")
+GameplayTagList=(Tag="BB.Title.Provisioner",DevComment="Provisioner")
+GameplayTagList=(Tag="BB.Title.Distiller",DevComment="Distiller")
+GameplayTagList=(Tag="BB.Title.Technician",DevComment="Technician")
+GameplayTagList=(Tag="BB.Title.Fabricator",DevComment="Fabricator")
+GameplayTagList=(Tag="BB.Title.Machinist",DevComment="Machinist")
+GameplayTagList=(Tag="BB.Title.Scientist",DevComment="Scientist")
+GameplayTagList=(Tag="BB.Title.Nanopathologist",DevComment="Nanopathologist")
+GameplayTagList=(Tag="BB.Title.XenoAnalyst",DevComment="Xeno-Analyst")
+GameplayTagList=(Tag="BB.Title.RadioOperator",DevComment="Radio Operator")
+GameplayTagList=(Tag="BB.Title.Trader",DevComment="Trader")
+GameplayTagList=(Tag="BB.Title.Scout",DevComment="Scout")
+```

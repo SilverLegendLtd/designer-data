@@ -1,0 +1,50 @@
+[
+  {
+    "Skill": "PhysicalSkill.Medical",
+    "Titles": [
+      "BB.Title.Medic",
+      "BB.Title.Surgeon",
+      "BB.Title.QuarantineSpecialist"
+    ]
+  },
+  {
+    "Skill": "PhysicalSkill.Firearms",
+    "Titles": [
+      "BB.Title.Guard",
+      "BB.Title.Marksman",
+      "BB.Title.Gunsmith"
+    ]
+  },
+  {
+    "Skill": "PhysicalSkill.Food",
+    "Titles": [
+      "BB.Title.Cultivator",
+      "BB.Title.Provisioner",
+      "BB.Title.Distiller"
+    ]
+  },
+  {
+    "Skill": "PhysicalSkill.Mechanical",
+    "Titles": [
+      "BB.Title.Technician",
+      "BB.Title.Fabricator",
+      "BB.Title.Machinist"
+    ]
+  },
+  {
+    "Skill": "PhysicalSkill.Research",
+    "Titles": [
+      "BB.Title.Scientist",
+      "BB.Title.Nanopathologist",
+      "BB.Title.XenoAnalyst"
+    ]
+  },
+  {
+    "Skill": "PhysicalSkill.Communication",
+    "Titles": [
+      "BB.Title.RadioOperator",
+      "BB.Title.Trader",
+      "BB.Title.Scout"
+    ]
+  }
+]

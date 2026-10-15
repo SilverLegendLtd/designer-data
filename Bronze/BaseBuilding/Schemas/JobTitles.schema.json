@@ -1,0 +1,10 @@
+{
+  "table": "JobTitles",
+  "conventions": {
+    "Titles": "the skill's job titles: option 1 is the base station's, later options follow its upgrades (idea 0054)"
+  },
+  "columns": {
+    "Skill": "tag:Stat",
+    "Titles": "tag_list:Title"
+  }
+}
