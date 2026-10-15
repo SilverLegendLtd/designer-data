@@ -1,0 +1,35 @@
+EffectName,EffectType,Check Skill,Secondary Check Skill,Check Attribute,Duration Check Skill,Duration Check Attribute,Duration Check Secondary Skill,Effect on Mental Attributes / Skills,Effect01_Name,Effect01_Value,Effect02_Name,Effect02_Value,Effect03_Name,Effect03_Value,Arousal,Valence
+Defensive,Negative,Emotional Intelligence,Analytical Insight,Logic,Analytical Insight,Focus,Stress Management,-Empathy -Charisma,Empathy ,-1,Charisma,-1,,,+0.2,-0.2
+Overwhelmed,Negative,Analytical Insight,Attention to Detail,Focus,Stress Management,Logic,Operational Oversight,-Analytical Insight -Focus -Perception,Analytical Insight ,-1,Focus ,-1,Perception,-1,+0.3,-0.3
+Distrustful,Negative,Emotional Intelligence,Leadership Effectiveness,Perception,Stress Management,Logic,Analytical Insight,-Empathy -Social Energy,Empathy ,-1,Social Energy,-1,,,+0.2,-0.2
+Frustrated,Negative,Resilience,Task Endurance,Discipline,Stress Management,Discipline,Emotional Intelligence,-Focus -Discipline -Social Energy,Focus ,-1,Discipline ,-1,Social Energy,-1,+0.4,-0.3
+Anxious,Negative,Resilience,Analytical Insight,Focus,Stress Management,Logic,Resilience,-Focus -Instinctive Decision-Making,Focus ,-1,Instinctive Decision-Making,-1,,,+0.5,-0.3
+Melancholy,Negative,Resilience,Task Endurance,Social Energy,Emotional Intelligence,Social Energy,Resilience,-Social Energy -Instinctive Decision-Making,Social Energy ,-1,Instinctive Decision-Making,-1,,,-0.4,-0.2
+Irritated,Negative,Emotional Intelligence,Analytical Insight,Discipline,Stress Management,Discipline,Analytical Insight,-Empathy -Charisma,Empathy ,-1,Charisma,-1,,,+0.3,-0.2
+Apathetic,Negative,Task Endurance,Analytical Insight,Focus,Task Endurance,Focus,Resilience,-Focus -Instinctive Decision-Making -Social Energy,Focus ,-1,Instinctive Decision-Making ,-1,Social Energy,-1,-0.5,-0.1
+Offended,Negative,Emotional Intelligence,Resilience,Empathy,Stress Management,Logic,Emotional Intelligence,-Empathy,Empathy,-1,,,,,+0.2,-0.2
+Intimidated,Negative,Instinctive Decision-Making,Resilience,Strength,Resilience,Logic,Analytical Insight,-Social Energy -Leadership Effectiveness,Social Energy ,-1,Leadership Effectiveness,-1,,,+0.2,-0.3
+Discouraged,Negative,Task Endurance,Attention to Detail,Discipline,Stress Management,Discipline,Leadership Effectiveness,-Discipline -Task Endurance -Social Energy,Discipline ,-1,Task Endurance ,-1,Social Energy,-1,-0.2,-0.2
+Confused,Negative,Analytical Insight,Strategic Thinking,Logic,Analytical Insight,Perception,Task Endurance,-Focus -Logic -Analytical Insight,Focus ,-1,Logic ,-1,Analytical Insight,-1,+0.1,-0.2
+Distracted,Negative,Resilience,Instinctive Decision-Making,Focus,Analytical Insight,Focus,Strategic Thinking,-Focus -Task Endurance,Focus ,-1,Task Endurance,-1,,,+0.2,-0.1
+Agitated,Negative,Resilience,Strategic Thinking,Discipline,Resilience,Strength,Emotional Intelligence,-Discipline -Focus,Discipline ,-1,Focus,-1,,,+0.3,-0.2
+Trust Lost,Negative,Analytical Insight,Leadership Effectiveness,Logic,Leadership Effectiveness,Empathy,Resilience,-Empathy -Attention to Detail,Empathy ,-1,Attention to Detail,-1,,,+0.1,-0.3
+Bored,Negative,Task Endurance,Resilience,Creativity,Task Endurance,Focus,Attention to Detail,-Focus -Social Energy +Creativity,Focus ,-1,Social Energy ,-1,Creativity,+1,-0.2,-0.2
+Suspicious,Negative,Analytical Insight,Emotional Intelligence,Logic,Analytical Insight,Logic,Emotional Intelligence,+Analytical Insight -Empathy,Analytical Insight ,+1,Empathy,-1,,,+0.1,-0.2
+Enraged,Negative,Resilience,Stress Management,Discipline,Stress Management,Strength,Emotional Intelligence,-Discipline -Empathy +Strength,Discipline ,-1,Empathy ,-1,Strength,+1,+0.3,-0.3
+Serene,Positive,Resilience,Instinctive Decision-Making,Empathy,Attention to Detail,Adaptability,Emotional Intelligence,+Focus +Empathy +Stress Management,Focus ,+1,Empathy ,+1,Stress Management,+1,-0.3,+0.4
+Enthusiastic,Positive,Instinctive Decision-Making,Charisma,Social Energy,Task Endurance,Social Energy,Leadership Effectiveness,+Social Energy +Instinctive Decision-Making +Charisma,Social Energy ,+1,Instinctive Decision-Making ,+1,Charisma,+1,+0.5,+0.4
+Engaged,Positive,Task Endurance,Emotional Intelligence,Focus,Task Endurance,Discipline,Attention to Detail,+Focus +Social Energy +Task Endurance,Focus ,+1,Social Energy ,+1,Task Endurance,+1,+0.2,+0.3
+Emotionally Open,Positive,Emotional Intelligence,Charisma,Empathy,Instinctive Decision-Making,Logic,Analytical Insight,+Empathy +Social Energy -Analytical Insight,Empathy ,+1,Social Energy ,+1,Analytical Insight,-1,+0.1,+0.4
+Motivated,Positive,Task Endurance,Attention to Detail,Focus,Operational Oversight,Discipline,Instinctive Decision-Making,+Task Endurance +Focus +Research Aptitude,Task Endurance ,+1,Focus ,+1,Research Aptitude,+1,+0.2,+0.3
+Calm and Receptive,Positive,Stress Management,Emotional Intelligence,Logic,Resilience,Focus,Analytical Insight,+Analytical Insight +Focus,Analytical Insight ,+1,Focus,+1,,,-0.2,+0.3
+Joyful,Positive,Stress Management,Charisma,Social Energy,Resilience,Social Energy,Charisma,+Social Energy +Charisma +Adaptability,Social Energy ,+1,Charisma ,+1,Adaptability,+1,+0.4,+0.4
+Inspired,Positive,Leadership Effectiveness,Attention to Detail,Creativity,Charisma,Focus,Emotional Intelligence,+Creativity +Focus +Leadership Effectiveness,Creativity ,+1,Focus ,+1,Leadership Effectiveness,+1,+0.2,+0.3
+Encouraged,Positive,Instinctive Decision-Making,Leadership Effectiveness,Social Energy,Leadership Effectiveness,Discipline,Leadership Effectiveness,+Discipline +Social Energy +Task Endurance,Discipline ,+1,Social Energy ,+1,Task Endurance,+1,+0.2,+0.2
+Focused,Positive,Task Endurance,Stress Management,Focus,Task Endurance,Discipline,Stress Management,+Focus +Discipline,Focus ,+1,Discipline,+1,,,+0.1,+0.2
+Soothed,Positive,Stress Management,Leadership Effectiveness,Empathy,Instinctive Decision-Making,Adaptability,Stress Management,+Empathy +Stress Management,Empathy ,+1,Stress Management,+1,,,-0.2,+0.2
+Trust Gained,Positive,Leadership Effectiveness,Instinctive Decision-Making,Empathy,Leadership Effectiveness,Adaptability,Attention to Detail,+Empathy +Attention to Detail,Empathy ,+1,Attention to Detail,+1,,,+0.1,+0.3
+Enlightened,Positive,Analytical Insight,Attention to Detail,Logic,Leadership Effectiveness,Perception,Stress Management,+Logic +Analytical Insight +Creativity,Logic ,+1,Analytical Insight ,+1,Creativity,+1,+0.1,+0.3
+Challenged,Positive,Instinctive Decision-Making,Task Endurance,Reasoning,Leadership Effectiveness,Focus,Task Endurance,+Focus +Strategic Thinking,Focus ,+1,Strategic Thinking,+1,,,+0.2,+0.1
+Assertive Boost,Positive,Leadership Effectiveness,Operational Oversight,Social Energy,Task Endurance,Empathy,Leadership Effectiveness,+Charisma +Leadership Effectiveness,Charisma ,+1,Leadership Effectiveness,+1,,,+0.2,+0.2
+Reassured,Positive,Leadership Effectiveness,Stress Management,Empathy,Analytical Insight,Adaptability,Leadership Effectiveness,+Empathy +Stress Management,Empathy ,+1,Stress Management,+1,,,-0.1,+0.3

@@ -1,0 +1,9 @@
+EffectName,EffectType,Check Skill,Secondary Check Skill,Check Attribute,Duration Check Skill,Duration Check Attribute,Duration Check Secondary Skill,Effect on Mental Attributes / Skills,Effect01_Name,Effect01_Value,Effect02_Name,Effect02_Value,Effect03_Name,Effect03_Value,Arousal,Valence
+Old Wounds Triggered,Negative,Stress Management,Emotional Intelligence,Focus,Stress Management,Vitality,Resilience,-Stress Management -Focus -Social Energy,Stress Management ,-1,Focus ,-1,Social Energy,-1,0.35,-0.4
+Class Resentment,Negative,Emotional Intelligence,Strategic Thinking,Logic,Stress Management,Discipline,Analytical Insight,-Diplomacy and Trade -Empathy,Diplomacy and Trade ,-1,Empathy,-1,,,0.15,-0.25
+Authority Aversion,Negative,Leadership Effectiveness,Operational Oversight,Logic,Stress Management,Discipline,Task Endurance,-Leadership Effectiveness -Diplomacy and Trade,Leadership Effectiveness ,-1,Diplomacy and Trade,-1,,,0.1,-0.2
+Cultural Mistrust,Negative,Emotional Intelligence,Emotional Intelligence,Logic,Stress Management,Logic,Analytical Insight,-Empathy -Social Energy,Empathy ,-1,Social Energy,-1,,,0.1,-0.2
+Professional Respect,Positive,Practical Skills,Analytical Insight,Logic,Stress Management,Discipline,Task Endurance,+Leadership Effectiveness +Analytical Insight,Leadership Effectiveness ,+1,Analytical Insight,+1,,,0.05,0.3
+Cultural Kinship,Positive,Charisma,Emotional Intelligence,Empathy,Stress Management,Logic,Charisma,+Social Energy +Empathy +Diplomacy and Trade,Social Energy ,+1,Empathy ,+1,Diplomacy and Trade,+1,0.05,0.35
+Veteran Composure,Positive,Resilience,Leadership Effectiveness,Vitality,Stress Management,Endurance,Resilience,+Stress Management +Task Endurance,Stress Management ,+1,Task Endurance,+1,,,0,0.25
+Shared Hardship Bond,Positive,Emotional Intelligence,Instinctive Decision-Making,Empathy,Stress Management,Logic,Task Endurance,+Empathy +Social Energy +Resilience,Empathy ,+1,Social Energy ,+1,Resilience,+1,0.1,0.35
