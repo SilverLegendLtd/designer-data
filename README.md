@@ -3,6 +3,8 @@
 Do not edit generated files. They are written by `python tools/import_data.py` (game-design repo,
 `tools/` = SilverLegendLtd/designer-data-tools) from the sheet exports in Drive `Design/exports/`.
 
+All data lives under `Bronze/`; paths below are relative to it.
+
 | Path | What | Edited by hand? |
 |---|---|---|
 | `Attribute.json` | stat Tag registry, designed with the Unreal lead | yes (until it has a sheet) |
