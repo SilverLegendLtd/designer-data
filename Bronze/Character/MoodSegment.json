@@ -1,0 +1,86 @@
+[
+	{
+		"Name": "Pleasure",
+		"Tag": "Mood.Segment.Pleasure",
+		"Angle": 0.0,
+		"Length": 1.0,
+		"DevComment": "A quiet, fragile peace. The feeling of a full belly, a secure shelter, a moment without immediate threat. To be savored, because it won't last."
+	},
+	{
+		"Name": "Activated Pleasure",
+		"Tag": "Mood.Segment.ActivatedPleasure",
+		"Angle": 30.0,
+		"Length": 1.0,
+		"DevComment": "A fleeting, almost foolish sensation. A rare warmth in the gut that’s either genuine hope or the last symptom of a slow-acting poison. Often unstable and borders on manic."
+	},
+	{
+		"Name": "Pleasant Activation",
+		"Tag": "Mood.Segment.PleasantActivation",
+		"Angle": 60.0,
+		"Length": 1.0,
+		"DevComment": "A nervous energy, a jittery anticipation. Could be for a good meal, a clean shot, or the simple fact of surviving another day. Prone to tipping into anxiety."
+	},
+	{
+		"Name": "Activation",
+		"Tag": "Mood.Segment.Activation",
+		"Angle": 90.0,
+		"Length": 1.0,
+		"DevComment": "Hyper-aware, senses screaming. Not a calm readiness, but a state of high tension, waiting for the snap of a twig or the glint of a scope. Survival depends on it."
+	},
+	{
+		"Name": "Unpleasant Activation",
+		"Tag": "Mood.Segment.UnpleasantActivation",
+		"Angle": 120.0,
+		"Length": 1.0,
+		"DevComment": "Muscles coiled tight, jaw locked. The feeling of being watched, of imminent violence. It's the silent hum of a world ready to break."
+	},
+	{
+		"Name": "Activated Displeasure",
+		"Tag": "Mood.Segment.ActivatedDispleasure",
+		"Angle": 150.0,
+		"Length": 1.0,
+		"DevComment": "The weight of it all. Not just one threat, but the crushing burden of dwindling supplies, constant danger, and broken trust. A slow, grinding exhaustion of the soul."
+	},
+	{
+		"Name": "Displeasure",
+		"Tag": "Mood.Segment.Displeasure",
+		"Angle": 180.0,
+		"Length": 1.0,
+		"DevComment": "A sour mix of anger and hurt. A fresh wound, a betrayal, a plan gone to hell. It's personal, and it festers."
+	},
+	{
+		"Name": "Deactivated Displeasure",
+		"Tag": "Mood.Segment.DeactivatedDispleasure",
+		"Angle": 210.0,
+		"Length": 1.0,
+		"DevComment": "A heavy, persistent ache. The quiet grief for a world that's gone, for people lost. It's a constant companion in the quiet moments."
+	},
+	{
+		"Name": "Unpleasant Deactivation",
+		"Tag": "Mood.Segment.UnpleasantDeactivation",
+		"Angle": 240.0,
+		"Length": 1.0,
+		"DevComment": "The hollowing out. Not just sadness, but a profound lack of feeling, a grey emptiness where hope used to be. The world is muted, and survival feels pointless."
+	},
+	{
+		"Name": "Deactivation",
+		"Tag": "Mood.Segment.Deactivation",
+		"Angle": 270.0,
+		"Length": 1.0,
+		"DevComment": "The physical toll of survival. Every muscle aches, every breath is an effort. It’s the simple, grinding reality of a body pushed to its limits."
+	},
+	{
+		"Name": "Pleasant Deactivation",
+		"Tag": "Mood.Segment.PleasantDeactivation",
+		"Angle": 300.0,
+		"Length": 1.0,
+		"DevComment": "The brief, blessed letting go of tension. A moment to lower the rifle, to breathe without tasting dust. A luxury that can get you killed."
+	},
+	{
+		"Name": "Deactivated Pleasure",
+		"Tag": "Mood.Segment.DeactivatedPleasure",
+		"Angle": 330.0,
+		"Length": 1.0,
+		"DevComment": "A profound, almost unnatural stillness. The calm of a graveyard after a battle. Often mistaken for detachment, it's a state of having made peace with the end."
+	}
+]

@@ -11,6 +11,7 @@ All data lives under `Bronze/`; paths below are relative to it.
 | `Sources/` | inputs with no sheet yet: `BaseBuildingTags.json` (Tag registry), `Base_Layout.csv`, `Starting_Resources.csv`, `Leisure Activity Movement.csv` | yes (until they have a sheet) |
 | `BaseBuilding/*.json`, `BaseBuilding/Schemas/` | base-building tables (Buildings, Upgrades, Work, ResearchTree, LeisureActivities, StartingResources, BaseLayout, StatTags, TagRegistry) | no |
 | `Character/Background*.json` | Background Data sheet (life paths) | no |
+| `Character/MoodSegment.json` | the 12 mood segments of the mood circle (angle, length, description); moved from DialogueData/GameData | yes (until it has a sheet) |
 | `Docs/BaseBuilding/*.md` | generated Tag registry docs | no |
 
 Consumers copy these files (see `tools/consumers.json`); `import_data.py --check` reports drift.
