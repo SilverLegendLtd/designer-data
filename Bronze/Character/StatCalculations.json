@@ -458,5 +458,49 @@
     "Timing": "Live",
     "Formula": "(-EI - SN) / 4 + 50",
     "Notes": null
+  },
+  {
+    "Tag": "Stamina",
+    "Name": "Stamina",
+    "Kind": "Meter",
+    "Letters": null,
+    "Weights": {
+      "EI": 0,
+      "SN": 0,
+      "TF": 0,
+      "JP": 0
+    },
+    "StatWeights": {
+      "PhysicalAttribute.Endurance": 0.5
+    },
+    "Divisor": 1,
+    "Offset": 50,
+    "Min": 0,
+    "Max": 100,
+    "Timing": "Maximum",
+    "Formula": "50 + Endurance * 0.5",
+    "Notes": "Maximum Stamina (D128). The current Stamina is a meter that starts at this maximum. Max 100 suggested."
+  },
+  {
+    "Tag": "Health",
+    "Name": "Health",
+    "Kind": "Meter",
+    "Letters": null,
+    "Weights": {
+      "EI": 0,
+      "SN": 0,
+      "TF": 0,
+      "JP": 0
+    },
+    "StatWeights": {
+      "PhysicalAttribute.Vitality": 0.5
+    },
+    "Divisor": 1,
+    "Offset": 50,
+    "Min": 0,
+    "Max": null,
+    "Timing": "Maximum",
+    "Formula": "50 + Vitality * 0.5",
+    "Notes": "Maximum Health (D129). Blank Max = no upper limit (D131)."
   }
 ]

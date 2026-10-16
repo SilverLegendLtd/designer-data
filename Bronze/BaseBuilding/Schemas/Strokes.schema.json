@@ -1,0 +1,17 @@
+{
+  "table": "Strokes",
+  "conventions": {
+    "Source": "BB.StrokeSource.*: the game event that gives the stroke (SIL-1610)",
+    "Motivation": "null only with Scope CurrentMotivation: the stroke lands on the Need of the base stat that fell/rose (D136)",
+    "Scope": "Self / Crew (every character) / CurrentMotivation",
+    "Trait": "null = all characters; else an MBTI letter or SJ/SP/NT/NF (D140)"
+  },
+  "columns": {
+    "Source": "tag:StrokeSource",
+    "Motivation": "tag:Motivation?",
+    "Amount": "int",
+    "DailyCap": "int?",
+    "Scope": "string",
+    "Trait": "string?"
+  }
+}

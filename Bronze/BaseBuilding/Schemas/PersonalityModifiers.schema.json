@@ -1,0 +1,14 @@
+{
+  "table": "PersonalityModifiers",
+  "conventions": {
+    "Trait": "an MBTI letter (I/E/S/N/T/F/J/P) or a temperament (SJ/SP/NT/NF): the GDD's per-letter personality effects and Stressor table (D140, idea 0057)",
+    "Target": "a Motivation Tag or a Stamina key",
+    "Modifier": "Hunger / Uncaring / DistressThreshold / HighLimit / LowLimit / StrokeSensitivity / AccumulatorSize / Multiplier (the fixed list, idea 0056)"
+  },
+  "columns": {
+    "Trait": "string",
+    "Target": "string",
+    "Modifier": "string",
+    "Amount": "number"
+  }
+}

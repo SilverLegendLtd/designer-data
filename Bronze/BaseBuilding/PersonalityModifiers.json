@@ -1,0 +1,152 @@
+[
+  {
+    "Trait": "I",
+    "Target": "Motivation.Social.Attention",
+    "Modifier": "DistressThreshold",
+    "Amount": -5.0
+  },
+  {
+    "Trait": "I",
+    "Target": "Motivation.Social.Attachment",
+    "Modifier": "HighLimit",
+    "Amount": 5.0
+  },
+  {
+    "Trait": "E",
+    "Target": "Motivation.Social.Recognition",
+    "Modifier": "Hunger",
+    "Amount": 10.0
+  },
+  {
+    "Trait": "E",
+    "Target": "Motivation.Social.Attention",
+    "Modifier": "Hunger",
+    "Amount": 10.0
+  },
+  {
+    "Trait": "T",
+    "Target": "Motivation.Social.Validation",
+    "Modifier": "DistressThreshold",
+    "Amount": -5.0
+  },
+  {
+    "Trait": "F",
+    "Target": "Motivation.Social.Affection",
+    "Modifier": "DistressThreshold",
+    "Amount": 5.0
+  },
+  {
+    "Trait": "F",
+    "Target": "Motivation.Social.Validation",
+    "Modifier": "DistressThreshold",
+    "Amount": 5.0
+  },
+  {
+    "Trait": "SJ",
+    "Target": "Motivation.Social.Affiliation",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "SJ",
+    "Target": "Motivation.Social.Recognition",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 0.75
+  },
+  {
+    "Trait": "SJ",
+    "Target": "Motivation.Social.Loyalty",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "SJ",
+    "Target": "Motivation.Social.Attachment",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 2.0
+  },
+  {
+    "Trait": "SJ",
+    "Target": "Motivation.Social.Attention",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "SJ",
+    "Target": "Motivation.Social.Affection",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.25
+  },
+  {
+    "Trait": "SJ",
+    "Target": "Motivation.Social.Approval",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.25
+  },
+  {
+    "Trait": "SP",
+    "Target": "Motivation.Social.Recognition",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "SP",
+    "Target": "Motivation.Social.Attention",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "SP",
+    "Target": "Motivation.Social.Approval",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "NT",
+    "Target": "Motivation.Social.Recognition",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 2.0
+  },
+  {
+    "Trait": "NT",
+    "Target": "Motivation.Social.Attention",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "NT",
+    "Target": "Motivation.Social.Approval",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "NT",
+    "Target": "Motivation.Social.Trust",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.25
+  },
+  {
+    "Trait": "NF",
+    "Target": "Motivation.Social.Loyalty",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "NF",
+    "Target": "Motivation.Social.Trust",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 0.5
+  },
+  {
+    "Trait": "NF",
+    "Target": "Motivation.Social.Affiliation",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  },
+  {
+    "Trait": "NF",
+    "Target": "Motivation.Social.Validation",
+    "Modifier": "StrokeSensitivity",
+    "Amount": 1.5
+  }
+]

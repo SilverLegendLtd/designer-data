@@ -2676,5 +2676,271 @@
     "Name": "Scout",
     "Aliases": [],
     "DevComment": "Job title, Communication option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Tired",
+    "Name": "Tired",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Exhausted",
+    "Name": "Exhausted",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Distressed.Validation",
+    "Name": "Distressed (Validation)",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Distressed.Survival",
+    "Name": "Distressed (Survival)",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Kind": "Effect",
+    "Tag": "GameplayEffect.BaseBuilding.Distressed.WellBeing",
+    "Name": "Distressed (Well-Being)",
+    "Aliases": [],
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Need.Survival",
+    "Name": "Survival",
+    "Aliases": [],
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Need.WellBeing",
+    "Name": "Well-Being",
+    "Aliases": [],
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Need.Safety",
+    "Name": "Safety",
+    "Aliases": [],
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Need.Tech",
+    "Name": "Tech",
+    "Aliases": [],
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Need.Science",
+    "Name": "Science",
+    "Aliases": [],
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Need.Unity",
+    "Name": "Unity",
+    "Aliases": [],
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Loyalty",
+    "Name": "Loyalty",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Validation",
+    "Name": "Validation",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Affiliation",
+    "Name": "Affiliation",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Recognition",
+    "Name": "Recognition",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Attachment",
+    "Name": "Attachment",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Affection",
+    "Name": "Affection",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Trust",
+    "Name": "Trust",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Approval",
+    "Name": "Approval",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "Motivation",
+    "Tag": "Motivation.Social.Attention",
+    "Name": "Attention",
+    "Aliases": [],
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.WorkCriticalSuccess",
+    "Name": "WorkCriticalSuccess",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.WorkGood",
+    "Name": "WorkGood",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.WorkFailure",
+    "Name": "WorkFailure",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.WorkBadlyDone",
+    "Name": "WorkBadlyDone",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.ExhaustedDay",
+    "Name": "ExhaustedDay",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.BuildingFinished",
+    "Name": "BuildingFinished",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.SharedSlotWorkday",
+    "Name": "SharedSlotWorkday",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.SharedLeisure",
+    "Name": "SharedLeisure",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.GuardDay",
+    "Name": "GuardDay",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.LevelUp",
+    "Name": "LevelUp",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.IdleByChoice",
+    "Name": "IdleByChoice",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.Hungry",
+    "Name": "Hungry",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.Starving",
+    "Name": "Starving",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.Sick",
+    "Name": "Sick",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.Treated",
+    "Name": "Treated",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.FedAndRestedDay",
+    "Name": "FedAndRestedDay",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.BaseBandFell",
+    "Name": "BaseBandFell",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Kind": "StrokeSource",
+    "Tag": "BB.StrokeSource.BaseBandRose",
+    "Name": "BaseBandRose",
+    "Aliases": [],
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
   }
 ]

@@ -1,0 +1,23 @@
+{
+  "table": "Motivations",
+  "conventions": {
+    "Tag": "Motivation.Need.<Name> / Motivation.Social.<Name> (the GDD's words, so a later dialogue/Unreal mapping is mechanical)",
+    "BaseStatTag": "the base stat (BB.Buff.*) a Need follows (D63, D94-D96); null for Social motivations",
+    "InSlice": "Yes = the game runs it this slice (turning one on later is a data change)",
+    "DistressThreshold": "the accumulator value the motivation's Distressed effect row fires at"
+  },
+  "columns": {
+    "Tag": "tag:Motivation",
+    "Name": "string",
+    "Group": "string",
+    "BaseStat": "string?",
+    "BaseStatTag": "tag:Buff?",
+    "InSlice": "bool",
+    "AccumulatorSize": "int",
+    "Step": "int",
+    "Baseline": "int",
+    "LowLimit": "int",
+    "HighLimit": "int",
+    "DistressThreshold": "int"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "table": "Stamina",
+  "conventions": {
+    "Key": "Stamina.*: TiredBelow/TiredClearsAt/ExhaustedBelow/ExhaustedClearsAt/SleepWhileExhaustedShare are shares of the character's max (0..1, SleepWhileExhaustedShare below ExhaustedClearsAt, D136/D137)",
+    "Value": "the other keys are absolute points; WorkTierPenaltyCap is the lowest total work-tier modifier from effects"
+  },
+  "columns": {
+    "Key": "string",
+    "Value": "number"
+  }
+}

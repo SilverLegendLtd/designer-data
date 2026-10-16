@@ -1,0 +1,46 @@
+[
+  {
+    "Key": "Stamina.TiredBelow",
+    "Value": 0.5
+  },
+  {
+    "Key": "Stamina.TiredClearsAt",
+    "Value": 0.55
+  },
+  {
+    "Key": "Stamina.ExhaustedBelow",
+    "Value": 0.15
+  },
+  {
+    "Key": "Stamina.ExhaustedClearsAt",
+    "Value": 0.3
+  },
+  {
+    "Key": "Stamina.SleepPerNight",
+    "Value": 32.0
+  },
+  {
+    "Key": "Stamina.SleepWhileExhaustedShare",
+    "Value": 0.25
+  },
+  {
+    "Key": "Stamina.DrainPerWorkTick",
+    "Value": 1.0
+  },
+  {
+    "Key": "Stamina.RestPerTick",
+    "Value": 0.5
+  },
+  {
+    "Key": "Stamina.RestWeightWhenTired",
+    "Value": 30.0
+  },
+  {
+    "Key": "Stamina.RestWeightWhenExhausted",
+    "Value": 60.0
+  },
+  {
+    "Key": "Stamina.WorkTierPenaltyCap",
+    "Value": -2.0
+  }
+]

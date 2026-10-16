@@ -1,0 +1,26 @@
+[
+  {
+    "Skill": "PhysicalSkill.Firearms",
+    "DrainPerTick": 1.25
+  },
+  {
+    "Skill": "PhysicalSkill.Mechanical",
+    "DrainPerTick": 1.25
+  },
+  {
+    "Skill": "PhysicalSkill.Food",
+    "DrainPerTick": 1.0
+  },
+  {
+    "Skill": "PhysicalSkill.Medical",
+    "DrainPerTick": 1.0
+  },
+  {
+    "Skill": "PhysicalSkill.Research",
+    "DrainPerTick": 0.75
+  },
+  {
+    "Skill": "PhysicalSkill.Communication",
+    "DrainPerTick": 0.75
+  }
+]

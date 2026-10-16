@@ -1,0 +1,146 @@
+[
+  {
+    "Source": "BB.StrokeSource.WorkCriticalSuccess",
+    "Motivation": "Motivation.Social.Validation",
+    "Amount": 1,
+    "DailyCap": 2,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.WorkGood",
+    "Motivation": "Motivation.Social.Validation",
+    "Amount": 1,
+    "DailyCap": 2,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.WorkFailure",
+    "Motivation": "Motivation.Social.Validation",
+    "Amount": -1,
+    "DailyCap": null,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.WorkBadlyDone",
+    "Motivation": "Motivation.Social.Validation",
+    "Amount": -1,
+    "DailyCap": null,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.ExhaustedDay",
+    "Motivation": "Motivation.Social.Validation",
+    "Amount": -2,
+    "DailyCap": 1,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.BuildingFinished",
+    "Motivation": "Motivation.Social.Loyalty",
+    "Amount": 1,
+    "DailyCap": null,
+    "Scope": "Crew",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.SharedSlotWorkday",
+    "Motivation": "Motivation.Social.Affiliation",
+    "Amount": 1,
+    "DailyCap": 1,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.SharedLeisure",
+    "Motivation": "Motivation.Social.Affiliation",
+    "Amount": 1,
+    "DailyCap": null,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.GuardDay",
+    "Motivation": "Motivation.Social.Recognition",
+    "Amount": 1,
+    "DailyCap": 1,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.LevelUp",
+    "Motivation": "Motivation.Social.Recognition",
+    "Amount": 1,
+    "DailyCap": null,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.IdleByChoice",
+    "Motivation": "Motivation.Social.Recognition",
+    "Amount": -1,
+    "DailyCap": 1,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.Hungry",
+    "Motivation": "Motivation.Need.Survival",
+    "Amount": -1,
+    "DailyCap": null,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.Starving",
+    "Motivation": "Motivation.Need.Survival",
+    "Amount": -2,
+    "DailyCap": null,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.Sick",
+    "Motivation": "Motivation.Need.WellBeing",
+    "Amount": -2,
+    "DailyCap": null,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.Treated",
+    "Motivation": "Motivation.Need.WellBeing",
+    "Amount": 2,
+    "DailyCap": null,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.FedAndRestedDay",
+    "Motivation": "Motivation.Need.Survival",
+    "Amount": 1,
+    "DailyCap": 1,
+    "Scope": "Self",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.BaseBandFell",
+    "Motivation": null,
+    "Amount": -1,
+    "DailyCap": 1,
+    "Scope": "CurrentMotivation",
+    "Trait": null
+  },
+  {
+    "Source": "BB.StrokeSource.BaseBandRose",
+    "Motivation": null,
+    "Amount": 1,
+    "DailyCap": 1,
+    "Scope": "CurrentMotivation",
+    "Trait": null
+  }
+]

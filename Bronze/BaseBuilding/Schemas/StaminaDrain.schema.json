@@ -1,0 +1,10 @@
+{
+  "table": "StaminaDrain",
+  "conventions": {
+    "Skill": "the Physical Skill a work tick of that skill drains per tick; a Station's own row beats Stamina.DrainPerWorkTick"
+  },
+  "columns": {
+    "Skill": "tag:Stat",
+    "DrainPerTick": "number"
+  }
+}
