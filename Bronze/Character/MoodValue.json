@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "Valence",
+        "Tag": "Mood.Value.Valence",
+        "DevComment": "Represents the valence (pleasantness/unpleasantness) dimension of a mood."
+    },
+    {
+        "Name": "Arousal",
+        "Tag": "Mood.Value.Arousal",
+        "DevComment": "Represents the arousal (intensity) dimension of a mood."
+    }
+]

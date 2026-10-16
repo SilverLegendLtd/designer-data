@@ -1,0 +1,86 @@
+[
+	{
+		"Name": "-10",
+		"Weight": -1.00
+	},
+	{
+		"Name": "-9",
+		"Weight": -0.90
+	},
+	{
+		"Name": "-8",
+		"Weight": -0.80
+	},
+	{
+		"Name": "-7",
+		"Weight": -0.70
+	},
+	{
+		"Name": "-6",
+		"Weight": -0.60
+	},
+	{
+		"Name": "-5",
+		"Weight": -0.50
+	},
+	{
+		"Name": "-4",
+		"Weight": -0.40
+	},
+	{
+		"Name": "-3",
+		"Weight": -0.30
+	},
+	{
+		"Name": "-2",
+		"Weight": -0.20
+	},
+	{
+		"Name": "-1",
+		"Weight": -0.10
+	},
+	{
+		"Name": "0",
+		"Weight": 0
+	},
+	{
+		"Name": "1",
+		"Weight": 0.10
+	},
+	{
+		"Name": "2",
+		"Weight": 0.20
+	},
+	{
+		"Name": "3",
+		"Weight": 0.30
+	},
+	{
+		"Name": "4",
+		"Weight": 0.40
+	},
+	{
+		"Name": "5",
+		"Weight": 0.50
+	},
+	{
+		"Name": "6",
+		"Weight": 0.60
+	},
+	{
+		"Name": "7",
+		"Weight": 0.70
+	},
+	{
+		"Name": "8",
+		"Weight": 0.80
+	},
+	{
+		"Name": "9",
+		"Weight": 0.90
+	},
+	{
+		"Name": "10",
+		"Weight": 1.00
+	}
+]

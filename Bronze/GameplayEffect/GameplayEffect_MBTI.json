@@ -1,0 +1,370 @@
+[
+  {
+    "Name": "Sharp Insight",
+    "Tag": "GameplayEffect.MBTI.SharpInsight",
+    "DevComment": "Positive effect. Affects: +Analytical Insight +Strategic Thinking +Focus",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.StrategicThinking",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
+      "SetByCaller.MentalSkill.StrategicThinking": 1,
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.Mood.Arousal": -0.1,
+      "SetByCaller.Mood.Valence": 0.35
+    }
+  },
+  {
+    "Name": "Mental Fog",
+    "Tag": "GameplayEffect.MBTI.MentalFog",
+    "DevComment": "Negative effect. Affects: -Focus -Analytical Insight -Perception",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalSkill.AnalyticalInsight": -1,
+      "SetByCaller.MentalAttribute.Perception": -1,
+      "SetByCaller.Mood.Arousal": -0.2,
+      "SetByCaller.Mood.Valence": -0.25
+    }
+  },
+  {
+    "Name": "Idea Rush",
+    "Tag": "GameplayEffect.MBTI.IdeaRush",
+    "DevComment": "Positive effect. Affects: +Research Aptitude +Social Energy +Charisma",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.PracticalSkills",
+      "Attribute": "PhysicalAttribute.Reasoning"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.ResearchAptitude": 1,
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalSkill.Charisma": 1,
+      "SetByCaller.Mood.Arousal": 0.35,
+      "SetByCaller.Mood.Valence": 0.4
+    }
+  },
+  {
+    "Name": "Restless Mind",
+    "Tag": "GameplayEffect.MBTI.RestlessMind",
+    "DevComment": "Negative effect. Affects: -Task Endurance -Social Energy -Research Aptitude",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "PhysicalAttribute.Reasoning"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.TaskEndurance": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.MentalSkill.ResearchAptitude": -1,
+      "SetByCaller.Mood.Arousal": 0.15,
+      "SetByCaller.Mood.Valence": -0.25
+    }
+  },
+  {
+    "Name": "Steady Footing",
+    "Tag": "GameplayEffect.MBTI.SteadyFooting",
+    "DevComment": "Positive effect. Affects: +Discipline +Stress Management +Task Endurance",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.StrategicThinking",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Discipline": 1,
+      "SetByCaller.MentalSkill.StressManagement": 1,
+      "SetByCaller.MentalSkill.TaskEndurance": 1,
+      "SetByCaller.Mood.Arousal": -0.15,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Thrown Off Balance",
+    "Tag": "GameplayEffect.MBTI.ThrownOffBalance",
+    "DevComment": "Negative effect. Affects: -Stress Management -Discipline -Focus",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.PracticalSkills",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.StressManagement": -1,
+      "SetByCaller.MentalAttribute.Discipline": -1,
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.Mood.Arousal": 0.3,
+      "SetByCaller.Mood.Valence": -0.3
+    }
+  },
+  {
+    "Name": "In The Zone",
+    "Tag": "GameplayEffect.MBTI.InTheZone",
+    "DevComment": "Positive effect. Affects: +Social Energy +Instinctive Decision-Making +Charisma",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.PracticalSkills",
+      "Attribute": "PhysicalAttribute.Endurance"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "PhysicalAttribute.Endurance"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalSkill.InstinctiveDecisionMaking": 1,
+      "SetByCaller.MentalSkill.Charisma": 1,
+      "SetByCaller.Mood.Arousal": 0.4,
+      "SetByCaller.Mood.Valence": 0.4
+    }
+  },
+  {
+    "Name": "Cooped Up",
+    "Tag": "GameplayEffect.MBTI.CoopedUp",
+    "DevComment": "Negative effect. Affects: -Social Energy -Task Endurance -Stress Management",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "PhysicalAttribute.Endurance"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.MentalSkill.TaskEndurance": -1,
+      "SetByCaller.MentalSkill.StressManagement": -1,
+      "SetByCaller.Mood.Arousal": -0.2,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Laser Focus",
+    "Tag": "GameplayEffect.MBTI.LaserFocus",
+    "DevComment": "Positive effect. Affects: +Analytical Insight +Focus +Logic",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.MentalAttribute.Logic": 1,
+      "SetByCaller.Mood.Arousal": -0.1,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Mental Clutter",
+    "Tag": "GameplayEffect.MBTI.MentalClutter",
+    "DevComment": "Negative effect. Affects: -Focus -Analytical Insight -Discipline",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalSkill.AnalyticalInsight": -1,
+      "SetByCaller.MentalAttribute.Discipline": -1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": -0.25
+    }
+  },
+  {
+    "Name": "Taking Charge",
+    "Tag": "GameplayEffect.MBTI.TakingCharge",
+    "DevComment": "Positive effect. Affects: +Leadership Effectiveness +Discipline +Task Endurance",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.StrategicThinking",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
+      "SetByCaller.MentalAttribute.Discipline": 1,
+      "SetByCaller.MentalSkill.TaskEndurance": 1,
+      "SetByCaller.Mood.Arousal": 0.3,
+      "SetByCaller.Mood.Valence": 0.35
+    }
+  },
+  {
+    "Name": "Hitting A Wall",
+    "Tag": "GameplayEffect.MBTI.HittingAWall",
+    "DevComment": "Negative effect. Affects: -Stress Management -Diplomacy and Trade -Discipline",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.StressManagement": -1,
+      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
+      "SetByCaller.MentalAttribute.Discipline": -1,
+      "SetByCaller.Mood.Arousal": 0.35,
+      "SetByCaller.Mood.Valence": -0.3
+    }
+  },
+  {
+    "Name": "True To Self",
+    "Tag": "GameplayEffect.MBTI.TrueToSelf",
+    "DevComment": "Positive effect. Affects: +Empathy +Resilience +Emotional Intelligence",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalSkill.Resilience": 1,
+      "SetByCaller.MentalSkill.EmotionalIntelligence": 1,
+      "SetByCaller.Mood.Arousal": -0.15,
+      "SetByCaller.Mood.Valence": 0.35
+    }
+  },
+  {
+    "Name": "Values Shaken",
+    "Tag": "GameplayEffect.MBTI.ValuesShaken",
+    "DevComment": "Negative effect. Affects: -Social Energy -Stress Management -Resilience",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.MentalSkill.StressManagement": -1,
+      "SetByCaller.MentalSkill.Resilience": -1,
+      "SetByCaller.Mood.Arousal": -0.3,
+      "SetByCaller.Mood.Valence": -0.35
+    }
+  },
+  {
+    "Name": "In Sync",
+    "Tag": "GameplayEffect.MBTI.InSync",
+    "DevComment": "Positive effect. Affects: +Empathy +Diplomacy and Trade +Social Energy",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalSkill.DiplomacyTrade": 1,
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.Mood.Arousal": 0.25,
+      "SetByCaller.Mood.Valence": 0.4
+    }
+  },
+  {
+    "Name": "Out Of Sync",
+    "Tag": "GameplayEffect.MBTI.OutOfSync",
+    "DevComment": "Negative effect. Affects: -Stress Management -Social Energy -Empathy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.StressManagement": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.Mood.Arousal": 0.3,
+      "SetByCaller.Mood.Valence": -0.35
+    }
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "Name": "Ideologically Threatened",
+    "Tag": "GameplayEffect.Belief.IdeologicallyThreatened",
+    "DevComment": "Negative effect. Affects: -Diplomacy and Trade -Empathy -Resilience",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.MentalSkill.Resilience": -1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": -0.35
+    }
+  },
+  {
+    "Name": "Moral Disapproval",
+    "Tag": "GameplayEffect.Belief.MoralDisapproval",
+    "DevComment": "Negative effect. Affects: -Social Energy -Empathy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": -0.25
+    }
+  },
+  {
+    "Name": "Cynically Reinforced",
+    "Tag": "GameplayEffect.Belief.CynicallyReinforced",
+    "DevComment": "Negative effect. Affects: +Analytical Insight -Empathy -Diplomacy and Trade",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
+      "SetByCaller.Mood.Arousal": 0.05,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Dogmatic Resistance",
+    "Tag": "GameplayEffect.Belief.DogmaticResistance",
+    "DevComment": "Negative effect. Affects: -Research Aptitude -Diplomacy and Trade",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.ResearchAptitude": -1,
+      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Value Alignment",
+    "Tag": "GameplayEffect.Belief.ValueAlignment",
+    "DevComment": "Positive effect. Affects: +Diplomacy and Trade +Empathy +Social Energy",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.Charisma",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.Charisma",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.DiplomacyTrade": 1,
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": 0.4
+    }
+  },
+  {
+    "Name": "Faith Reinforced",
+    "Tag": "GameplayEffect.Belief.FaithReinforced",
+    "DevComment": "Positive effect. Affects: +Stress Management +Discipline +Task Endurance",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.StressManagement": 1,
+      "SetByCaller.MentalAttribute.Discipline": 1,
+      "SetByCaller.MentalSkill.TaskEndurance": 1,
+      "SetByCaller.Mood.Arousal": 0.05,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Perspective Shift",
+    "Tag": "GameplayEffect.Belief.PerspectiveShift",
+    "DevComment": "Positive effect. Affects: +Analytical Insight +Research Aptitude +Empathy",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.StrategicThinking",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
+      "SetByCaller.MentalSkill.ResearchAptitude": 1,
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.Mood.Arousal": 0.15,
+      "SetByCaller.Mood.Valence": 0.35
+    }
+  },
+  {
+    "Name": "Principled Trust",
+    "Tag": "GameplayEffect.Belief.PrincipledTrust",
+    "DevComment": "Positive effect. Affects: +Social Energy +Empathy",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.Mood.Arousal": 0.05,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  }
+]

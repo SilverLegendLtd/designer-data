@@ -1,0 +1,522 @@
+[
+  {
+    "Name": "GreyMentalSkillSet.SocialAdaptability",
+    "Tag": "Character.Skill.Mental.SocialAdaptability",
+    "DevComment": "Social Adaptability",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.AnalyticalInsight",
+    "Tag": "Character.Skill.Mental.AnalyticalInsight",
+    "DevComment": "Analytical Insight",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.EmotionalIntelligence",
+    "Tag": "Character.Skill.Mental.EmotionalIntelligence",
+    "DevComment": "Emotional Intelligence",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.PracticalSkills",
+    "Tag": "Character.Skill.Mental.PracticalSkills",
+    "DevComment": "Practical Skills",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.CreativePotential",
+    "Tag": "Character.Skill.Mental.CreativePotential",
+    "DevComment": "Creative Potential",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.LeadershipEffectiveness",
+    "Tag": "Character.Skill.Mental.LeadershipEffectiveness",
+    "DevComment": "Leadership Effectiveness",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.StrategicThinking",
+    "Tag": "Character.Skill.Mental.StrategicThinking",
+    "DevComment": "Strategic Thinking",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.InstinctiveDecisionMaking",
+    "Tag": "Character.Skill.Mental.InstinctiveDecisionMaking",
+    "DevComment": "Instinctive Decision-Making",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.Charisma",
+    "Tag": "Character.Skill.Mental.Charisma",
+    "DevComment": "Charisma",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.Resilience",
+    "Tag": "Character.Skill.Mental.Resilience",
+    "DevComment": "Resilience",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.InitiatingConversations",
+    "Tag": "Character.Skill.Mental.InitiatingConversations",
+    "DevComment": "Initiating conversations",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.TaskEndurance",
+    "Tag": "Character.Skill.Mental.TaskEndurance",
+    "DevComment": "Task Endurance",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.ConversationalDepth",
+    "Tag": "Character.Skill.Mental.ConversationalDepth",
+    "DevComment": "Conversational Depth",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.ActiveListening",
+    "Tag": "Character.Skill.Mental.ActiveListening",
+    "DevComment": "Active Listening",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.SocialPerceptiveness",
+    "Tag": "Character.Skill.Mental.SocialPerceptiveness",
+    "DevComment": "Social Perceptiveness",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.PersuasiveWriting",
+    "Tag": "Character.Skill.Mental.PersuasiveWriting",
+    "DevComment": "Persuasive Writing",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.StressManagement",
+    "Tag": "Character.Skill.Mental.StressManagement",
+    "DevComment": "Stress Management",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalSkillSet.DiplomacyTrade",
+    "Tag": "Character.Skill.Mental.DiplomacyTrade",
+    "DevComment": "Diplomacy/Trade",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalAttributeSet.SocialEnergy",
+    "Tag": "Character.Attribute.Mental.SocialEnergy",
+    "DevComment": "Social Energy",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalAttributeSet.Focus",
+    "Tag": "Character.Attribute.Mental.Focus",
+    "DevComment": "Focus",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalAttributeSet.Perception",
+    "Tag": "Character.Attribute.Mental.Perception",
+    "DevComment": "Perception",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalAttributeSet.Creativity",
+    "Tag": "Character.Attribute.Mental.Creativity",
+    "DevComment": "Creativity",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalAttributeSet.Logic",
+    "Tag": "Character.Attribute.Mental.Logic",
+    "DevComment": "Logic",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalAttributeSet.Empathy",
+    "Tag": "Character.Attribute.Mental.Empathy",
+    "DevComment": "Empathy",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalAttributeSet.Discipline",
+    "Tag": "Character.Attribute.Mental.Discipline",
+    "DevComment": "Discipline",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMentalAttributeSet.Adaptability",
+    "Tag": "Character.Attribute.Mental.Adaptability",
+    "DevComment": "Adaptability",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Logistics",
+    "Tag": "Character.Skill.Physical.Logistics",
+    "DevComment": "Logistics",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Medical",
+    "Tag": "Character.Skill.Physical.Medical",
+    "DevComment": "Medical",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Hunting",
+    "Tag": "Character.Skill.Physical.Hunting",
+    "DevComment": "Hunting",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Firearms",
+    "Tag": "Character.Skill.Physical.Firearms",
+    "DevComment": "Firearms",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Cooking",
+    "Tag": "Character.Skill.Physical.Cooking",
+    "DevComment": "Cooking",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Farming",
+    "Tag": "Character.Skill.Physical.Farming",
+    "DevComment": "Farming",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Crafting",
+    "Tag": "Character.Skill.Physical.Crafting",
+    "DevComment": "Crafting",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Mechanic",
+    "Tag": "Character.Skill.Physical.Mechanic",
+    "DevComment": "Mechanic",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Melee",
+    "Tag": "Character.Skill.Physical.Melee",
+    "DevComment": "Melee",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Research",
+    "Tag": "Character.Skill.Physical.Research",
+    "DevComment": "Research",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Communication",
+    "Tag": "Character.Skill.Physical.Communication",
+    "DevComment": "Communication",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Construction",
+    "Tag": "Character.Skill.Physical.Construction",
+    "DevComment": "Construction",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalSkillSet.Computers",
+    "Tag": "Character.Skill.Physical.Computers",
+    "DevComment": "Computers",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalAttributeSet.Strength",
+    "Tag": "Character.Attribute.Physical.Strength",
+    "DevComment": "Strength",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalAttributeSet.Agility",
+    "Tag": "Character.Attribute.Physical.Agility",
+    "DevComment": "Agility",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalAttributeSet.Endurance",
+    "Tag": "Character.Attribute.Physical.Endurance",
+    "DevComment": "Endurance",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalAttributeSet.Senses",
+    "Tag": "Character.Attribute.Physical.Senses",
+    "DevComment": "Senses",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalAttributeSet.Vitality",
+    "Tag": "Character.Attribute.Physical.Vitality",
+    "DevComment": "Vitality",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalAttributeSet.Reaction",
+    "Tag": "Character.Attribute.Physical.Reaction",
+    "DevComment": "Reaction",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPhysicalAttributeSet.Reasoning",
+    "Tag": "Character.Attribute.Physical.Reasoning",
+    "DevComment": "Reasoning",
+    "BaseValue": 0,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMoodSet.Valence",
+    "Tag": "Character.Mood.Value.Valence",
+    "DevComment": "Represents the valence (pleasantness/unpleasantness) dimension of a mood.",
+    "BaseValue": 0,
+    "MinValue": -1,
+    "MaxValue": 1,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyMoodSet.Arousal",
+    "Tag": "Character.Mood.Value.Arousal",
+    "DevComment": "Represents the arousal (intensity) dimension of a mood.",
+    "BaseValue": 0,
+    "MinValue": -1,
+    "MaxValue": 1,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPersonalitySet.EI",
+    "Tag": "Character.MBTI.Dimension.EI",
+    "DevComment": "Extraversion vs. Introversion",
+    "BaseValue": 0,
+    "MinValue": -100,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPersonalitySet.SN",
+    "Tag": "Character.MBTI.Dimension.SN",
+    "DevComment": "Sensing vs. Intuition",
+    "BaseValue": 0,
+    "MinValue": -100,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPersonalitySet.TF",
+    "Tag": "Character.MBTI.Dimension.TF",
+    "DevComment": "Thinking vs. Feeling",
+    "BaseValue": 0,
+    "MinValue": -100,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  },
+  {
+    "Name": "GreyPersonalitySet.JP",
+    "Tag": "Character.MBTI.Dimension.JP",
+    "DevComment": "Judging vs. Perceiving",
+    "BaseValue": 0,
+    "MinValue": -100,
+    "MaxValue": 100,
+    "DerivedAttributeInfo": "",
+    "bCanStack": false
+  }
+]

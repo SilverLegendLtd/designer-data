@@ -1,0 +1,765 @@
+[
+  {
+    "Name": "Defensive",
+    "Tag": "GameplayEffect.Mood.Defensive",
+    "DevComment": "Negative effect. Affects: -Empathy -Charisma",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.MentalSkill.Charisma": -1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Overwhelmed",
+    "Tag": "GameplayEffect.Mood.Overwhelmed",
+    "DevComment": "Negative effect. Affects: -Analytical Insight -Focus -Perception",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.OperationalOversight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.AnalyticalInsight": -1,
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalAttribute.Perception": -1,
+      "SetByCaller.Mood.Arousal": 0.3,
+      "SetByCaller.Mood.Valence": -0.3
+    }
+  },
+  {
+    "Name": "Distrustful",
+    "Tag": "GameplayEffect.Mood.Distrustful",
+    "DevComment": "Negative effect. Affects: -Empathy -Social Energy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Perception"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Frustrated",
+    "Tag": "GameplayEffect.Mood.Frustrated",
+    "DevComment": "Negative effect. Affects: -Focus -Discipline -Social Energy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalAttribute.Discipline": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.Mood.Arousal": 0.4,
+      "SetByCaller.Mood.Valence": -0.3
+    }
+  },
+  {
+    "Name": "Anxious",
+    "Tag": "GameplayEffect.Mood.Anxious",
+    "DevComment": "Negative effect. Affects: -Focus -Instinctive Decision-Making",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalSkill.InstinctiveDecisionMaking": -1,
+      "SetByCaller.Mood.Arousal": 0.5,
+      "SetByCaller.Mood.Valence": -0.3
+    }
+  },
+  {
+    "Name": "Melancholy",
+    "Tag": "GameplayEffect.Mood.Melancholy",
+    "DevComment": "Negative effect. Affects: -Social Energy -Instinctive Decision-Making",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.MentalSkill.InstinctiveDecisionMaking": -1,
+      "SetByCaller.Mood.Arousal": -0.4,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Irritated",
+    "Tag": "GameplayEffect.Mood.Irritated",
+    "DevComment": "Negative effect. Affects: -Empathy -Charisma",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.MentalSkill.Charisma": -1,
+      "SetByCaller.Mood.Arousal": 0.3,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Apathetic",
+    "Tag": "GameplayEffect.Mood.Apathetic",
+    "DevComment": "Negative effect. Affects: -Focus -Instinctive Decision-Making -Social Energy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalSkill.InstinctiveDecisionMaking": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.Mood.Arousal": -0.5,
+      "SetByCaller.Mood.Valence": -0.1
+    }
+  },
+  {
+    "Name": "Offended",
+    "Tag": "GameplayEffect.Mood.Offended",
+    "DevComment": "Negative effect. Affects: -Empathy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Intimidated",
+    "Tag": "GameplayEffect.Mood.Intimidated",
+    "DevComment": "Negative effect. Affects: -Social Energy -Leadership Effectiveness",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "PhysicalAttribute.Strength"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.MentalSkill.LeadershipEffectiveness": -1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": -0.3
+    }
+  },
+  {
+    "Name": "Discouraged",
+    "Tag": "GameplayEffect.Mood.Discouraged",
+    "DevComment": "Negative effect. Affects: -Discipline -Task Endurance -Social Energy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Discipline": -1,
+      "SetByCaller.MentalSkill.TaskEndurance": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.Mood.Arousal": -0.2,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Confused",
+    "Tag": "GameplayEffect.Mood.Confused",
+    "DevComment": "Negative effect. Affects: -Focus -Logic -Analytical Insight",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.StrategicThinking",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Perception"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalAttribute.Logic": -1,
+      "SetByCaller.MentalSkill.AnalyticalInsight": -1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Distracted",
+    "Tag": "GameplayEffect.Mood.Distracted",
+    "DevComment": "Negative effect. Affects: -Focus -Task Endurance",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.StrategicThinking",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalSkill.TaskEndurance": -1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": -0.1
+    }
+  },
+  {
+    "Name": "Agitated",
+    "Tag": "GameplayEffect.Mood.Agitated",
+    "DevComment": "Negative effect. Affects: -Discipline -Focus",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.StrategicThinking",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "PhysicalAttribute.Strength"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Discipline": -1,
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.Mood.Arousal": 0.3,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Trust Lost",
+    "Tag": "GameplayEffect.Mood.TrustLost",
+    "DevComment": "Negative effect. Affects: -Empathy -Attention to Detail",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.MentalSkill.AttentionToDetail": -1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": -0.3
+    }
+  },
+  {
+    "Name": "Bored",
+    "Tag": "GameplayEffect.Mood.Bored",
+    "DevComment": "Negative effect. Affects: -Focus -Social Energy +Creativity",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "MentalAttribute.Creativity"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.MentalAttribute.Creativity": 1,
+      "SetByCaller.Mood.Arousal": -0.2,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Suspicious",
+    "Tag": "GameplayEffect.Mood.Suspicious",
+    "DevComment": "Negative effect. Affects: +Analytical Insight -Empathy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Enraged",
+    "Tag": "GameplayEffect.Mood.Enraged",
+    "DevComment": "Negative effect. Affects: -Discipline -Empathy +Strength",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "PhysicalAttribute.Strength"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Discipline": -1,
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.PhysicalAttribute.Strength": 1,
+      "SetByCaller.Mood.Arousal": 0.3,
+      "SetByCaller.Mood.Valence": -0.3
+    }
+  },
+  {
+    "Name": "Serene",
+    "Tag": "GameplayEffect.Mood.Serene",
+    "DevComment": "Positive effect. Affects: +Focus +Empathy +Stress Management",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.AttentionToDetail",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Adaptability"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalSkill.StressManagement": 1,
+      "SetByCaller.Mood.Arousal": -0.3,
+      "SetByCaller.Mood.Valence": 0.4
+    }
+  },
+  {
+    "Name": "Enthusiastic",
+    "Tag": "GameplayEffect.Mood.Enthusiastic",
+    "DevComment": "Positive effect. Affects: +Social Energy +Instinctive Decision-Making +Charisma",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.Charisma",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalSkill.InstinctiveDecisionMaking": 1,
+      "SetByCaller.MentalSkill.Charisma": 1,
+      "SetByCaller.Mood.Arousal": 0.5,
+      "SetByCaller.Mood.Valence": 0.4
+    }
+  },
+  {
+    "Name": "Engaged",
+    "Tag": "GameplayEffect.Mood.Engaged",
+    "DevComment": "Positive effect. Affects: +Focus +Social Energy +Task Endurance",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalSkill.TaskEndurance": 1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Emotionally Open",
+    "Tag": "GameplayEffect.Mood.EmotionallyOpen",
+    "DevComment": "Positive effect. Affects: +Empathy +Social Energy -Analytical Insight",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.Charisma",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalSkill.AnalyticalInsight": -1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": 0.4
+    }
+  },
+  {
+    "Name": "Motivated",
+    "Tag": "GameplayEffect.Mood.Motivated",
+    "DevComment": "Positive effect. Affects: +Task Endurance +Focus +Research Aptitude",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.OperationalOversight",
+      "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.TaskEndurance": 1,
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.MentalSkill.ResearchAptitude": 1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Calm and Receptive",
+    "Tag": "GameplayEffect.Mood.CalmandReceptive",
+    "DevComment": "Positive effect. Affects: +Analytical Insight +Focus",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.Mood.Arousal": -0.2,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Joyful",
+    "Tag": "GameplayEffect.Mood.Joyful",
+    "DevComment": "Positive effect. Affects: +Social Energy +Charisma +Adaptability",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.Charisma",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.Charisma",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalSkill.Charisma": 1,
+      "SetByCaller.MentalAttribute.Adaptability": 1,
+      "SetByCaller.Mood.Arousal": 0.4,
+      "SetByCaller.Mood.Valence": 0.4
+    }
+  },
+  {
+    "Name": "Inspired",
+    "Tag": "GameplayEffect.Mood.Inspired",
+    "DevComment": "Positive effect. Affects: +Creativity +Focus +Leadership Effectiveness",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Creativity"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.Charisma",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Creativity": 1,
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Encouraged",
+    "Tag": "GameplayEffect.Mood.Encouraged",
+    "DevComment": "Positive effect. Affects: +Discipline +Social Energy +Task Endurance",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Discipline": 1,
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalSkill.TaskEndurance": 1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": 0.2
+    }
+  },
+  {
+    "Name": "Focused",
+    "Tag": "GameplayEffect.Mood.Focused",
+    "DevComment": "Positive effect. Affects: +Focus +Discipline",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.MentalAttribute.Discipline": 1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": 0.2
+    }
+  },
+  {
+    "Name": "Soothed",
+    "Tag": "GameplayEffect.Mood.Soothed",
+    "DevComment": "Positive effect. Affects: +Empathy +Stress Management",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Adaptability"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalSkill.StressManagement": 1,
+      "SetByCaller.Mood.Arousal": -0.2,
+      "SetByCaller.Mood.Valence": 0.2
+    }
+  },
+  {
+    "Name": "Trust Gained",
+    "Tag": "GameplayEffect.Mood.TrustGained",
+    "DevComment": "Positive effect. Affects: +Empathy +Attention to Detail",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Adaptability"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalSkill.AttentionToDetail": 1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Enlightened",
+    "Tag": "GameplayEffect.Mood.Enlightened",
+    "DevComment": "Positive effect. Affects: +Logic +Analytical Insight +Creativity",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.AttentionToDetail",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Perception"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Logic": 1,
+      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
+      "SetByCaller.MentalAttribute.Creativity": 1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Challenged",
+    "Tag": "GameplayEffect.Mood.Challenged",
+    "DevComment": "Positive effect. Affects: +Focus +Strategic Thinking",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "PhysicalAttribute.Reasoning"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Focus": 1,
+      "SetByCaller.MentalSkill.StrategicThinking": 1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": 0.1
+    }
+  },
+  {
+    "Name": "Assertive Boost",
+    "Tag": "GameplayEffect.Mood.AssertiveBoost",
+    "DevComment": "Positive effect. Affects: +Charisma +Leadership Effectiveness",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.OperationalOversight",
+      "Attribute": "MentalAttribute.SocialEnergy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.TaskEndurance",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.Charisma": 1,
+      "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
+      "SetByCaller.Mood.Arousal": 0.2,
+      "SetByCaller.Mood.Valence": 0.2
+    }
+  },
+  {
+    "Name": "Reassured",
+    "Tag": "GameplayEffect.Mood.Reassured",
+    "DevComment": "Positive effect. Affects: +Empathy +Stress Management",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.StressManagement",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.AnalyticalInsight",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "MentalAttribute.Adaptability"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalSkill.StressManagement": 1,
+      "SetByCaller.Mood.Arousal": -0.1,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  }
+]

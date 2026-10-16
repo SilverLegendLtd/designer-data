@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Dominant",
+    "Tag": "Archetype.Dominant",
+    "DevComment": "The strongest, most developed function, serving as the 'ego leader' and primary source of confidence. It defines the individual's identity and approach to life, wielded with skill and assurance."
+  },
+  {
+    "Name": "Auxiliary",
+    "Tag": "Archetype.Auxiliary",
+    "DevComment": "A supportive, guiding function that encourages responsibility and nurturance. It complements the Hero by fostering growth in self and others, offering practical wisdom or emotional care to maintain balance."
+  },
+  {
+    "Name": "Tertiary",
+    "Tag": "Archetype.Tertiary",
+    "DevComment": "Playful and creative yet resists responsibility, this function retains a naive, sensitive, or youthful quality. It brings spontaneity and imagination but can be unreliable or overly idealistic when challenged."
+  },
+  {
+    "Name": "Inferior",
+    "Tag": "Archetype.Inferior",
+    "DevComment": "The least developed conscious role, insecure and vulnerable, often infantile in expression. It serves as the soul's aspirational yet awkward bridge to the unconscious, driving growth through discomfort."
+  },
+  {
+    "Name": "Opposing",
+    "Tag": "Archetype.Opposing",
+    "DevComment": "A contrarian, defensive 'inner manager' that resists the dominant function. It challenges the Hero's perspective with skepticism or stubbornness, emerging when the ego feels threatened or opposed."
+  },
+  {
+    "Name": "CriticalParent",
+    "Tag": "Archetype.CriticalParent",
+    "DevComment": "Negative, perfectionist, and harshly judgmental, this function delivers biting criticism to others or fuels self-sabotage. A shadow of the Parent, it undermines confidence with rigidity or guilt under stress."
+  },
+  {
+    "Name": "Trickster",
+    "Tag": "Archetype.Trickster",
+    "DevComment": "Deceptive, chaotic, and unpredictable, this function manipulates or distorts reality—sometimes deceitfully, sometimes defensively. Shadow to Eternal Child, it subverts expectations to escape double binds or assert autonomy, often surprising the self."
+  },
+  {
+    "Name": "Daemon",
+    "Tag": "Archetype.Daemon",
+    "DevComment": "The most unconscious function, causing self-doubt, fear, rage, and existential crises. Alienated from the ego, it holds destructive potential or profound transformation, surfacing in extreme stress."
+  }
+]

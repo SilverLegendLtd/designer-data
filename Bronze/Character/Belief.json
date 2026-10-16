@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "TechnoPurist",
+    "Tag": "Belief.TechnoPurist",
+    "DevComment": "This belief holds that the \"plague\" is not a biological sickness but a \"computer problem\" involving self-replicating nanobots. Adherents believe that flesh and blood are secondary to the malfunctioning code and that the only true salvation lies in high-tech tools like EMP emitters and spectrometers to \"shut down\" the infection"
+  },
+  {
+    "Name": "UltraRationalist",
+    "Tag": "Belief.UltraRationalist",
+    "DevComment": "Influence by the Alien Masks, this belief suggests that human emotion is a liability. Adherents embrace the mask\u2019s ability to pump hormones like endorphins and serotonin to maintain a state of hyper-rationality during combat, believing that \"feeling\" is what gets you killed"
+  },
+  {
+    "Name": "MaterialImperative",
+    "Tag": "Belief.MaterialImperative",
+    "DevComment": "A purely transactional outlook on life. In a world of \"scavenger economies,\" everything has a price\u2014typically measured in batteries for ammunition or fuel for \"canned provisions\". To these individuals, alliances are merely temporary trade agreements, and sentimentality is a luxury no one can afford"
+  },
+  {
+    "Name": "GaiasChild",
+    "Tag": "Belief.GaiasChild",
+    "DevComment": "A belief that nature\u2019s reclamation of the cities\u2014where chest-high grass and trees burst through asphalt\u2014is the natural order. They view the rusted chassis of the old world as shrines and believe humanity should stop fighting to rebuild and instead learn to wander the ruins as ghosts themselves"
+  },
+  {
+    "Name": "GodsBetrayed",
+    "Tag": "Belief.GodsBetrayed",
+    "DevComment": "Rooted in the memory of when the Aliens first arrived and were \"greeted with joy\" like gods. This belief is defined by a deep sense of betrayal; they believe humanity invited its own destruction and that no amount of technology can fix the \"misery and death\" brought down from the stars"
+  },
+  {
+    "Name": "HiveMindAscensionist",
+    "Tag": "Belief.HiveMindAscensionist",
+    "DevComment": "A delusional or perhaps enlightened belief that the nanobots are a gift of biological upkeep. They believe the \"transformation\" into the infected is actually a step toward a hyper-rational, Alien-like state and that the \"resurrection\" performed by the nanobots is a form of technological immortality"
+  },
+  {
+    "Name": "Skeptic",
+    "Tag": "Belief.Skeptic",
+    "DevComment": "A practical, grounded belief that grand plans for cures or skyscraper utopias are fairy tales. They believe in the \"now\"\u2014securing the next meal, defusing traps, and ensuring the barricades are made of solid metal and plastic, not hope"
+  }
+]

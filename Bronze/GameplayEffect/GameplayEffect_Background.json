@@ -1,0 +1,181 @@
+[
+  {
+    "Name": "Old Wounds Triggered",
+    "Tag": "GameplayEffect.Background.OldWoundsTriggered",
+    "DevComment": "Negative effect. Affects: -Stress Management -Focus -Social Energy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Focus"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "PhysicalAttribute.Vitality"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.StressManagement": -1,
+      "SetByCaller.MentalAttribute.Focus": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.Mood.Arousal": 0.35,
+      "SetByCaller.Mood.Valence": -0.4
+    }
+  },
+  {
+    "Name": "Class Resentment",
+    "Tag": "GameplayEffect.Background.ClassResentment",
+    "DevComment": "Negative effect. Affects: -Diplomacy and Trade -Empathy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.StrategicThinking",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.Mood.Arousal": 0.15,
+      "SetByCaller.Mood.Valence": -0.25
+    }
+  },
+  {
+    "Name": "Authority Aversion",
+    "Tag": "GameplayEffect.Background.AuthorityAversion",
+    "DevComment": "Negative effect. Affects: -Leadership Effectiveness -Diplomacy and Trade",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
+      "SecondarySkill": "MentalSkill.OperationalOversight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.LeadershipEffectiveness": -1,
+      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Cultural Mistrust",
+    "Tag": "GameplayEffect.Background.CulturalMistrust",
+    "DevComment": "Negative effect. Affects: -Empathy -Social Energy",
+    "EffectType": "Negative",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": -1,
+      "SetByCaller.MentalAttribute.SocialEnergy": -1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": -0.2
+    }
+  },
+  {
+    "Name": "Professional Respect",
+    "Tag": "GameplayEffect.Background.ProfessionalRespect",
+    "DevComment": "Positive effect. Affects: +Leadership Effectiveness +Analytical Insight",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.PracticalSkills",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Discipline"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
+      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
+      "SetByCaller.Mood.Arousal": 0.05,
+      "SetByCaller.Mood.Valence": 0.3
+    }
+  },
+  {
+    "Name": "Cultural Kinship",
+    "Tag": "GameplayEffect.Background.CulturalKinship",
+    "DevComment": "Positive effect. Affects: +Social Energy +Empathy +Diplomacy and Trade",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Charisma",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.Charisma",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalSkill.DiplomacyTrade": 1,
+      "SetByCaller.Mood.Arousal": 0.05,
+      "SetByCaller.Mood.Valence": 0.35
+    }
+  },
+  {
+    "Name": "Veteran Composure",
+    "Tag": "GameplayEffect.Background.VeteranComposure",
+    "DevComment": "Positive effect. Affects: +Stress Management +Task Endurance",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.Resilience",
+      "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
+      "Attribute": "PhysicalAttribute.Vitality"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.Resilience",
+      "Attribute": "PhysicalAttribute.Endurance"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalSkill.StressManagement": 1,
+      "SetByCaller.MentalSkill.TaskEndurance": 1,
+      "SetByCaller.Mood.Arousal": 0.0,
+      "SetByCaller.Mood.Valence": 0.25
+    }
+  },
+  {
+    "Name": "Shared Hardship Bond",
+    "Tag": "GameplayEffect.Background.SharedHardshipBond",
+    "DevComment": "Positive effect. Affects: +Empathy +Social Energy +Resilience",
+    "EffectType": "Positive",
+    "PrimarySkillCheck": {
+      "PrimarySkill": "MentalSkill.EmotionalIntelligence",
+      "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
+      "Attribute": "MentalAttribute.Empathy"
+    },
+    "DurationSkillCheck": {
+      "PrimarySkill": "MentalSkill.StressManagement",
+      "SecondarySkill": "MentalSkill.TaskEndurance",
+      "Attribute": "MentalAttribute.Logic"
+    },
+    "Modifiers": {
+      "SetByCaller.MentalAttribute.Empathy": 1,
+      "SetByCaller.MentalAttribute.SocialEnergy": 1,
+      "SetByCaller.MentalSkill.Resilience": 1,
+      "SetByCaller.Mood.Arousal": 0.1,
+      "SetByCaller.Mood.Valence": 0.35
+    }
+  }
+]

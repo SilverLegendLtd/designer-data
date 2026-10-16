@@ -1,0 +1,77 @@
+[
+  {
+    "Name": "Acceptance",
+    "Tag": "Emotion.Acceptance",
+    "DevComment": "Indicates not just agreement or acknowledgment, but a surrender to reality\u2014willing or reluctant. It may emerge from wisdom, exhaustion, pragmatism, or a deeper sense of peace. Acceptance can signal maturity or quiet despair, and may hold the echo of what once was resisted."
+  },
+  {
+    "Name": "Appreciation",
+    "Tag": "Emotion.Appreciation",
+    "DevComment": "Reveals recognition of value\u2014whether in a person, idea, or moment. It may be tender, respectful, or filled with longing. Appreciation often unveils a character's priorities or moments of rare hope."
+  },
+  {
+    "Name": "Challenge",
+    "Tag": "Emotion.Challenge",
+    "DevComment": "Signals defiance or intellectual resistance, often rooted in pride, conviction, or a need for control. Challenging dialogue may stem from a test of dominance, a need for truth, or a refusal to accept easy answers."
+  },
+  {
+    "Name": "Concern",
+    "Tag": "Emotion.Concern",
+    "DevComment": "Reveals a forward-looking fear born of empathy, responsibility, or helplessness. Concern may be protective, manipulative, or quietly panicked\u2014hinting at what the character values or fears to lose."
+  },
+  {
+    "Name": "Confusion",
+    "Tag": "Emotion.Confusion",
+    "DevComment": "Indicates disorientation or cognitive dissonance, often signaling a shattering of assumptions. Confusion can reveal vulnerability, distrust, or the dawning realization of a more complex truth."
+  },
+  {
+    "Name": "Curiosity",
+    "Tag": "Emotion.Curiosity",
+    "DevComment": "More than interest, this reflects a deeper hunger for understanding\u2014be it hopeful, wary, or desperate. Curiosity may spring from innocence, skepticism, or a need to make meaning in a chaotic world."
+  },
+  {
+    "Name": "Disappointment",
+    "Tag": "Emotion.Disappointment",
+    "DevComment": "Conveys the sadness of unmet expectations\u2014often blending grief, frustration, or betrayal. Disappointment reflects hope denied, and often hints at the character's deeper needs or former ideals."
+  },
+  {
+    "Name": "Empathy",
+    "Tag": "Emotion.Empathy",
+    "DevComment": "Demonstrates deep emotional attunement, often tied to shared suffering or understanding. Empathy reveals a character's emotional intelligence, but may also be a mask for manipulation or connection-seeking."
+  },
+  {
+    "Name": "Excitement",
+    "Tag": "Emotion.Excitement",
+    "DevComment": "Expresses a surge of positive emotion\u2014joy, anticipation, or wonder. Excitement can be infectious and sincere, or frantic and compensatory, masking fear or loneliness beneath its energy."
+  },
+  {
+    "Name": "Frustration",
+    "Tag": "Emotion.Frustration",
+    "DevComment": "Denotes being emotionally blocked\u2014by others, circumstance, or self. Frustration may arise from passion, ambition, fear of failure, or past trauma. It often simmers beneath sarcasm or explodes in righteous indignation."
+  },
+  {
+    "Name": "Reflection",
+    "Tag": "Emotion.Reflection",
+    "DevComment": "Indicates introspection or philosophical distance. This reaction often brings out inner contradictions, hard-earned wisdom, or unspoken doubts. Reflective dialogue slows the moment, letting characters wrestle with complexity."
+  },
+  {
+    "Name": "Rejection",
+    "Tag": "Emotion.Rejection",
+    "DevComment": "Reveals not only disagreement, but moral, emotional, or existential resistance. Rejection may be visceral, calculated, or ideological. It can represent a defense of personal truth, a trauma response, or a refusal to lose oneself in compromise."
+  },
+  {
+    "Name": "Relief",
+    "Tag": "Emotion.Relief",
+    "DevComment": "Indicates the sudden easing of emotional tension, often exposing hidden fear or vulnerability. Relief can be quiet and grateful, or ecstatic and overwhelming\u2014sometimes accompanied by guilt or disbelief."
+  },
+  {
+    "Name": "Shock",
+    "Tag": "Emotion.Shock",
+    "DevComment": "Reflects a rupture between expectation and reality\u2014moral, emotional, or existential. Shock can paralyze, provoke reevaluation, or ignite denial. It may be quiet and stunned or loud and panicked."
+  },
+  {
+    "Name": "Skepticism",
+    "Tag": "Emotion.Skepticism",
+    "DevComment": "Indicates distrust, doubt, or guarded detachment. Skepticism may arise from intelligence sharpened by betrayal, or from a hardened worldview that no longer allows na\u00efvet\u00e9."
+  }
+]
