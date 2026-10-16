@@ -1,0 +1,173 @@
+[
+  {
+    "Name": "Research_ExpertGuardStation",
+    "ResearchName": "Expert Guard Station",
+    "Description": "The upgraded Guard Station unlocks weapon research and ammunition crafting",
+    "ResearchTag": {
+      "TagName": "Bronze.Research.ExpertGuardStation"
+    },
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Research"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.ResearchAptitude"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Logic"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Research"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Science"
+    },
+    "Tier": 1,
+    "BasicCost": 10,
+    "SpecialCostSkill": {
+      "TagName": "PhysicalSkill.Firearms"
+    },
+    "SpecialCostAmount": 5,
+    "RequirementA": {
+      "GameplayTags": [
+        "Bronze.Research.GuardStation"
+      ]
+    },
+    "RequirementB": {
+      "GameplayTags": []
+    }
+  },
+  {
+    "Name": "Research_Ammunition",
+    "ResearchName": "Ammunition",
+    "Description": "This upgrade allows high lethality ammunition crafting",
+    "ResearchTag": {
+      "TagName": "Bronze.Research.Ammunition"
+    },
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Research"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.ResearchAptitude"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Logic"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Research"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 5,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 10,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Science"
+    },
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCostSkill": {
+      "TagName": "PhysicalSkill.Firearms"
+    },
+    "SpecialCostAmount": 10,
+    "RequirementA": {
+      "GameplayTags": [
+        "Bronze.Research.ExpertGuardStation"
+      ]
+    },
+    "RequirementB": {
+      "GameplayTags": []
+    }
+  },
+  {
+    "Name": "Research_Guarding",
+    "ResearchName": "Guarding",
+    "Description": "Improve the monitoring and surveillance capabilities of the guard station",
+    "ResearchTag": {
+      "TagName": "Bronze.Research.Guarding"
+    },
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Research"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.ResearchAptitude"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Logic"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Research"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 5,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 10,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Science"
+    },
+    "Tier": 2,
+    "BasicCost": 20,
+    "SpecialCostSkill": {
+      "TagName": "PhysicalSkill.Firearms"
+    },
+    "SpecialCostAmount": 10,
+    "RequirementA": {
+      "GameplayTags": [
+        "Bronze.Research.ExpertGuardStation"
+      ]
+    },
+    "RequirementB": {
+      "GameplayTags": []
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"Name": "EI",
+		"Tag": "MBTI.Dimension.EI",
+		"SetByCallerTag": "SetByCaller.Personality.EI",
+		"DevComment": "Extraversion vs. Introversion"
+	},
+	{
+		"Name": "SN",
+		"Tag": "MBTI.Dimension.SN",
+		"SetByCallerTag": "SetByCaller.Personality.SN",
+		"DevComment": "Sensing vs. Intuition"
+	},
+	{
+		"Name": "TF",
+		"Tag": "MBTI.Dimension.TF",
+		"SetByCallerTag": "SetByCaller.Personality.TF",
+		"DevComment": "Thinking vs. Feeling"
+	},
+	{
+		"Name": "JP",
+		"Tag": "MBTI.Dimension.JP",
+		"SetByCallerTag": "SetByCaller.Personality.JP",
+		"DevComment": "Judging vs. Perceiving"
+	}
+]

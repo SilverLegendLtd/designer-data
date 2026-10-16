@@ -1,0 +1,97 @@
+[
+  {
+    "Name": "Idealistic",
+    "Tag": "Trait.Idealistic",
+    "DevComment": "Idealistic"
+  },
+  {
+    "Name": "Paranoid",
+    "Tag": "Trait.Paranoid",
+    "DevComment": "Paranoid"
+  },
+  {
+    "Name": "Alarmed",
+    "Tag": "Trait.Alarmed",
+    "DevComment": "Alarmed"
+  },
+  {
+    "Name": "DistrustInStrangers",
+    "Tag": "Trait.DistrustInStrangers",
+    "DevComment": "Distrust in Strangers"
+  },
+  {
+    "Name": "PTSD",
+    "Tag": "Trait.PTSD",
+    "DevComment": "PTSD"
+  },
+  {
+    "Name": "Delusional",
+    "Tag": "Trait.Delusional",
+    "DevComment": "Delusional"
+  },
+  {
+    "Name": "InternalConflict",
+    "Tag": "Trait.InternalConflict",
+    "DevComment": "Internal Conflict"
+  },
+  {
+    "Name": "MarkedMan",
+    "Tag": "Trait.MarkedMan",
+    "DevComment": "Marked Man"
+  },
+  {
+    "Name": "Ruthless",
+    "Tag": "Trait.Ruthless",
+    "DevComment": "Ruthless"
+  },
+  {
+    "Name": "Nightmares",
+    "Tag": "Trait.Nightmares",
+    "DevComment": "Nightmares"
+  },
+  {
+    "Name": "Traumatized",
+    "Tag": "Trait.Traumatized",
+    "DevComment": "Traumatized"
+  },
+  {
+    "Name": "NanoBotAltered",
+    "Tag": "Trait.NanoBotAltered",
+    "DevComment": "Nano-Bot Altered"
+  },
+  {
+    "Name": "AlienKnowledge",
+    "Tag": "Trait.AlienKnowledge",
+    "DevComment": "Alien Knowledge"
+  },
+  {
+    "Name": "Naive",
+    "Tag": "Trait.Naive",
+    "DevComment": "Naive"
+  },
+  {
+    "Name": "Guilt",
+    "Tag": "Trait.Guilt",
+    "DevComment": "Guilt"
+  },
+  {
+    "Name": "Stubborn",
+    "Tag": "Trait.Stubborn",
+    "DevComment": "Stubborn"
+  },
+  {
+    "Name": "BeaconOfHope",
+    "Tag": "Trait.BeaconOfHope",
+    "DevComment": "Beacon of Hope"
+  },
+  {
+    "Name": "NaturalLeader",
+    "Tag": "Trait.NaturalLeader",
+    "DevComment": "Natural Leader"
+  },
+  {
+    "Name": "Harsh",
+    "Tag": "Trait.Harsh",
+    "DevComment": "Harsh"
+  }
+]

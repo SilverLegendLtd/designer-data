@@ -1,0 +1,259 @@
+[
+  {
+    "Name": "Offended",
+    "Tag": "GameplayEffect.Dialogue.Offended",
+    "DevComment": "Temporarily reduces social stats due to an offensive remark.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.SocialEnergy": -5,
+      "Character.Mood.Value.Valence": -3
+    },
+    "AddTags": [
+      "Character.Trait.DistrustInStrangers"
+    ]
+  },
+  {
+    "Name": "Inspired",
+    "Tag": "GameplayEffect.Dialogue.Inspired",
+    "DevComment": "Boosts creative and mental stats after a moving conversation.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.Creativity": 7,
+      "Character.Mood.Value.Arousal": 5,
+      "Character.MBTI.Dimension.SN": 2
+    },
+    "AddTags": [
+      "Character.Skill.Mental.CreativePotential",
+      "Character.Trait.Idealistic"
+    ]
+  },
+  {
+    "Name": "Intimidated",
+    "Tag": "GameplayEffect.Dialogue.Intimidated",
+    "DevComment": "Reduces discipline and focus when faced with a threatening presence.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.Discipline": -8,
+      "Character.Attribute.Physical.Strength": -2
+    },
+    "AddTags": [
+      "Character.Trait.Alarmed"
+    ]
+  },
+  {
+    "Name": "Encouraged",
+    "Tag": "GameplayEffect.Dialogue.Encouraged",
+    "DevComment": "Increases resilience and social energy from supportive words.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.SocialEnergy": 10,
+      "Character.Mood.Value.Valence": 4
+    },
+    "AddTags": [
+      "Character.Skill.Mental.Resilience"
+    ]
+  },
+  {
+    "Name": "Discouraged",
+    "Tag": "GameplayEffect.Dialogue.Discouraged",
+    "DevComment": "Lowers mood and adaptability after receiving bad news.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.Adaptability": -6,
+      "Character.Mood.Value.Valence": -5
+    },
+    "AddTags": []
+  },
+  {
+    "Name": "Confused",
+    "Tag": "GameplayEffect.Dialogue.Confused",
+    "DevComment": "Temporarily lowers logic and perception from confusing information.",
+    "Duration": "Instant",
+    "Attributes": {
+      "Character.Attribute.Mental.Logic": -7,
+      "Character.Attribute.Mental.Perception": -4
+    },
+    "AddTags": []
+  },
+  {
+    "Name": "Focused",
+    "Tag": "GameplayEffect.Dialogue.Focused",
+    "DevComment": "A sharp increase in focus and discipline from a clear directive.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.Focus": 9,
+      "Character.Attribute.Mental.Discipline": 6
+    },
+    "AddTags": [
+      "Character.Skill.Mental.TaskEndurance"
+    ]
+  },
+  {
+    "Name": "Distracted",
+    "Tag": "GameplayEffect.Dialogue.Distracted",
+    "DevComment": "Reduces focus due to uninteresting or irrelevant conversation.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.Focus": -9
+    },
+    "AddTags": []
+  },
+  {
+    "Name": "Soothed",
+    "Tag": "GameplayEffect.Dialogue.Soothed",
+    "DevComment": "Calming words that improve mood and stress management.",
+    "Duration": "Instant",
+    "Attributes": {
+      "Character.Mood.Value.Arousal": -5,
+      "Character.Mood.Value.Valence": 6
+    },
+    "AddTags": [
+      "Character.Skill.Mental.StressManagement"
+    ]
+  },
+  {
+    "Name": "Agitated",
+    "Tag": "GameplayEffect.Dialogue.Agitated",
+    "DevComment": "Provocative dialogue that increases arousal and lowers discipline.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Mood.Value.Arousal": 8,
+      "Character.Attribute.Mental.Discipline": -6
+    },
+    "AddTags": [
+      "Character.Trait.Harsh"
+    ]
+  },
+  {
+    "Name": "Trust Gained",
+    "Tag": "GameplayEffect.Dialogue.TrustGained",
+    "DevComment": "A positive interaction that improves social skills.",
+    "Duration": "Instant",
+    "Attributes": {
+        "Character.Attribute.Mental.SocialEnergy": 5
+    },
+    "AddTags": [
+        "Character.Skill.Mental.SocialAdaptability",
+        "Character.Skill.Mental.Charisma"
+    ]
+  },
+  {
+    "Name": "Trust Lost",
+    "Tag": "GameplayEffect.Dialogue.TrustLost",
+    "DevComment": "A negative interaction that harms social standing.",
+    "Duration": "Instant",
+    "Attributes": {
+        "Character.Attribute.Mental.SocialEnergy": -7
+    },
+    "AddTags": [
+        "Character.Trait.DistrustInStrangers"
+    ]
+  },
+  {
+    "Name": "Enlightened",
+    "Tag": "GameplayEffect.Dialogue.Enlightened",
+    "DevComment": "Gaining new knowledge that boosts mental attributes.",
+    "Duration": "Periodic",
+    "Attributes": {
+        "Character.Attribute.Mental.Logic": 5,
+        "Character.Attribute.Mental.Perception": 5
+    },
+    "AddTags": [
+        "Character.Trait.AlienKnowledge"
+    ]
+  },
+  {
+    "Name": "Challenged",
+    "Tag": "GameplayEffect.Dialogue.Challenged",
+    "DevComment": "A conversation that challenges one's beliefs, affecting MBTI dimensions.",
+    "Duration": "Periodic",
+    "Attributes": {
+        "Character.MBTI.Dimension.TF": -3,
+        "Character.MBTI.Dimension.JP": 4
+    },
+    "AddTags": [
+        "Character.Trait.InternalConflict"
+    ]
+  },
+  {
+    "Name": "Assertive Boost",
+    "Tag": "GameplayEffect.Dialogue.AssertiveBoost",
+    "DevComment": "A boost in physical and mental fortitude from an assertive dialogue.",
+    "Duration": "Instant",
+    "Attributes": {
+        "Character.Attribute.Physical.Strength": 3,
+        "Character.Attribute.Mental.Discipline": 4
+    },
+    "AddTags": [
+        "Character.Trait.NaturalLeader"
+    ]
+  },
+  {
+    "Name": "Charmed",
+    "Tag": "GameplayEffect.Dialogue.Charmed",
+    "DevComment": "A successful charismatic interaction that makes the target more agreeable and trusting.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.SocialEnergy": 6,
+      "Character.Mood.Value.Valence": 4
+    },
+    "AddTags": [
+      "Character.Skill.Mental.Charisma",
+      "Character.Trait.Trusting"
+    ]
+  },
+  {
+    "Name": "Suspicious",
+    "Tag": "GameplayEffect.Dialogue.Suspicious",
+    "DevComment": "Arouses suspicion in the target, making them less likely to be truthful or cooperative.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.Perception": 5,
+      "Character.Mood.Value.Arousal": 3
+    },
+    "AddTags": [
+      "Character.Trait.DistrustInStrangers",
+      "Character.Skill.Mental.InformationGathering"
+    ]
+  },
+  {
+    "Name": "Bored",
+    "Tag": "GameplayEffect.Dialogue.Bored",
+    "DevComment": "The dialogue is uninteresting, causing a penalty to engagement and focus.",
+    "Duration": "Periodic",
+    "Attributes": {
+      "Character.Attribute.Mental.Focus": -8,
+      "Character.Mood.Value.Arousal": -5
+    },
+    "AddTags": []
+  },
+  {
+    "Name": "Enraged",
+    "Tag": "GameplayEffect.Dialogue.Enraged",
+    "DevComment": "An infuriating comment that pushes the target towards aggression and irrationality.",
+    "Duration": "Instant",
+    "Attributes": {
+      "Character.Mood.Value.Arousal": 9,
+      "Character.Attribute.Mental.Discipline": -7,
+      "Character.Attribute.Physical.Strength": 2
+    },
+    "AddTags": [
+      "Character.Trait.Harsh",
+      "Character.Trait.Aggressive"
+    ]
+  },
+  {
+    "Name": "Reassured",
+    "Tag": "GameplayEffect.Dialogue.Reassured",
+    "DevComment": "Calms an agitated target, making them more open to reason and cooperation.",
+    "Duration": "Instant",
+    "Attributes": {
+      "Character.Mood.Value.Valence": 7,
+      "Character.Mood.Value.Arousal": -6
+    },
+    "AddTags": [
+      "Character.Skill.Mental.StressManagement",
+      "Character.Trait.Patient"
+    ]
+  }
+]

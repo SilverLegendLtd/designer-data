@@ -1,0 +1,57 @@
+[
+  {
+    "Name": "Human.Isolationists",
+    "Tag": "Faction.Human.Isolationists",
+    "DevComment": "Isolationists"
+  },
+  {
+    "Name": "Human.Rebuilders",
+    "Tag": "Faction.Human.Rebuilders",
+    "DevComment": "Rebuilders"
+  },
+  {
+    "Name": "Human.Preservers",
+    "Tag": "Faction.Human.Preservers",
+    "DevComment": "Preservers"
+  },
+  {
+    "Name": "Human.AlienWorshippers",
+    "Tag": "Faction.Human.AlienWorshippers",
+    "DevComment": "Alien Worshippers"
+  },
+  {
+    "Name": "Human.ReligiousConservatives",
+    "Tag": "Faction.Human.ReligiousConservatives",
+    "DevComment": "Religious Conservatives"
+  },
+  {
+    "Name": "Human.Mercenaries",
+    "Tag": "Faction.Human.Mercenaries",
+    "DevComment": "Mercenaries"
+  },
+  {
+    "Name": "Human.Traders",
+    "Tag": "Faction.Human.Traders",
+    "DevComment": "Traders"
+  },
+  {
+    "Name": "Human.FormerMilitary",
+    "Tag": "Faction.Human.FormerMilitary",
+    "DevComment": "Former Military"
+  },
+  {
+    "Name": "Human.Scavengers",
+    "Tag": "Faction.Human.Scavengers",
+    "DevComment": "Scavengers"
+  },
+  {
+    "Name": "Human.RainMen",
+    "Tag": "Faction.Human.RainMen",
+    "DevComment": "Rain Men"
+  },
+  {
+    "Name": "Human.Infected",
+    "Tag": "Faction.Human.Infected",
+    "DevComment": "Infected"
+  }
+]

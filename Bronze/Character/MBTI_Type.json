@@ -1,0 +1,82 @@
+[
+	{
+		"Name": "ISTJ",
+		"Tag": "MBTI.Type.ISTJ",
+		"DevComment": "Represents a personality that is rooted in practicality, logic, and tradition. An ISTJ is dependable, systematic, and upholds order. Their worldview is shaped by verifiable facts and past experiences, often making them pillars of their communities, but potentially rigid in the face of radical change."
+	},
+	{
+		"Name": "ISFJ",
+		"Tag": "MBTI.Type.ISFJ",
+		"DevComment": "Embodies a personality of warm, conscientious dedication. An ISFJ is a fierce defender of loved ones and established values. They are detail-oriented and service-focused, often carrying the emotional weight of others, yet may struggle to voice their own needs."
+	},
+	{
+		"Name": "INFJ",
+		"Tag": "MBTI.Type.INFJ",
+		"DevComment": "Symbolizes a personality of quiet idealism and deep empathy. An INFJ is driven by a strong inner vision and a desire to help humanity. They are insightful and creative, but can feel isolated by the intensity of their convictions and their unique perspective on the world."
+	},
+	{
+		"Name": "INTJ",
+		"Tag": "MBTI.Type.INTJ",
+		"DevComment": "Represents a personality that is strategic, analytical, and forward-thinking. An INTJ excels at seeing the big picture and designing complex systems to achieve long-term goals. They are independent and value competence, but can appear detached or dismissive of emotional complexities."
+	},
+	{
+		"Name": "ISTP",
+		"Tag": "MBTI.Type.ISTP",
+		"DevComment": "Embodies a personality of adaptable and logical problem-solving. An ISTP is a master of tools and mechanics, thriving on hands-on experience. They are curious and spontaneous, often living in the moment, but may be reserved and difficult to know on a deeper level."
+	},
+	{
+		"Name": "ISFP",
+		"Tag": "MBTI.Type.ISFP",
+		"DevComment": "Symbolizes a personality of gentle, artistic expression and quiet sensitivity. An ISFP experiences the world through their senses and values personal harmony. They are adaptable and loyal, often communicating through action rather than words, and may be intensely private."
+	},
+	{
+		"Name": "INFP",
+		"Tag": "MBTI.Type.INFP",
+		"DevComment": "Represents a personality driven by a powerful inner core of values and a quest for meaning. An INFP is idealistic, empathetic, and creative, seeking to understand themselves and their place in the universe. They are deeply passionate but can be prone to melancholy or feeling misunderstood."
+	},
+	{
+		"Name": "INTP",
+		"Tag": "MBTI.Type.INTP",
+		"DevComment": "Embodies a personality of insatiable curiosity and abstract analysis. An INTP is a conceptual problem-solver, driven to understand the underlying principles of everything. They are logical and original, but can get lost in their own thoughts and may neglect practical matters or social niceties."
+	},
+	{
+		"Name": "ESTP",
+		"Tag": "MBTI.Type.ESTP",
+		"DevComment": "Symbolizes a personality of energetic engagement and pragmatic action. An ESTP is a thrill-seeker who lives in the present, using their keen observational skills to navigate immediate challenges. They are sociable and influential, but can be impulsive and risk-prone."
+	},
+	{
+		"Name": "ESFP",
+		"Tag": "MBTI.Type.ESFP",
+		"DevComment": "Represents a personality of spontaneous, vivacious charm. An ESFP loves to be at the center of the action, bringing energy and enthusiasm to their surroundings. They are generous and optimistic, with a strong aesthetic sense, but may avoid conflict and long-term planning."
+	},
+	{
+		"Name": "ENFP",
+		"Tag": "MBTI.Type.ENFP",
+		"DevComment": "Embodies a personality of imaginative possibility and infectious enthusiasm. An ENFP is a charismatic and empathetic connector of people and ideas. They are driven by a desire to explore potential in everything, but can struggle with focus and follow-through."
+	},
+	{
+		"Name": "ENTP",
+		"Tag": "MBTI.Type.ENTP",
+		"DevComment": "Symbolizes a personality that is quick-witted, intellectually curious, and loves a good argument. An ENTP thrives on challenging ideas and exploring novel concepts from every angle. They are innovative and charismatic, but can be seen as argumentative or insensitive."
+	},
+	{
+		"Name": "ESTJ",
+		"Tag": "MBTI.Type.ESTJ",
+		"DevComment": "Represents a personality of decisive leadership and practical organization. An ESTJ is a natural administrator who excels at implementing systems and mobilizing people. They are assertive and dependable, valuing order and efficiency, but can be inflexible."
+	},
+	{
+		"Name": "ESFJ",
+		"Tag": "MBTI.Type.ESFJ",
+		"DevComment": "Embodies a personality of sociable warmth and a strong sense of duty. An ESFJ is a community-builder who thrives on helping others and maintaining social harmony. They are conscientious and popular, but can be sensitive to criticism and overly concerned with their social standing."
+	},
+	{
+		"Name": "ENFJ",
+		"Tag": "MBTI.Type.ENFJ",
+		"DevComment": "Symbolizes a personality of charismatic leadership and empathetic connection. An ENFJ is a natural mentor, driven to inspire and bring out the best in others. They are articulate and compassionate, but may be overly idealistic or neglect their own needs in service of the group."
+	},
+	{
+		"Name": "ENTJ",
+		"Tag": "MBTI.Type.ENTJ",
+		"DevComment": "Represents a personality of strategic vision and assertive command. An ENTJ is a natural leader who is driven to organize change and achieve ambitious goals. They are confident and logical, but can be impatient with inefficiency and may overlook the emotional needs of others."
+	}
+]

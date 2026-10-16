@@ -1,0 +1,1827 @@
+[
+    {
+        "Name": "Topic.BronzeBase.Building",
+        "Tag": "Topic.BronzeBase.Building",
+        "DevComment": "Buildings are structures built by the survivor scavengers in their base of operations. In the survivor communities of this world, structures and buildings are far more than mere shelters; they are repurposed relics of a lost civilization that have been transformed into highly specialized environments for survival, production, and social organization",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Building.ResearchStation",
+        "Tag": "Topic.BronzeBase.Building.ResearchStation",
+        "DevComment": "Research Station is a building where people try to analyse technology. It can be alien technology or forgotten human technology. Research Station includes basic devices on analysing consistency of materials, some computers to run diagnostics.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Building.ResearchStation.Exists",
+        "Tag": "Topic.BronzeBase.Building.ResearchStation.Exists",
+        "DevComment": "Research Station exists in the base.",
+        "Requirements": [
+            {
+                "Participant": "Station",
+                "Tag": "Station.Type.ResearchStation"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Building.ResearchStation.BeingBuilt",
+        "Tag": "Topic.BronzeBase.Building.ResearchStation.BeingBuilt",
+        "DevComment": "Research Station is being built to the base.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Building.CraftingStation",
+        "Tag": "Topic.BronzeBase.Building.CraftingStation",
+        "DevComment": "Crafting Station is a building where survivors can craft different items. It includes all sorts of tools from woodworking devices to metal bending and melting devices to tables where electrical components can be created.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Building.CraftingStation.Exists",
+        "Tag": "Topic.BronzeBase.Building.CraftingStation.Exists",
+        "DevComment": "Crafting station exists in the base.",
+        "Requirements": [
+            {
+                "Participant": "Station",
+                "Tag": "Station.Type.CraftingStation"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.CraftingStation.BeingBuilt",
+        "Tag": "Topic.BronzeBase.CraftingStation.BeingBuilt",
+        "DevComment": "Crafting station is currently being built.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Work",
+        "Tag": "Topic.BronzeBase.Work",
+        "DevComment": "Work describes the daily activities of the survivors in the communities. This can have describe a plethora of different activities that are found to be meaningful in the current situation of the community. In survivor communities, work is synonymous with collective survival and the maintenance of isolation from the surface threats",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Work.Researching",
+        "Tag": "Topic.BronzeBase.Work.Researching",
+        "DevComment": "Researching work takes place in Research Station. Researching means analysing old forgotten technology or analysing alien technology and figuring out what it is made of and how people could replicate it. Analysing consistency of the materials and how to achieve that consistency.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Work.Researching.Source",
+        "Tag": "Topic.BronzeBase.Work.Researching.Source",
+        "DevComment": "Source is currently doing researching work.",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Bronze.Work.Research"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Work.Researching.Target",
+        "Tag": "Topic.BronzeBase.Work.Researching.Target",
+        "DevComment": "Target is currently doing researching work.",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Tag": "Bronze.Work.Research"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Work.Crafting",
+        "Tag": "Topic.BronzeBase.Work.Crafting",
+        "DevComment": "Crafting means creating from raw materials and item or from components a more complicated item.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Work.Crafting.Source",
+        "Tag": "Topic.BronzeBase.Work.Crafting.Source",
+        "DevComment": "Source is currently doing crafting work.",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Bronze.Work.Craft"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Work.Crafting.Target",
+        "Tag": "Topic.BronzeBase.Work.Crafting.Target",
+        "DevComment": "Target is currently doing crafting work.",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Tag": "Bronze.Work.Craft"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background",
+        "Tag": "Topic.BronzeBase.Background",
+        "DevComment": "A character\u2019s background reflects the specific environment where they endured the global collapse. Whether they were raised in the electrified, underground tunnels or among the rooftop gardens of a fortified skyscraper, these origins define their practical skills and social standing. These past experiences influence a character\u2019s perspective, determining if they are more interested in daily scavenging for resources or the long-term pursuit of a technical cure for example.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Vault-Raised",
+        "Tag": "Topic.BronzeBase.Background.Vault-Raised",
+        "DevComment": "Grew up in a government bunker or secret research facility, taught about the world from old books and archives. Released into the new world with theoretical knowledge but little practical experience.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Vault-Raised.Source",
+        "Tag": "Topic.BronzeBase.Background.Vault-Raised.Source",
+        "DevComment": "Source's background is Vault-Raised",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.Vault-Raised"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Vault-Raised.Target",
+        "Tag": "Topic.BronzeBase.Background.Vault-Raised.Target",
+        "DevComment": "Target's background is Vault-Raised",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Tag": "Background.Vault-Raised"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.UrbanDweller",
+        "Tag": "Topic.BronzeBase.Background.UrbanDweller",
+        "DevComment": "Lived in the ruins of a city, scavenging for food, hiding from both aliens and hostile human factions.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.UrbanDweller.Source",
+        "Tag": "Topic.BronzeBase.Background.UrbanDweller.Source",
+        "DevComment": "Source's background is Urban Dweller",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.UrbanDweller"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.UrbanDweller.Target",
+        "Tag": "Topic.BronzeBase.Background.UrbanDweller.Target",
+        "DevComment": "Target's background is is Urban Dweller",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Wildborn",
+        "Tag": "Topic.BronzeBase.Background.Wildborn",
+        "DevComment": "Born into a survivor camp in the wilderness, has no memories of the world before the apocalypse.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Wildborn.Source",
+        "Tag": "Topic.BronzeBase.Background.Wildborn.Source",
+        "DevComment": "Source's background is Wildborn",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.Wildborn"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Wildborn.Target",
+        "Tag": "Topic.BronzeBase.Background.Wildborn.Target",
+        "DevComment": "Target's background is is Wildborn",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.ProfessionalMilitary",
+        "Tag": "Topic.BronzeBase.Background.ProfessionalMilitary",
+        "DevComment": "Former soldier who fought in the initial human resistance before it was crushed. Survived, but at great personal cost.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.ProfessionalMilitary.Source",
+        "Tag": "Topic.BronzeBase.Background.ProfessionalMilitary.Source",
+        "DevComment": "Source's background is Professional Military",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.ProfessionalMilitary"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.ProfessionalMilitary.Target",
+        "Tag": "Topic.BronzeBase.Background.ProfessionalMilitary.Target",
+        "DevComment": "Target's background is is Professional Military",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.AlienWorshipper",
+        "Tag": "Topic.BronzeBase.Background.AlienWorshipper",
+        "DevComment": "Joined or was born into a doomsday cult that worships the alien invaders or believes they are divine beings.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.AlienWorshipper.Source",
+        "Tag": "Topic.BronzeBase.Background.AlienWorshipper.Source",
+        "DevComment": "Source's background is Alien Worshipper",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.AlienWorshipper"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.AlienWorshipper.Target",
+        "Tag": "Topic.BronzeBase.Background.AlienWorshipper.Target",
+        "DevComment": "Target's background is is Alien Worshipper",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.SyndicateOperative",
+        "Tag": "Topic.BronzeBase.Background.SyndicateOperative",
+        "DevComment": "Before the fall worked in organized crime\u2014smuggling, robbery, or enforcement. Carried those skills into the apocalypse.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.SyndicateOperative.Source",
+        "Tag": "Topic.BronzeBase.Background.SyndicateOperative.Source",
+        "DevComment": "Source's background is Syndicate Operative",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.SyndicateOperative"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.SyndicateOperative.Target",
+        "Tag": "Topic.BronzeBase.Background.SyndicateOperative.Target",
+        "DevComment": "Target's background is is Syndicate Operative",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.AlienExperimentSurvivor",
+        "Tag": "Topic.BronzeBase.Background.AlienExperimentSurvivor",
+        "DevComment": "Captured by the aliens and subjected to experiments before escaping. You\u2019re not entirely human anymore.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.AlienExperimentSurvivor.Source",
+        "Tag": "Topic.BronzeBase.Background.AlienExperimentSurvivor.Source",
+        "DevComment": "Source's background is Alien Experiment Survivor",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.AlienExperimentSurvivor"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.AlienExperimentSurvivor.Target",
+        "Tag": "Topic.BronzeBase.Background.AlienExperimentSurvivor.Target",
+        "DevComment": "Target's background is is Alien Experiment Survivor",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Aristocrat",
+        "Tag": "Topic.BronzeBase.Background.Aristocrat",
+        "DevComment": "Came from a wealthy or influential family that tried to ride out the apocalypse in secure compounds. Now thrown into a world where wealth means nothing.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Aristocrat.Source",
+        "Tag": "Topic.BronzeBase.Background.Aristocrat.Source",
+        "DevComment": "Source's background is Aristocrat",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.Aristocrat"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Aristocrat.Target",
+        "Tag": "Topic.BronzeBase.Background.Aristocrat.Target",
+        "DevComment": "Target's background is is Aristocrat",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.EmergencyResponder",
+        "Tag": "Topic.BronzeBase.Background.EmergencyResponder",
+        "DevComment": "A trained medic who worked in early resistance efforts or helped survivors after the fall.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.EmergencyResponder.Source",
+        "Tag": "Topic.BronzeBase.Background.EmergencyResponder.Source",
+        "DevComment": "Source's background is Emergency Responder",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.EmergencyResponder"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.EmergencyResponder.Target",
+        "Tag": "Topic.BronzeBase.Background.EmergencyResponder.Target",
+        "DevComment": "Target's background is is Emergency Responder",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.ConstructionWorker",
+        "Tag": "Topic.BronzeBase.Background.ConstructionWorker",
+        "DevComment": "Built the infrastructure that supported the civilization as we knew it. Can do it again.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.ConstructionWorker.Source",
+        "Tag": "Topic.BronzeBase.Background.ConstructionWorker.Source",
+        "DevComment": "Source's background is Construction Worker",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.ConstructionWorker"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.ConstructionWorker.Target",
+        "Tag": "Topic.BronzeBase.Background.ConstructionWorker.Target",
+        "DevComment": "Target's background is is Construction Worker",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Drifter",
+        "Tag": "Topic.BronzeBase.Background.Drifter",
+        "DevComment": "This character's past is largely unknown\u2014even to themselves. Amnesia, deliberate secrecy, or something else?",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Drifter.Source",
+        "Tag": "Topic.BronzeBase.Background.Drifter.Source",
+        "DevComment": "Source's background is Drifter",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.Drifter"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.Drifter.Target",
+        "Tag": "Topic.BronzeBase.Background.Drifter.Target",
+        "DevComment": "Target's background is is Drifter",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.TravelingArtist",
+        "Tag": "Topic.BronzeBase.Background.TravelingArtist",
+        "DevComment": "Before the apocalypse, they were a musician, painter, or writer\u2014always wandering, seeking beauty in life. Even now, in a world of ruin, they refuse to let art die.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.TravelingArtist.Source",
+        "Tag": "Topic.BronzeBase.Background.TravelingArtist.Source",
+        "DevComment": "Source's background is Traveling Artist",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.TravelingArtist"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.TravelingArtist.Target",
+        "Tag": "Topic.BronzeBase.Background.TravelingArtist.Target",
+        "DevComment": "Target's background is is Traveling Artist",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.IdealisticDreamer",
+        "Tag": "Topic.BronzeBase.Background.IdealisticDreamer",
+        "DevComment": "Always lost in thought, fascinated by philosophy, mythology, or stories of a better world. When everything collapsed, they clung to the belief that there\u2019s still hope, even if it\u2019s fading.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.IdealisticDreamer.Source",
+        "Tag": "Topic.BronzeBase.Background.IdealisticDreamer.Source",
+        "DevComment": "Source's background is Dreamer",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.IdealisticDreamer"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.IdealisticDreamer.Target",
+        "Tag": "Topic.BronzeBase.Background.IdealisticDreamer.Target",
+        "DevComment": "Target's background is is Dreamer",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.FormerPoliceOfficer",
+        "Tag": "Topic.BronzeBase.Background.FormerPoliceOfficer",
+        "DevComment": "A former police officer, security chief, or corporate enforcer who saw the old world fall apart and refused to let chaos take over. They believe in order, rules, and discipline.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.FormerPoliceOfficer.Source",
+        "Tag": "Topic.BronzeBase.Background.FormerPoliceOfficer.Source",
+        "DevComment": "Source's background is Former Police Officer",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Background.FormerPoliceOfficer"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Background.FormerPoliceOfficer.Target",
+        "Tag": "Topic.BronzeBase.Background.FormerPoliceOfficer.Target",
+        "DevComment": "Target's background is is Former Police Officer",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief",
+        "Tag": "Topic.BronzeBase.Belief",
+        "DevComment": "Beliefs are the core convictions that dictate how a survivor navigates a world defined by decay and alien influence. These values often center on the nature of the threat - specifically whether the infection is viewed as a biological curse or a technical computer problem that can be solved through engineering. A character's outlook is also shaped by their stance on isolationism versus expansion and their willingness to use intrusive technology. Ultimately, these beliefs determine if an individual prioritises the preservation of human culture and knowledge or adopts a ruthless, transactional approach to survival or if they have lost all hope and have allowed despair to guide their life now.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.TechnoPurist",
+        "Tag": "Topic.BronzeBase.Belief.TechnoPurist",
+        "DevComment": "This belief holds that the \"plague\" is not a biological sickness but a \"computer problem\" involving self-replicating nanobots. Adherents believe that flesh and blood are secondary to the malfunctioning code and that the only true salvation lies in high-tech tools like EMP emitters and spectrometers to \"shut down\" the infection",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.TechnoPurist.Source",
+        "Tag": "Topic.BronzeBase.Belief.TechnoPurist.Source",
+        "DevComment": "Source's belief is Techno Purist",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Belief.TechnoPurist"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.TechnoPurist.Target",
+        "Tag": "Topic.BronzeBase.Belief.TechnoPurist.Target",
+        "DevComment": "Target's belief is Techno Purist",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Tag": "Belief.TechnoPurist"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.UltraRationalist",
+        "Tag": "Topic.BronzeBase.Belief.UltraRationalist",
+        "DevComment": "Influence by the Alien Masks, this belief suggests that human emotion is a liability. Adherents embrace the mask\u2019s ability to pump hormones like endorphins and serotonin to maintain a state of hyper-rationality during combat, believing that \"feeling\" is what gets you killed",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.UltraRationalist.Source",
+        "Tag": "Topic.BronzeBase.Belief.UltraRationalist.Source",
+        "DevComment": "Source's belief is Ultra Rationalist",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Belief.UltraRationalist"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.UltraRationalist.Target",
+        "Tag": "Topic.BronzeBase.Belief.UltraRationalist.Target",
+        "DevComment": "Target's belief is Ultra Rationalist",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.MaterialImperative",
+        "Tag": "Topic.BronzeBase.Belief.MaterialImperative",
+        "DevComment": "A purely transactional outlook on life. In a world of \"scavenger economies,\" everything has a price\u2014typically measured in batteries for ammunition or fuel for \"canned provisions\". To these individuals, alliances are merely temporary trade agreements, and sentimentality is a luxury no one can afford",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.MaterialImperative.Source",
+        "Tag": "Topic.BronzeBase.Belief.MaterialImperative.Source",
+        "DevComment": "Source's belief is Material Imperative",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Belief.MaterialImperative"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.MaterialImperative.Target",
+        "Tag": "Topic.BronzeBase.Belief.MaterialImperative.Target",
+        "DevComment": "Target's belief is Material Imperative",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.GaiasChild",
+        "Tag": "Topic.BronzeBase.Belief.GaiasChild",
+        "DevComment": "A belief that nature\u2019s reclamation of the cities\u2014where chest-high grass and trees burst through asphalt\u2014is the natural order. They view the rusted chassis of the old world as shrines and believe humanity should stop fighting to rebuild and instead learn to wander the ruins as ghosts themselves",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.GaiasChild.Source",
+        "Tag": "Topic.BronzeBase.Belief.GaiasChild.Source",
+        "DevComment": "Source's belief is Gaia's Child",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Belief.GaiasChild"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.GaiasChild.Target",
+        "Tag": "Topic.BronzeBase.Belief.GaiasChild.Target",
+        "DevComment": "Target's belief is Gaia's Child",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.GodsBetrayed",
+        "Tag": "Topic.BronzeBase.Belief.GodsBetrayed",
+        "DevComment": "Rooted in the memory of when the Aliens first arrived and were \"greeted with joy\" like gods. This belief is defined by a deep sense of betrayal; they believe humanity invited its own destruction and that no amount of technology can fix the \"misery and death\" brought down from the stars",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.GodsBetrayed.Source",
+        "Tag": "Topic.BronzeBase.Belief.GodsBetrayed.Source",
+        "DevComment": "Source's belief is God's Betrayed",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Belief.GodsBetrayed"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.GodsBetrayed.Target",
+        "Tag": "Topic.BronzeBase.Belief.GodsBetrayed.Target",
+        "DevComment": "Target's belief is God's Betrayed",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.Hive-MindAscensionist",
+        "Tag": "Topic.BronzeBase.Belief.Hive-MindAscensionist",
+        "DevComment": "A delusional or perhaps enlightened belief that the nanobots are a gift of biological upkeep. They believe the \"transformation\" into the infected is actually a step toward a hyper-rational, Alien-like state and that the \"resurrection\" performed by the nanobots is a form of technological immortality. Rarely keen on trying to infect themselves with nanobots, but always eager to learn more and experiment with others.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.Hive-MindAscensionist.Source",
+        "Tag": "Topic.BronzeBase.Belief.Hive-MindAscensionist.Source",
+        "DevComment": "Source's belief is Hive-Mind Ascensionist",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Belief.HiveMindAscensionist"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.Hive-MindAscensionist.Target",
+        "Tag": "Topic.BronzeBase.Belief.Hive-MindAscensionist.Target",
+        "DevComment": "Target's belief is Hive-Mind Ascensionist",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.Skeptic",
+        "Tag": "Topic.BronzeBase.Belief.Skeptic",
+        "DevComment": "A practical, grounded belief that grand plans for cures or skyscraper utopias are fairy tales. They believe in the \"now\"\u2014securing the next meal, defusing traps, and ensuring the barricades are made of solid metal and plastic, not hope",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.Skeptic.Source",
+        "Tag": "Topic.BronzeBase.Belief.Skeptic.Source",
+        "DevComment": "Source's belief is Skeptic",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Tag": "Belief.Skeptic"
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Belief.Skeptic.Target",
+        "Tag": "Topic.BronzeBase.Belief.Skeptic.Target",
+        "DevComment": "Target's belief is Skeptic",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute",
+        "DevComment": "Physical attributes are important in general because the world has devolved into a constant struggle where the environment itself is often hostile. Survival is no longer guaranteed by societal structures but by an individual's functional capability.\nAttributes are the primary currency for:\n\n    Resource Management: Strength and reasoning are required to participate in the scavenger economy, where trading bulk materials for essential provisions is a daily necessity.\n    Environmental Adaptation: Endurance and agility allow humans to inhabit extreme locations, \n    Threat Mitigation: Senses and reaction are the main defense against fast-moving, ghostly threats that inhabit the reclaimed urban spaces.\n    Systemic Recovery: Vitality and reasoning are necessary to endure the physical toll of the world and to seek technical solutions to the underlying causes of the global collapse.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Strength",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Strength",
+        "DevComment": "Strength: This represents the capacity for heavy manual labor and the transportation of bulk resources. It determines how effectively an individual can manipulate their environment\u2014such as clearing dense obstructions\u2014or carry essential supplies and heavy equipment over long distances during scavenging operations",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Strength.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Strength.LowSource",
+        "DevComment": "Source's Strength Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Strength",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Strength.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Strength.HighSource",
+        "DevComment": "Source's Strength Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Strength",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Strength.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Strength.LowTarget",
+        "DevComment": "Target's Strength Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Strength",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Strength.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Strength.HighTarget",
+        "DevComment": "Target's Strength Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Strength",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Agility",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Agility",
+        "DevComment": "Agility: This is the ability to move with precision and navigate complex, multi-level environments. It is critical for traversing narrow passages, climbing heights, and moving through obstructed urban areas or barricaded structures where standard paths are no longer viable. It is also a viable for moving efficiently in combat and for handling tools, objects and firearms.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Agility.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Agility.LowSource",
+        "DevComment": "Source's Agility Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Agility",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Agility.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Agility.HighSource",
+        "DevComment": "Source's Agility Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Agility.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Agility.LowTarget",
+        "DevComment": "Target's Agility Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Agility",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Agility.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Agility.HighTarget",
+        "DevComment": "Target's Agility Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Agility",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Endurance",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Endurance",
+        "DevComment": "Endurance: Physical stamina is required to withstand harsh environmental conditions and prolonged periods of exertion. It dictates a person\u2019s ability to remain active and functional in demanding climates, such as high-altitude winds, or during extensive journeys through desolate territory. Survivors also need endurance to carry out daily tasks and hauling heavy loads of loot from expeditions to the outworld.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Endurance.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Endurance.LowSource",
+        "DevComment": "Source's Endurance Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Endurance",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Endurance.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Endurance.HighSource",
+        "DevComment": "Source's Endurance Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Endurance.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Endurance.LowTarget",
+        "DevComment": "Target's Endurance Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Endurance",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Endurance.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Endurance.HighTarget",
+        "DevComment": "Target's Endurance Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Endurance",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Senses",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Senses",
+        "DevComment": "Senses: This governs the sharpness of perception and environmental awareness. It involves the ability to detect distant signals, interpret subtle shifts in the surroundings, and effectively utilize observational tools to identify threats before they become immediate. It is also helps the aim when using firearms, and spotting important details when scouting.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Senses.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Senses.LowSource",
+        "DevComment": "Source's Senses Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Senses",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Senses.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Senses.HighSource",
+        "DevComment": "Source's Senses Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Senses.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Senses.LowTarget",
+        "DevComment": "Target's Senses Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Senses",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Senses.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Senses.HighTarget",
+        "DevComment": "Target's Senses Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Senses",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Vitality",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Vitality",
+        "DevComment": "Vitality: This represents general physical robustness and the body\u2019s capacity for recovery. It is a measure of a person\u2019s resilience against severe physical trauma and their ability to withstand physiological stressors that would otherwise lead to permanent debilitation",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Vitality.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Vitality.LowSource",
+        "DevComment": "Source's Vitality Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Vitality",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Vitality.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Vitality.HighSource",
+        "DevComment": "Source's Vitality Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Vitality.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Vitality.LowTarget",
+        "DevComment": "Target's Vitality Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Vitality",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Vitality.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Vitality.HighTarget",
+        "DevComment": "Target's Vitality Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Vitality",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reaction",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reaction",
+        "DevComment": "Reaction: This is the speed and efficiency of physical responses to sudden stimuli. It is vital for immediate threat mitigation and performing time-sensitive actions, such as defensive maneuvers or rapid retreats, when under extreme pressure",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reaction.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reaction.LowSource",
+        "DevComment": "Source's Reaction Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Reaction",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reaction.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reaction.HighSource",
+        "DevComment": "Source's Reaction Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reaction.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reaction.LowTarget",
+        "DevComment": "Target's Reaction Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Reaction",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reaction.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reaction.HighTarget",
+        "DevComment": "Target's Reaction Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Reaction",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reasoning",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reasoning",
+        "DevComment": "Reasoning: Mental acuity and analytical problem-solving are essential for long-term survival. This attribute governs the capacity to understand complex technical systems, engage in strategic negotiation, and manage the intricate social hierarchies of surviving communities",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reasoning.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reasoning.LowSource",
+        "DevComment": "Source's Reasoning Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Reasoning",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reasoning.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reasoning.HighSource",
+        "DevComment": "Source's Reasoning Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalAttribute.Reasoning",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reasoning.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reasoning.LowTarget",
+        "DevComment": "Target's Reasoning Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Reasoning",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalAttribute.Reasoning.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalAttribute.Reasoning.HighTarget",
+        "DevComment": "Target's Reasoning Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalAttribute.Reasoning",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill",
+        "Tag": "Topic.BronzeBase.PhysicalSkill",
+        "DevComment": "Physical skills are critical because the world has transitioned from a society of consumers to a society of specialists. In a landscape where the necessities of life dictate survival, specialized skills are the only way to prevent the total collapse of the remaining human enclaves.\nThese skills are essential for:\n\n    Technological Countermeasures: Since the primary threat is a computer problem rather than a biological one, traditional survival is insufficient; technical proficiency is required to use advanced tools to fight the ongoing threats.\n    Resource Independence: As scavenged goods become rarer, the ability to produce food and maintain infrastructure determines whether a community can remain self-sufficient or face starvation.\n    Strategic Expansion: Survival depends on the ability to reclaim territory from both nature, including other humans, and the infected. Skills in construction and logistics allow humanity to move beyond their initial barricades and establish new, secure camps.\n    Societal Continuity: Skills like research and communication ensure that knowledge is preserved and passed on to future generations through education, preventing the loss of human culture to the encroaching ruins.",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Medical",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Medical",
+        "DevComment": "Medical: This skill involves the stabilisation of severe physical trauma and the treatment of environmental injuries, such as chemical burns. It also extends to the technical understanding of the threats from outside, requiring practitioners to use bioscanners and advanced tools to mitigate biological failure",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Medical.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Medical.LowSource",
+        "DevComment": "Source's Medical Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Medical",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Medical.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Medical.HighSource",
+        "DevComment": "Source's Medical Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Medical",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Medical.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Medical.LowTarget",
+        "DevComment": "Target's Medical Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Medical",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Medical.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Medical.HighTarget",
+        "DevComment": "Target's Medical Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Medical",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Firearms",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Firearms",
+        "DevComment": "Firearms: Proficiency with ranged weaponry is a primary requirement for defense against fast-moving and rapidly spreading threats. It encompasses the maintenance of weaponry and the disciplined use of ammunition, which is one of the most valuable and traded commodities in the world",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Firearms.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Firearms.LowSource",
+        "DevComment": "You Firearms Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Firearms",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Firearms.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Firearms.HighSource",
+        "DevComment": "Source's Firearms Skill is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Firearms.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Firearms.LowTarget",
+        "DevComment": "Target's Firearms Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Firearms",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Firearms.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Firearms.HighTarget",
+        "DevComment": "Target's Firearms Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Firearms",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Food",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Food",
+        "DevComment": "Food: This skill covers the procurement, production and preparation of sustenance in extreme environments. It ranges from cultivating rooftop cornfields and farming moss in subterranean tunnels to hunting wild game and negotiating for preserved provisions through trade",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Food.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Food.LowSource",
+        "DevComment": "Source's Food Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Food",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Food.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Food.HighSource",
+        "DevComment": "Source's Food Skill is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Food.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Food.LowTarget",
+        "DevComment": "Target's Food Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Food",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Food.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Food.HighTarget",
+        "DevComment": "Target's Food Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Food",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Mechanical",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Mechanical",
+        "DevComment": "Mechanical: This represents the ability to maintain and repurpose salvaged technology. It is essential for electrifying expanded settlements, managing power-generating dams, and ensuring that heavy transport equipment, such as overpacked wheel carts, remains functional for resource hauling",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Mechanical.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Mechanical.LowSource",
+        "DevComment": "Source's Mechanical Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Mechanical",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Mechanical.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Mechanical.HighSource",
+        "DevComment": "Source's Mechanical Skill is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Mechanical.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Mechanical.LowTarget",
+        "DevComment": "Target's Mechanical Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Mechanical",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Mechanical.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Mechanical.HighTarget",
+        "DevComment": "Target's Mechanical Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Mechanical",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Research",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Research",
+        "DevComment": "Research: Specialized analytical skills are required to study the technical cause of the global collapse. This involves utilizing high-tech equipment like spectrometers, Petri dishes, and scanning devices to analyze the self-replicating nanobots in hopes of developing an electronic or technical cure",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Research.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Research.LowSource",
+        "DevComment": "Source's Research Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Research",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Research.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Research.HighSource",
+        "DevComment": "Source's Research Skill is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Research.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Research.LowTarget",
+        "DevComment": "Target's Research Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Research",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Research.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Research.HighTarget",
+        "DevComment": "Target's Research Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Research",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Construction",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Construction",
+        "DevComment": "Construction: This skill is used to fortify and expand human settlements. It includes building high-density barricades, creating protective walls for high-elevation gardens, and carving out new living and working spaces within the existing infrastructure of sewers and skyscrapers",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Construction.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Construction.LowSource",
+        "DevComment": "Source's Construction Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Construction",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Construction.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Construction.HighSource",
+        "DevComment": "Source's Construction Skill is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Construction.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Construction.LowTarget",
+        "DevComment": "Target's Construction Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Construction",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Construction.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Construction.HighTarget",
+        "DevComment": "Target's Construction Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Construction",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Communication",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Communication",
+        "DevComment": "Communication: Beyond basic speech, this involves the management of complex social and technical information. It includes negotiating high-stakes trade deals between factions and utilizing advanced devices, such as pad-computers and self-learning masks, to translate languages and interpret environmental data. It is also vital in the daily life of the survivors, whether they need to help others, discuss important topics or lead a team of survivors in an expedition",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Communication.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Communication.LowSource",
+        "DevComment": "Source's Communication Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Communication",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Communication.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Communication.HighSource",
+        "DevComment": "Source's Communication Skill is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Communication.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Communication.LowTarget",
+        "DevComment": "Target's Communication Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Communication",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Communication.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Communication.HighTarget",
+        "DevComment": "Target's Communication Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Communication",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Logistics",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Logistics",
+        "DevComment": "Logistics: This governs the organisation and transport of vital resources. The surivors must manage the scavenger economy, planning the movement of heavy materials like metal coils or battery crates across long, hazardous distances between isolated trading hubs",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Logistics.LowSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Logistics.LowSource",
+        "DevComment": "Source's Logistics Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "PhysicalSkill.Logistics",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Logistics.HighSource",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Logistics.HighSource",
+        "DevComment": "Source's Logistics Skill is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Logistics.LowTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Logistics.LowTarget",
+        "DevComment": "Target's Logistics Skill is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Logistics",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.PhysicalSkill.Logistics.HighTarget",
+        "Tag": "Topic.BronzeBase.PhysicalSkill.Logistics.HighTarget",
+        "DevComment": "Target's Logistics Skill is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "PhysicalSkill.Logistics",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute",
+        "Tag": "Topic.BronzeBase.MentalAttribute",
+        "DevComment": "Mental attributes are important in general because the apocalypse is not just a physical struggle, but a psychological war against both nature, alien influence and other human survivors.\n\n    Psychological Fortitude: Attributes like empathy and focus are the only defense against the loss of emotional control caused by self-learning masks that attempt to dictate a wearer's state of mind.\n    Systemic Problem-Solving: Because the primary threat - the nanobot plague - is a computer problem, the mental capacity for logic and reasoning is the only path toward a permanent solution or technical cure.\n    Societal Stability: Social energy and discipline are required to maintain the complex social structures of the scavenger groups. Without them, the strict rules and quarantine protocols that keep the communities safe would collapse.\n    Survival Awareness: High perception and adaptability allow survivors to interpret the distorted world through advanced lenses, identifying threat levels and outlines of enemies that would otherwise be invisible in the ruins",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.SocialEnergy",
+        "Tag": "Topic.BronzeBase.MentalAttribute.SocialEnergy",
+        "DevComment": "Social Energy: This represents the capacity for sustained interaction within the cramped, high-stakes environments of human settlements. It is essential for navigating the politics of busy and well-decorated communal spaces, engaging in the negotiation of the scavenger economy, and maintaining morale in a world that is out there to make you lose hope",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.SocialEnergy.LowSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.SocialEnergy.LowSource",
+        "DevComment": "Source's Social Energy Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.SocialEnergy",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.SocialEnergy.HighSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.SocialEnergy.HighSource",
+        "DevComment": "Source's Social Energy Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.SocialEnergy",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.SocialEnergy.LowTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.SocialEnergy.LowTarget",
+        "DevComment": "Target's Social Energy Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.SocialEnergy",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.SocialEnergy.HighTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.SocialEnergy.HighTarget",
+        "DevComment": "Target's Social Energy Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.SocialEnergy",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Focus",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Focus",
+        "DevComment": "Focus: This is the ability to maintain concentration during high-stakes tasks, such as monitoring perimeters for various threats or performing delicate technical research. It is critical for individuals like lookout guards or researchers who must operate scanning devices and interpret complex data without distraction. Focus is needed where difficult and time consuming tasks are carried out",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Focus.LowSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Focus.LowSource",
+        "DevComment": "Source's Focus Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.Focus",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Focus.HighSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Focus.HighSource",
+        "DevComment": "Source's Focus Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Focus.LowTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Focus.LowTarget",
+        "DevComment": "Target's Focus Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Focus",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Focus.HighTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Focus.HighTarget",
+        "DevComment": "Target's Focus Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Focus",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Perception",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Perception",
+        "DevComment": "Perception: This attribute governs environmental awareness and the interpretation of visual information. It is necessary for spotting fast-moving threats in low visibility areas and for making sense of the subtle hints when exploring the mysteries of the world. It is also very helpful in long distance fire fights where the quality of the combatants aim can make the difference between defeat and survival",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Perception.LowSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Perception.LowSource",
+        "DevComment": "Source's Perception Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.Perception",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Perception.HighSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Perception.HighSource",
+        "DevComment": "Source's Perception Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Perception.LowTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Perception.LowTarget",
+        "DevComment": "Target's Perception Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Perception",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Perception.HighTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Perception.HighTarget",
+        "DevComment": "Target's Perception Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Perception",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Creativity",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Creativity",
+        "DevComment": "Creativity: This represents ingenuity in problem-solving and the ability to repurpose scavenged materials. It is essential for those who must expand and electrify their community's systems, defuse traps, or develop new solutions for new problems that may occur in the ever changing landscape of challenges",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Creativity.LowSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Creativity.LowSource",
+        "DevComment": "Source's Creativity Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.Creativity",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Creativity.HighSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Creativity.HighSource",
+        "DevComment": "Source's Creativity Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Creativity.LowTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Creativity.LowTarget",
+        "DevComment": "Target's Creativity Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Creativity",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Creativity.HighTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Creativity.HighTarget",
+        "DevComment": "Target's Creativity Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Creativity",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Logic",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Logic",
+        "DevComment": "Logic: This is the capacity for analytical reasoning and unflinching rationality. It is a core trait of the Alien society and is increasingly required for humans who must interact with technical systems, calculate binary code, or manage the Material Imperative of resource trading",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Logic.LowSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Logic.LowSource",
+        "DevComment": "Source's Logic Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.Logic",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Logic.HighSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Logic.HighSource",
+        "DevComment": "Source's Logic Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Logic.LowTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Logic.LowTarget",
+        "DevComment": "Target's Logic Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Logic",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Logic.HighTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Logic.HighTarget",
+        "DevComment": "Target's Logic Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Logic",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Empathy",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Empathy",
+        "DevComment": "Empathy: This represents the ability to maintain human connection and emotional depth in a world that prioritises cold survival. It is often in conflict with cut-throat ideologies and the infected who act without any humanity, there are many things that lead to a distressing loss of emotional control, but empathy is there to protect the survivors from that, and to provide hope in the world where despair is rampant",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Empathy.LowSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Empathy.LowSource",
+        "DevComment": "Source's Empathy Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.Empathy",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Empathy.HighSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Empathy.HighSource",
+        "DevComment": "Source's Empathy Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Empathy.LowTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Empathy.LowTarget",
+        "DevComment": "Target's Empathy Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Empathy",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Empathy.HighTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Empathy.HighTarget",
+        "DevComment": "Target's Empathy Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Empathy",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Discipline",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Discipline",
+        "DevComment": "Discipline: This is the willpower to adhere to strict protocols and social hierarchies. It is vital for following the new way of living with quarantine sections procedures, respecting the authority of community leaders, and maintaining a military-like vigilance over long periods. Discipline is also important for carrying out daily tasks and keeping the morale high even when facing tasks that feel like mountains",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Discipline.LowSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Discipline.LowSource",
+        "DevComment": "Source's Discipline Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.Discipline",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Discipline.HighSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Discipline.HighSource",
+        "DevComment": "Source's Discipline Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Discipline.LowTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Discipline.LowTarget",
+        "DevComment": "Target's Social Energy Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Discipline",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Discipline.HighTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Discipline.HighTarget",
+        "DevComment": "Target's Social Energy Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Discipline",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Adaptability",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Adaptability",
+        "DevComment": "Adaptability: This is the mental flexibility required to survive extreme environmental transitions. It involves adjusting from the dark and dim conditions of the sewers to the intensely windy heights of rooftop bases, as well as accepting the inevitable transformation brought on by alien technology. Adapting to new conditions makes it easier to face the reality and to learn from it. The only moment we have is now.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Adaptability.LowSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Adaptability.LowSource",
+        "DevComment": "Source's Adaptability Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Source",
+                "Attribute": "MentalAttribute.Adaptability",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Adaptability.HighSource",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Adaptability.HighSource",
+        "DevComment": "Source's Adaptability Attribute is High",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Adaptability.LowTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Adaptability.LowTarget",
+        "DevComment": "Target's Adaptability Attribute is Low",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Adaptability",
+                "Max": 30
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.MentalAttribute.Adaptability.HighTarget",
+        "Tag": "Topic.BronzeBase.MentalAttribute.Adaptability.HighTarget",
+        "DevComment": "Target's Adaptability Attribute is High",
+        "Requirements": [
+            {
+                "Participant": "Target",
+                "Attribute": "MentalAttribute.Adaptability",
+                "Min": 70
+            }
+        ]
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore",
+        "Tag": "Topic.BronzeBase.Lore",
+        "DevComment": "Lore is the accumulated knowledge or understanding of events that took place held by the survivors, about any subject, especially when passed from generation to generation by oral and written tradition. Lore is the events of the world as the survivors experienced it and everyone has a different way of interpreting it to fit their particular backgrounds, beliefs, factions and personalities.\n\nIn this world, lore is the fragmented legacy of a fallen civilisation, passed by the survivors to ensure cultural continuity. It is the collective memory of a time when the Aliens were first encountered. For some, lore is a technical record of the events; for others, it is a collection of bedside stories used to warn children of the ghostly threats that haunt the reclaimed urban ruins. Ultimately, lore is the subjective history of survival, where every scavenger interprets events of the world through the lens of their own struggle to endure",
+        "Ignore": true
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.FirstSignal",
+        "Tag": "Topic.BronzeBase.Lore.FirstSignal",
+        "DevComment": "First signal means the time 30 years ago when alien life forms existance was confirmed when alien mothership was still on-route to Earth.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.FirstContact",
+        "Tag": "Topic.BronzeBase.Lore.FirstContact",
+        "DevComment": "First contact refers to the time period when first live communications with aliens took place and when soon after they entered the orbit of Earth. The suspiciousness around the globe turned into celebration. This took place some 26-28 years ago.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.InfectionDay0",
+        "Tag": "Topic.BronzeBase.Lore.InfectionDay0",
+        "DevComment": "Infection Day 0 refers to first occurances when nanobots had jumped to human bodies but it was not yet a global problem. This caused global worry, but initially its severity was not foreseen in the scale it should have been. This happened some 24 years ago.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.InfectionStartedSpreading",
+        "Tag": "Topic.BronzeBase.Lore.InfectionStartedSpreading",
+        "DevComment": "When nanobots had replicated themselves enough in some human bodies and the issue became a global issue. This turned majority of the humanity in to infected, causing collapse of the world as we know it. This happened some 20-22 years ago.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.Infected",
+        "Tag": "Topic.BronzeBase.Lore.Infected",
+        "DevComment": "Infected: Commonly referred to by survivors as zombies, the infected are described as sickly looking people who appear ghostly or like skeletons with skin. They are far from slow-moving; they shriek, move with terrifying speed, and can spread the nanobot scourge rapidly through bites. Their presence has forced humanity into extreme isolation, founding their communities either deep underground, high above ground or surrounded by water",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.InfectedResurrection",
+        "Tag": "Topic.BronzeBase.Lore.InfectedResurrection",
+        "DevComment": "Infected Resurrection: One of the most terrifying aspects of the nanobot plague is the inability to easily dispatch the infected. Because the nanobots are programmed for constant biological repair, they furiously mend any damage inflicted upon the host body. Even when an infected individual appears to have been killed, the nanobots can succeed in resurrecting the fallen, creating what survivors describe as an endless, regenerating nightmare.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.AlienMothership",
+        "Tag": "Topic.BronzeBase.Lore.AlienMothership",
+        "DevComment": "Alien Mothership: The Mothership is a colossal, generational colony vessel several kilometres in length. It remains trapped in orbit because it is too gargantuan to make a direct atmospheric descent safely. The Aliens are currently engaged in a monumental project to construct powerful new engines around the vessel to enable a landing, a task that requires vast amounts of terrestrial fuel and building materials, driving their desperate trade with human scavengers",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.Fog",
+        "Tag": "Topic.BronzeBase.Lore.Fog",
+        "DevComment": "Fog has become a lot more common than it should have been. Fog is associated with danger as the infected seem to be more dangerous and can lurk closer to survivors before being noticed.",
+        "Requirements": []
+    },
+    {
+        "Name": "Topic.BronzeBase.Lore.BarricationoftheCanal",
+        "Tag": "Topic.BronzeBase.Lore.BarricationoftheCanal",
+        "DevComment": "This local decision is a landmark making the area relatively safe. It means building of the barrication to Portage Canal and its lift bridge, basically isolating Keweenaw peninsula from the rest of the continent. This allowed to create the north side a relative safe space by slowly eradicating the infected, even though they somehow seem to creep in slowly every once in a while. However the danger on the southside is multiple times worse.",
+        "Requirements": []
+    }
+]

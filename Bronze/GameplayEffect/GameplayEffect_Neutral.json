@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "Neutral",
+    "Tag": "GameplayEffect.Neutral",
+    "DevComment": "No effect. Marks a dialogue line's Internal/External effect as judged and deliberately empty, so a missing effect always means 'not done yet'.",
+    "EffectType": "Neutral",
+    "PrimarySkillCheck": {},
+    "DurationSkillCheck": {},
+    "Modifiers": {}
+  }
+]

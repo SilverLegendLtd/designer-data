@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Crafting Station",
+    "Tag": "Station.Type.CraftingStation",
+    "DevComment": "A specialized workbench equipped with tools for manufacturing equipment and gear."
+  },
+  {
+    "Name": "Research Station",
+    "Tag": "Station.Type.ResearchStation",
+    "DevComment": "A sophisticated terminal dedicated to analyzing data, materials, and technological advancements."
+  },
+  {
+    "Name": "Construction Site",
+    "Tag": "Station.Type.ConstructionSite",
+    "DevComment": "A designated zone for erecting large structures, modules, and heavy defensive emplacements."
+  }
+]

@@ -1,0 +1,1307 @@
+[
+  {
+    "Name": "Work_MedicalStation_ReceiveTreatment",
+    "WorkName": "Receive Treatment",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.MedicalStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "MentalSkill.Resilience"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.TaskEndurance"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Adaptability"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "MentalSkill.Resilience"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Vitality"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 1,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_MedicalStation_TreatNegativePhysicalTrait",
+    "WorkName": "Treat Negative Physical Trait",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.MedicalStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AnalyticalInsight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Empathy"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.EmotionalIntelligence"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 3,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": "Patient"
+  },
+  {
+    "Name": "Work_MedicalStation_TreatWounds",
+    "WorkName": "Treat Wounds",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.MedicalStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AnalyticalInsight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Discipline"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Senses"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 2,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": "Patient"
+  },
+  {
+    "Name": "Work_ExpertMedicalStation_ReceiveTreatment",
+    "WorkName": "Receive Treatment",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.ExpertMedicalStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "MentalSkill.Resilience"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.TaskEndurance"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Adaptability"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "MentalSkill.Resilience"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Vitality"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 1,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_ExpertMedicalStation_TreatNegativePhysicalTrait",
+    "WorkName": "Treat Negative Physical Trait",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.ExpertMedicalStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AnalyticalInsight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Empathy"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.EmotionalIntelligence"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 3,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": "Patient"
+  },
+  {
+    "Name": "Work_ExpertMedicalStation_TreatWounds",
+    "WorkName": "Treat Wounds",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.ExpertMedicalStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AnalyticalInsight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Discipline"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Senses"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 3,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": "Patient"
+  },
+  {
+    "Name": "Work_ExpertMedicalStation_TreatNegativeMentalTrait",
+    "WorkName": "Treat Negative Mental Trait",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.ExpertMedicalStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.EmotionalIntelligence"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Empathy"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_MedicalStationInfectedTreatmentUpgrade_ReceiveTreatment",
+    "WorkName": "Receive Treatment",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.MedicalStationInfectedTreatmentUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "MentalSkill.Resilience"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.TaskEndurance"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Adaptability"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "MentalSkill.Resilience"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Vitality"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 1,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_MedicalStationInfectedTreatmentUpgrade_TreatNanobotInfection",
+    "WorkName": "Treat Nanobot Infection",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.MedicalStationInfectedTreatmentUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AnalyticalInsight"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Logic"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 5,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_MedicalStationWoundTreatmentUpgrade_TreatWounds",
+    "WorkName": "Treat Wounds",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.MedicalStationWoundTreatmentUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AnalyticalInsight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Discipline"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Medical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Senses"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 6,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.WellBeing"
+    },
+    "WorkRequirements": "Patient"
+  },
+  {
+    "Name": "Work_GuardStation_Guard",
+    "WorkName": "Guard",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.GuardStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.OperationalOversight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Discipline"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.OperationalOversight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Perception"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 3,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Safety"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_ExpertGuardStation_Guard",
+    "WorkName": "Guard",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.ExpertGuardStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.OperationalOversight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Discipline"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.OperationalOversight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Perception"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 6,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Safety"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_ExpertGuardStation_StudyWeapon",
+    "WorkName": "Study Weapon",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.ExpertGuardStation"
+    },
+    "WorkType": "EBronzeWorkType::Research",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.ResearchAptitude"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Agility"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.ResearchAptitude"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::FromItem",
+    "Difficulty": 0,
+    "WorkloadSource": "EBronzeValueSource::FromItem",
+    "Workload": 0,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Safety"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_ExpertGuardStation_CraftAmmunition",
+    "WorkName": "Craft Ammunition",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.ExpertGuardStation"
+    },
+    "WorkType": "EBronzeWorkType::Crafting",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "PhysicalSkill.Mechanical"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Agility"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "PhysicalSkill.Mechanical"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Focus"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 6,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Safety"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_GuardStationAmmunitionUpgrade_CraftAmmunition",
+    "WorkName": "Craft Ammunition",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.GuardStationAmmunitionUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Crafting",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "PhysicalSkill.Mechanical"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Agility"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "PhysicalSkill.Mechanical"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Focus"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 6,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Safety"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_GuardStationGuardingUpgrade_Guard",
+    "WorkName": "Guard",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.GuardStationGuardingUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.OperationalOversight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Discipline"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Firearms"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.OperationalOversight"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Perception"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 5,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 4,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Safety"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_FoodStation_CookFood",
+    "WorkName": "Cook Food",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.FoodStation"
+    },
+    "WorkType": "EBronzeWorkType::Crafting",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Food"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.PracticalSkills"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Agility"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Food"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.PracticalSkills"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Senses"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 2,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Survival"
+    },
+    "WorkRequirements": "Resources"
+  },
+  {
+    "Name": "Work_FoodStation_PrepareExpeditionFood",
+    "WorkName": "Prepare Expedition Food",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.FoodStation"
+    },
+    "WorkType": "EBronzeWorkType::Crafting",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Food"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.PracticalSkills"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Agility"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Food"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.PracticalSkills"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Senses"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 3,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Survival"
+    },
+    "WorkRequirements": "Resources"
+  },
+  {
+    "Name": "Work_FoodStation_StudyPlant",
+    "WorkName": "Study Plant",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.FoodStation"
+    },
+    "WorkType": "EBronzeWorkType::Research",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Food"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.ResearchAptitude"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Perception"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Food"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.ResearchAptitude"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Senses"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::FromItem",
+    "Difficulty": 0,
+    "WorkloadSource": "EBronzeValueSource::FromItem",
+    "Workload": 0,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Survival"
+    },
+    "WorkRequirements": "Plant for Studying"
+  },
+  {
+    "Name": "Work_FoodStation_FarmFood",
+    "WorkName": "Farm Food",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.FoodStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Food"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.OperationalOversight"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Agility"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Food"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.AttentionToDetail"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Senses"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Survival"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_MechanicalStation_CraftMechanicalItem",
+    "WorkName": "Craft Mechanical Item",
+    "Description": "",
+    "StationTag": {
+      "TagName": "Bronze.WorkStation.Type.MechanicalStation"
+    },
+    "WorkType": "EBronzeWorkType::Crafting",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Mechanical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.PracticalSkills"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Agility"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Mechanical"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.PracticalSkills"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Focus"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::FromItem",
+    "Difficulty": 0,
+    "WorkloadSource": "EBronzeValueSource::FromItem",
+    "Workload": 0,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Tech"
+    },
+    "WorkRequirements": "Resources"
+  },
+  {
+    "Name": "Work_CommunicationStation_Trade",
+    "WorkName": "Trade",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.CommunicationStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Discipline"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 3,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 6,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Unity"
+    },
+    "WorkRequirements": "A trader present in the community"
+  },
+  {
+    "Name": "Work_CommunicationStation_TradeMission",
+    "WorkName": "Trade Mission",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.CommunicationStation"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Adaptability"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 6,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Unity"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_CommunicationStationRadioUpgrade_CallSurvivors",
+    "WorkName": "Call Survivors",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.CommunicationStationRadioUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.Charisma"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.SocialEnergy"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.Charisma"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Empathy"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Unity"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_CommunicationStationRadioUpgrade_CallTraders",
+    "WorkName": "Call Traders",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.CommunicationStationRadioUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Adaptability"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 8,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Unity"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_CommunicationStationTradingUpgrade_CallTraders",
+    "WorkName": "Call Traders",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.CommunicationStationTradingUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Adaptability"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 6,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 6,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Unity"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_CommunicationStationTradingUpgrade_Trade",
+    "WorkName": "Trade",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.CommunicationStationTradingUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Discipline"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 4,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Unity"
+    },
+    "WorkRequirements": "A trader present in the community"
+  },
+  {
+    "Name": "Work_CommunicationStationTradingUpgrade_TradeMission",
+    "WorkName": "Trade Mission",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.CommunicationStationTradingUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Adaptability"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.DiplomacyTrade"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Reasoning"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 4,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Unity"
+    },
+    "WorkRequirements": ""
+  },
+  {
+    "Name": "Work_CommunicationStationScoutingUpgrade_Scout",
+    "WorkName": "Scout",
+    "Description": "",
+    "StationTag": {
+      "TagName": "UNMAPPED.CommunicationStationScoutingUpgrade"
+    },
+    "WorkType": "EBronzeWorkType::Basic",
+    "StartCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.OperationalOversight"
+      },
+      "Attribute": {
+        "TagName": "PhysicalAttribute.Senses"
+      },
+      "MoodType": {
+        "TagName": "Mood.Arousal"
+      }
+    },
+    "FinishCheck": {
+      "PrimarySkill": {
+        "TagName": "PhysicalSkill.Communication"
+      },
+      "SecondarySkill": {
+        "TagName": "MentalSkill.StrategicThinking"
+      },
+      "Attribute": {
+        "TagName": "MentalAttribute.Perception"
+      },
+      "MoodType": {
+        "TagName": "Mood.Valence"
+      }
+    },
+    "DifficultySource": "EBronzeValueSource::Fixed",
+    "Difficulty": 4,
+    "WorkloadSource": "EBronzeValueSource::Fixed",
+    "Workload": 10,
+    "BaseBuffCategory": {
+      "TagName": "Bronze.WorkBuff.Unity"
+    },
+    "WorkRequirements": ""
+  }
+]
