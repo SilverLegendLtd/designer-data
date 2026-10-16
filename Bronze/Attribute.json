@@ -2,7 +2,6 @@
     {
         "Name": "Strength",
         "Tag": "PhysicalAttribute.Strength",
-        "SetByCallerTag": "SetByCaller.PhysicalAttribute.Strength",
         "DevComment": "Strength",
         "MinValue": 0,
         "MaxValue": 100
@@ -10,7 +9,6 @@
     {
         "Name": "Agility",
         "Tag": "PhysicalAttribute.Agility",
-        "SetByCallerTag": "SetByCaller.PhysicalAttribute.Agility",
         "DevComment": "Agility",
         "MinValue": 0,
         "MaxValue": 100
@@ -18,7 +16,6 @@
     {
         "Name": "Endurance",
         "Tag": "PhysicalAttribute.Endurance",
-        "SetByCallerTag": "SetByCaller.PhysicalAttribute.Endurance",
         "DevComment": "Endurance",
         "MinValue": 0,
         "MaxValue": 100
@@ -26,7 +23,6 @@
     {
         "Name": "Senses",
         "Tag": "PhysicalAttribute.Senses",
-        "SetByCallerTag": "SetByCaller.PhysicalAttribute.Senses",
         "DevComment": "Senses",
         "MinValue": 0,
         "MaxValue": 100
@@ -34,7 +30,6 @@
     {
         "Name": "Vitality",
         "Tag": "PhysicalAttribute.Vitality",
-        "SetByCallerTag": "SetByCaller.PhysicalAttribute.Vitality",
         "DevComment": "Vitality",
         "MinValue": 0,
         "MaxValue": 100
@@ -42,7 +37,6 @@
     {
         "Name": "Reaction",
         "Tag": "PhysicalAttribute.Reaction",
-        "SetByCallerTag": "SetByCaller.PhysicalAttribute.Reaction",
         "DevComment": "Reaction",
         "MinValue": 0,
         "MaxValue": 100
@@ -50,7 +44,6 @@
     {
         "Name": "Reasoning",
         "Tag": "PhysicalAttribute.Reasoning",
-        "SetByCallerTag": "SetByCaller.PhysicalAttribute.Reasoning",
         "DevComment": "Reasoning",
         "MinValue": 0,
         "MaxValue": 100
@@ -58,7 +51,6 @@
     {
         "Name": "Social Energy",
         "Tag": "MentalAttribute.SocialEnergy",
-        "SetByCallerTag": "SetByCaller.MentalAttribute.SocialEnergy",
         "DevComment": "Social Energy",
         "MinValue": 0,
         "MaxValue": 100
@@ -66,7 +58,6 @@
     {
         "Name": "Focus",
         "Tag": "MentalAttribute.Focus",
-        "SetByCallerTag": "SetByCaller.MentalAttribute.Focus",
         "DevComment": "Focus",
         "MinValue": 0,
         "MaxValue": 100
@@ -74,7 +65,6 @@
     {
         "Name": "Perception",
         "Tag": "MentalAttribute.Perception",
-        "SetByCallerTag": "SetByCaller.MentalAttribute.Perception",
         "DevComment": "Perception",
         "MinValue": 0,
         "MaxValue": 100
@@ -82,7 +72,6 @@
     {
         "Name": "Creativity",
         "Tag": "MentalAttribute.Creativity",
-        "SetByCallerTag": "SetByCaller.MentalAttribute.Creativity",
         "DevComment": "Creativity",
         "MinValue": 0,
         "MaxValue": 100
@@ -90,7 +79,6 @@
     {
         "Name": "Logic",
         "Tag": "MentalAttribute.Logic",
-        "SetByCallerTag": "SetByCaller.MentalAttribute.Logic",
         "DevComment": "Logic",
         "MinValue": 0,
         "MaxValue": 100
@@ -98,7 +86,6 @@
     {
         "Name": "Empathy",
         "Tag": "MentalAttribute.Empathy",
-        "SetByCallerTag": "SetByCaller.MentalAttribute.Empathy",
         "DevComment": "Empathy",
         "MinValue": 0,
         "MaxValue": 100
@@ -106,7 +93,6 @@
     {
         "Name": "Discipline",
         "Tag": "MentalAttribute.Discipline",
-        "SetByCallerTag": "SetByCaller.MentalAttribute.Discipline",
         "DevComment": "Discipline",
         "MinValue": 0,
         "MaxValue": 100
@@ -114,7 +100,6 @@
     {
         "Name": "Adaptability",
         "Tag": "MentalAttribute.Adaptability",
-        "SetByCallerTag": "SetByCaller.MentalAttribute.Adaptability",
         "DevComment": "Adaptability",
         "MinValue": 0,
         "MaxValue": 100
@@ -123,7 +108,6 @@
         "Name": "EI",
         "Tag": "Personality.EI",
         "DevComment": "Extraversion vs. Introversion",
-        "SetByCallerTag": "SetByCaller.Personality.EI",
         "MinValue": -100,
         "MaxValue": 100
     },
@@ -131,7 +115,6 @@
         "Name": "SN",
         "Tag": "Personality.SN",
         "DevComment": "Sensing vs. Intuition",
-        "SetByCallerTag": "SetByCaller.Personality.SN",
         "MinValue": -100,
         "MaxValue": 100
     },
@@ -139,7 +122,6 @@
         "Name": "TF",
         "Tag": "Personality.TF",
         "DevComment": "Thinking vs. Feeling",
-        "SetByCallerTag": "SetByCaller.Personality.TF",
         "MinValue": -100,
         "MaxValue": 100
     },
@@ -147,7 +129,6 @@
         "Name": "JP",
         "Tag": "Personality.JP",
         "DevComment": "Judging vs. Perceiving",
-        "SetByCallerTag": "SetByCaller.Personality.JP",
         "MinValue": -100,
         "MaxValue": 100
     },
@@ -155,7 +136,6 @@
         "Name": "Valence",
         "Tag": "Mood.Valence",
         "DevComment": "Represents the valence (pleasantness/unpleasantness) dimension of a mood.",
-        "SetByCallerTag": "SetByCaller.Mood.Valence",
         "MinValue": -100,
         "MaxValue": 100
     },
@@ -163,14 +143,12 @@
         "Name": "Arousal",
         "Tag": "Mood.Arousal",
         "DevComment": "Represents the arousal (intensity) dimension of a mood.",
-        "SetByCallerTag": "SetByCaller.Mood.Arousal",
         "MinValue": -100,
         "MaxValue": 100
     },
     {
         "Name": "Medical",
         "Tag": "PhysicalSkill.Medical",
-        "SetByCallerTag": "SetByCaller.PhysicalSkill.Medical",
         "DevComment": "Medical",
         "MinValue": 0,
         "MaxValue": 100
@@ -178,7 +156,6 @@
     {
         "Name": "Firearms",
         "Tag": "PhysicalSkill.Firearms",
-        "SetByCallerTag": "SetByCaller.PhysicalSkill.Firearms",
         "DevComment": "Firearms",
         "MinValue": 0,
         "MaxValue": 100
@@ -186,7 +163,6 @@
     {
         "Name": "Food",
         "Tag": "PhysicalSkill.Food",
-        "SetByCallerTag": "SetByCaller.PhysicalSkill.Food",
         "DevComment": "Food",
         "MinValue": 0,
         "MaxValue": 100
@@ -194,7 +170,6 @@
     {
         "Name": "Mechanical",
         "Tag": "PhysicalSkill.Mechanical",
-        "SetByCallerTag": "SetByCaller.PhysicalSkill.Mechanical",
         "DevComment": "Mechanical",
         "MinValue": 0,
         "MaxValue": 100
@@ -202,7 +177,6 @@
     {
         "Name": "Research",
         "Tag": "PhysicalSkill.Research",
-        "SetByCallerTag": "SetByCaller.PhysicalSkill.Research",
         "DevComment": "Research",
         "MinValue": 0,
         "MaxValue": 100
@@ -210,7 +184,6 @@
     {
         "Name": "Communication",
         "Tag": "PhysicalSkill.Communication",
-        "SetByCallerTag": "SetByCaller.PhysicalSkill.Communication",
         "DevComment": "Communication",
         "MinValue": 0,
         "MaxValue": 100
@@ -218,7 +191,6 @@
     {
         "Name": "Analytical Insight",
         "Tag": "MentalSkill.AnalyticalInsight",
-        "SetByCallerTag": "SetByCaller.MentalSkill.AnalyticalInsight",
         "DevComment": "Analytical Insight",
         "MinValue": 0,
         "MaxValue": 100
@@ -226,7 +198,6 @@
     {
         "Name": "Emotional Intelligence",
         "Tag": "MentalSkill.EmotionalIntelligence",
-        "SetByCallerTag": "SetByCaller.MentalSkill.EmotionalIntelligence",
         "DevComment": "Emotional Intelligence",
         "MinValue": 0,
         "MaxValue": 100
@@ -234,7 +205,6 @@
     {
         "Name": "Practical Skills",
         "Tag": "MentalSkill.PracticalSkills",
-        "SetByCallerTag": "SetByCaller.MentalSkill.PracticalSkills",
         "DevComment": "Practical Skills",
         "MinValue": 0,
         "MaxValue": 100
@@ -242,7 +212,6 @@
     {
         "Name": "Leadership Effectiveness",
         "Tag": "MentalSkill.LeadershipEffectiveness",
-        "SetByCallerTag": "SetByCaller.MentalSkill.LeadershipEffectiveness",
         "DevComment": "Leadership Effectiveness",
         "MinValue": 0,
         "MaxValue": 100
@@ -250,7 +219,6 @@
     {
         "Name": "Strategic Thinking",
         "Tag": "MentalSkill.StrategicThinking",
-        "SetByCallerTag": "SetByCaller.MentalSkill.StrategicThinking",
         "DevComment": "Strategic Thinking",
         "MinValue": 0,
         "MaxValue": 100
@@ -258,7 +226,6 @@
     {
         "Name": "Instinctive DecisionMaking",
         "Tag": "MentalSkill.InstinctiveDecisionMaking",
-        "SetByCallerTag": "SetByCaller.MentalSkill.InstinctiveDecisionMaking",
         "DevComment": "Instinctive Decision-Making",
         "MinValue": 0,
         "MaxValue": 100
@@ -266,7 +233,6 @@
     {
         "Name": "Charisma",
         "Tag": "MentalSkill.Charisma",
-        "SetByCallerTag": "SetByCaller.MentalSkill.Charisma",
         "DevComment": "Charisma",
         "MinValue": 0,
         "MaxValue": 100
@@ -274,7 +240,6 @@
     {
         "Name": "Resilience",
         "Tag": "MentalSkill.Resilience",
-        "SetByCallerTag": "SetByCaller.MentalSkill.Resilience",
         "DevComment": "Resilience",
         "MinValue": 0,
         "MaxValue": 100
@@ -282,7 +247,6 @@
     {
         "Name": "Task Endurance",
         "Tag": "MentalSkill.TaskEndurance",
-        "SetByCallerTag": "SetByCaller.MentalSkill.TaskEndurance",
         "DevComment": "Task Endurance",
         "MinValue": 0,
         "MaxValue": 100
@@ -290,7 +254,6 @@
     {
         "Name": "Stress Management",
         "Tag": "MentalSkill.StressManagement",
-        "SetByCallerTag": "SetByCaller.MentalSkill.StressManagement",
         "DevComment": "Stress Management",
         "MinValue": 0,
         "MaxValue": 100
@@ -298,7 +261,6 @@
     {
         "Name": "Diplomacy and Trade",
         "Tag": "MentalSkill.DiplomacyTrade",
-        "SetByCallerTag": "SetByCaller.MentalSkill.DiplomacyTrade",
         "DevComment": "Diplomacy and Trade",
         "MinValue": 0,
         "MaxValue": 100
@@ -306,7 +268,6 @@
     {
         "Name": "Research Aptitude",
         "Tag": "MentalSkill.ResearchAptitude",
-        "SetByCallerTag": "SetByCaller.MentalSkill.ResearchAptitude",
         "DevComment": "Research Aptitude",
         "MinValue": 0,
         "MaxValue": 100
@@ -314,7 +275,6 @@
     {
         "Name": "Operational Oversight",
         "Tag": "MentalSkill.OperationalOversight",
-        "SetByCallerTag": "SetByCaller.MentalSkill.OperationalOversight",
         "DevComment": "Operational Oversight",
         "MinValue": 0,
         "MaxValue": 100
@@ -322,7 +282,6 @@
     {
         "Name": "Attention to Detail",
         "Tag": "MentalSkill.AttentionToDetail",
-        "SetByCallerTag": "SetByCaller.MentalSkill.AttentionToDetail",
         "DevComment": "Attention to Detail",
         "MinValue": 0,
         "MaxValue": 100
@@ -330,7 +289,6 @@
     {
         "Name": "Intuitive Foresight",
         "Tag": "MentalSkill.IntuitiveForesight",
-        "SetByCallerTag": "SetByCaller.MentalSkill.IntuitiveForesight",
         "DevComment": "Intuitive Foresight",
         "MinValue": 0,
         "MaxValue": 100
@@ -338,7 +296,6 @@
     {
         "Name": "Health",
         "Tag": "Health",
-        "SetByCallerTag": "SetByCaller.Health",
         "DevComment": "Health",
         "MinValue": 0,
         "MaxValue": 100
@@ -346,7 +303,6 @@
     {
         "Name": "Stamina",
         "Tag": "Stamina",
-        "SetByCallerTag": "SetByCaller.Stamina",
         "DevComment": "Stamina",
         "MinValue": 0,
         "MaxValue": 100

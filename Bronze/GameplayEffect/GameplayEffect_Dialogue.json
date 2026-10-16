@@ -5,7 +5,7 @@
     "DevComment": "Effect for Offended",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
-      "SecondarySkill": "MentalSkill.SocialPerceptiveness",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.Empathy"
     },
     "DurationSkillCheck": {
@@ -59,18 +59,18 @@
     "DevComment": "Effect for Inspired",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
-      "SecondarySkill": "MentalSkill.CreativePotential",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.Creativity"
     },
     "DurationSkillCheck": {
-      "PrimarySkill": "MentalSkill.CreativePotential",
+      "PrimarySkill": "MentalSkill.IntuitiveForesight",
       "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "Modifiers": {
       "Skills": {
         "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
-        "SetByCaller.MentalSkill.CreativePotential": 1
+        "SetByCaller.MentalSkill.IntuitiveForesight": 1
       },
       "Attributes": {
         "SetByCaller.MentalAttribute.Creativity": 1,
@@ -116,7 +116,7 @@
     "DevComment": "Effect for Confused",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.AnalyticalInsight",
-      "SecondarySkill": "MentalSkill.ActiveListening",
+      "SecondarySkill": "MentalSkill.EmotionalIntelligence",
       "Attribute": "MentalAttribute.Logic"
     },
     "DurationSkillCheck": {
@@ -199,17 +199,17 @@
     "DevComment": "Effect for Trust Lost",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
-      "SecondarySkill": "MentalSkill.SocialPerceptiveness",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "DurationSkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
-      "SecondarySkill": "MentalSkill.SocialPerceptiveness",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
       "Skills": {
-        "SetByCaller.MentalSkill.SocialPerceptiveness": -1
+        "SetByCaller.MentalSkill.IntuitiveForesight": -1
       },
       "Attributes": {
         "SetByCaller.MentalAttribute.Empathy": -1
@@ -225,18 +225,18 @@
     "Tag": "GameplayEffect.Dialogue.Bored",
     "DevComment": "Effect for Bored",
     "PrimarySkillCheck": {
-      "PrimarySkill": "MentalSkill.CreativePotential",
+      "PrimarySkill": "MentalSkill.IntuitiveForesight",
       "SecondarySkill": "MentalSkill.TaskEndurance",
       "Attribute": "MentalAttribute.Creativity"
     },
     "DurationSkillCheck": {
-      "PrimarySkill": "MentalSkill.SocialAdaptability",
-      "SecondarySkill": "MentalSkill.ConversationalDepth",
+      "PrimarySkill": "MentalSkill.DiplomacyTrade",
+      "SecondarySkill": "MentalSkill.AnalyticalInsight",
       "Attribute": "MentalAttribute.Creativity"
     },
     "Modifiers": {
       "Skills": {
-        "SetByCaller.MentalSkill.ActiveListening": -1
+        "SetByCaller.MentalSkill.EmotionalIntelligence": -1
       },
       "Attributes": {
         "SetByCaller.MentalAttribute.Focus": -1,
@@ -254,13 +254,13 @@
     "Tag": "GameplayEffect.Dialogue.Suspicious",
     "DevComment": "Effect for Suspicious",
     "PrimarySkillCheck": {
-      "PrimarySkill": "MentalSkill.SocialPerceptiveness",
+      "PrimarySkill": "MentalSkill.IntuitiveForesight",
       "SecondarySkill": "MentalSkill.AnalyticalInsight",
       "Attribute": "MentalAttribute.Perception"
     },
     "DurationSkillCheck": {
       "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
-      "SecondarySkill": "MentalSkill.SocialPerceptiveness",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.Logic"
     },
     "Modifiers": {
@@ -311,12 +311,12 @@
     "DevComment": "Effect for Encouraged",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
-      "SecondarySkill": "MentalSkill.SocialAdaptability",
+      "SecondarySkill": "MentalSkill.DiplomacyTrade",
       "Attribute": "MentalAttribute.Empathy"
     },
     "DurationSkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
-      "SecondarySkill": "MentalSkill.SocialAdaptability",
+      "SecondarySkill": "MentalSkill.DiplomacyTrade",
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "Modifiers": {
@@ -371,7 +371,7 @@
       "Attribute": "MentalAttribute.Empathy"
     },
     "DurationSkillCheck": {
-      "PrimarySkill": "MentalSkill.SocialAdaptability",
+      "PrimarySkill": "MentalSkill.DiplomacyTrade",
       "SecondarySkill": "MentalSkill.EmotionalIntelligence",
       "Attribute": "MentalAttribute.Empathy"
     },
@@ -393,18 +393,18 @@
     "Tag": "GameplayEffect.Dialogue.TrustGained",
     "DevComment": "Effect for Trust Gained",
     "PrimarySkillCheck": {
-      "PrimarySkill": "MentalSkill.SocialPerceptiveness",
+      "PrimarySkill": "MentalSkill.IntuitiveForesight",
       "SecondarySkill": "MentalSkill.DiplomacyTrade",
       "Attribute": "MentalAttribute.Empathy"
     },
     "DurationSkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
-      "SecondarySkill": "MentalSkill.SocialPerceptiveness",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
       "Skills": {
-        "SetByCaller.MentalSkill.SocialPerceptiveness": 1,
+        "SetByCaller.MentalSkill.IntuitiveForesight": 1,
         "SetByCaller.MentalSkill.Charisma": 1
       },
       "Attributes": {
@@ -422,7 +422,7 @@
     "DevComment": "Effect for Enlightened",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.AnalyticalInsight",
-      "SecondarySkill": "MentalSkill.CreativePotential",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.Logic"
     },
     "DurationSkillCheck": {
@@ -455,7 +455,7 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "DurationSkillCheck": {
-      "PrimarySkill": "MentalSkill.SocialAdaptability",
+      "PrimarySkill": "MentalSkill.DiplomacyTrade",
       "SecondarySkill": "MentalSkill.StrategicThinking",
       "Attribute": "MentalAttribute.Focus"
     },
@@ -483,7 +483,7 @@
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "DurationSkillCheck": {
-      "PrimarySkill": "MentalSkill.CreativePotential",
+      "PrimarySkill": "MentalSkill.IntuitiveForesight",
       "SecondarySkill": "MentalSkill.Charisma",
       "Attribute": "MentalAttribute.SocialEnergy"
     },
@@ -533,12 +533,12 @@
     "DevComment": "Effect for Charmed",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.Charisma",
-      "SecondarySkill": "MentalSkill.SocialPerceptiveness",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.Empathy"
     },
     "DurationSkillCheck": {
       "PrimarySkill": "MentalSkill.Charisma",
-      "SecondarySkill": "MentalSkill.SocialPerceptiveness",
+      "SecondarySkill": "MentalSkill.IntuitiveForesight",
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
