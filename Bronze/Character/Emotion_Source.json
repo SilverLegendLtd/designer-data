@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Accomplishment",
+    "Tag": "Emotion.Accomplishment",
+    "DevComment": "Expresses pride, relief, or a need for recognition. This emotion may highlight a character's identity, self-worth, or hope for validation. It can be humble, boastful, or bitterly undercut by past failures."
+  },
+  {
+    "Name": "Admiration",
+    "Tag": "Emotion.Admiration",
+    "DevComment": "Highlights reverence or deep appreciation\u2014whether sincere or idealized. Admiration may stem from longing, inspiration, or unfulfilled desire. It can be elevating, envious, or romanticized."
+  },
+  {
+    "Name": "Anger",
+    "Tag": "Emotion.Anger",
+    "DevComment": "Represents a reaction to violation\u2014of self, others, or values. Anger may be righteous, petty, controlled, or explosive. It often carries unresolved grief, a call for justice, or the need to reclaim agency."
+  },
+  {
+    "Name": "Assertiveness",
+    "Tag": "Emotion.Assertiveness",
+    "DevComment": "Denotes a character taking control\u2014setting boundaries, declaring purpose, or challenging the status quo. Assertiveness may be driven by confidence, desperation, or the need to be seen or heard."
+  },
+  {
+    "Name": "Concern",
+    "Tag": "Emotion.Concern",
+    "DevComment": "Signals a protective or alarmed motivation to intervene. This could be driven by empathy, fear, control, or responsibility. Concerned initiation often reveals what or who the character feels tied to emotionally."
+  },
+  {
+    "Name": "DesireForConnection",
+    "Tag": "Emotion.DesireForConnection",
+    "DevComment": "Reveals a yearning to bond\u2014whether for comfort, understanding, survival, or manipulation. This desire may emerge as vulnerability, warmth, flirtation, or clumsy openness."
+  },
+  {
+    "Name": "Disinterest",
+    "Tag": "Emotion.Disinterest",
+    "DevComment": "Signifies emotional withdrawal or defensive disengagement. Disinterest may stem from apathy, pain, mistrust, or jaded experience. It often signals a coping mechanism in a harsh or meaningless world."
+  },
+  {
+    "Name": "Excitement",
+    "Tag": "Emotion.Excitement",
+    "DevComment": "Indicates a desire to share a spark of joy, opportunity, or restless energy. May stem from genuine optimism or as a defense against despair. Characters may speak with enthusiasm, mania, or hopeful urgency."
+  },
+  {
+    "Name": "Gratitude",
+    "Tag": "Emotion.Gratitude",
+    "DevComment": "Reveals emotional warmth and recognition of received value\u2014whether unexpected kindness, sacrifice, or survival. Gratitude often suggests emotional awakening, vulnerability, or a glimpse of lost humanity."
+  },
+  {
+    "Name": "Inquiry",
+    "Tag": "Emotion.Inquiry",
+    "DevComment": "Shows a drive to uncover truth, often stemming from uncertainty, suspicion, or ambition. The inquiry might be intellectual, personal, or spiritual\u2014and can be shaped by curiosity, caution, or obsession."
+  },
+  {
+    "Name": "SeekingStimulation",
+    "Tag": "Emotion.SeekingStimulation",
+    "DevComment": "Indicates restlessness or the craving for novelty. It may reflect boredom, a need to feel alive, or an avoidance of stillness. This drive can manifest in reckless ideas or probing conversation."
+  },
+  {
+    "Name": "Suspicion",
+    "Tag": "Emotion.Suspicion",
+    "DevComment": "Shows wariness and emotional armor. Suspicion may reflect past betrayal, instinctual caution, or hyper-vigilance. Characters initiating from suspicion seek control, truth, or emotional safety."
+  },
+  {
+    "Name": "Sympathy",
+    "Tag": "Emotion.Sympathy",
+    "DevComment": "Reflects the impulse to comfort or connect with another's pain. Sympathy may be selfless, strategic, or misdirected. It often reveals emotional literacy\u2014or attempts at emotional leverage."
+  },
+  {
+    "Name": "Uncertainty",
+    "Tag": "Emotion.Uncertainty",
+    "DevComment": "Reflects internal fragmentation or hesitation. It can reveal insecurity, fear of consequences, or a deep need for guidance. Uncertainty makes characters more pliable\u2014or more easily led."
+  }
+]

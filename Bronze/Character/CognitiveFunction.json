@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Fe",
+    "Tag": "CognitiveFunction.Fe",
+    "DevComment": "External regulation of social harmony and emotional atmosphere. Seeks to connect with and respond to the emotional needs and values of the group or individuals, often adapting to create consensus and well-being."
+  },
+  {
+    "Name": "Fi",
+    "Tag": "CognitiveFunction.Fi",
+    "DevComment": "Internal evaluation of information against deeply held personal values, ethics, and a quest for authenticity. Seeks to live in alignment with one's inner moral compass."
+  },
+  {
+    "Name": "Ne",
+    "Tag": "CognitiveFunction.Ne",
+    "DevComment": "External exploration of possibilities, connections, and future potential. Seeks novelty, generates ideas, and thrives on brainstorming and connecting seemingly unrelated concepts in the external world."
+  },
+  {
+    "Name": "Ni",
+    "Tag": "CognitiveFunction.Ni",
+    "DevComment": "Internal perception of patterns, underlying meanings, and future implications, often leading to sudden insights and a unique long-range vision. Seeks to understand the essence of things and anticipate future developments."
+  },
+  {
+    "Name": "Se",
+    "Tag": "CognitiveFunction.Se",
+    "DevComment": "Immediate, unfiltered engagement with the concrete, tangible world in the present moment. Seeks to experience reality directly, seize opportunities, and react swiftly to external stimuli."
+  },
+  {
+    "Name": "Si",
+    "Tag": "CognitiveFunction.Si",
+    "DevComment": "Internal repository of past experiences, details, and subjective sensory impressions. Seeks to establish stability, reliability, and security by comparing present information to a vast internal database of what has been."
+  },
+  {
+    "Name": "Te",
+    "Tag": "CognitiveFunction.Te",
+    "DevComment": "External organization and implementation of logical systems. Seeks efficiency, structure, and measurable results in the outer world."
+  },
+  {
+    "Name": "Ti",
+    "Tag": "CognitiveFunction.Ti",
+    "DevComment": "Internal logical analysis and system building. Seeks precision, accuracy, and consistency within a personally constructed framework of understanding."
+  }
+]

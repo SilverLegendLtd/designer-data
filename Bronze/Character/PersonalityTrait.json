@@ -1,0 +1,979 @@
+[
+    {
+        "Name": "Reflective",
+        "Tag": "PersonalityTrait.Reflective",
+        "DevComment": "Introvert",
+        "Description": "A personality trait belonging to the Introvert axis.",
+        "AxisTag": "PersonalityAxis.Introvert",
+        "OppositeAxisTag": "PersonalityAxis.Extrovert",
+        "InfluencedAttributes": [
+            "MentalAttribute.Focus",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.IntuitiveForesight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Self-contained",
+        "Tag": "PersonalityTrait.SelfContained",
+        "DevComment": "Introvert",
+        "Description": "A personality trait belonging to the Introvert axis.",
+        "AxisTag": "PersonalityAxis.Introvert",
+        "OppositeAxisTag": "PersonalityAxis.Extrovert",
+        "InfluencedAttributes": [
+            "MentalAttribute.Focus",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.IntuitiveForesight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Low-profile",
+        "Tag": "PersonalityTrait.LowProfile",
+        "DevComment": "Introvert",
+        "Description": "A personality trait belonging to the Introvert axis.",
+        "AxisTag": "PersonalityAxis.Introvert",
+        "OppositeAxisTag": "PersonalityAxis.Extrovert",
+        "InfluencedAttributes": [
+            "MentalAttribute.Focus",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.IntuitiveForesight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Introspective",
+        "Tag": "PersonalityTrait.Introspective",
+        "DevComment": "Introvert",
+        "Description": "A personality trait belonging to the Introvert axis.",
+        "AxisTag": "PersonalityAxis.Introvert",
+        "OppositeAxisTag": "PersonalityAxis.Extrovert",
+        "InfluencedAttributes": [
+            "MentalAttribute.Focus",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.IntuitiveForesight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Independent",
+        "Tag": "PersonalityTrait.Independent",
+        "DevComment": "Introvert",
+        "Description": "A personality trait belonging to the Introvert axis.",
+        "AxisTag": "PersonalityAxis.Introvert",
+        "OppositeAxisTag": "PersonalityAxis.Extrovert",
+        "InfluencedAttributes": [
+            "MentalAttribute.Focus",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.IntuitiveForesight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Quietly observant",
+        "Tag": "PersonalityTrait.QuietlyObservant",
+        "DevComment": "Introvert",
+        "Description": "A personality trait belonging to the Introvert axis.",
+        "AxisTag": "PersonalityAxis.Introvert",
+        "OppositeAxisTag": "PersonalityAxis.Extrovert",
+        "InfluencedAttributes": [
+            "MentalAttribute.Focus",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.IntuitiveForesight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Deliberate",
+        "Tag": "PersonalityTrait.Deliberate",
+        "DevComment": "Introvert",
+        "Description": "A personality trait belonging to the Introvert axis.",
+        "AxisTag": "PersonalityAxis.Introvert",
+        "OppositeAxisTag": "PersonalityAxis.Extrovert",
+        "InfluencedAttributes": [
+            "MentalAttribute.Focus",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.IntuitiveForesight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Private",
+        "Tag": "PersonalityTrait.Private",
+        "DevComment": "Introvert",
+        "Description": "A personality trait belonging to the Introvert axis.",
+        "AxisTag": "PersonalityAxis.Introvert",
+        "OppositeAxisTag": "PersonalityAxis.Extrovert",
+        "InfluencedAttributes": [
+            "MentalAttribute.Focus",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.IntuitiveForesight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Outgoing",
+        "Tag": "PersonalityTrait.Outgoing",
+        "DevComment": "Extrovert",
+        "Description": "A personality trait belonging to the Extrovert axis.",
+        "AxisTag": "PersonalityAxis.Extrovert",
+        "OppositeAxisTag": "PersonalityAxis.Introvert",
+        "InfluencedAttributes": [
+            "MentalAttribute.SocialEnergy",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement"
+        ]
+    },
+    {
+        "Name": "Socially active",
+        "Tag": "PersonalityTrait.SociallyActive",
+        "DevComment": "Extrovert",
+        "Description": "A personality trait belonging to the Extrovert axis.",
+        "AxisTag": "PersonalityAxis.Extrovert",
+        "OppositeAxisTag": "PersonalityAxis.Introvert",
+        "InfluencedAttributes": [
+            "MentalAttribute.SocialEnergy",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement"
+        ]
+    },
+    {
+        "Name": "Approachable",
+        "Tag": "PersonalityTrait.Approachable",
+        "DevComment": "Extrovert",
+        "Description": "A personality trait belonging to the Extrovert axis.",
+        "AxisTag": "PersonalityAxis.Extrovert",
+        "OppositeAxisTag": "PersonalityAxis.Introvert",
+        "InfluencedAttributes": [
+            "MentalAttribute.SocialEnergy",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement"
+        ]
+    },
+    {
+        "Name": "Expressive",
+        "Tag": "PersonalityTrait.Expressive",
+        "DevComment": "Extrovert",
+        "Description": "A personality trait belonging to the Extrovert axis.",
+        "AxisTag": "PersonalityAxis.Extrovert",
+        "OppositeAxisTag": "PersonalityAxis.Introvert",
+        "InfluencedAttributes": [
+            "MentalAttribute.SocialEnergy",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement"
+        ]
+    },
+    {
+        "Name": "Collaborative",
+        "Tag": "PersonalityTrait.Collaborative",
+        "DevComment": "Extrovert",
+        "Description": "A personality trait belonging to the Extrovert axis.",
+        "AxisTag": "PersonalityAxis.Extrovert",
+        "OppositeAxisTag": "PersonalityAxis.Introvert",
+        "InfluencedAttributes": [
+            "MentalAttribute.SocialEnergy",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement"
+        ]
+    },
+    {
+        "Name": "Assertive",
+        "Tag": "PersonalityTrait.Assertive",
+        "DevComment": "Extrovert",
+        "Description": "A personality trait belonging to the Extrovert axis.",
+        "AxisTag": "PersonalityAxis.Extrovert",
+        "OppositeAxisTag": "PersonalityAxis.Introvert",
+        "InfluencedAttributes": [
+            "MentalAttribute.SocialEnergy",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement"
+        ]
+    },
+    {
+        "Name": "Spontaneous",
+        "Tag": "PersonalityTrait.Spontaneous",
+        "DevComment": "Extrovert",
+        "Description": "A personality trait belonging to the Extrovert axis.",
+        "AxisTag": "PersonalityAxis.Extrovert",
+        "OppositeAxisTag": "PersonalityAxis.Introvert",
+        "InfluencedAttributes": [
+            "MentalAttribute.SocialEnergy",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement"
+        ]
+    },
+    {
+        "Name": "Visionary",
+        "Tag": "PersonalityTrait.Visionary",
+        "DevComment": "Intuitive",
+        "Description": "A personality trait belonging to the Intuitive axis.",
+        "AxisTag": "PersonalityAxis.Intuitive",
+        "OppositeAxisTag": "PersonalityAxis.Sensing",
+        "InfluencedAttributes": [
+            "MentalAttribute.Creativity",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.InstinctiveDecisionMaking"
+        ]
+    },
+    {
+        "Name": "Imaginative",
+        "Tag": "PersonalityTrait.Imaginative",
+        "DevComment": "Intuitive",
+        "Description": "A personality trait belonging to the Intuitive axis.",
+        "AxisTag": "PersonalityAxis.Intuitive",
+        "OppositeAxisTag": "PersonalityAxis.Sensing",
+        "InfluencedAttributes": [
+            "MentalAttribute.Creativity",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.InstinctiveDecisionMaking"
+        ]
+    },
+    {
+        "Name": "Idea-driven",
+        "Tag": "PersonalityTrait.IdeaDriven",
+        "DevComment": "Intuitive",
+        "Description": "A personality trait belonging to the Intuitive axis.",
+        "AxisTag": "PersonalityAxis.Intuitive",
+        "OppositeAxisTag": "PersonalityAxis.Sensing",
+        "InfluencedAttributes": [
+            "MentalAttribute.Creativity",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.InstinctiveDecisionMaking"
+        ]
+    },
+    {
+        "Name": "Figurative",
+        "Tag": "PersonalityTrait.Figurative",
+        "DevComment": "Intuitive",
+        "Description": "A personality trait belonging to the Intuitive axis.",
+        "AxisTag": "PersonalityAxis.Intuitive",
+        "OppositeAxisTag": "PersonalityAxis.Sensing",
+        "InfluencedAttributes": [
+            "MentalAttribute.Creativity",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.InstinctiveDecisionMaking"
+        ]
+    },
+    {
+        "Name": "Dreamer",
+        "Tag": "PersonalityTrait.Dreamer",
+        "DevComment": "Intuitive",
+        "Description": "A personality trait belonging to the Intuitive axis.",
+        "AxisTag": "PersonalityAxis.Intuitive",
+        "OppositeAxisTag": "PersonalityAxis.Sensing",
+        "InfluencedAttributes": [
+            "MentalAttribute.Creativity",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.InstinctiveDecisionMaking"
+        ]
+    },
+    {
+        "Name": "Innovative",
+        "Tag": "PersonalityTrait.Innovative",
+        "DevComment": "Intuitive",
+        "Description": "A personality trait belonging to the Intuitive axis.",
+        "AxisTag": "PersonalityAxis.Intuitive",
+        "OppositeAxisTag": "PersonalityAxis.Sensing",
+        "InfluencedAttributes": [
+            "MentalAttribute.Creativity",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.InstinctiveDecisionMaking"
+        ]
+    },
+    {
+        "Name": "Theoretical",
+        "Tag": "PersonalityTrait.Theoretical",
+        "DevComment": "Intuitive",
+        "Description": "A personality trait belonging to the Intuitive axis.",
+        "AxisTag": "PersonalityAxis.Intuitive",
+        "OppositeAxisTag": "PersonalityAxis.Sensing",
+        "InfluencedAttributes": [
+            "MentalAttribute.Creativity",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.InstinctiveDecisionMaking"
+        ]
+    },
+    {
+        "Name": "Future-focused",
+        "Tag": "PersonalityTrait.FutureFocused",
+        "DevComment": "Intuitive",
+        "Description": "A personality trait belonging to the Intuitive axis.",
+        "AxisTag": "PersonalityAxis.Intuitive",
+        "OppositeAxisTag": "PersonalityAxis.Sensing",
+        "InfluencedAttributes": [
+            "MentalAttribute.Creativity",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.DiplomacyTrade",
+            "MentalSkill.InstinctiveDecisionMaking"
+        ]
+    },
+    {
+        "Name": "Down-to-earth",
+        "Tag": "PersonalityTrait.DownToEarth",
+        "DevComment": "Sensing",
+        "Description": "A personality trait belonging to the Sensing axis.",
+        "AxisTag": "PersonalityAxis.Sensing",
+        "OppositeAxisTag": "PersonalityAxis.Intuitive",
+        "InfluencedAttributes": [
+            "MentalAttribute.Perception",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Practical",
+        "Tag": "PersonalityTrait.Practical",
+        "DevComment": "Sensing",
+        "Description": "A personality trait belonging to the Sensing axis.",
+        "AxisTag": "PersonalityAxis.Sensing",
+        "OppositeAxisTag": "PersonalityAxis.Intuitive",
+        "InfluencedAttributes": [
+            "MentalAttribute.Perception",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Detail-oriented",
+        "Tag": "PersonalityTrait.DetailOriented",
+        "DevComment": "Sensing",
+        "Description": "A personality trait belonging to the Sensing axis.",
+        "AxisTag": "PersonalityAxis.Sensing",
+        "OppositeAxisTag": "PersonalityAxis.Intuitive",
+        "InfluencedAttributes": [
+            "MentalAttribute.Perception",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Fact-driven",
+        "Tag": "PersonalityTrait.FactDriven",
+        "DevComment": "Sensing",
+        "Description": "A personality trait belonging to the Sensing axis.",
+        "AxisTag": "PersonalityAxis.Sensing",
+        "OppositeAxisTag": "PersonalityAxis.Intuitive",
+        "InfluencedAttributes": [
+            "MentalAttribute.Perception",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Realist",
+        "Tag": "PersonalityTrait.Realist",
+        "DevComment": "Sensing",
+        "Description": "A personality trait belonging to the Sensing axis.",
+        "AxisTag": "PersonalityAxis.Sensing",
+        "OppositeAxisTag": "PersonalityAxis.Intuitive",
+        "InfluencedAttributes": [
+            "MentalAttribute.Perception",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Traditional",
+        "Tag": "PersonalityTrait.Traditional",
+        "DevComment": "Sensing",
+        "Description": "A personality trait belonging to the Sensing axis.",
+        "AxisTag": "PersonalityAxis.Sensing",
+        "OppositeAxisTag": "PersonalityAxis.Intuitive",
+        "InfluencedAttributes": [
+            "MentalAttribute.Perception",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Hands-on",
+        "Tag": "PersonalityTrait.HandsOn",
+        "DevComment": "Sensing",
+        "Description": "A personality trait belonging to the Sensing axis.",
+        "AxisTag": "PersonalityAxis.Sensing",
+        "OppositeAxisTag": "PersonalityAxis.Intuitive",
+        "InfluencedAttributes": [
+            "MentalAttribute.Perception",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Evidence-based",
+        "Tag": "PersonalityTrait.EvidenceBased",
+        "DevComment": "Sensing",
+        "Description": "A personality trait belonging to the Sensing axis.",
+        "AxisTag": "PersonalityAxis.Sensing",
+        "OppositeAxisTag": "PersonalityAxis.Intuitive",
+        "InfluencedAttributes": [
+            "MentalAttribute.Perception",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight",
+            "MentalAttribute.Perception",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Logic-driven",
+        "Tag": "PersonalityTrait.LogicDriven",
+        "DevComment": "Thinking",
+        "Description": "A personality trait belonging to the Thinking axis.",
+        "AxisTag": "PersonalityAxis.Thinking",
+        "OppositeAxisTag": "PersonalityAxis.Feeling",
+        "InfluencedAttributes": [
+            "MentalAttribute.Logic",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Analytical",
+        "Tag": "PersonalityTrait.Analytical",
+        "DevComment": "Thinking",
+        "Description": "A personality trait belonging to the Thinking axis.",
+        "AxisTag": "PersonalityAxis.Thinking",
+        "OppositeAxisTag": "PersonalityAxis.Feeling",
+        "InfluencedAttributes": [
+            "MentalAttribute.Logic",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Objective",
+        "Tag": "PersonalityTrait.Objective",
+        "DevComment": "Thinking",
+        "Description": "A personality trait belonging to the Thinking axis.",
+        "AxisTag": "PersonalityAxis.Thinking",
+        "OppositeAxisTag": "PersonalityAxis.Feeling",
+        "InfluencedAttributes": [
+            "MentalAttribute.Logic",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Critical thinker",
+        "Tag": "PersonalityTrait.CriticalThinker",
+        "DevComment": "Thinking",
+        "Description": "A personality trait belonging to the Thinking axis.",
+        "AxisTag": "PersonalityAxis.Thinking",
+        "OppositeAxisTag": "PersonalityAxis.Feeling",
+        "InfluencedAttributes": [
+            "MentalAttribute.Logic",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Task-oriented",
+        "Tag": "PersonalityTrait.TaskOriented",
+        "DevComment": "Thinking",
+        "Description": "A personality trait belonging to the Thinking axis.",
+        "AxisTag": "PersonalityAxis.Thinking",
+        "OppositeAxisTag": "PersonalityAxis.Feeling",
+        "InfluencedAttributes": [
+            "MentalAttribute.Logic",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Systematic",
+        "Tag": "PersonalityTrait.Systematic",
+        "DevComment": "Thinking",
+        "Description": "A personality trait belonging to the Thinking axis.",
+        "AxisTag": "PersonalityAxis.Thinking",
+        "OppositeAxisTag": "PersonalityAxis.Feeling",
+        "InfluencedAttributes": [
+            "MentalAttribute.Logic",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Rational",
+        "Tag": "PersonalityTrait.Rational",
+        "DevComment": "Thinking",
+        "Description": "A personality trait belonging to the Thinking axis.",
+        "AxisTag": "PersonalityAxis.Thinking",
+        "OppositeAxisTag": "PersonalityAxis.Feeling",
+        "InfluencedAttributes": [
+            "MentalAttribute.Logic",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Direct",
+        "Tag": "PersonalityTrait.Direct",
+        "DevComment": "Thinking",
+        "Description": "A personality trait belonging to the Thinking axis.",
+        "AxisTag": "PersonalityAxis.Thinking",
+        "OppositeAxisTag": "PersonalityAxis.Feeling",
+        "InfluencedAttributes": [
+            "MentalAttribute.Logic",
+            "MentalSkill.AnalyticalInsight",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "PhysicalSkill.Research"
+        ]
+    },
+    {
+        "Name": "Values-driven",
+        "Tag": "PersonalityTrait.ValuesDriven",
+        "DevComment": "Feeling",
+        "Description": "A personality trait belonging to the Feeling axis.",
+        "AxisTag": "PersonalityAxis.Feeling",
+        "OppositeAxisTag": "PersonalityAxis.Thinking",
+        "InfluencedAttributes": [
+            "MentalAttribute.Empathy",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Empathetic",
+        "Tag": "PersonalityTrait.Empathetic",
+        "DevComment": "Feeling",
+        "Description": "A personality trait belonging to the Feeling axis.",
+        "AxisTag": "PersonalityAxis.Feeling",
+        "OppositeAxisTag": "PersonalityAxis.Thinking",
+        "InfluencedAttributes": [
+            "MentalAttribute.Empathy",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Compassionate",
+        "Tag": "PersonalityTrait.Compassionate",
+        "DevComment": "Feeling",
+        "Description": "A personality trait belonging to the Feeling axis.",
+        "AxisTag": "PersonalityAxis.Feeling",
+        "OppositeAxisTag": "PersonalityAxis.Thinking",
+        "InfluencedAttributes": [
+            "MentalAttribute.Empathy",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "People-oriented",
+        "Tag": "PersonalityTrait.PeopleOriented",
+        "DevComment": "Feeling",
+        "Description": "A personality trait belonging to the Feeling axis.",
+        "AxisTag": "PersonalityAxis.Feeling",
+        "OppositeAxisTag": "PersonalityAxis.Thinking",
+        "InfluencedAttributes": [
+            "MentalAttribute.Empathy",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Kind-hearted",
+        "Tag": "PersonalityTrait.KindHearted",
+        "DevComment": "Feeling",
+        "Description": "A personality trait belonging to the Feeling axis.",
+        "AxisTag": "PersonalityAxis.Feeling",
+        "OppositeAxisTag": "PersonalityAxis.Thinking",
+        "InfluencedAttributes": [
+            "MentalAttribute.Empathy",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Sympathetic",
+        "Tag": "PersonalityTrait.Sympathetic",
+        "DevComment": "Feeling",
+        "Description": "A personality trait belonging to the Feeling axis.",
+        "AxisTag": "PersonalityAxis.Feeling",
+        "OppositeAxisTag": "PersonalityAxis.Thinking",
+        "InfluencedAttributes": [
+            "MentalAttribute.Empathy",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Emotional",
+        "Tag": "PersonalityTrait.Emotional",
+        "DevComment": "Feeling",
+        "Description": "A personality trait belonging to the Feeling axis.",
+        "AxisTag": "PersonalityAxis.Feeling",
+        "OppositeAxisTag": "PersonalityAxis.Thinking",
+        "InfluencedAttributes": [
+            "MentalAttribute.Empathy",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Diplomatic",
+        "Tag": "PersonalityTrait.Diplomatic",
+        "DevComment": "Feeling",
+        "Description": "A personality trait belonging to the Feeling axis.",
+        "AxisTag": "PersonalityAxis.Feeling",
+        "OppositeAxisTag": "PersonalityAxis.Thinking",
+        "InfluencedAttributes": [
+            "MentalAttribute.Empathy",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.Charisma",
+            "MentalSkill.StressManagement",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Organized",
+        "Tag": "PersonalityTrait.Organized",
+        "DevComment": "Judging",
+        "Description": "A personality trait belonging to the Judging axis.",
+        "AxisTag": "PersonalityAxis.Judging",
+        "OppositeAxisTag": "PersonalityAxis.Perceiving",
+        "InfluencedAttributes": [
+            "MentalAttribute.Discipline",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight"
+        ]
+    },
+    {
+        "Name": "Decisive",
+        "Tag": "PersonalityTrait.Decisive",
+        "DevComment": "Judging",
+        "Description": "A personality trait belonging to the Judging axis.",
+        "AxisTag": "PersonalityAxis.Judging",
+        "OppositeAxisTag": "PersonalityAxis.Perceiving",
+        "InfluencedAttributes": [
+            "MentalAttribute.Discipline",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight"
+        ]
+    },
+    {
+        "Name": "Methodical",
+        "Tag": "PersonalityTrait.Methodical",
+        "DevComment": "Judging",
+        "Description": "A personality trait belonging to the Judging axis.",
+        "AxisTag": "PersonalityAxis.Judging",
+        "OppositeAxisTag": "PersonalityAxis.Perceiving",
+        "InfluencedAttributes": [
+            "MentalAttribute.Discipline",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight"
+        ]
+    },
+    {
+        "Name": "Planner",
+        "Tag": "PersonalityTrait.Planner",
+        "DevComment": "Judging",
+        "Description": "A personality trait belonging to the Judging axis.",
+        "AxisTag": "PersonalityAxis.Judging",
+        "OppositeAxisTag": "PersonalityAxis.Perceiving",
+        "InfluencedAttributes": [
+            "MentalAttribute.Discipline",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight"
+        ]
+    },
+    {
+        "Name": "Disciplined",
+        "Tag": "PersonalityTrait.Disciplined",
+        "DevComment": "Judging",
+        "Description": "A personality trait belonging to the Judging axis.",
+        "AxisTag": "PersonalityAxis.Judging",
+        "OppositeAxisTag": "PersonalityAxis.Perceiving",
+        "InfluencedAttributes": [
+            "MentalAttribute.Discipline",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight"
+        ]
+    },
+    {
+        "Name": "Goal-oriented",
+        "Tag": "PersonalityTrait.GoalOriented",
+        "DevComment": "Judging",
+        "Description": "A personality trait belonging to the Judging axis.",
+        "AxisTag": "PersonalityAxis.Judging",
+        "OppositeAxisTag": "PersonalityAxis.Perceiving",
+        "InfluencedAttributes": [
+            "MentalAttribute.Discipline",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight"
+        ]
+    },
+    {
+        "Name": "Scheduled",
+        "Tag": "PersonalityTrait.Scheduled",
+        "DevComment": "Judging",
+        "Description": "A personality trait belonging to the Judging axis.",
+        "AxisTag": "PersonalityAxis.Judging",
+        "OppositeAxisTag": "PersonalityAxis.Perceiving",
+        "InfluencedAttributes": [
+            "MentalAttribute.Discipline",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight"
+        ]
+    },
+    {
+        "Name": "Prepared",
+        "Tag": "PersonalityTrait.Prepared",
+        "DevComment": "Judging",
+        "Description": "A personality trait belonging to the Judging axis.",
+        "AxisTag": "PersonalityAxis.Judging",
+        "OppositeAxisTag": "PersonalityAxis.Perceiving",
+        "InfluencedAttributes": [
+            "MentalAttribute.Discipline",
+            "MentalSkill.LeadershipEffectiveness",
+            "MentalSkill.StrategicThinking",
+            "MentalSkill.Resilience",
+            "MentalSkill.TaskEndurance",
+            "MentalSkill.OperationalOversight"
+        ]
+    },
+    {
+        "Name": "Flexible",
+        "Tag": "PersonalityTrait.Flexible",
+        "DevComment": "Perceiving",
+        "Description": "A personality trait belonging to the Perceiving axis.",
+        "AxisTag": "PersonalityAxis.Perceiving",
+        "OppositeAxisTag": "PersonalityAxis.Judging",
+        "InfluencedAttributes": [
+            "MentalAttribute.Adaptability",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.InstinctiveDecisionMaking",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Open-ended",
+        "Tag": "PersonalityTrait.OpenEnded",
+        "DevComment": "Perceiving",
+        "Description": "A personality trait belonging to the Perceiving axis.",
+        "AxisTag": "PersonalityAxis.Perceiving",
+        "OppositeAxisTag": "PersonalityAxis.Judging",
+        "InfluencedAttributes": [
+            "MentalAttribute.Adaptability",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.InstinctiveDecisionMaking",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Improvisational",
+        "Tag": "PersonalityTrait.Improvisational",
+        "DevComment": "Perceiving",
+        "Description": "A personality trait belonging to the Perceiving axis.",
+        "AxisTag": "PersonalityAxis.Perceiving",
+        "OppositeAxisTag": "PersonalityAxis.Judging",
+        "InfluencedAttributes": [
+            "MentalAttribute.Adaptability",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.InstinctiveDecisionMaking",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Go-with-the-flow",
+        "Tag": "PersonalityTrait.GoWithTheFlow",
+        "DevComment": "Perceiving",
+        "Description": "A personality trait belonging to the Perceiving axis.",
+        "AxisTag": "PersonalityAxis.Perceiving",
+        "OppositeAxisTag": "PersonalityAxis.Judging",
+        "InfluencedAttributes": [
+            "MentalAttribute.Adaptability",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.InstinctiveDecisionMaking",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Casual",
+        "Tag": "PersonalityTrait.Casual",
+        "DevComment": "Perceiving",
+        "Description": "A personality trait belonging to the Perceiving axis.",
+        "AxisTag": "PersonalityAxis.Perceiving",
+        "OppositeAxisTag": "PersonalityAxis.Judging",
+        "InfluencedAttributes": [
+            "MentalAttribute.Adaptability",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.InstinctiveDecisionMaking",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Process-oriented",
+        "Tag": "PersonalityTrait.ProcessOriented",
+        "DevComment": "Perceiving",
+        "Description": "A personality trait belonging to the Perceiving axis.",
+        "AxisTag": "PersonalityAxis.Perceiving",
+        "OppositeAxisTag": "PersonalityAxis.Judging",
+        "InfluencedAttributes": [
+            "MentalAttribute.Adaptability",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.InstinctiveDecisionMaking",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Versatile",
+        "Tag": "PersonalityTrait.Versatile",
+        "DevComment": "Perceiving",
+        "Description": "A personality trait belonging to the Perceiving axis.",
+        "AxisTag": "PersonalityAxis.Perceiving",
+        "OppositeAxisTag": "PersonalityAxis.Judging",
+        "InfluencedAttributes": [
+            "MentalAttribute.Adaptability",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.InstinctiveDecisionMaking",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    },
+    {
+        "Name": "Resourceful",
+        "Tag": "PersonalityTrait.Resourceful",
+        "DevComment": "Perceiving",
+        "Description": "A personality trait belonging to the Perceiving axis.",
+        "AxisTag": "PersonalityAxis.Perceiving",
+        "OppositeAxisTag": "PersonalityAxis.Judging",
+        "InfluencedAttributes": [
+            "MentalAttribute.Adaptability",
+            "MentalSkill.EmotionalIntelligence",
+            "MentalSkill.PracticalSkills",
+            "MentalSkill.InstinctiveDecisionMaking",
+            "MentalSkill.DiplomacyTrade"
+        ]
+    }
+]

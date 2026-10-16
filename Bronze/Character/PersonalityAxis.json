@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "Introvert",
+        "Tag": "PersonalityAxis.Introvert",
+        "DevComment": "Introvert axis"
+    },
+    {
+        "Name": "Extrovert",
+        "Tag": "PersonalityAxis.Extrovert",
+        "DevComment": "Extrovert axis"
+    },
+    {
+        "Name": "Intuitive",
+        "Tag": "PersonalityAxis.Intuitive",
+        "DevComment": "Intuitive axis"
+    },
+    {
+        "Name": "Sensing",
+        "Tag": "PersonalityAxis.Sensing",
+        "DevComment": "Sensing axis"
+    },
+    {
+        "Name": "Thinking",
+        "Tag": "PersonalityAxis.Thinking",
+        "DevComment": "Thinking axis"
+    },
+    {
+        "Name": "Feeling",
+        "Tag": "PersonalityAxis.Feeling",
+        "DevComment": "Feeling axis"
+    },
+    {
+        "Name": "Judging",
+        "Tag": "PersonalityAxis.Judging",
+        "DevComment": "Judging axis"
+    },
+    {
+        "Name": "Perceiving",
+        "Tag": "PersonalityAxis.Perceiving",
+        "DevComment": "Perceiving axis"
+    }
+]
