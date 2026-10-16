@@ -2036,5 +2036,233 @@
     "Tag": "BB.Title.Scout",
     "Kind": "Title",
     "DevComment": "Job title, Communication option 3 (owner's list, CopperGame idea 0054; suggestions until the designers confirm)"
+  },
+  {
+    "Name": "Tired",
+    "Tag": "GameplayEffect.BaseBuilding.Tired",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Name": "Exhausted",
+    "Tag": "GameplayEffect.BaseBuilding.Exhausted",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Name": "Distressed (Validation)",
+    "Tag": "GameplayEffect.BaseBuilding.Distressed.Validation",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Name": "Distressed (Survival)",
+    "Tag": "GameplayEffect.BaseBuilding.Distressed.Survival",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Name": "Distressed (Well-Being)",
+    "Tag": "GameplayEffect.BaseBuilding.Distressed.WellBeing",
+    "Kind": "Effect",
+    "DevComment": "Base Building gameplay effect (psychology slice, D136-D139)"
+  },
+  {
+    "Name": "Survival",
+    "Tag": "Motivation.Need.Survival",
+    "Kind": "Motivation",
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Well-Being",
+    "Tag": "Motivation.Need.WellBeing",
+    "Kind": "Motivation",
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Safety",
+    "Tag": "Motivation.Need.Safety",
+    "Kind": "Motivation",
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Tech",
+    "Tag": "Motivation.Need.Tech",
+    "Kind": "Motivation",
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Science",
+    "Tag": "Motivation.Need.Science",
+    "Kind": "Motivation",
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Unity",
+    "Tag": "Motivation.Need.Unity",
+    "Kind": "Motivation",
+    "DevComment": "Need motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Loyalty",
+    "Tag": "Motivation.Social.Loyalty",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Validation",
+    "Tag": "Motivation.Social.Validation",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Affiliation",
+    "Tag": "Motivation.Social.Affiliation",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Recognition",
+    "Tag": "Motivation.Social.Recognition",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Attachment",
+    "Tag": "Motivation.Social.Attachment",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Affection",
+    "Tag": "Motivation.Social.Affection",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Trust",
+    "Tag": "Motivation.Social.Trust",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Approval",
+    "Tag": "Motivation.Social.Approval",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "Attention",
+    "Tag": "Motivation.Social.Attention",
+    "Kind": "Motivation",
+    "DevComment": "Social motivation (GDD Motivation; D135)"
+  },
+  {
+    "Name": "WorkCriticalSuccess",
+    "Tag": "BB.StrokeSource.WorkCriticalSuccess",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "WorkGood",
+    "Tag": "BB.StrokeSource.WorkGood",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "WorkFailure",
+    "Tag": "BB.StrokeSource.WorkFailure",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "WorkBadlyDone",
+    "Tag": "BB.StrokeSource.WorkBadlyDone",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "ExhaustedDay",
+    "Tag": "BB.StrokeSource.ExhaustedDay",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "BuildingFinished",
+    "Tag": "BB.StrokeSource.BuildingFinished",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "SharedSlotWorkday",
+    "Tag": "BB.StrokeSource.SharedSlotWorkday",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "SharedLeisure",
+    "Tag": "BB.StrokeSource.SharedLeisure",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "GuardDay",
+    "Tag": "BB.StrokeSource.GuardDay",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "LevelUp",
+    "Tag": "BB.StrokeSource.LevelUp",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "IdleByChoice",
+    "Tag": "BB.StrokeSource.IdleByChoice",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "Hungry",
+    "Tag": "BB.StrokeSource.Hungry",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "Starving",
+    "Tag": "BB.StrokeSource.Starving",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "Sick",
+    "Tag": "BB.StrokeSource.Sick",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "Treated",
+    "Tag": "BB.StrokeSource.Treated",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "FedAndRestedDay",
+    "Tag": "BB.StrokeSource.FedAndRestedDay",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "BaseBandFell",
+    "Tag": "BB.StrokeSource.BaseBandFell",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
+  },
+  {
+    "Name": "BaseBandRose",
+    "Tag": "BB.StrokeSource.BaseBandRose",
+    "Kind": "StrokeSource",
+    "DevComment": "A game event that gives strokes (Strokes tab; SIL-1610)"
   }
 ]
