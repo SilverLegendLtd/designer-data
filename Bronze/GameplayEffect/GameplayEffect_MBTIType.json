@@ -3,7 +3,7 @@
     "Name": "Breakthrough",
     "Tag": "GameplayEffect.MBTI.INTJ.Breakthrough",
     "DevComment": "Positive effect. Affects: +Analytical Insight +Strategic Thinking +Leadership Effectiveness",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.AnalyticalInsight",
       "SecondarySkill": "MentalSkill.StrategicThinking",
@@ -15,18 +15,18 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
-      "SetByCaller.MentalSkill.StrategicThinking": 1,
-      "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
-      "SetByCaller.Mood.Arousal": 0.1,
-      "SetByCaller.Mood.Valence": 0.35
+      "MentalSkill.AnalyticalInsight": 1,
+      "MentalSkill.StrategicThinking": 1,
+      "MentalSkill.LeadershipEffectiveness": 1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": 0.35
     }
   },
   {
     "Name": "Held Back",
     "Tag": "GameplayEffect.MBTI.INTJ.HeldBack",
     "DevComment": "Negative effect. Affects: -Stress Management -Social Energy -Diplomacy and Trade",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.AnalyticalInsight",
       "SecondarySkill": "MentalSkill.Resilience",
@@ -38,18 +38,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
-      "SetByCaller.Mood.Arousal": 0.15,
-      "SetByCaller.Mood.Valence": -0.3
+      "MentalSkill.StressManagement": -1,
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalSkill.DiplomacyTrade": -1,
+      "Mood.Arousal": 0.15,
+      "Mood.Valence": -0.3
     }
   },
   {
     "Name": "Eureka Moment",
     "Tag": "GameplayEffect.MBTI.INTP.EurekaMoment",
     "DevComment": "Positive effect. Affects: +Analytical Insight +Research Aptitude +Focus",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.AnalyticalInsight",
       "SecondarySkill": "MentalSkill.TaskEndurance",
@@ -61,18 +61,18 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
-      "SetByCaller.MentalSkill.ResearchAptitude": 1,
-      "SetByCaller.MentalAttribute.Focus": 1,
-      "SetByCaller.Mood.Arousal": 0.2,
-      "SetByCaller.Mood.Valence": 0.4
+      "MentalSkill.AnalyticalInsight": 1,
+      "MentalSkill.ResearchAptitude": 1,
+      "MentalAttribute.Focus": 1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": 0.4
     }
   },
   {
     "Name": "Exasperated",
     "Tag": "GameplayEffect.MBTI.INTP.Exasperated",
     "DevComment": "Negative effect. Affects: -Stress Management -Diplomacy and Trade -Focus",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.AnalyticalInsight",
       "SecondarySkill": "MentalSkill.StressManagement",
@@ -84,18 +84,18 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
-      "SetByCaller.MentalAttribute.Focus": -1,
-      "SetByCaller.Mood.Arousal": 0.2,
-      "SetByCaller.Mood.Valence": -0.3
+      "MentalSkill.StressManagement": -1,
+      "MentalSkill.DiplomacyTrade": -1,
+      "MentalAttribute.Focus": -1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": -0.3
     }
   },
   {
     "Name": "Seizing Control",
     "Tag": "GameplayEffect.MBTI.ENTJ.SeizingControl",
     "DevComment": "Positive effect. Affects: +Leadership Effectiveness +Strategic Thinking +Discipline",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
       "SecondarySkill": "MentalSkill.StrategicThinking",
@@ -107,18 +107,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
-      "SetByCaller.MentalSkill.StrategicThinking": 1,
-      "SetByCaller.MentalAttribute.Discipline": 1,
-      "SetByCaller.Mood.Arousal": 0.25,
-      "SetByCaller.Mood.Valence": 0.35
+      "MentalSkill.LeadershipEffectiveness": 1,
+      "MentalSkill.StrategicThinking": 1,
+      "MentalAttribute.Discipline": 1,
+      "Mood.Arousal": 0.25,
+      "Mood.Valence": 0.35
     }
   },
   {
     "Name": "Authority Undermined",
     "Tag": "GameplayEffect.MBTI.ENTJ.AuthorityUndermined",
     "DevComment": "Negative effect. Affects: -Stress Management -Diplomacy and Trade -Discipline",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
       "SecondarySkill": "MentalSkill.Resilience",
@@ -130,18 +130,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
-      "SetByCaller.MentalAttribute.Discipline": -1,
-      "SetByCaller.Mood.Arousal": 0.3,
-      "SetByCaller.Mood.Valence": -0.3
+      "MentalSkill.StressManagement": -1,
+      "MentalSkill.DiplomacyTrade": -1,
+      "MentalAttribute.Discipline": -1,
+      "Mood.Arousal": 0.3,
+      "Mood.Valence": -0.3
     }
   },
   {
     "Name": "Cracked The Code",
     "Tag": "GameplayEffect.MBTI.ENTP.CrackedTheCode",
     "DevComment": "Positive effect. Affects: +Research Aptitude +Analytical Insight +Charisma",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.AttentionToDetail",
       "SecondarySkill": "MentalSkill.AnalyticalInsight",
@@ -153,18 +153,18 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.ResearchAptitude": 1,
-      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
-      "SetByCaller.MentalSkill.Charisma": 1,
-      "SetByCaller.Mood.Arousal": 0.3,
-      "SetByCaller.Mood.Valence": 0.4
+      "MentalSkill.ResearchAptitude": 1,
+      "MentalSkill.AnalyticalInsight": 1,
+      "MentalSkill.Charisma": 1,
+      "Mood.Arousal": 0.3,
+      "Mood.Valence": 0.4
     }
   },
   {
     "Name": "Boxed In",
     "Tag": "GameplayEffect.MBTI.ENTP.BoxedIn",
     "DevComment": "Negative effect. Affects: -Task Endurance -Social Energy -Discipline",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
       "SecondarySkill": "MentalSkill.AnalyticalInsight",
@@ -176,18 +176,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.TaskEndurance": -1,
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalAttribute.Discipline": -1,
-      "SetByCaller.Mood.Arousal": 0.15,
-      "SetByCaller.Mood.Valence": -0.25
+      "MentalSkill.TaskEndurance": -1,
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalAttribute.Discipline": -1,
+      "Mood.Arousal": 0.15,
+      "Mood.Valence": -0.25
     }
   },
   {
     "Name": "Sense Of Purpose",
     "Tag": "GameplayEffect.MBTI.INFJ.SenseOfPurpose",
     "DevComment": "Positive effect. Affects: +Empathy +Diplomacy and Trade +Resilience",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.AnalyticalInsight",
       "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
@@ -199,18 +199,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.Empathy": 1,
-      "SetByCaller.MentalSkill.DiplomacyTrade": 1,
-      "SetByCaller.MentalSkill.Resilience": 1,
-      "SetByCaller.Mood.Arousal": 0.05,
-      "SetByCaller.Mood.Valence": 0.4
+      "MentalAttribute.Empathy": 1,
+      "MentalSkill.DiplomacyTrade": 1,
+      "MentalSkill.Resilience": 1,
+      "Mood.Arousal": 0.05,
+      "Mood.Valence": 0.4
     }
   },
   {
     "Name": "Disheartened",
     "Tag": "GameplayEffect.MBTI.INFJ.Disheartened",
     "DevComment": "Negative effect. Affects: -Social Energy -Stress Management -Empathy",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
       "SecondarySkill": "MentalSkill.AnalyticalInsight",
@@ -222,18 +222,18 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalAttribute.Empathy": -1,
-      "SetByCaller.Mood.Arousal": -0.1,
-      "SetByCaller.Mood.Valence": -0.35
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalSkill.StressManagement": -1,
+      "MentalAttribute.Empathy": -1,
+      "Mood.Arousal": -0.1,
+      "Mood.Valence": -0.35
     }
   },
   {
     "Name": "Beauty Found",
     "Tag": "GameplayEffect.MBTI.INFP.BeautyFound",
     "DevComment": "Positive effect. Affects: +Emotional Intelligence +Empathy +Resilience",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.Charisma",
       "SecondarySkill": "MentalSkill.EmotionalIntelligence",
@@ -245,18 +245,18 @@
       "Attribute": "MentalAttribute.Creativity"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.EmotionalIntelligence": 1,
-      "SetByCaller.MentalAttribute.Empathy": 1,
-      "SetByCaller.MentalSkill.Resilience": 1,
-      "SetByCaller.Mood.Arousal": -0.15,
-      "SetByCaller.Mood.Valence": 0.4
+      "MentalSkill.EmotionalIntelligence": 1,
+      "MentalAttribute.Empathy": 1,
+      "MentalSkill.Resilience": 1,
+      "Mood.Arousal": -0.15,
+      "Mood.Valence": 0.4
     }
   },
   {
     "Name": "Feeling Numb",
     "Tag": "GameplayEffect.MBTI.INFP.FeelingNumb",
     "DevComment": "Negative effect. Affects: -Social Energy -Task Endurance -Emotional Intelligence",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
       "SecondarySkill": "MentalSkill.Resilience",
@@ -268,18 +268,18 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalSkill.TaskEndurance": -1,
-      "SetByCaller.MentalSkill.EmotionalIntelligence": -1,
-      "SetByCaller.Mood.Arousal": -0.3,
-      "SetByCaller.Mood.Valence": -0.3
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalSkill.TaskEndurance": -1,
+      "MentalSkill.EmotionalIntelligence": -1,
+      "Mood.Arousal": -0.3,
+      "Mood.Valence": -0.3
     }
   },
   {
     "Name": "United",
     "Tag": "GameplayEffect.MBTI.ENFJ.United",
     "DevComment": "Positive effect. Affects: +Empathy +Leadership Effectiveness +Social Energy",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
       "SecondarySkill": "MentalSkill.EmotionalIntelligence",
@@ -291,18 +291,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.Empathy": 1,
-      "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
-      "SetByCaller.MentalAttribute.SocialEnergy": 1,
-      "SetByCaller.Mood.Arousal": 0.2,
-      "SetByCaller.Mood.Valence": 0.4
+      "MentalAttribute.Empathy": 1,
+      "MentalSkill.LeadershipEffectiveness": 1,
+      "MentalAttribute.SocialEnergy": 1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": 0.4
     }
   },
   {
     "Name": "Heartbroken",
     "Tag": "GameplayEffect.MBTI.ENFJ.Heartbroken",
     "DevComment": "Negative effect. Affects: -Social Energy -Stress Management -Empathy",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
       "SecondarySkill": "MentalSkill.Resilience",
@@ -314,18 +314,18 @@
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalAttribute.Empathy": -1,
-      "SetByCaller.Mood.Arousal": 0.1,
-      "SetByCaller.Mood.Valence": -0.4
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalSkill.StressManagement": -1,
+      "MentalAttribute.Empathy": -1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": -0.4
     }
   },
   {
     "Name": "Renewed Excitement",
     "Tag": "GameplayEffect.MBTI.ENFP.RenewedExcitement",
     "DevComment": "Positive effect. Affects: +Emotional Intelligence +Social Energy +Charisma",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.Resilience",
       "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
@@ -337,18 +337,18 @@
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.EmotionalIntelligence": 1,
-      "SetByCaller.MentalAttribute.SocialEnergy": 1,
-      "SetByCaller.MentalSkill.Charisma": 1,
-      "SetByCaller.Mood.Arousal": 0.4,
-      "SetByCaller.Mood.Valence": 0.4
+      "MentalSkill.EmotionalIntelligence": 1,
+      "MentalAttribute.SocialEnergy": 1,
+      "MentalSkill.Charisma": 1,
+      "Mood.Arousal": 0.4,
+      "Mood.Valence": 0.4
     }
   },
   {
     "Name": "Dimmed Spirit",
     "Tag": "GameplayEffect.MBTI.ENFP.DimmedSpirit",
     "DevComment": "Negative effect. Affects: -Social Energy -Emotional Intelligence -Task Endurance",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.Charisma",
       "SecondarySkill": "MentalSkill.EmotionalIntelligence",
@@ -360,18 +360,18 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalSkill.EmotionalIntelligence": -1,
-      "SetByCaller.MentalSkill.TaskEndurance": -1,
-      "SetByCaller.Mood.Arousal": -0.3,
-      "SetByCaller.Mood.Valence": -0.3
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalSkill.EmotionalIntelligence": -1,
+      "MentalSkill.TaskEndurance": -1,
+      "Mood.Arousal": -0.3,
+      "Mood.Valence": -0.3
     }
   },
   {
     "Name": "Situation Secured",
     "Tag": "GameplayEffect.MBTI.ISTJ.SituationSecured",
     "DevComment": "Positive effect. Affects: +Discipline +Task Endurance +Stress Management",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.StrategicThinking",
       "SecondarySkill": "MentalSkill.LeadershipEffectiveness",
@@ -383,18 +383,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.Discipline": 1,
-      "SetByCaller.MentalSkill.TaskEndurance": 1,
-      "SetByCaller.MentalSkill.StressManagement": 1,
-      "SetByCaller.Mood.Arousal": -0.1,
-      "SetByCaller.Mood.Valence": 0.3
+      "MentalAttribute.Discipline": 1,
+      "MentalSkill.TaskEndurance": 1,
+      "MentalSkill.StressManagement": 1,
+      "Mood.Arousal": -0.1,
+      "Mood.Valence": 0.3
     }
   },
   {
     "Name": "Order Broken",
     "Tag": "GameplayEffect.MBTI.ISTJ.OrderBroken",
     "DevComment": "Negative effect. Affects: -Stress Management -Discipline -Focus",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.PracticalSkills",
       "SecondarySkill": "MentalSkill.AttentionToDetail",
@@ -406,18 +406,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalAttribute.Discipline": -1,
-      "SetByCaller.MentalAttribute.Focus": -1,
-      "SetByCaller.Mood.Arousal": 0.3,
-      "SetByCaller.Mood.Valence": -0.35
+      "MentalSkill.StressManagement": -1,
+      "MentalAttribute.Discipline": -1,
+      "MentalAttribute.Focus": -1,
+      "Mood.Arousal": 0.3,
+      "Mood.Valence": -0.35
     }
   },
   {
     "Name": "Safe Haven",
     "Tag": "GameplayEffect.MBTI.ISFJ.SafeHaven",
     "DevComment": "Positive effect. Affects: +Empathy +Discipline +Stress Management",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.PracticalSkills",
       "SecondarySkill": "MentalSkill.EmotionalIntelligence",
@@ -429,18 +429,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.Empathy": 1,
-      "SetByCaller.MentalAttribute.Discipline": 1,
-      "SetByCaller.MentalSkill.StressManagement": 1,
-      "SetByCaller.Mood.Arousal": -0.15,
-      "SetByCaller.Mood.Valence": 0.35
+      "MentalAttribute.Empathy": 1,
+      "MentalAttribute.Discipline": 1,
+      "MentalSkill.StressManagement": 1,
+      "Mood.Arousal": -0.15,
+      "Mood.Valence": 0.35
     }
   },
   {
     "Name": "Safety Shattered",
     "Tag": "GameplayEffect.MBTI.ISFJ.SafetyShattered",
     "DevComment": "Negative effect. Affects: -Stress Management -Focus -Social Energy",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
       "SecondarySkill": "MentalSkill.PracticalSkills",
@@ -452,18 +452,18 @@
       "Attribute": "MentalAttribute.Adaptability"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalAttribute.Focus": -1,
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.Mood.Arousal": 0.5,
-      "SetByCaller.Mood.Valence": -0.4
+      "MentalSkill.StressManagement": -1,
+      "MentalAttribute.Focus": -1,
+      "MentalAttribute.SocialEnergy": -1,
+      "Mood.Arousal": 0.5,
+      "Mood.Valence": -0.4
     }
   },
   {
     "Name": "Order Restored",
     "Tag": "GameplayEffect.MBTI.ESTJ.OrderRestored",
     "DevComment": "Positive effect. Affects: +Leadership Effectiveness +Discipline +Task Endurance",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
       "SecondarySkill": "MentalSkill.StrategicThinking",
@@ -475,18 +475,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
-      "SetByCaller.MentalAttribute.Discipline": 1,
-      "SetByCaller.MentalSkill.TaskEndurance": 1,
-      "SetByCaller.Mood.Arousal": 0.2,
-      "SetByCaller.Mood.Valence": 0.3
+      "MentalSkill.LeadershipEffectiveness": 1,
+      "MentalAttribute.Discipline": 1,
+      "MentalSkill.TaskEndurance": 1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": 0.3
     }
   },
   {
     "Name": "Betrayal Of Trust",
     "Tag": "GameplayEffect.MBTI.ESTJ.BetrayalOfTrust",
     "DevComment": "Negative effect. Affects: -Stress Management -Diplomacy and Trade -Resilience",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.LeadershipEffectiveness",
       "SecondarySkill": "MentalSkill.AttentionToDetail",
@@ -498,18 +498,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalSkill.DiplomacyTrade": -1,
-      "SetByCaller.MentalSkill.Resilience": -1,
-      "SetByCaller.Mood.Arousal": 0.35,
-      "SetByCaller.Mood.Valence": -0.4
+      "MentalSkill.StressManagement": -1,
+      "MentalSkill.DiplomacyTrade": -1,
+      "MentalSkill.Resilience": -1,
+      "Mood.Arousal": 0.35,
+      "Mood.Valence": -0.4
     }
   },
   {
     "Name": "Community Joy",
     "Tag": "GameplayEffect.MBTI.ESFJ.CommunityJoy",
     "DevComment": "Positive effect. Affects: +Social Energy +Empathy +Diplomacy and Trade",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.Charisma",
       "SecondarySkill": "MentalSkill.EmotionalIntelligence",
@@ -521,18 +521,18 @@
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": 1,
-      "SetByCaller.MentalAttribute.Empathy": 1,
-      "SetByCaller.MentalSkill.DiplomacyTrade": 1,
-      "SetByCaller.Mood.Arousal": 0.3,
-      "SetByCaller.Mood.Valence": 0.4
+      "MentalAttribute.SocialEnergy": 1,
+      "MentalAttribute.Empathy": 1,
+      "MentalSkill.DiplomacyTrade": 1,
+      "Mood.Arousal": 0.3,
+      "Mood.Valence": 0.4
     }
   },
   {
     "Name": "Shared Grief",
     "Tag": "GameplayEffect.MBTI.ESFJ.SharedGrief",
     "DevComment": "Negative effect. Affects: -Social Energy -Stress Management +Empathy",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
       "SecondarySkill": "MentalSkill.AttentionToDetail",
@@ -544,18 +544,18 @@
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalAttribute.Empathy": 1,
-      "SetByCaller.Mood.Arousal": 0.1,
-      "SetByCaller.Mood.Valence": -0.4
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalSkill.StressManagement": -1,
+      "MentalAttribute.Empathy": 1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": -0.4
     }
   },
   {
     "Name": "Clean Fix",
     "Tag": "GameplayEffect.MBTI.ISTP.CleanFix",
     "DevComment": "Positive effect. Affects: +Analytical Insight +Task Endurance +Focus",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.PracticalSkills",
       "SecondarySkill": "MentalSkill.AnalyticalInsight",
@@ -567,18 +567,18 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.AnalyticalInsight": 1,
-      "SetByCaller.MentalSkill.TaskEndurance": 1,
-      "SetByCaller.MentalAttribute.Focus": 1,
-      "SetByCaller.Mood.Arousal": 0.05,
-      "SetByCaller.Mood.Valence": 0.3
+      "MentalSkill.AnalyticalInsight": 1,
+      "MentalSkill.TaskEndurance": 1,
+      "MentalAttribute.Focus": 1,
+      "Mood.Arousal": 0.05,
+      "Mood.Valence": 0.3
     }
   },
   {
     "Name": "Hands Tied",
     "Tag": "GameplayEffect.MBTI.ISTP.HandsTied",
     "DevComment": "Negative effect. Affects: -Stress Management -Task Endurance -Focus",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.PracticalSkills",
       "SecondarySkill": "MentalSkill.StressManagement",
@@ -590,18 +590,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalSkill.TaskEndurance": -1,
-      "SetByCaller.MentalAttribute.Focus": -1,
-      "SetByCaller.Mood.Arousal": 0.3,
-      "SetByCaller.Mood.Valence": -0.35
+      "MentalSkill.StressManagement": -1,
+      "MentalSkill.TaskEndurance": -1,
+      "MentalAttribute.Focus": -1,
+      "Mood.Arousal": 0.3,
+      "Mood.Valence": -0.35
     }
   },
   {
     "Name": "Quiet Beauty",
     "Tag": "GameplayEffect.MBTI.ISFP.QuietBeauty",
     "DevComment": "Positive effect. Affects: +Empathy +Emotional Intelligence +Resilience",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
       "SecondarySkill": "MentalSkill.AttentionToDetail",
@@ -613,18 +613,18 @@
       "Attribute": "MentalAttribute.Creativity"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.Empathy": 1,
-      "SetByCaller.MentalSkill.EmotionalIntelligence": 1,
-      "SetByCaller.MentalSkill.Resilience": 1,
-      "SetByCaller.Mood.Arousal": -0.2,
-      "SetByCaller.Mood.Valence": 0.35
+      "MentalAttribute.Empathy": 1,
+      "MentalSkill.EmotionalIntelligence": 1,
+      "MentalSkill.Resilience": 1,
+      "Mood.Arousal": -0.2,
+      "Mood.Valence": 0.35
     }
   },
   {
     "Name": "Deeply Saddened",
     "Tag": "GameplayEffect.MBTI.ISFP.DeeplySaddened",
     "DevComment": "Negative effect. Affects: -Social Energy -Stress Management -Resilience",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.EmotionalIntelligence",
       "SecondarySkill": "MentalSkill.Resilience",
@@ -636,18 +636,18 @@
       "Attribute": "MentalAttribute.Adaptability"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalSkill.Resilience": -1,
-      "SetByCaller.Mood.Arousal": -0.1,
-      "SetByCaller.Mood.Valence": -0.4
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalSkill.StressManagement": -1,
+      "MentalSkill.Resilience": -1,
+      "Mood.Arousal": -0.1,
+      "Mood.Valence": -0.4
     }
   },
   {
     "Name": "Adrenaline Rush",
     "Tag": "GameplayEffect.MBTI.ESTP.AdrenalineRush",
     "DevComment": "Positive effect. Affects: +Social Energy +Instinctive Decision-Making +Charisma",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
       "SecondarySkill": "MentalSkill.PracticalSkills",
@@ -659,18 +659,18 @@
       "Attribute": "PhysicalAttribute.Endurance"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": 1,
-      "SetByCaller.MentalSkill.InstinctiveDecisionMaking": 1,
-      "SetByCaller.MentalSkill.Charisma": 1,
-      "SetByCaller.Mood.Arousal": 0.5,
-      "SetByCaller.Mood.Valence": 0.4
+      "MentalAttribute.SocialEnergy": 1,
+      "MentalSkill.InstinctiveDecisionMaking": 1,
+      "MentalSkill.Charisma": 1,
+      "Mood.Arousal": 0.5,
+      "Mood.Valence": 0.4
     }
   },
   {
     "Name": "Stir Crazy",
     "Tag": "GameplayEffect.MBTI.ESTP.StirCrazy",
     "DevComment": "Negative effect. Affects: -Stress Management -Social Energy -Task Endurance",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.InstinctiveDecisionMaking",
       "SecondarySkill": "MentalSkill.StressManagement",
@@ -682,18 +682,18 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.MentalSkill.TaskEndurance": -1,
-      "SetByCaller.Mood.Arousal": 0.4,
-      "SetByCaller.Mood.Valence": -0.35
+      "MentalSkill.StressManagement": -1,
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalSkill.TaskEndurance": -1,
+      "Mood.Arousal": 0.4,
+      "Mood.Valence": -0.35
     }
   },
   {
     "Name": "Spirits Lifted",
     "Tag": "GameplayEffect.MBTI.ESFP.SpiritsLifted",
     "DevComment": "Positive effect. Affects: +Social Energy +Charisma +Empathy",
-    "EffectType": "Positive",
+    "EffectType": "EffectType.Positive",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.Charisma",
       "SecondarySkill": "MentalSkill.EmotionalIntelligence",
@@ -705,18 +705,18 @@
       "Attribute": "MentalAttribute.Adaptability"
     },
     "Modifiers": {
-      "SetByCaller.MentalAttribute.SocialEnergy": 1,
-      "SetByCaller.MentalSkill.Charisma": 1,
-      "SetByCaller.MentalAttribute.Empathy": 1,
-      "SetByCaller.Mood.Arousal": 0.4,
-      "SetByCaller.Mood.Valence": 0.45
+      "MentalAttribute.SocialEnergy": 1,
+      "MentalSkill.Charisma": 1,
+      "MentalAttribute.Empathy": 1,
+      "Mood.Arousal": 0.4,
+      "Mood.Valence": 0.45
     }
   },
   {
     "Name": "Sudden Horror",
     "Tag": "GameplayEffect.MBTI.ESFP.SuddenHorror",
     "DevComment": "Negative effect. Affects: -Stress Management -Focus -Social Energy",
-    "EffectType": "Negative",
+    "EffectType": "EffectType.Negative",
     "PrimarySkillCheck": {
       "PrimarySkill": "MentalSkill.StressManagement",
       "SecondarySkill": "MentalSkill.InstinctiveDecisionMaking",
@@ -728,11 +728,11 @@
       "Attribute": "MentalAttribute.Adaptability"
     },
     "Modifiers": {
-      "SetByCaller.MentalSkill.StressManagement": -1,
-      "SetByCaller.MentalAttribute.Focus": -1,
-      "SetByCaller.MentalAttribute.SocialEnergy": -1,
-      "SetByCaller.Mood.Arousal": 0.6,
-      "SetByCaller.Mood.Valence": -0.5
+      "MentalSkill.StressManagement": -1,
+      "MentalAttribute.Focus": -1,
+      "MentalAttribute.SocialEnergy": -1,
+      "Mood.Arousal": 0.6,
+      "Mood.Valence": -0.5
     }
   }
 ]

@@ -14,16 +14,10 @@
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.DiplomacyTrade": -1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Empathy": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.2,
-        "SetByCaller.Mood.Valence": -0.2
-      }
+      "MentalSkill.DiplomacyTrade": -1,
+      "MentalAttribute.Empathy": -1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": -0.2
     }
   },
   {
@@ -41,16 +35,10 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.LeadershipEffectiveness": -1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.SocialEnergy": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.2,
-        "SetByCaller.Mood.Valence": -0.3
-      }
+      "MentalSkill.LeadershipEffectiveness": -1,
+      "MentalAttribute.SocialEnergy": -1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": -0.3
     }
   },
   {
@@ -68,18 +56,12 @@
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.LeadershipEffectiveness": 1,
-        "SetByCaller.MentalSkill.IntuitiveForesight": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Creativity": 1,
-        "SetByCaller.MentalAttribute.Focus": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.2,
-        "SetByCaller.Mood.Valence": 0.3
-      }
+      "MentalSkill.LeadershipEffectiveness": 1,
+      "MentalSkill.IntuitiveForesight": 1,
+      "MentalAttribute.Creativity": 1,
+      "MentalAttribute.Focus": 1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": 0.3
     }
   },
   {
@@ -97,17 +79,11 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.TaskEndurance": -1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Focus": -1,
-        "SetByCaller.MentalAttribute.SocialEnergy": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": -0.2,
-        "SetByCaller.Mood.Valence": -0.2
-      }
+      "MentalSkill.TaskEndurance": -1,
+      "MentalAttribute.Focus": -1,
+      "MentalAttribute.SocialEnergy": -1,
+      "Mood.Arousal": -0.2,
+      "Mood.Valence": -0.2
     }
   },
   {
@@ -125,17 +101,11 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.AnalyticalInsight": -1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Focus": -1,
-        "SetByCaller.MentalAttribute.Logic": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.1,
-        "SetByCaller.Mood.Valence": -0.2
-      }
+      "MentalSkill.AnalyticalInsight": -1,
+      "MentalAttribute.Focus": -1,
+      "MentalAttribute.Logic": -1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": -0.2
     }
   },
   {
@@ -153,16 +123,10 @@
       "Attribute": "MentalAttribute.Discipline"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.TaskEndurance": -1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Focus": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.2,
-        "SetByCaller.Mood.Valence": -0.1
-      }
+      "MentalSkill.TaskEndurance": -1,
+      "MentalAttribute.Focus": -1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": -0.1
     }
   },
   {
@@ -180,17 +144,11 @@
       "Attribute": "PhysicalAttribute.Strength"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.DiplomacyTrade": -1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Discipline": -1,
-        "SetByCaller.MentalAttribute.Focus": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.3,
-        "SetByCaller.Mood.Valence": -0.2
-      }
+      "MentalSkill.DiplomacyTrade": -1,
+      "MentalAttribute.Discipline": -1,
+      "MentalAttribute.Focus": -1,
+      "Mood.Arousal": 0.3,
+      "Mood.Valence": -0.2
     }
   },
   {
@@ -208,16 +166,10 @@
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.IntuitiveForesight": -1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Empathy": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.1,
-        "SetByCaller.Mood.Valence": -0.3
-      }
+      "MentalSkill.IntuitiveForesight": -1,
+      "MentalAttribute.Empathy": -1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": -0.3
     }
   },
   {
@@ -235,18 +187,12 @@
       "Attribute": "MentalAttribute.Creativity"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.EmotionalIntelligence": -1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Focus": -1,
-        "SetByCaller.MentalAttribute.SocialEnergy": -1,
-        "SetByCaller.MentalAttribute.Creativity": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": -0.2,
-        "SetByCaller.Mood.Valence": -0.2
-      }
+      "MentalSkill.EmotionalIntelligence": -1,
+      "MentalAttribute.Focus": -1,
+      "MentalAttribute.SocialEnergy": -1,
+      "MentalAttribute.Creativity": 1,
+      "Mood.Arousal": -0.2,
+      "Mood.Valence": -0.2
     }
   },
   {
@@ -264,16 +210,10 @@
       "Attribute": "MentalAttribute.Logic"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.AnalyticalInsight": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Empathy": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.1,
-        "SetByCaller.Mood.Valence": -0.2
-      }
+      "MentalSkill.AnalyticalInsight": 1,
+      "MentalAttribute.Empathy": -1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": -0.2
     }
   },
   {
@@ -291,18 +231,12 @@
       "Attribute": "PhysicalAttribute.Strength"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.DiplomacyTrade": -2
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Discipline": -1,
-        "SetByCaller.MentalAttribute.Empathy": -1,
-        "SetByCaller.PhysicalAttribute.Strength": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.3,
-        "SetByCaller.Mood.Valence": -0.3
-      }
+      "MentalSkill.DiplomacyTrade": -2,
+      "MentalAttribute.Discipline": -1,
+      "MentalAttribute.Empathy": -1,
+      "PhysicalAttribute.Strength": 1,
+      "Mood.Arousal": 0.3,
+      "Mood.Valence": -0.3
     }
   },
   {
@@ -320,17 +254,11 @@
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.TaskEndurance": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Discipline": 1,
-        "SetByCaller.MentalAttribute.SocialEnergy": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.2,
-        "SetByCaller.Mood.Valence": 0.2
-      }
+      "MentalSkill.TaskEndurance": 1,
+      "MentalAttribute.Discipline": 1,
+      "MentalAttribute.SocialEnergy": 1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": 0.2
     }
   },
   {
@@ -348,17 +276,11 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.StrategicThinking": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Focus": 1,
-        "SetByCaller.MentalAttribute.Discipline": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.1,
-        "SetByCaller.Mood.Valence": 0.2
-      }
+      "MentalSkill.StrategicThinking": 1,
+      "MentalAttribute.Focus": 1,
+      "MentalAttribute.Discipline": 1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": 0.2
     }
   },
   {
@@ -376,16 +298,10 @@
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.StressManagement": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Empathy": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": -0.2,
-        "SetByCaller.Mood.Valence": 0.2
-      }
+      "MentalSkill.StressManagement": 1,
+      "MentalAttribute.Empathy": 1,
+      "Mood.Arousal": -0.2,
+      "Mood.Valence": 0.2
     }
   },
   {
@@ -403,17 +319,11 @@
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.IntuitiveForesight": 1,
-        "SetByCaller.MentalSkill.Charisma": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Empathy": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.1,
-        "SetByCaller.Mood.Valence": 0.3
-      }
+      "MentalSkill.IntuitiveForesight": 1,
+      "MentalSkill.Charisma": 1,
+      "MentalAttribute.Empathy": 1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": 0.3
     }
   },
   {
@@ -431,18 +341,12 @@
       "Attribute": "MentalAttribute.Creativity"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.AnalyticalInsight": 1,
-        "SetByCaller.PhysicalSkill.Research": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Logic": 1,
-        "SetByCaller.MentalAttribute.Creativity": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.1,
-        "SetByCaller.Mood.Valence": 0.3
-      }
+      "MentalSkill.AnalyticalInsight": 1,
+      "PhysicalSkill.Research": 1,
+      "MentalAttribute.Logic": 1,
+      "MentalAttribute.Creativity": 1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": 0.3
     }
   },
   {
@@ -460,17 +364,11 @@
       "Attribute": "MentalAttribute.Focus"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.StrategicThinking": 1,
-        "SetByCaller.MentalSkill.AnalyticalInsight": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Focus": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.2,
-        "SetByCaller.Mood.Valence": 0.1
-      }
+      "MentalSkill.StrategicThinking": 1,
+      "MentalSkill.AnalyticalInsight": 1,
+      "MentalAttribute.Focus": 1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": 0.1
     }
   },
   {
@@ -488,15 +386,10 @@
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.Charisma": 1,
-        "SetByCaller.MentalSkill.LeadershipEffectiveness": 1
-      },
-      "Attributes": {},
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.2,
-        "SetByCaller.Mood.Valence": 0.2
-      }
+      "MentalSkill.Charisma": 1,
+      "MentalSkill.LeadershipEffectiveness": 1,
+      "Mood.Arousal": 0.2,
+      "Mood.Valence": 0.2
     }
   },
   {
@@ -514,17 +407,11 @@
       "Attribute": "MentalAttribute.SocialEnergy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.Resilience": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Empathy": 1,
-        "SetByCaller.MentalAttribute.Discipline": 1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": -0.1,
-        "SetByCaller.Mood.Valence": 0.3
-      }
+      "MentalSkill.Resilience": 1,
+      "MentalAttribute.Empathy": 1,
+      "MentalAttribute.Discipline": 1,
+      "Mood.Arousal": -0.1,
+      "Mood.Valence": 0.3
     }
   },
   {
@@ -542,18 +429,12 @@
       "Attribute": "MentalAttribute.Empathy"
     },
     "Modifiers": {
-      "Skills": {
-        "SetByCaller.MentalSkill.DiplomacyTrade": 1
-      },
-      "Attributes": {
-        "SetByCaller.MentalAttribute.Empathy": 1,
-        "SetByCaller.MentalAttribute.SocialEnergy": 1,
-        "SetByCaller.MentalAttribute.Logic": -1
-      },
-      "Mood": {
-        "SetByCaller.Mood.Arousal": 0.1,
-        "SetByCaller.Mood.Valence": 0.2
-      }
+      "MentalSkill.DiplomacyTrade": 1,
+      "MentalAttribute.Empathy": 1,
+      "MentalAttribute.SocialEnergy": 1,
+      "MentalAttribute.Logic": -1,
+      "Mood.Arousal": 0.1,
+      "Mood.Valence": 0.2
     }
   }
 ]
